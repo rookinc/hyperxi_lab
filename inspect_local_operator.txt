@@ -1,0 +1,56 @@
+================================================================================
+LOCAL OPERATOR INSPECTION
+================================================================================
+Permutation checks:
+  U_F: True
+  U_S: True
+  U_V: True
+
+Involution / transpose checks:
+  U_S^2 == I: True
+  U_F.T @ U_F == I: True
+  U_V.T @ U_V == I: True
+
+Hamiltonian checks:
+  H symmetric: True
+  trace(H): 0.0
+  row-sum min/max: 5.0 5.0
+
+Spectral summary:
+  min eig: -3.604098602641901
+  max eig: 5.0000000000000036
+  spectral radius: 5.0000000000000036
+
+Multiplicity profile:
+  -3.6040986026  mult=5
+  -3.5037502021  mult=3
+  -3.4652161711  mult=5
+  -3.0417887813  mult=4
+  -2.0485481807  mult=3
+  -1.8722762129  mult=4
+  -1.6119415943  mult=5
+  -1.5852678615  mult=5
+  -1.3703259455  mult=4
+  -1.1904005134  mult=3
+  -1.1317695050  mult=3
+  -1.1087755393  mult=4
+  -1.0000000000  mult=5
+  -0.7171066165  mult=5
+  -0.4076670822  mult=3
+  -0.1265184694  mult=3
+   0.2786378246  mult=5
+   0.4981984631  mult=3
+   0.7968151159  mult=4
+   0.9010711169  mult=3
+   1.3942006941  mult=3
+   1.4027698097  mult=4
+   1.4193926387  mult=5
+   2.2201472854  mult=3
+   2.4457870425  mult=4
+   2.6278352561  mult=5
+   2.7477945109  mult=4
+   2.8696390194  mult=3
+   3.0000000000  mult=1
+   3.6577651266  mult=5
+   4.5253973740  mult=3
+   5.0000000000  mult=1

@@ -1,0 +1,23 @@
+================================================================================
+DECAHEDRAL INTERSECTION GRAPH
+================================================================================
+vertices: 12
+edges: 30
+degree sequence: [np.int64(5), np.int64(5), np.int64(5), np.int64(5), np.int64(5), np.int64(5), np.int64(5), np.int64(5), np.int64(5), np.int64(5), np.int64(5), np.int64(5)]
+
+adjacency eigenvalues:
+5.0
+2.236068
+2.236068
+2.236068
+-1.0
+-1.0
+-1.0
+-1.0
+-1.0
+-2.236068
+-2.236068
+-2.236068
+
+Expected icosahedral spectrum:
+5, sqrt(5)^3, -sqrt(5)^3, -3

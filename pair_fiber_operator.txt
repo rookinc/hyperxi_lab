@@ -1,0 +1,48 @@
+================================================================================
+PAIR FIBER TRANSPORT OPERATOR
+================================================================================
+decagon cycles: 12
+distinct S-pair ids seen: 60
+S-pair states: 60
+min degree: 4
+max degree: 4
+degree distribution: [4]
+connected components: 1
+component sizes: [60]
+
+operator size: (60, 60)
+undirected edges: 120
+
+first 10 eigenvalues
+--------------------------------------------------------------------------------
+-2.000000
+-2.000000
+-2.000000
+-2.000000
+-2.000000
+-2.000000
+-2.000000
+-2.000000
+-2.000000
+-2.000000
+
+last 10 eigenvalues
+--------------------------------------------------------------------------------
+3.000000
+3.000000
+3.000000
+3.236068
+3.236068
+3.236068
+3.236068
+3.236068
+3.236068
+4.000000
+
+================================================================================
+INTERPRETATION
+================================================================================
+This operator encodes adjacency between S-pairs along ordered
+SV Petrie decagon cycles. Because each S-pair lies on two decagons,
+the induced pair graph measures transport on the twisted binary
+edge-fiber structure over the icosahedral decagon graph.

@@ -1,0 +1,67 @@
+================================================================================
+OPERATOR PROVENANCE REPORT
+================================================================================
+
+operator source: hyperxi.spectral.operators.LocalOperatorFactory
+constructor: LocalOperatorFactory().build_H_loc(a_F=1, a_S=1, a_V=1)
+
+dimension: 120 x 120
+square: yes
+symmetric: yes
+integer-valued: yes
+trace: 0.000000000000
+rank: 120
+nonzero entries: 600 / 14400
+density: 0.041666666667
+
+--------------------------------------------------------------------------------
+ROW SUM PROFILE
+--------------------------------------------------------------------------------
+ 5.000000000    count = 120
+
+--------------------------------------------------------------------------------
+SUPPORT GRAPH
+--------------------------------------------------------------------------------
+connected components in undirected support graph: 1
+
+--------------------------------------------------------------------------------
+SPECTRAL SUMMARY
+--------------------------------------------------------------------------------
+eigenvalues counted: 120
+max imaginary leakage: 5.042629396119e-17
+distinct rounded eigenvalues: 32
+
+ 5.000000000    multiplicity = 1
+ 4.525397374    multiplicity = 3
+ 3.657765127    multiplicity = 5
+ 3.000000000    multiplicity = 1
+ 2.869639019    multiplicity = 3
+ 2.747794511    multiplicity = 4
+ 2.627835256    multiplicity = 5
+ 2.445787042    multiplicity = 4
+ 2.220147285    multiplicity = 3
+ 1.419392639    multiplicity = 5
+ 1.402769810    multiplicity = 4
+ 1.394200694    multiplicity = 3
+ 0.901071117    multiplicity = 3
+ 0.796815116    multiplicity = 4
+ 0.498198463    multiplicity = 3
+ 0.278637825    multiplicity = 5
+-0.126518469    multiplicity = 3
+-0.407667082    multiplicity = 3
+-0.717106617    multiplicity = 5
+-1.000000000    multiplicity = 5
+-1.108775539    multiplicity = 4
+-1.131769505    multiplicity = 3
+-1.190400513    multiplicity = 3
+-1.370325945    multiplicity = 4
+-1.585267861    multiplicity = 5
+-1.611941594    multiplicity = 5
+-1.872276213    multiplicity = 4
+-2.048548181    multiplicity = 3
+-3.041788781    multiplicity = 4
+-3.465216171    multiplicity = 5
+-3.503750202    multiplicity = 3
+-3.604098603    multiplicity = 5
+
+Report complete.

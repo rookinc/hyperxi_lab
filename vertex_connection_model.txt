@@ -1,0 +1,74 @@
+================================================================================
+VERTEX CONNECTION MODEL
+================================================================================
+Local connection profile
+--------------------------------------------------------------------------------
+preserve: 40
+swap: 20
+unused incident edge-pairs: 60
+
+================================================================================
+MEASURED PAIR-FIBER GRAPH (REINDEXED)
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+triangles: 40
+
+adjacent common-neighbor profile:
+  1: 120
+nonadjacent common-neighbor profile:
+  0: 1410
+  1: 240
+
+eigenvalue multiplicities:
+        -2.0: 21
+   -1.236068: 6
+        -1.0: 4
+        -0.0: 5
+         1.0: 8
+         2.0: 5
+         3.0: 4
+    3.236068: 6
+         4.0: 1
+
+================================================================================
+RECONSTRUCTED CONNECTION MODEL
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+triangles: 40
+
+adjacent common-neighbor profile:
+  1: 120
+nonadjacent common-neighbor profile:
+  0: 1410
+  1: 240
+
+eigenvalue multiplicities:
+        -2.0: 21
+   -1.236068: 6
+        -1.0: 4
+        -0.0: 5
+         1.0: 8
+         2.0: 5
+         3.0: 4
+    3.236068: 6
+         4.0: 1
+
+================================================================================
+COMPARE: MEASURED vs MODEL
+================================================================================
+edge sets equal: True
+edges only in MEASURED: 0
+edges only in MODEL: 0
+
+================================================================================
+INTERPRETATION
+================================================================================
+This builds the correct 60-state reference graph directly from:
+- the icosahedral base graph on decagons
+- the 2-sheet edge fiber on base edges
+- the reconstructed vertex-local preserve/swap connection
+- only the measured active incident edge-pairs at each base vertex

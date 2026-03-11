@@ -1,0 +1,31 @@
+================================================================================
+LOCAL FLAG ALGEBRA RELATION REPORT
+================================================================================
+order(S) = 2
+order(F) = 5
+order(V) = 3
+order(SF) = 2
+order(FS) = 2
+order(FV) = 2
+order(VF) = 2
+order(SV) = 10
+order(VS) = 10
+order(FSV) = 6
+order(SVF) = 6
+order(VFS) = 6
+
+Named relations:
+SS = id: True
+FFFFF = id: True
+VVV = id: True
+SFSF = id: True
+FVFV = id: True
+SVSVSVSVSVSVSVSVSVSV = id: True
+VSVSVSVSVSVSVSVSVSVS = id: True
+
+Conjugacy-style comparisons:
+SF = FS: False
+FV = VF: False
+SV = VS: False
+FSV = SVF: False
+SVF = VFS: False

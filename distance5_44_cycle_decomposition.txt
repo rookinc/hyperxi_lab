@@ -1,0 +1,203 @@
+================================================================================
+DISTANCE-5 (4,4) RELATION CYCLE DECOMPOSITION
+================================================================================
+vertices in relation: 60
+relation edges: 60
+
+degree profile in relation graph
+--------------------------------------------------------------------------------
+{2: 60}
+
+component size counts
+--------------------------------------------------------------------------------
+{4: 15}
+
+ordered components
+--------------------------------------------------------------------------------
+component 0: size=4
+  cycle nodes: [0, 1, 33, 32]
+  annotated cycle:
+    node= 0 edge=(0, 1) sheet=0
+    node= 1 edge=(0, 1) sheet=1
+    node=33 edge=(3, 9) sheet=1
+    node=32 edge=(3, 9) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 1: size=4
+  cycle nodes: [2, 3, 29, 28]
+  annotated cycle:
+    node= 2 edge=(0, 4) sheet=0
+    node= 3 edge=(0, 4) sheet=1
+    node=29 edge=(3, 7) sheet=1
+    node=28 edge=(3, 7) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 2: size=4
+  cycle nodes: [4, 5, 19, 18]
+  annotated cycle:
+    node= 4 edge=(0, 5) sheet=0
+    node= 5 edge=(0, 5) sheet=1
+    node=19 edge=(2, 3) sheet=1
+    node=18 edge=(2, 3) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 3: size=4
+  cycle nodes: [6, 7, 31, 30]
+  annotated cycle:
+    node= 6 edge=(0, 6) sheet=0
+    node= 7 edge=(0, 6) sheet=1
+    node=31 edge=(3, 8) sheet=1
+    node=30 edge=(3, 8) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 4: size=4
+  cycle nodes: [8, 9, 34, 35]
+  annotated cycle:
+    node= 8 edge=(0, 11) sheet=0
+    node= 9 edge=(0, 11) sheet=1
+    node=34 edge=(3, 10) sheet=0
+    node=35 edge=(3, 10) sheet=1
+  consecutive relation edges with same sheet: 0
+  consecutive relation edges with different sheet: 4
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 5: size=4
+  cycle nodes: [10, 11, 25, 24]
+  annotated cycle:
+    node=10 edge=(1, 5) sheet=0
+    node=11 edge=(1, 5) sheet=1
+    node=25 edge=(2, 9) sheet=1
+    node=24 edge=(2, 9) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 6: size=4
+  cycle nodes: [12, 13, 55, 54]
+  annotated cycle:
+    node=12 edge=(1, 6) sheet=0
+    node=13 edge=(1, 6) sheet=1
+    node=55 edge=(8, 9) sheet=1
+    node=54 edge=(8, 9) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 7: size=4
+  cycle nodes: [14, 15, 41, 40]
+  annotated cycle:
+    node=14 edge=(1, 7) sheet=0
+    node=15 edge=(1, 7) sheet=1
+    node=41 edge=(4, 9) sheet=1
+    node=40 edge=(4, 9) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 8: size=4
+  cycle nodes: [16, 17, 58, 59]
+  annotated cycle:
+    node=16 edge=(1, 10) sheet=0
+    node=17 edge=(1, 10) sheet=1
+    node=58 edge=(9, 11) sheet=0
+    node=59 edge=(9, 11) sheet=1
+  consecutive relation edges with same sheet: 0
+  consecutive relation edges with different sheet: 4
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 9: size=4
+  cycle nodes: [20, 21, 45, 44]
+  annotated cycle:
+    node=20 edge=(2, 6) sheet=0
+    node=21 edge=(2, 6) sheet=1
+    node=45 edge=(5, 8) sheet=1
+    node=44 edge=(5, 8) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 10: size=4
+  cycle nodes: [22, 23, 37, 36]
+  annotated cycle:
+    node=22 edge=(2, 7) sheet=0
+    node=23 edge=(2, 7) sheet=1
+    node=37 edge=(4, 5) sheet=1
+    node=36 edge=(4, 5) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 11: size=4
+  cycle nodes: [26, 27, 46, 47]
+  annotated cycle:
+    node=26 edge=(2, 11) sheet=0
+    node=27 edge=(2, 11) sheet=1
+    node=46 edge=(5, 10) sheet=0
+    node=47 edge=(5, 10) sheet=1
+  consecutive relation edges with same sheet: 0
+  consecutive relation edges with different sheet: 4
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 12: size=4
+  cycle nodes: [38, 39, 49, 48]
+  annotated cycle:
+    node=38 edge=(4, 8) sheet=0
+    node=39 edge=(4, 8) sheet=1
+    node=49 edge=(6, 7) sheet=1
+    node=48 edge=(6, 7) sheet=0
+  consecutive relation edges with same sheet: 2
+  consecutive relation edges with different sheet: 2
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 13: size=4
+  cycle nodes: [42, 43, 52, 53]
+  annotated cycle:
+    node=42 edge=(4, 11) sheet=0
+    node=43 edge=(4, 11) sheet=1
+    node=52 edge=(7, 10) sheet=0
+    node=53 edge=(7, 10) sheet=1
+  consecutive relation edges with same sheet: 0
+  consecutive relation edges with different sheet: 4
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+component 14: size=4
+  cycle nodes: [50, 51, 56, 57]
+  annotated cycle:
+    node=50 edge=(6, 11) sheet=0
+    node=51 edge=(6, 11) sheet=1
+    node=56 edge=(8, 10) sheet=0
+    node=57 edge=(8, 10) sheet=1
+  consecutive relation edges with same sheet: 0
+  consecutive relation edges with different sheet: 4
+  consecutive relation edges sharing a base vertex: 0
+  consecutive relation edges on same base edge: 2
+
+================================================================================
+INTERPRETATION
+================================================================================
+If the (4,4) relation decomposes into uniform cycles, then the special
+distance-5 class is not a simple involution but a higher-order long-range
+transport relation. The cycle lengths and edge/sheet patterns indicate
+how the hidden binary fiber is mixed with residual geometric symmetry.

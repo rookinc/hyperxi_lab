@@ -1,0 +1,14 @@
+================================================================================
+QUOTIENT OF H_LOC SUPPORT GRAPH BY ADJACENT FLAG PAIRS
+================================================================================
+
+original vertices: 120
+quotient vertices: 60
+quotient edges: 180
+quotient degree set: [6]
+quotient triangles: 40
+quotient diameter: 5
+quotient shell counts: (1, 6, 17, 16, 16, 4)
+
+================================================================================
+Quotient scan complete.

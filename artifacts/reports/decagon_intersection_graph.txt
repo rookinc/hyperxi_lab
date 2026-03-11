@@ -1,189 +1,49 @@
 ================================================================================
 DECAGON INTERSECTION GRAPH
 ================================================================================
-decagons: 12
-
-Intersection matrix M_ij = |D_i ∩ D_j|
---------------------------------------------------------------------------------
-        0   1   2   3   4   5   6   7   8   9  10  11
-  0:  10   2   0   0   2   2   2   0   0   0   0   2
-  1:   2  10   0   0   0   2   2   2   0   0   2   0
-  2:   0   0  10   2   0   0   2   2   0   2   0   2
-  3:   0   0   2  10   0   0   0   2   2   2   2   0
-  4:   2   0   0   0  10   2   0   0   2   2   0   2
-  5:   2   2   0   0   2  10   0   0   2   0   2   0
-  6:   2   2   2   0   0   0  10   2   0   0   0   2
-  7:   0   2   2   2   0   0   2  10   0   0   2   0
-  8:   0   0   0   2   2   2   0   0  10   2   2   0
-  9:   0   0   2   2   2   0   0   0   2  10   0   2
- 10:   0   2   0   2   0   2   0   2   2   0  10   0
- 11:   2   0   2   0   2   0   2   0   0   2   0  10
-
-================================================================================
-UNORDERED DECAGON PAIR INTERSECTIONS
-================================================================================
-( 0,  1) -> size=2 shared_pairs=[0, 57]
-( 0,  2) -> size=0 shared_pairs=[]
-( 0,  3) -> size=0 shared_pairs=[]
-( 0,  4) -> size=2 shared_pairs=[15, 33]
-( 0,  5) -> size=2 shared_pairs=[14, 54]
-( 0,  6) -> size=2 shared_pairs=[5, 48]
-( 0,  7) -> size=0 shared_pairs=[]
-( 0,  8) -> size=0 shared_pairs=[]
-( 0,  9) -> size=0 shared_pairs=[]
-( 0, 10) -> size=0 shared_pairs=[]
-( 0, 11) -> size=2 shared_pairs=[27, 41]
-( 1,  2) -> size=0 shared_pairs=[]
-( 1,  3) -> size=0 shared_pairs=[]
-( 1,  4) -> size=0 shared_pairs=[]
-( 1,  5) -> size=2 shared_pairs=[8, 45]
-( 1,  6) -> size=2 shared_pairs=[29, 44]
-( 1,  7) -> size=2 shared_pairs=[23, 35]
-( 1,  8) -> size=0 shared_pairs=[]
-( 1,  9) -> size=0 shared_pairs=[]
-( 1, 10) -> size=2 shared_pairs=[11, 52]
-( 1, 11) -> size=0 shared_pairs=[]
-( 2,  3) -> size=2 shared_pairs=[1, 58]
-( 2,  4) -> size=0 shared_pairs=[]
-( 2,  5) -> size=0 shared_pairs=[]
-( 2,  6) -> size=2 shared_pairs=[20, 38]
-( 2,  7) -> size=2 shared_pairs=[19, 34]
-( 2,  8) -> size=0 shared_pairs=[]
-( 2,  9) -> size=2 shared_pairs=[10, 53]
-( 2, 10) -> size=0 shared_pairs=[]
-( 2, 11) -> size=2 shared_pairs=[7, 46]
-( 3,  4) -> size=0 shared_pairs=[]
-( 3,  5) -> size=0 shared_pairs=[]
-( 3,  6) -> size=0 shared_pairs=[]
-( 3,  7) -> size=2 shared_pairs=[13, 50]
-( 3,  8) -> size=2 shared_pairs=[28, 40]
-( 3,  9) -> size=2 shared_pairs=[9, 49]
-( 3, 10) -> size=2 shared_pairs=[16, 32]
-( 3, 11) -> size=0 shared_pairs=[]
-( 4,  5) -> size=2 shared_pairs=[2, 59]
-( 4,  6) -> size=0 shared_pairs=[]
-( 4,  7) -> size=0 shared_pairs=[]
-( 4,  8) -> size=2 shared_pairs=[24, 39]
-( 4,  9) -> size=2 shared_pairs=[25, 43]
-( 4, 10) -> size=0 shared_pairs=[]
-( 4, 11) -> size=2 shared_pairs=[12, 51]
-( 5,  6) -> size=0 shared_pairs=[]
-( 5,  7) -> size=0 shared_pairs=[]
-( 5,  8) -> size=2 shared_pairs=[18, 30]
-( 5,  9) -> size=0 shared_pairs=[]
-( 5, 10) -> size=2 shared_pairs=[21, 37]
-( 5, 11) -> size=0 shared_pairs=[]
-( 6,  7) -> size=2 shared_pairs=[3, 55]
-( 6,  8) -> size=0 shared_pairs=[]
-( 6,  9) -> size=0 shared_pairs=[]
-( 6, 10) -> size=0 shared_pairs=[]
-( 6, 11) -> size=2 shared_pairs=[17, 31]
-( 7,  8) -> size=0 shared_pairs=[]
-( 7,  9) -> size=0 shared_pairs=[]
-( 7, 10) -> size=2 shared_pairs=[26, 42]
-( 7, 11) -> size=0 shared_pairs=[]
-( 8,  9) -> size=2 shared_pairs=[4, 56]
-( 8, 10) -> size=2 shared_pairs=[6, 47]
-( 8, 11) -> size=0 shared_pairs=[]
-( 9, 10) -> size=0 shared_pairs=[]
-( 9, 11) -> size=2 shared_pairs=[22, 36]
-(10, 11) -> size=0 shared_pairs=[]
-
-================================================================================
-INTERSECTION SIZE COUNTS
-================================================================================
-size 0: 36 unordered decagon pairs
-size 2: 30 unordered decagon pairs
-
-================================================================================
-SIMPLE ADJACENCY GRAPH
-================================================================================
-decagon  0 -> neighbors [1, 4, 5, 6, 11]
-decagon  1 -> neighbors [0, 5, 6, 7, 10]
-decagon  2 -> neighbors [3, 6, 7, 9, 11]
-decagon  3 -> neighbors [2, 7, 8, 9, 10]
-decagon  4 -> neighbors [0, 5, 8, 9, 11]
-decagon  5 -> neighbors [0, 1, 4, 8, 10]
-decagon  6 -> neighbors [0, 1, 2, 7, 11]
-decagon  7 -> neighbors [1, 2, 3, 6, 10]
-decagon  8 -> neighbors [3, 4, 5, 9, 10]
-decagon  9 -> neighbors [2, 3, 4, 8, 11]
-decagon 10 -> neighbors [1, 3, 5, 7, 8]
-decagon 11 -> neighbors [0, 2, 4, 6, 9]
-
+decagons loaded: 12
+vertices: 12
+edges: 30
 degree sequence: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
-all degrees equal 5: True
-simple graph vertices: 12
-simple graph edges:    30
-sum of degrees:        60
-connected components:  [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]]
-connected:             True
+degree set: [5]
 
-================================================================================
-EDGE FIBERS
-================================================================================
-For each simple edge (i,j), list the 2 shared S-pairs.
-edge ( 0,  1) -> fiber [0, 57]
-edge ( 0,  4) -> fiber [15, 33]
-edge ( 0,  5) -> fiber [14, 54]
-edge ( 0,  6) -> fiber [5, 48]
-edge ( 0, 11) -> fiber [27, 41]
-edge ( 1,  5) -> fiber [8, 45]
-edge ( 1,  6) -> fiber [29, 44]
-edge ( 1,  7) -> fiber [23, 35]
-edge ( 1, 10) -> fiber [11, 52]
-edge ( 2,  3) -> fiber [1, 58]
-edge ( 2,  6) -> fiber [20, 38]
-edge ( 2,  7) -> fiber [19, 34]
-edge ( 2,  9) -> fiber [10, 53]
-edge ( 2, 11) -> fiber [7, 46]
-edge ( 3,  7) -> fiber [13, 50]
-edge ( 3,  8) -> fiber [28, 40]
-edge ( 3,  9) -> fiber [9, 49]
-edge ( 3, 10) -> fiber [16, 32]
-edge ( 4,  5) -> fiber [2, 59]
-edge ( 4,  8) -> fiber [24, 39]
-edge ( 4,  9) -> fiber [25, 43]
-edge ( 4, 11) -> fiber [12, 51]
-edge ( 5,  8) -> fiber [18, 30]
-edge ( 5, 10) -> fiber [21, 37]
-edge ( 6,  7) -> fiber [3, 55]
-edge ( 6, 11) -> fiber [17, 31]
-edge ( 7, 10) -> fiber [26, 42]
-edge ( 8,  9) -> fiber [4, 56]
-edge ( 8, 10) -> fiber [6, 47]
-edge ( 9, 11) -> fiber [22, 36]
+PAIR INTERSECTION SIZES
+--------------------------------------------------------------------------------
+shared 2 states: 30 pairs
 
-================================================================================
-DISJOINT / OPPOSITE DECAGONS
-================================================================================
-decagon  0 -> disjoint from [2, 3, 7, 8, 9, 10]
-decagon  1 -> disjoint from [2, 3, 4, 8, 9, 11]
-decagon  2 -> disjoint from [0, 1, 4, 5, 8, 10]
-decagon  3 -> disjoint from [0, 1, 4, 5, 6, 11]
-decagon  4 -> disjoint from [1, 2, 3, 6, 7, 10]
-decagon  5 -> disjoint from [2, 3, 6, 7, 9, 11]
-decagon  6 -> disjoint from [3, 4, 5, 8, 9, 10]
-decagon  7 -> disjoint from [0, 4, 5, 8, 9, 11]
-decagon  8 -> disjoint from [0, 1, 2, 6, 7, 11]
-decagon  9 -> disjoint from [0, 1, 5, 6, 7, 10]
-decagon 10 -> disjoint from [0, 2, 4, 6, 9, 11]
-decagon 11 -> disjoint from [1, 3, 5, 7, 8, 10]
+INTERSECTING PAIRS
+--------------------------------------------------------------------------------
+decagons ( 0,  1) share 2 states: [0, 57]
+decagons ( 0,  4) share 2 states: [15, 33]
+decagons ( 0,  5) share 2 states: [14, 54]
+decagons ( 0,  6) share 2 states: [5, 48]
+decagons ( 0, 11) share 2 states: [27, 41]
+decagons ( 1,  5) share 2 states: [8, 45]
+decagons ( 1,  6) share 2 states: [29, 44]
+decagons ( 1,  7) share 2 states: [23, 35]
+decagons ( 1, 10) share 2 states: [11, 52]
+decagons ( 2,  3) share 2 states: [1, 58]
+decagons ( 2,  6) share 2 states: [20, 38]
+decagons ( 2,  7) share 2 states: [19, 34]
+decagons ( 2,  9) share 2 states: [10, 53]
+decagons ( 2, 11) share 2 states: [7, 46]
+decagons ( 3,  7) share 2 states: [13, 50]
+decagons ( 3,  8) share 2 states: [28, 40]
+decagons ( 3,  9) share 2 states: [9, 49]
+decagons ( 3, 10) share 2 states: [16, 32]
+decagons ( 4,  5) share 2 states: [2, 59]
+decagons ( 4,  8) share 2 states: [24, 39]
+decagons ( 4,  9) share 2 states: [25, 43]
+decagons ( 4, 11) share 2 states: [12, 51]
+decagons ( 5,  8) share 2 states: [18, 30]
+decagons ( 5, 10) share 2 states: [21, 37]
+decagons ( 6,  7) share 2 states: [3, 55]
+decagons ( 6, 11) share 2 states: [17, 31]
+decagons ( 7, 10) share 2 states: [26, 42]
+decagons ( 8,  9) share 2 states: [4, 56]
+decagons ( 8, 10) share 2 states: [6, 47]
+decagons ( 9, 11) share 2 states: [22, 36]
 
-================================================================================
-CHECKS
-================================================================================
-nonzero intersection sizes present: [2]
-every nonzero intersection has size 2: True
-simple edge count should be 30:       True
-all degrees should be 5:              True
-multi-edge count from shared pairs:   60
-expected pair total 60 via 2-fold cover: True
-
-================================================================================
-INTERPRETATION
-================================================================================
-If every nonzero intersection has size 2, then the 60 S-pairs
-form a 2-fold edge fiber over the simple decagon intersection graph.
-If the simple graph has 12 vertices, 30 edges, and all degrees 5,
-then it matches the size profile of the icosahedral graph.
+CONNECTED: True
+TRIANGLES: 20
+SPECTRUM:

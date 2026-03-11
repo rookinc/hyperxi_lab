@@ -1,0 +1,29 @@
+================================================================================
+DEGAGON UNIQUENESS PROBE
+================================================================================
+decagons loaded: 12
+states: 60
+intersecting decagon pairs: 30
+
+LOCAL CYCLIC ORDERS
+--------------------------------------------------------------------------------
+decagon  0: [1, 5, 4, 11, 6]
+decagon  1: [0, 6, 7, 10, 5]
+decagon  2: [3, 7, 6, 11, 9]
+decagon  3: [2, 9, 8, 10, 7]
+decagon  4: [5, 8, 9, 11, 0]
+decagon  5: [4, 0, 1, 10, 8]
+decagon  6: [7, 1, 0, 11, 2]
+decagon  7: [6, 2, 3, 10, 1]
+decagon  8: [9, 4, 5, 10, 3]
+decagon  9: [8, 3, 2, 11, 4]
+decagon 10: [8, 5, 1, 7, 3]
+decagon 11: [2, 6, 0, 4, 9]
+
+PROPAGATION RESULT
+--------------------------------------------------------------------------------
+consistent: True
+forced assignments: 1
+unresolved decagons: 11
+remaining possibility counts: {1: 10, 2: 10, 3: 10, 4: 10, 5: 10, 6: 10, 7: 10, 8: 10, 9: 10, 10: 10, 11: 10}
+Some residual freedom remains (likely global symmetries or weak constraints).

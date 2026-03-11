@@ -1,0 +1,38 @@
+================================================================================
+CHAMBER GRAPH DISTANCE PROFILE
+================================================================================
+decagons loaded: 12
+vertices: 60
+edges: 120
+degree set: [4]
+connected: True
+diameter: 6
+girth: 3
+shell counts from root 0 : (1, 4, 8, 16, 24, 6, 1)
+same shell counts for all vertices: True
+
+INTERSECTION PROFILES BY DISTANCE FROM ROOT
+--------------------------------------------------------------------------------
+distance 1:
+  (1, 1, 2): count=4
+distance 2:
+  (1, 1, 2): count=8
+distance 3:
+  (1, 1, 2): count=16
+distance 4:
+  (1, 2, 1): count=16
+  (2, 2, 0): count=8
+distance 5:
+  (2, 1, 1): count=4
+  (4, 0, 0): count=2
+distance 6:
+  (4, 0, 0): count=1
+
+ADJACENT COMMON-NEIGHBOR PROFILE
+--------------------------------------------------------------------------------
+  1: 120
+
+NONADJACENT COMMON-NEIGHBOR PROFILE
+--------------------------------------------------------------------------------
+  0: 1410
+  1: 240

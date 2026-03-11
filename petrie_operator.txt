@@ -1,0 +1,58 @@
+================================================================================
+PETRIE OPERATOR INSPECTION
+================================================================================
+Definition: U_P = U_S @ U_V  (word P = SV)
+
+Matrix checks:
+  shape: (120, 120)
+  entries in {0,1}: True
+  row sums all 1: True
+  col sums all 1: True
+
+Action matches direct word SV on all flags: False
+
+Cycle structure of P = SV:
+  length=10: count=12
+  total cycles: 12
+
+Eigenvalue modulus summary:
+  min |lambda|: 0.999999999999999
+  max |lambda|: 1.000000000000001
+
+Approximate eigenvalue multiplicities for U_P:
+  -1.0000000000+0.0000000000j  mult=12
+  -0.8090169944-0.5877852523j  mult=12
+  -0.8090169944+0.5877852523j  mult=12
+  -0.3090169944-0.9510565163j  mult=12
+  -0.3090169944+0.9510565163j  mult=12
+  +0.3090169944-0.9510565163j  mult=12
+  +0.3090169944+0.9510565163j  mult=12
+  +0.8090169944-0.5877852523j  mult=12
+  +0.8090169944+0.5877852523j  mult=12
+  +1.0000000000+0.0000000000j  mult=12
+
+Nearest 10th-root bins:
+  k=0: root=+1.0000000000+0.0000000000j  count=12
+  k=1: root=+0.8090169944+0.5877852523j  count=12
+  k=2: root=+0.3090169944+0.9510565163j  count=12
+  k=3: root=-0.3090169944+0.9510565163j  count=12
+  k=4: root=-0.8090169944+0.5877852523j  count=12
+  k=5: root=-1.0000000000+0.0000000000j  count=12
+  k=6: root=-0.8090169944-0.5877852523j  count=12
+  k=7: root=-0.3090169944-0.9510565163j  count=12
+  k=8: root=+0.3090169944-0.9510565163j  count=12
+  k=9: root=+0.8090169944-0.5877852523j  count=12
+
+Hamiltonian summary for comparison:
+  dim(H): (120, 120)
+  min eig: -3.604098602641901
+  max eig: 5.0000000000000036
+  trace(H): 0.0
+
+First few Petrie cycles:
+  (0, 28, 30, 82, 96, 114, 108, 67, 55, 11)
+  (1, 58, 46, 104, 90, 115, 89, 71, 23, 17)
+  (2, 38, 40, 92, 106, 116, 69, 77, 15, 21)
+  (3, 19, 56, 64, 100, 117, 99, 81, 33, 27)
+  (4, 48, 50, 102, 66, 119, 78, 87, 25, 31)
+  (5, 29, 16, 74, 60, 118, 109, 91, 43, 37)

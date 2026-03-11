@@ -1,0 +1,35 @@
+================================================================================
+PAIR GRAPH IDENTIFICATION DATA
+================================================================================
+vertices: 60
+edges: 120
+
+diameter: 6
+distance profile:
+  0 60
+  1 240
+  2 480
+  3 960
+  4 1440
+  5 360
+  6 60
+
+girth: 3
+
+triangle participation per edge:
+Counter({1: 120})
+
+closed walk trace spectrum:
+trace(A^1) = 0
+trace(A^2) = 240
+trace(A^3) = 240
+trace(A^4) = 1680
+trace(A^5) = 3600
+trace(A^6) = 15600
+
+================================================================================
+INTERPRETATION
+================================================================================
+These invariants can be used to identify the graph
+in graph catalogs (Foster census, voltage lifts,
+icosahedral constructions, etc.).

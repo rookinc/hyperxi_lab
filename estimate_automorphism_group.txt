@@ -1,0 +1,26 @@
+================================================================================
+AUTOMORPHISM GROUP ESTIMATOR
+================================================================================
+vertex signature classes: 1
+  class 0: size=60
+
+root vertex: 0
+candidate images for root: 60
+successful automorphisms found: 1
+failed root-image attempts: 0
+failed neighbor-seeding attempts: 479
+orbit size of root under found automorphisms: 1
+root orbit sample: [0]
+sample edge orbit size from found automorphisms: 1
+
+group size divisibility clues
+--------------------------------------------------------------------------------
+found subgroup order: 1
+
+================================================================================
+INTERPRETATION
+================================================================================
+This is a constructive automorphism search, not just an invariant test.
+If the root orbit reaches all 60 vertices, that is direct evidence of
+vertex-transitivity. Large subgroup sizes divisible by 60 or 120 would
+support an icosahedral symmetry origin.

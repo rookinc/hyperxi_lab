@@ -1,0 +1,32 @@
+================================================================================
+AUTOMORPHISM-SENSITIVE INVARIANTS
+================================================================================
+Vertex signature classes
+--------------------------------------------------------------------------------
+number of vertex signature classes: 1
+class 0: size=60 verts=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]...
+  signature=((4, 2, ((1, 8),)), (1, 4, 8, 16, 24, 6, 1))
+
+Edge signature classes
+--------------------------------------------------------------------------------
+number of edge signature classes: 1
+class 0: size=120 first_edges=[(0, 4), (0, 6), (0, 10), (0, 12), (1, 5), (1, 7), (1, 11), (1, 13), (2, 4), (2, 9)]...
+  signature=(1, 2, 2, ((0, 4),))
+
+Triangle intersection profile
+--------------------------------------------------------------------------------
+triangle pairs sharing 0 vertices: 720
+triangle pairs sharing 1 vertices: 60
+
+Closed walk counts by vertex
+--------------------------------------------------------------------------------
+number of walk-signature classes: 1
+(0, 4, 4, 28, 60, 260): 60
+
+================================================================================
+INTERPRETATION
+================================================================================
+If there is a single vertex-signature class and a single edge-signature
+class, that is strong evidence for vertex- and edge-transitivity.
+Multiple classes indicate symmetry breaking relative to the full
+icosahedral expectation.

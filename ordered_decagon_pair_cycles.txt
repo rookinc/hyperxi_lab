@@ -1,0 +1,123 @@
+================================================================================
+ORDERED DECAGON PAIR CYCLES
+================================================================================
+states: 120
+S-pairs: 60
+SV-decagons: 12
+
+================================================================================
+ORDERED SV-DECAGONS (PAIR IDS)
+================================================================================
+decagon  0: [0, 14, 15, 41, 48, 57, 54, 33, 27, 5]
+decagon  1: [0, 29, 23, 52, 45, 57, 44, 35, 11, 8]
+decagon  2: [1, 19, 20, 46, 53, 58, 34, 38, 7, 10]
+decagon  3: [1, 9, 28, 32, 50, 58, 49, 40, 16, 13]
+decagon  4: [2, 24, 25, 51, 33, 59, 39, 43, 12, 15]
+decagon  5: [2, 14, 8, 37, 30, 59, 54, 45, 21, 18]
+decagon  6: [3, 29, 5, 31, 38, 55, 44, 48, 17, 20]
+decagon  7: [3, 19, 13, 42, 35, 55, 34, 50, 26, 23]
+decagon  8: [4, 24, 18, 47, 40, 56, 39, 30, 6, 28]
+decagon  9: [4, 9, 10, 36, 43, 56, 49, 53, 22, 25]
+decagon 10: [6, 37, 11, 42, 16, 47, 21, 52, 26, 32]
+decagon 11: [7, 31, 27, 51, 22, 46, 17, 41, 12, 36]
+
+================================================================================
+EDGE FIBER POSITIONS
+================================================================================
+edge ( 0, 1) shared [0, 57]
+  decagon  0 positions [0, 5] spacing 5
+  decagon  1 positions [0, 5] spacing 5
+edge ( 0, 4) shared [15, 33]
+  decagon  0 positions [2, 7] spacing 5
+  decagon  4 positions [9, 4] spacing 5
+edge ( 0, 5) shared [14, 54]
+  decagon  0 positions [1, 6] spacing 5
+  decagon  5 positions [1, 6] spacing 5
+edge ( 0, 6) shared [5, 48]
+  decagon  0 positions [9, 4] spacing 5
+  decagon  6 positions [2, 7] spacing 5
+edge ( 0,11) shared [27, 41]
+  decagon  0 positions [8, 3] spacing 5
+  decagon 11 positions [2, 7] spacing 5
+edge ( 1, 5) shared [8, 45]
+  decagon  1 positions [9, 4] spacing 5
+  decagon  5 positions [2, 7] spacing 5
+edge ( 1, 6) shared [29, 44]
+  decagon  1 positions [1, 6] spacing 5
+  decagon  6 positions [1, 6] spacing 5
+edge ( 1, 7) shared [23, 35]
+  decagon  1 positions [2, 7] spacing 5
+  decagon  7 positions [9, 4] spacing 5
+edge ( 1,10) shared [11, 52]
+  decagon  1 positions [8, 3] spacing 5
+  decagon 10 positions [2, 7] spacing 5
+edge ( 2, 3) shared [1, 58]
+  decagon  2 positions [0, 5] spacing 5
+  decagon  3 positions [0, 5] spacing 5
+edge ( 2, 6) shared [20, 38]
+  decagon  2 positions [2, 7] spacing 5
+  decagon  6 positions [9, 4] spacing 5
+edge ( 2, 7) shared [19, 34]
+  decagon  2 positions [1, 6] spacing 5
+  decagon  7 positions [1, 6] spacing 5
+edge ( 2, 9) shared [10, 53]
+  decagon  2 positions [9, 4] spacing 5
+  decagon  9 positions [2, 7] spacing 5
+edge ( 2,11) shared [7, 46]
+  decagon  2 positions [8, 3] spacing 5
+  decagon 11 positions [0, 5] spacing 5
+edge ( 3, 7) shared [13, 50]
+  decagon  3 positions [9, 4] spacing 5
+  decagon  7 positions [2, 7] spacing 5
+edge ( 3, 8) shared [28, 40]
+  decagon  3 positions [2, 7] spacing 5
+  decagon  8 positions [9, 4] spacing 5
+edge ( 3, 9) shared [9, 49]
+  decagon  3 positions [1, 6] spacing 5
+  decagon  9 positions [1, 6] spacing 5
+edge ( 3,10) shared [16, 32]
+  decagon  3 positions [8, 3] spacing 5
+  decagon 10 positions [4, 9] spacing 5
+edge ( 4, 5) shared [2, 59]
+  decagon  4 positions [0, 5] spacing 5
+  decagon  5 positions [0, 5] spacing 5
+edge ( 4, 8) shared [24, 39]
+  decagon  4 positions [1, 6] spacing 5
+  decagon  8 positions [1, 6] spacing 5
+edge ( 4, 9) shared [25, 43]
+  decagon  4 positions [2, 7] spacing 5
+  decagon  9 positions [9, 4] spacing 5
+edge ( 4,11) shared [12, 51]
+  decagon  4 positions [8, 3] spacing 5
+  decagon 11 positions [8, 3] spacing 5
+edge ( 5, 8) shared [18, 30]
+  decagon  5 positions [9, 4] spacing 5
+  decagon  8 positions [2, 7] spacing 5
+edge ( 5,10) shared [21, 37]
+  decagon  5 positions [8, 3] spacing 5
+  decagon 10 positions [6, 1] spacing 5
+edge ( 6, 7) shared [3, 55]
+  decagon  6 positions [0, 5] spacing 5
+  decagon  7 positions [0, 5] spacing 5
+edge ( 6,11) shared [17, 31]
+  decagon  6 positions [8, 3] spacing 5
+  decagon 11 positions [6, 1] spacing 5
+edge ( 7,10) shared [26, 42]
+  decagon  7 positions [8, 3] spacing 5
+  decagon 10 positions [8, 3] spacing 5
+edge ( 8, 9) shared [4, 56]
+  decagon  8 positions [0, 5] spacing 5
+  decagon  9 positions [0, 5] spacing 5
+edge ( 8,10) shared [6, 47]
+  decagon  8 positions [8, 3] spacing 5
+  decagon 10 positions [0, 5] spacing 5
+edge ( 9,11) shared [22, 36]
+  decagon  9 positions [8, 3] spacing 5
+  decagon 11 positions [4, 9] spacing 5
+
+================================================================================
+SPACING SUMMARY
+================================================================================
+(5, 5) : 30
+
+expected simple edges: 30

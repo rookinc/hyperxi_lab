@@ -1,0 +1,29 @@
+================================================================================
+TRIANGLE-ANCHORED SYMMETRY TEST
+================================================================================
+vertices: 60
+triangles: 40
+
+Triangle signature classes
+--------------------------------------------------------------------------------
+classes: 1
+class 0: size=40 first=[(0, 4, 10), (0, 6, 12), (1, 5, 11), (1, 7, 13), (2, 4, 36), (2, 9, 42), (3, 5, 37), (3, 8, 43), (6, 8, 51), (7, 9, 50)]...
+  signature=(((4, 2, ((0, 47), (1, 12))), (4, 2, ((0, 47), (1, 12))), (4, 2, ((0, 47), (1, 12)))), (2, 2, 2))
+
+root triangle: (0, 4, 10)
+candidate image triangles: 40
+
+Results
+--------------------------------------------------------------------------------
+successful triangle-anchored extensions: 0
+triangle orbit size from successful maps: 0
+vertex orbit sample size from rooted triangle: 0
+triangle orbit sample: []
+vertex orbit sample: []
+
+================================================================================
+INTERPRETATION
+================================================================================
+If many image triangles succeed, the graph likely has a single triangle orbit.
+If the induced image set of root-triangle vertices spreads widely, that supports
+vertex-transitivity under triangle-anchored automorphisms.

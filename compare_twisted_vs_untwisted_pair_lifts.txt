@@ -1,0 +1,131 @@
+================================================================================
+MEASURED PAIR-FIBER GRAPH
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+triangles: 40
+
+adjacent common-neighbor profile:
+  1: 120
+nonadjacent common-neighbor profile:
+  0: 1410
+  1: 240
+
+eigenvalue multiplicities:
+        -2.0: 21
+   -1.236068: 6
+        -1.0: 4
+         0.0: 5
+         1.0: 8
+         2.0: 5
+         3.0: 4
+    3.236068: 6
+         4.0: 1
+
+================================================================================
+REFERENCE UNTWISTED EDGE-DOUBLE
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+triangles: 2
+
+adjacent common-neighbor profile:
+  0: 114
+  1: 6
+nonadjacent common-neighbor profile:
+  0: 1344
+  1: 262
+  2: 40
+  3: 4
+
+eigenvalue multiplicities:
+   -3.182943: 2
+   -3.054458: 2
+   -3.004196: 2
+   -2.809106: 2
+   -2.598175: 2
+   -2.282702: 2
+   -2.064447: 2
+   -1.720509: 2
+   -1.301473: 2
+   -1.195783: 2
+   -0.909203: 2
+    -0.59712: 2
+   -0.514899: 2
+   -0.397757: 2
+   -0.091207: 2
+    0.256645: 2
+    0.423285: 2
+    0.675399: 2
+    0.774569: 2
+    1.105914: 2
+    1.301305: 2
+    1.360066: 2
+    1.539331: 2
+    1.723481: 2
+    2.021146: 2
+    2.111505: 2
+    2.640721: 2
+    2.820527: 2
+    2.970084: 2
+         4.0: 2
+
+================================================================================
+REFERENCE TWISTED EDGE-DOUBLE
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+triangles: 2
+
+adjacent common-neighbor profile:
+  0: 114
+  1: 6
+nonadjacent common-neighbor profile:
+  0: 1344
+  1: 262
+  2: 40
+  3: 4
+
+eigenvalue multiplicities:
+   -3.182943: 2
+   -3.054458: 2
+   -3.004196: 2
+   -2.809106: 2
+   -2.598175: 2
+   -2.282702: 2
+   -2.064447: 2
+   -1.720509: 2
+   -1.301473: 2
+   -1.195783: 2
+   -0.909203: 2
+    -0.59712: 2
+   -0.514899: 2
+   -0.397757: 2
+   -0.091207: 2
+    0.256645: 2
+    0.423285: 2
+    0.675399: 2
+    0.774569: 2
+    1.105914: 2
+    1.301305: 2
+    1.360066: 2
+    1.539331: 2
+    1.723481: 2
+    2.021146: 2
+    2.111505: 2
+    2.640721: 2
+    2.820527: 2
+    2.970084: 2
+         4.0: 2
+
+================================================================================
+INTERPRETATION
+================================================================================
+This compares the measured 60-state pair-fiber transport graph
+against two explicit reference lifts of the icosahedral base graph:
+a trivial binary edge-double and a cocycle-twisted binary edge-double.
+Matching invariants with the twisted model would strengthen the claim
+that ordered Petrie transport realizes a genuine twisted edge bundle.

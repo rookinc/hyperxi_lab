@@ -96,7 +96,7 @@ def main():
     print("PAIR FIBER TRANSPORT OPERATOR")
     print("=" * 80)
 
-    cycles = load_cycles("ordered_decagon_pair_cycles.txt")
+    cycles = load_cycles("artifacts/cycles/ordered_decagon_pair_cycles.txt")
     print("decagon cycles:", len(cycles))
 
     if len(cycles) != 12:

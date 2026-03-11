@@ -1,0 +1,37 @@
+================================================================================
+PAIR FIBER GRAPH INVARIANTS
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+triangles: 40
+
+Eigenvalue multiplicities
+--------------------------------------------------------------------------------
+      -2.0: 21
+ -1.236068: 6
+      -1.0: 4
+       0.0: 5
+       1.0: 8
+       2.0: 5
+       3.0: 4
+  3.236068: 6
+       4.0: 1
+
+Common-neighbor profile for adjacent pairs
+--------------------------------------------------------------------------------
+1 common neighbors: 120
+
+Common-neighbor profile for nonadjacent pairs
+--------------------------------------------------------------------------------
+0 common neighbors: 1410
+1 common neighbors: 240
+
+================================================================================
+INTERPRETATION
+================================================================================
+These invariants help identify the 60-vertex 4-regular graph induced
+on the S-pair fiber by ordered Petrie adjacency.
+They can distinguish between a generic 4-regular graph, a strongly
+regular graph, a line-graph type object, or a twisted lift of the
+icosahedral edge geometry.

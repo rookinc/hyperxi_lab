@@ -1,0 +1,135 @@
+================================================================================
+30-VERTEX BASE GRAPH
+================================================================================
+vertices: 30
+edges: 60
+degree set: [4]
+diameter: 5
+triangles: 20
+
+shell classes:
+  (1, 4, 8, 8, 8, 1)  x30
+
+vertex-signature classes: 1
+  class 1: size=30
+
+edge-signature classes: 1
+  class 1: size=60
+
+triangle-signature classes: 1
+  class 1: size=20
+
+common-neighbor profile (adjacent pairs):
+  1: 60
+
+common-neighbor profile (nonadjacent pairs):
+  0: 255
+  1: 120
+
+common-neighbor profile by distance:
+  distance 1:
+    1: 60
+  distance 2:
+    1: 120
+  distance 3:
+    0: 120
+  distance 4:
+    0: 120
+  distance 5:
+    0: 15
+
+spectrum:
+  4 x1
+  3.23607 x3
+  2 x5
+  1 x4
+  -1 x4
+  -1.23607 x3
+  -2 x10
+
+walk traces:
+  tr(A^1) = 0
+  tr(A^2) = 120
+  tr(A^3) = 120
+  tr(A^4) = 840
+  tr(A^5) = 1920
+  tr(A^6) = 8520
+  tr(A^7) = 26880
+  tr(A^8) = 105480
+  tr(A^9) = 376320
+  tr(A^10) = 1441800
+
+================================================================================
+15-VERTEX QUOTIENT GRAPH
+================================================================================
+vertices: 15
+edges: 30
+degree set: [4]
+diameter: 3
+triangles: 10
+
+shell classes:
+  (1, 4, 8, 2)  x15
+
+vertex-signature classes: 1
+  class 1: size=15
+
+edge-signature classes: 1
+  class 1: size=30
+
+triangle-signature classes: 1
+  class 1: size=10
+
+common-neighbor profile (adjacent pairs):
+  1: 30
+
+common-neighbor profile (nonadjacent pairs):
+  0: 15
+  1: 60
+
+common-neighbor profile by distance:
+  distance 1:
+    1: 30
+  distance 2:
+    1: 60
+  distance 3:
+    0: 15
+
+spectrum:
+  4 x1
+  2 x5
+  -1 x4
+  -2 x5
+
+walk traces:
+  tr(A^1) = 0
+  tr(A^2) = 60
+  tr(A^3) = 60
+  tr(A^4) = 420
+  tr(A^5) = 1020
+  tr(A^6) = 4740
+  tr(A^7) = 16380
+  tr(A^8) = 68100
+  tr(A^9) = 262140
+  tr(A^10) = 1058820
+
+================================================================================
+KNOWN FAMILY CHECKS
+================================================================================
+base graph isomorphic to line_graph(dodecahedral_graph): True
+quotient graph isomorphic to line_graph(petersen_graph): True
+
+Interpretation: the 30-vertex base graph is the line graph of the dodecahedron.
+Interpretation: the 15-vertex quotient graph is the line graph of the Petersen graph.
+
+================================================================================
+COVER INTERPRETATION
+================================================================================
+Expected structural picture:
+  dodecahedral graph  --(2-cover)-->  Petersen graph
+  line graph thereof  --(2-cover)-->  line graph thereof
+
+So if the family checks above pass, the 30-vertex base graph is the natural
+2-cover of the 15-vertex quotient graph induced by the antipodal cover
+dodecahedron -> Petersen.
+

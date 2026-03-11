@@ -1,0 +1,47 @@
+================================================================================
+PAIR vs DECAGON STRUCTURE
+================================================================================
+
+WORD = S
+INTERPRETATION = edge-flip pair structure
+--------------------------------------------------------------------------------
+cycle length counts:
+  length=2: count=60
+total cycles: 60
+
+first few cycle summaries:
+  cycle=(0, 1) | len=2 | faces=1 | edges=1 | verts=2
+  cycle=(2, 3) | len=2 | faces=1 | edges=1 | verts=2
+  cycle=(4, 5) | len=2 | faces=1 | edges=1 | verts=2
+  cycle=(6, 7) | len=2 | faces=1 | edges=1 | verts=2
+  cycle=(8, 9) | len=2 | faces=1 | edges=1 | verts=2
+  cycle=(10, 11) | len=2 | faces=1 | edges=1 | verts=2
+
+WORD = SV
+INTERPRETATION = Petrie decagon structure
+--------------------------------------------------------------------------------
+cycle length counts:
+  length=10: count=12
+total cycles: 12
+
+first few cycle summaries:
+  cycle=(0, 28, 30, 82, 96, 114, 108, 67, 55, 11) | len=10 | faces=10 | edges=10 | verts=10
+  cycle=(1, 58, 46, 104, 90, 115, 89, 71, 23, 17) | len=10 | faces=10 | edges=10 | verts=10
+  cycle=(2, 38, 40, 92, 106, 116, 69, 77, 15, 21) | len=10 | faces=10 | edges=10 | verts=10
+  cycle=(3, 19, 56, 64, 100, 117, 99, 81, 33, 27) | len=10 | faces=10 | edges=10 | verts=10
+  cycle=(4, 48, 50, 102, 66, 119, 78, 87, 25, 31) | len=10 | faces=10 | edges=10 | verts=10
+  cycle=(5, 29, 16, 74, 60, 118, 109, 91, 43, 37) | len=10 | faces=10 | edges=10 | verts=10
+
+================================================================================
+COMPARISON
+================================================================================
+S  gives 60 local pairs (pure edge distinction).
+SV gives 12 decagons (global skew circulation / Petrie structure).
+
+If the important organization is pairing, the geometry is emphasizing
+local binary distinction.
+If the important organization is decagons, the geometry is emphasizing
+global circulation.
+
+HyperXi currently shows that both exist exactly, but only the decagon
+structure traverses the whole dodecahedral chamber space in long skew loops.

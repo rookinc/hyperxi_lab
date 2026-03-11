@@ -1,0 +1,105 @@
+================================================================================
+PAIR / DECAGON INCIDENCE
+================================================================================
+S-pairs:    60
+SV-decagons:12
+
+Decagon -> pair incidence
+--------------------------------------------------------------------------------
+decagon  0:
+  raw pair labels:   [0, 5, 14, 15, 27, 33, 41, 48, 54, 57]
+  unique pair ids:   [0, 5, 14, 15, 27, 33, 41, 48, 54, 57]
+  number of pairs:   10
+
+decagon  1:
+  raw pair labels:   [0, 8, 11, 23, 29, 35, 44, 45, 52, 57]
+  unique pair ids:   [0, 8, 11, 23, 29, 35, 44, 45, 52, 57]
+  number of pairs:   10
+
+decagon  2:
+  raw pair labels:   [1, 7, 10, 19, 20, 34, 38, 46, 53, 58]
+  unique pair ids:   [1, 7, 10, 19, 20, 34, 38, 46, 53, 58]
+  number of pairs:   10
+
+decagon  3:
+  raw pair labels:   [1, 9, 13, 16, 28, 32, 40, 49, 50, 58]
+  unique pair ids:   [1, 9, 13, 16, 28, 32, 40, 49, 50, 58]
+  number of pairs:   10
+
+decagon  4:
+  raw pair labels:   [2, 12, 15, 24, 25, 33, 39, 43, 51, 59]
+  unique pair ids:   [2, 12, 15, 24, 25, 33, 39, 43, 51, 59]
+  number of pairs:   10
+
+decagon  5:
+  raw pair labels:   [2, 8, 14, 18, 21, 30, 37, 45, 54, 59]
+  unique pair ids:   [2, 8, 14, 18, 21, 30, 37, 45, 54, 59]
+  number of pairs:   10
+
+decagon  6:
+  raw pair labels:   [3, 5, 17, 20, 29, 31, 38, 44, 48, 55]
+  unique pair ids:   [3, 5, 17, 20, 29, 31, 38, 44, 48, 55]
+  number of pairs:   10
+
+decagon  7:
+  raw pair labels:   [3, 13, 19, 23, 26, 34, 35, 42, 50, 55]
+  unique pair ids:   [3, 13, 19, 23, 26, 34, 35, 42, 50, 55]
+  number of pairs:   10
+
+decagon  8:
+  raw pair labels:   [4, 6, 18, 24, 28, 30, 39, 40, 47, 56]
+  unique pair ids:   [4, 6, 18, 24, 28, 30, 39, 40, 47, 56]
+  number of pairs:   10
+
+decagon  9:
+  raw pair labels:   [4, 9, 10, 22, 25, 36, 43, 49, 53, 56]
+  unique pair ids:   [4, 9, 10, 22, 25, 36, 43, 49, 53, 56]
+  number of pairs:   10
+
+decagon 10:
+  raw pair labels:   [6, 11, 16, 21, 26, 32, 37, 42, 47, 52]
+  unique pair ids:   [6, 11, 16, 21, 26, 32, 37, 42, 47, 52]
+  number of pairs:   10
+
+decagon 11:
+  raw pair labels:   [7, 12, 17, 22, 27, 31, 36, 41, 46, 51]
+  unique pair ids:   [7, 12, 17, 22, 27, 31, 36, 41, 46, 51]
+  number of pairs:   10
+
+================================================================================
+PAIR PARTICIPATION COUNTS
+================================================================================
+pairs belonging to 2 decagons: 60
+
+First 20 pair -> decagon incidences
+--------------------------------------------------------------------------------
+pair  0 -> decagons [0, 1]
+pair  1 -> decagons [2, 3]
+pair  2 -> decagons [4, 5]
+pair  3 -> decagons [6, 7]
+pair  4 -> decagons [8, 9]
+pair  5 -> decagons [0, 6]
+pair  6 -> decagons [8, 10]
+pair  7 -> decagons [2, 11]
+pair  8 -> decagons [1, 5]
+pair  9 -> decagons [3, 9]
+pair 10 -> decagons [2, 9]
+pair 11 -> decagons [1, 10]
+pair 12 -> decagons [4, 11]
+pair 13 -> decagons [3, 7]
+pair 14 -> decagons [0, 5]
+pair 15 -> decagons [0, 4]
+pair 16 -> decagons [3, 10]
+pair 17 -> decagons [6, 11]
+pair 18 -> decagons [5, 8]
+pair 19 -> decagons [2, 7]
+
+================================================================================
+INTERPRETATION
+================================================================================
+If each pair belongs to exactly one decagon, the circulation partition
+simply refines the binary distinction layer.
+If pairs belong to multiple decagons, then local distinctions are reused
+across multiple circulation channels.
+That would mean the global transport structure braids the local splits.
+

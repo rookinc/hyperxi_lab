@@ -1,10 +1,8 @@
 from __future__ import annotations
 
-from collections import deque
 from typing import Dict, List, Tuple
 
 # Edge fibers from the verified decagon intersection graph.
-# Each simple edge (i,j) carries a 2-element fiber of S-pairs.
 EDGE_FIBERS: Dict[Tuple[int, int], Tuple[int, int]] = {
     (0, 1): (0, 57),
     (0, 4): (15, 33),
@@ -69,20 +67,11 @@ def adjacency() -> Dict[int, List[int]]:
     return adj
 
 
-def edge_positions(decagon: int, edge: Tuple[int, int]) -> Tuple[int, int]:
-    cyc = PAIR_CYCLES[decagon]
-    a, b = EDGE_FIBERS[edge]
-    pa = cyc.index(a)
-    pb = cyc.index(b)
-    return (pa, pb)
-
-
 def local_edge_label(decagon: int, edge: Tuple[int, int]) -> Tuple[int, int]:
     cyc = PAIR_CYCLES[decagon]
     a, b = EDGE_FIBERS[edge]
     pa = cyc.index(a)
     pb = cyc.index(b)
-    # choose the one encountered first when traversing the cycle forward
     return (a, b) if pa < pb else (b, a)
 
 
@@ -122,6 +111,8 @@ def main() -> None:
     print("-" * 80)
     same = 0
     swap = 0
+    inconsistent = 0
+
     for i, j in sorted(EDGE_FIBERS):
         rel = compare_edge_orientation(i, j)
         print(f"edge ({i:2d},{j:2d}) -> {rel}")
@@ -129,10 +120,13 @@ def main() -> None:
             same += 1
         elif rel == "swap":
             swap += 1
+        else:
+            inconsistent += 1
 
     print()
     print(f"same-oriented edges: {same}")
     print(f"swap-oriented edges: {swap}")
+    print(f"inconsistent edges:  {inconsistent}")
 
     print()
     print("Triangles in the icosahedral base graph")
@@ -153,3 +147,7 @@ def main() -> None:
     print("If edge orientations can be made globally consistent, the 2-sheet fiber")
     print("is untwisted. If cycle traversal forces swaps, the edge fiber is twisted.")
     print("This script checks local same/swap behavior using ordered decagon cycles.")
+
+
+if __name__ == "__main__":
+    main()

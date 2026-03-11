@@ -1,0 +1,70 @@
+================================================================================
+DECAGON FIBER MONODROMY
+================================================================================
+Edge orientation comparisons
+--------------------------------------------------------------------------------
+edge ( 0, 1) -> same
+edge ( 0, 4) -> swap
+edge ( 0, 5) -> same
+edge ( 0, 6) -> swap
+edge ( 0,11) -> swap
+edge ( 1, 5) -> swap
+edge ( 1, 6) -> same
+edge ( 1, 7) -> swap
+edge ( 1,10) -> swap
+edge ( 2, 3) -> same
+edge ( 2, 6) -> swap
+edge ( 2, 7) -> same
+edge ( 2, 9) -> swap
+edge ( 2,11) -> swap
+edge ( 3, 7) -> swap
+edge ( 3, 8) -> swap
+edge ( 3, 9) -> same
+edge ( 3,10) -> swap
+edge ( 4, 5) -> same
+edge ( 4, 8) -> same
+edge ( 4, 9) -> swap
+edge ( 4,11) -> same
+edge ( 5, 8) -> swap
+edge ( 5,10) -> same
+edge ( 6, 7) -> same
+edge ( 6,11) -> same
+edge ( 7,10) -> same
+edge ( 8, 9) -> same
+edge ( 8,10) -> swap
+edge ( 9,11) -> swap
+
+same-oriented edges: 14
+swap-oriented edges: 16
+inconsistent edges:  0
+
+Triangles in the icosahedral base graph
+--------------------------------------------------------------------------------
+triangle (0, 1, 5) -> [same, swap, same]
+triangle (0, 1, 6) -> [same, same, swap]
+triangle (0, 4, 5) -> [swap, same, same]
+triangle (0, 4, 11) -> [swap, same, swap]
+triangle (0, 6, 11) -> [swap, same, swap]
+triangle (1, 5, 10) -> [swap, same, swap]
+triangle (1, 6, 7) -> [same, same, swap]
+triangle (1, 7, 10) -> [swap, same, swap]
+triangle (2, 3, 7) -> [same, swap, same]
+triangle (2, 3, 9) -> [same, same, swap]
+triangle (2, 6, 7) -> [swap, same, same]
+triangle (2, 6, 11) -> [swap, same, swap]
+triangle (2, 9, 11) -> [swap, swap, swap]
+triangle (3, 7, 10) -> [swap, same, swap]
+triangle (3, 8, 9) -> [swap, same, same]
+triangle (3, 8, 10) -> [swap, swap, swap]
+triangle (4, 5, 8) -> [same, swap, same]
+triangle (4, 8, 9) -> [same, same, swap]
+triangle (4, 9, 11) -> [swap, swap, same]
+triangle (5, 8, 10) -> [swap, swap, same]
+
+================================================================================
+INTERPRETATION
+================================================================================
+This is a first-pass monodromy probe.
+If edge orientations can be made globally consistent, the 2-sheet fiber
+is untwisted. If cycle traversal forces swaps, the edge fiber is twisted.
+This script checks local same/swap behavior using ordered decagon cycles.

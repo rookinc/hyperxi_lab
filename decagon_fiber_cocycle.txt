@@ -1,0 +1,35 @@
+================================================================================
+DECAGON FIBER COCYCLE
+================================================================================
+tree edges:   11
+cotree edges: 19
+
+Fundamental cycle parities
+--------------------------------------------------------------------------------
+edge (1, 5) -> cycle [(0, 1), (0, 5), (1, 5)] -> parity 1
+edge (1, 6) -> cycle [(0, 1), (0, 6), (1, 6)] -> parity 1
+edge (2, 3) -> cycle [(2, 6), (0, 6), (0, 1), (1, 7), (3, 7), (2, 3)] -> parity 0
+edge (2, 7) -> cycle [(2, 6), (0, 6), (0, 1), (1, 7), (2, 7)] -> parity 1
+edge (2, 9) -> cycle [(2, 6), (0, 6), (0, 4), (4, 9), (2, 9)] -> parity 1
+edge (2, 11) -> cycle [(2, 6), (0, 6), (0, 11), (2, 11)] -> parity 0
+edge (3, 8) -> cycle [(3, 7), (1, 7), (0, 1), (0, 4), (4, 8), (3, 8)] -> parity 0
+edge (3, 9) -> cycle [(3, 7), (1, 7), (0, 1), (0, 4), (4, 9), (3, 9)] -> parity 0
+edge (3, 10) -> cycle [(3, 7), (1, 7), (1, 10), (3, 10)] -> parity 0
+edge (4, 5) -> cycle [(0, 4), (0, 5), (4, 5)] -> parity 1
+edge (4, 11) -> cycle [(0, 4), (0, 11), (4, 11)] -> parity 0
+edge (5, 8) -> cycle [(0, 5), (0, 4), (4, 8), (5, 8)] -> parity 0
+edge (5, 10) -> cycle [(0, 5), (0, 1), (1, 10), (5, 10)] -> parity 1
+edge (6, 7) -> cycle [(0, 6), (0, 1), (1, 7), (6, 7)] -> parity 0
+edge (6, 11) -> cycle [(0, 6), (0, 11), (6, 11)] -> parity 0
+edge (7, 10) -> cycle [(1, 7), (1, 10), (7, 10)] -> parity 0
+edge (8, 9) -> cycle [(4, 8), (4, 9), (8, 9)] -> parity 1
+edge (8, 10) -> cycle [(4, 8), (0, 4), (0, 1), (1, 10), (8, 10)] -> parity 1
+edge (9, 11) -> cycle [(4, 9), (0, 4), (0, 11), (9, 11)] -> parity 0
+
+odd fundamental cycles: 8 / 19
+
+Gauge consistency test
+--------------------------------------------------------------------------------
+conflict on edge (1, 5): existing 0, required 1
+global gauge solution exists: False
+bundle is twisted / cocycle non-exact

@@ -1,0 +1,67 @@
+================================================================================
+SPECTRAL MULTIPLICITY REPORT
+================================================================================
+source file: artifacts/spectra/spectrum_local.txt
+total eigenvalues read: 155
+distinct eigenvalues: 35
+
+--------------------------------------------------------------------------------
+DISTINCT EIGENVALUES WITH MULTIPLICITIES
+--------------------------------------------------------------------------------
+ 5.000000000000    multiplicity = 12
+ 4.525397373986    multiplicity = 3
+ 4.000000000000    multiplicity = 8
+ 3.657765126611    multiplicity = 5
+ 3.000000000000    multiplicity = 13
+ 2.869639019377    multiplicity = 3
+ 2.747794510892    multiplicity = 4
+ 2.627835256057    multiplicity = 5
+ 2.445787042459    multiplicity = 4
+ 2.220147285424    multiplicity = 3
+ 1.419392638732    multiplicity = 5
+ 1.402769809738    multiplicity = 4
+ 1.394200694069    multiplicity = 3
+ 1.000000000000    multiplicity = 2
+ 0.901071116910    multiplicity = 3
+ 0.796815115870    multiplicity = 4
+ 0.498198463082    multiplicity = 3
+ 0.278637824610    multiplicity = 5
+ 0.000000000000    multiplicity = 1
+-0.126518469421    multiplicity = 3
+-0.407667082239    multiplicity = 3
+-0.717106616535    multiplicity = 5
+-1.000000000000    multiplicity = 5
+-1.108775539292    multiplicity = 4
+-1.131769504959    multiplicity = 3
+-1.190400513396    multiplicity = 3
+-1.370325945476    multiplicity = 4
+-1.585267861491    multiplicity = 5
+-1.611941594255    multiplicity = 5
+-1.872276212853    multiplicity = 4
+-2.048548180684    multiplicity = 3
+-3.041788781337    multiplicity = 4
+-3.465216171088    multiplicity = 5
+-3.503750202148    multiplicity = 3
+-3.604098602642    multiplicity = 6
+
+--------------------------------------------------------------------------------
+MULTIPLICITY PROFILE
+--------------------------------------------------------------------------------
+multiplicity 1: 1 eigenvalue(s)
+multiplicity 2: 1 eigenvalue(s)
+multiplicity 3: 12 eigenvalue(s)
+multiplicity 4: 8 eigenvalue(s)
+multiplicity 5: 9 eigenvalue(s)
+multiplicity 6: 1 eigenvalue(s)
+multiplicity 8: 1 eigenvalue(s)
+multiplicity 12: 1 eigenvalue(s)
+multiplicity 13: 1 eigenvalue(s)
+
+--------------------------------------------------------------------------------
+BASIC SANITY CHECKS
+--------------------------------------------------------------------------------
+sum of multiplicities = 155
+max eigenvalue         = 5.000000000000
+min eigenvalue         = -3.604098602642
+
+Spectral scan complete.

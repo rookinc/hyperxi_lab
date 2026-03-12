@@ -1,5 +1,5 @@
 {
-  "spec_version": "1.2.0",
+  "spec_version": "1.3.0",
   "object_name": "Thalean Graph",
   "aliases": [
     "Thalean Chamber Graph",
@@ -119,6 +119,26 @@
       "preserve": 40,
       "swap": 20
     }
+  },
+
+  "coxeter_context": {
+    "cell_geometry": "dodecahedron",
+    "flag_transport_origin": "primitive local flag-action algebra on the 120 flags of a single dodecahedral cell",
+    "primitive_generators": {
+      "S": "edge flip",
+      "F": "face rotation",
+      "V": "vertex rotation"
+    },
+    "petrie_circulation": {
+      "word": "SV",
+      "description": "Petrie circulation operator on flag space.",
+      "cycle_structure": {
+        "cycle_length": 10,
+        "cycle_count": 12
+      },
+      "spectral_note": "The Petrie operator organizes the 120-flag space into 12 disjoint decagons, matching the Petrie geometry of the dodecahedron."
+    },
+    "interpretation": "The Thalean graph should be understood as a chamber-level finite reduction of a deeper dodecahedral flag-transport algebra. Petrie circulation is not imposed externally; it emerges from the primitive local generators."
   },
 
   "operator_layers": {

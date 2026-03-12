@@ -11,6 +11,9 @@ dependencies = [
   "numpy"
 ]
 
+[project.scripts]
+hyperxi-viewer = "hyperxi.viewer.app:main"
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"

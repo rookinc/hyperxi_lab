@@ -1,10 +1,22 @@
+# editor
 *.swp
+*.swo
+
+# python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.DS_Store
+*.py[cod]
+
+# mac
+.DS_Store
+
+# virtualenv
 .venv/
 venv/
+
+# env files
 .env
+
+# packaging
 *.egg-info/
+dist/
+build/

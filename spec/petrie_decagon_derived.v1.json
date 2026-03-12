@@ -1,0 +1,1292 @@
+{
+  "schema": "petrie-decagon-derived.v1",
+  "source_spec": "spec/petrie_decagon_incidence.v1.json",
+  "block_intersection_graph": {
+    "vertex_count": 12,
+    "edge_count": 30,
+    "degree": 5,
+    "triangle_count": 20,
+    "identified_as": "icosahedral graph",
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ]
+    ]
+  },
+  "chamber_graph": {
+    "vertex_count": 60,
+    "edge_count": 120,
+    "degree": 4,
+    "shell_counts": [
+      1,
+      4,
+      8,
+      16,
+      24,
+      6,
+      1
+    ],
+    "spectrum": [
+      {
+        "eigenvalue": -2.0,
+        "multiplicity": 21
+      },
+      {
+        "eigenvalue": -1.236068,
+        "multiplicity": 6
+      },
+      {
+        "eigenvalue": -1.0,
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": -0.0,
+        "multiplicity": 5
+      },
+      {
+        "eigenvalue": 1.0,
+        "multiplicity": 8
+      },
+      {
+        "eigenvalue": 2.0,
+        "multiplicity": 5
+      },
+      {
+        "eigenvalue": 3.0,
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": 3.236068,
+        "multiplicity": 6
+      },
+      {
+        "eigenvalue": 4.0,
+        "multiplicity": 1
+      }
+    ]
+  },
+  "quotient_graph": {
+    "vertex_count": 30,
+    "edge_count": 60,
+    "degree": 4,
+    "identified_as": "L(Dodecahedron)",
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        18
+      ],
+      [
+        1,
+        21
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        25
+      ],
+      [
+        4,
+        21
+      ],
+      [
+        4,
+        25
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        23
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        24
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        24
+      ],
+      [
+        7,
+        26
+      ],
+      [
+        8,
+        23
+      ],
+      [
+        8,
+        26
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        10,
+        25
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        11,
+        24
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        12,
+        29
+      ],
+      [
+        13,
+        25
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        26
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        27
+      ],
+      [
+        15,
+        28
+      ],
+      [
+        16,
+        27
+      ],
+      [
+        17,
+        26
+      ],
+      [
+        17,
+        28
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        18,
+        22
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        27
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        27
+      ],
+      [
+        20,
+        29
+      ],
+      [
+        21,
+        29
+      ],
+      [
+        22,
+        23
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        23,
+        28
+      ]
+    ],
+    "fiber_pairs": [
+      {
+        "quotient_vertex": 0,
+        "decagon_pair": [
+          0,
+          1
+        ],
+        "states": [
+          0,
+          57
+        ]
+      },
+      {
+        "quotient_vertex": 1,
+        "decagon_pair": [
+          0,
+          4
+        ],
+        "states": [
+          15,
+          33
+        ]
+      },
+      {
+        "quotient_vertex": 2,
+        "decagon_pair": [
+          0,
+          5
+        ],
+        "states": [
+          14,
+          54
+        ]
+      },
+      {
+        "quotient_vertex": 3,
+        "decagon_pair": [
+          0,
+          6
+        ],
+        "states": [
+          5,
+          48
+        ]
+      },
+      {
+        "quotient_vertex": 4,
+        "decagon_pair": [
+          0,
+          11
+        ],
+        "states": [
+          27,
+          41
+        ]
+      },
+      {
+        "quotient_vertex": 5,
+        "decagon_pair": [
+          1,
+          5
+        ],
+        "states": [
+          8,
+          45
+        ]
+      },
+      {
+        "quotient_vertex": 6,
+        "decagon_pair": [
+          1,
+          6
+        ],
+        "states": [
+          29,
+          44
+        ]
+      },
+      {
+        "quotient_vertex": 7,
+        "decagon_pair": [
+          1,
+          7
+        ],
+        "states": [
+          23,
+          35
+        ]
+      },
+      {
+        "quotient_vertex": 8,
+        "decagon_pair": [
+          1,
+          10
+        ],
+        "states": [
+          11,
+          52
+        ]
+      },
+      {
+        "quotient_vertex": 9,
+        "decagon_pair": [
+          2,
+          3
+        ],
+        "states": [
+          1,
+          58
+        ]
+      },
+      {
+        "quotient_vertex": 10,
+        "decagon_pair": [
+          2,
+          6
+        ],
+        "states": [
+          20,
+          38
+        ]
+      },
+      {
+        "quotient_vertex": 11,
+        "decagon_pair": [
+          2,
+          7
+        ],
+        "states": [
+          19,
+          34
+        ]
+      },
+      {
+        "quotient_vertex": 12,
+        "decagon_pair": [
+          2,
+          9
+        ],
+        "states": [
+          10,
+          53
+        ]
+      },
+      {
+        "quotient_vertex": 13,
+        "decagon_pair": [
+          2,
+          11
+        ],
+        "states": [
+          7,
+          46
+        ]
+      },
+      {
+        "quotient_vertex": 14,
+        "decagon_pair": [
+          3,
+          7
+        ],
+        "states": [
+          13,
+          50
+        ]
+      },
+      {
+        "quotient_vertex": 15,
+        "decagon_pair": [
+          3,
+          8
+        ],
+        "states": [
+          28,
+          40
+        ]
+      },
+      {
+        "quotient_vertex": 16,
+        "decagon_pair": [
+          3,
+          9
+        ],
+        "states": [
+          9,
+          49
+        ]
+      },
+      {
+        "quotient_vertex": 17,
+        "decagon_pair": [
+          3,
+          10
+        ],
+        "states": [
+          16,
+          32
+        ]
+      },
+      {
+        "quotient_vertex": 18,
+        "decagon_pair": [
+          4,
+          5
+        ],
+        "states": [
+          2,
+          59
+        ]
+      },
+      {
+        "quotient_vertex": 19,
+        "decagon_pair": [
+          4,
+          8
+        ],
+        "states": [
+          24,
+          39
+        ]
+      },
+      {
+        "quotient_vertex": 20,
+        "decagon_pair": [
+          4,
+          9
+        ],
+        "states": [
+          25,
+          43
+        ]
+      },
+      {
+        "quotient_vertex": 21,
+        "decagon_pair": [
+          4,
+          11
+        ],
+        "states": [
+          12,
+          51
+        ]
+      },
+      {
+        "quotient_vertex": 22,
+        "decagon_pair": [
+          5,
+          8
+        ],
+        "states": [
+          18,
+          30
+        ]
+      },
+      {
+        "quotient_vertex": 23,
+        "decagon_pair": [
+          5,
+          10
+        ],
+        "states": [
+          21,
+          37
+        ]
+      },
+      {
+        "quotient_vertex": 24,
+        "decagon_pair": [
+          6,
+          7
+        ],
+        "states": [
+          3,
+          55
+        ]
+      },
+      {
+        "quotient_vertex": 25,
+        "decagon_pair": [
+          6,
+          11
+        ],
+        "states": [
+          17,
+          31
+        ]
+      },
+      {
+        "quotient_vertex": 26,
+        "decagon_pair": [
+          7,
+          10
+        ],
+        "states": [
+          26,
+          42
+        ]
+      },
+      {
+        "quotient_vertex": 27,
+        "decagon_pair": [
+          8,
+          9
+        ],
+        "states": [
+          4,
+          56
+        ]
+      },
+      {
+        "quotient_vertex": 28,
+        "decagon_pair": [
+          8,
+          10
+        ],
+        "states": [
+          6,
+          47
+        ]
+      },
+      {
+        "quotient_vertex": 29,
+        "decagon_pair": [
+          9,
+          11
+        ],
+        "states": [
+          22,
+          36
+        ]
+      }
+    ]
+  },
+  "signed_2_lift": {
+    "base_graph": "L(Dodecahedron)",
+    "positive_edges": 40,
+    "negative_edges": 20,
+    "signing_defined_up_to_switching": true,
+    "edge_signs": [
+      {
+        "u": 0,
+        "v": 2,
+        "sign": 1
+      },
+      {
+        "u": 0,
+        "v": 3,
+        "sign": 1
+      },
+      {
+        "u": 0,
+        "v": 5,
+        "sign": 1
+      },
+      {
+        "u": 0,
+        "v": 6,
+        "sign": 1
+      },
+      {
+        "u": 1,
+        "v": 2,
+        "sign": 1
+      },
+      {
+        "u": 1,
+        "v": 4,
+        "sign": -1
+      },
+      {
+        "u": 1,
+        "v": 18,
+        "sign": 1
+      },
+      {
+        "u": 1,
+        "v": 21,
+        "sign": 1
+      },
+      {
+        "u": 2,
+        "v": 5,
+        "sign": 1
+      },
+      {
+        "u": 2,
+        "v": 18,
+        "sign": 1
+      },
+      {
+        "u": 3,
+        "v": 4,
+        "sign": 1
+      },
+      {
+        "u": 3,
+        "v": 6,
+        "sign": 1
+      },
+      {
+        "u": 3,
+        "v": 25,
+        "sign": -1
+      },
+      {
+        "u": 4,
+        "v": 21,
+        "sign": -1
+      },
+      {
+        "u": 4,
+        "v": 25,
+        "sign": -1
+      },
+      {
+        "u": 5,
+        "v": 8,
+        "sign": 1
+      },
+      {
+        "u": 5,
+        "v": 23,
+        "sign": -1
+      },
+      {
+        "u": 6,
+        "v": 7,
+        "sign": 1
+      },
+      {
+        "u": 6,
+        "v": 24,
+        "sign": 1
+      },
+      {
+        "u": 7,
+        "v": 8,
+        "sign": -1
+      },
+      {
+        "u": 7,
+        "v": 24,
+        "sign": 1
+      },
+      {
+        "u": 7,
+        "v": 26,
+        "sign": 1
+      },
+      {
+        "u": 8,
+        "v": 23,
+        "sign": -1
+      },
+      {
+        "u": 8,
+        "v": 26,
+        "sign": -1
+      },
+      {
+        "u": 9,
+        "v": 11,
+        "sign": 1
+      },
+      {
+        "u": 9,
+        "v": 12,
+        "sign": 1
+      },
+      {
+        "u": 9,
+        "v": 14,
+        "sign": 1
+      },
+      {
+        "u": 9,
+        "v": 16,
+        "sign": 1
+      },
+      {
+        "u": 10,
+        "v": 11,
+        "sign": 1
+      },
+      {
+        "u": 10,
+        "v": 13,
+        "sign": -1
+      },
+      {
+        "u": 10,
+        "v": 24,
+        "sign": 1
+      },
+      {
+        "u": 10,
+        "v": 25,
+        "sign": 1
+      },
+      {
+        "u": 11,
+        "v": 14,
+        "sign": 1
+      },
+      {
+        "u": 11,
+        "v": 24,
+        "sign": 1
+      },
+      {
+        "u": 12,
+        "v": 13,
+        "sign": 1
+      },
+      {
+        "u": 12,
+        "v": 16,
+        "sign": 1
+      },
+      {
+        "u": 12,
+        "v": 29,
+        "sign": -1
+      },
+      {
+        "u": 13,
+        "v": 25,
+        "sign": -1
+      },
+      {
+        "u": 13,
+        "v": 29,
+        "sign": -1
+      },
+      {
+        "u": 14,
+        "v": 17,
+        "sign": 1
+      },
+      {
+        "u": 14,
+        "v": 26,
+        "sign": -1
+      },
+      {
+        "u": 15,
+        "v": 16,
+        "sign": 1
+      },
+      {
+        "u": 15,
+        "v": 17,
+        "sign": -1
+      },
+      {
+        "u": 15,
+        "v": 27,
+        "sign": 1
+      },
+      {
+        "u": 15,
+        "v": 28,
+        "sign": 1
+      },
+      {
+        "u": 16,
+        "v": 27,
+        "sign": 1
+      },
+      {
+        "u": 17,
+        "v": 26,
+        "sign": -1
+      },
+      {
+        "u": 17,
+        "v": 28,
+        "sign": -1
+      },
+      {
+        "u": 18,
+        "v": 19,
+        "sign": 1
+      },
+      {
+        "u": 18,
+        "v": 22,
+        "sign": 1
+      },
+      {
+        "u": 19,
+        "v": 20,
+        "sign": 1
+      },
+      {
+        "u": 19,
+        "v": 22,
+        "sign": 1
+      },
+      {
+        "u": 19,
+        "v": 27,
+        "sign": 1
+      },
+      {
+        "u": 20,
+        "v": 21,
+        "sign": -1
+      },
+      {
+        "u": 20,
+        "v": 27,
+        "sign": 1
+      },
+      {
+        "u": 20,
+        "v": 29,
+        "sign": 1
+      },
+      {
+        "u": 21,
+        "v": 29,
+        "sign": -1
+      },
+      {
+        "u": 22,
+        "v": 23,
+        "sign": 1
+      },
+      {
+        "u": 22,
+        "v": 28,
+        "sign": -1
+      },
+      {
+        "u": 23,
+        "v": 28,
+        "sign": -1
+      }
+    ],
+    "switching_function": [
+      {
+        "vertex": 0,
+        "value": 1
+      },
+      {
+        "vertex": 1,
+        "value": 1
+      },
+      {
+        "vertex": 2,
+        "value": 1
+      },
+      {
+        "vertex": 3,
+        "value": -1
+      },
+      {
+        "vertex": 4,
+        "value": -1
+      },
+      {
+        "vertex": 5,
+        "value": -1
+      },
+      {
+        "vertex": 6,
+        "value": 1
+      },
+      {
+        "vertex": 7,
+        "value": 1
+      },
+      {
+        "vertex": 8,
+        "value": -1
+      },
+      {
+        "vertex": 9,
+        "value": 1
+      },
+      {
+        "vertex": 10,
+        "value": 1
+      },
+      {
+        "vertex": 11,
+        "value": 1
+      },
+      {
+        "vertex": 12,
+        "value": -1
+      },
+      {
+        "vertex": 13,
+        "value": -1
+      },
+      {
+        "vertex": 14,
+        "value": -1
+      },
+      {
+        "vertex": 15,
+        "value": 1
+      },
+      {
+        "vertex": 16,
+        "value": 1
+      },
+      {
+        "vertex": 17,
+        "value": -1
+      },
+      {
+        "vertex": 18,
+        "value": 1
+      },
+      {
+        "vertex": 19,
+        "value": 1
+      },
+      {
+        "vertex": 20,
+        "value": 1
+      },
+      {
+        "vertex": 21,
+        "value": -1
+      },
+      {
+        "vertex": 22,
+        "value": -1
+      },
+      {
+        "vertex": 23,
+        "value": -1
+      },
+      {
+        "vertex": 24,
+        "value": 1
+      },
+      {
+        "vertex": 25,
+        "value": -1
+      },
+      {
+        "vertex": 26,
+        "value": -1
+      },
+      {
+        "vertex": 27,
+        "value": 1
+      },
+      {
+        "vertex": 28,
+        "value": -1
+      },
+      {
+        "vertex": 29,
+        "value": -1
+      }
+    ]
+  },
+  "spectra": {
+    "lift_spectrum": [
+      {
+        "eigenvalue": -2.0,
+        "multiplicity": 21
+      },
+      {
+        "eigenvalue": -1.236068,
+        "multiplicity": 6
+      },
+      {
+        "eigenvalue": -1.0,
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": -0.0,
+        "multiplicity": 5
+      },
+      {
+        "eigenvalue": 1.0,
+        "multiplicity": 8
+      },
+      {
+        "eigenvalue": 2.0,
+        "multiplicity": 5
+      },
+      {
+        "eigenvalue": 3.0,
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": 3.236068,
+        "multiplicity": 6
+      },
+      {
+        "eigenvalue": 4.0,
+        "multiplicity": 1
+      }
+    ],
+    "base_spectrum": [
+      {
+        "eigenvalue": -2.0,
+        "multiplicity": 10
+      },
+      {
+        "eigenvalue": -1.236068,
+        "multiplicity": 3
+      },
+      {
+        "eigenvalue": -1.0,
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": 1.0,
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": 2.0,
+        "multiplicity": 5
+      },
+      {
+        "eigenvalue": 3.236068,
+        "multiplicity": 3
+      },
+      {
+        "eigenvalue": 4.0,
+        "multiplicity": 1
+      }
+    ],
+    "signed_spectrum": [
+      {
+        "eigenvalue": -2.0,
+        "multiplicity": 11
+      },
+      {
+        "eigenvalue": -1.236068,
+        "multiplicity": 3
+      },
+      {
+        "eigenvalue": -0.0,
+        "multiplicity": 5
+      },
+      {
+        "eigenvalue": 1.0,
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": 3.0,
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": 3.236068,
+        "multiplicity": 3
+      }
+    ],
+    "two_lift_split_verified": true
+  }
+}

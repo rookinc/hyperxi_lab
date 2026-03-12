@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "petrie-decagon-derived.v1.schema.json",
+  "title": "Derived Structures for Petrie Decagon Incidence Geometry",
+  "type": "object",
+  "required": [
+    "schema",
+    "source_spec",
+    "block_intersection_graph",
+    "chamber_graph",
+    "quotient_graph",
+    "signed_2_lift",
+    "spectra"
+  ],
+  "properties": {
+    "schema": {
+      "type": "string",
+      "const": "petrie-decagon-derived.v1"
+    },
+    "source_spec": {
+      "type": "string"
+    },
+    "block_intersection_graph": {
+      "type": "object",
+      "required": [
+        "vertex_count",
+        "edge_count",
+        "degree",
+        "triangle_count",
+        "identified_as",
+        "edges"
+      ],
+      "properties": {
+        "vertex_count": { "type": "integer" },
+        "edge_count": { "type": "integer" },
+        "degree": { "type": "integer" },
+        "triangle_count": { "type": "integer" },
+        "identified_as": { "type": "string" },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": { "type": "integer" }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "chamber_graph": {
+      "type": "object",
+      "required": [
+        "vertex_count",
+        "edge_count",
+        "degree",
+        "shell_counts",
+        "spectrum"
+      ],
+      "properties": {
+        "vertex_count": { "type": "integer" },
+        "edge_count": { "type": "integer" },
+        "degree": { "type": "integer" },
+        "shell_counts": {
+          "type": "array",
+          "items": { "type": "integer" }
+        },
+        "spectrum": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["eigenvalue", "multiplicity"],
+            "properties": {
+              "eigenvalue": { "type": "number" },
+              "multiplicity": { "type": "integer" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "quotient_graph": {
+      "type": "object",
+      "required": [
+        "vertex_count",
+        "edge_count",
+        "degree",
+        "identified_as",
+        "edges",
+        "fiber_pairs"
+      ],
+      "properties": {
+        "vertex_count": { "type": "integer" },
+        "edge_count": { "type": "integer" },
+        "degree": { "type": "integer" },
+        "identified_as": { "type": "string" },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": { "type": "integer" }
+          }
+        },
+        "fiber_pairs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["quotient_vertex", "decagon_pair", "states"],
+            "properties": {
+              "quotient_vertex": { "type": "integer" },
+              "decagon_pair": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": { "type": "integer" }
+              },
+              "states": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": { "type": "integer" }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "signed_2_lift": {
+      "type": "object",
+      "required": [
+        "base_graph",
+        "positive_edges",
+        "negative_edges",
+        "signing_defined_up_to_switching",
+        "edge_signs",
+        "switching_function"
+      ],
+      "properties": {
+        "base_graph": { "type": "string" },
+        "positive_edges": { "type": "integer" },
+        "negative_edges": { "type": "integer" },
+        "signing_defined_up_to_switching": { "type": "boolean" },
+        "edge_signs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["u", "v", "sign"],
+            "properties": {
+              "u": { "type": "integer" },
+              "v": { "type": "integer" },
+              "sign": { "type": "integer", "enum": [-1, 1] }
+            },
+            "additionalProperties": false
+          }
+        },
+        "switching_function": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["vertex", "value"],
+            "properties": {
+              "vertex": { "type": "integer" },
+              "value": { "type": "integer", "enum": [-1, 1] }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "spectra": {
+      "type": "object",
+      "required": [
+        "lift_spectrum",
+        "base_spectrum",
+        "signed_spectrum",
+        "two_lift_split_verified"
+      ],
+      "properties": {
+        "lift_spectrum": { "$ref": "#/$defs/spectrumList" },
+        "base_spectrum": { "$ref": "#/$defs/spectrumList" },
+        "signed_spectrum": { "$ref": "#/$defs/spectrumList" },
+        "two_lift_split_verified": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "spectrumList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["eigenvalue", "multiplicity"],
+        "properties": {
+          "eigenvalue": { "type": "number" },
+          "multiplicity": { "type": "integer" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

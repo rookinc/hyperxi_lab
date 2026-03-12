@@ -1,0 +1,85 @@
+{
+  "spec_version": "3.0.0",
+  "object_name": "Thalion Graph",
+  "alias": "Petrie-Twisted Chamber Graph",
+  "status": "canonically_identified",
+
+  "summary": "A 60-vertex tetravalent arc-transitive chamber graph derived from the ordered Petrie decagon system of the dodecahedron, realized as a nontrivial signed regular 2-cover of a 30-vertex quotient graph.",
+
+  "source": {
+    "cell_geometry": "dodecahedron",
+    "construction": "ordered Petrie decagon adjacency union",
+    "geometric_origin": "dodecahedral Petrie transport system"
+  },
+
+  "canonical_encoding": {
+    "format": "graph6",
+    "graph6": "{hCGGC@_K?_@?@@_`_??@??F??G?????C??@???G???_??@???@????_???G??C@???_C????G????G???KC???K??????G?????_??W?@W???????????_?????GB????@?o???????????G??????H_?????C??K??????????BG?E???????????W@?B?W?????K??W?????E?W????o?@_??????E??B????E??B????????WB????????o?W??????oE??????@_?K?????@_?E?????B??E???",
+    "sha256": "46b4deed98854cca49b31fac32d27843b706cf4f3ec129f4c467489a687dafd4"
+  },
+
+  "graph_invariants": {
+    "vertices": 60,
+    "edges": 120,
+    "degree": 4,
+    "triangles": 40,
+    "diameter": 6,
+    "shell_structure": [1, 4, 8, 16, 24, 6, 1],
+    "automorphism_order": 480,
+    "vertex_transitive": true,
+    "edge_transitive": true,
+    "arc_transitive": true
+  },
+
+  "spectral_signature": {
+    "eigenvalues": {
+      "-2.0": 21,
+      "-1.236068": 6,
+      "-1.0": 4,
+      "0.0": 5,
+      "1.0": 8,
+      "2.0": 5,
+      "3.0": 4,
+      "3.236068": 6,
+      "4.0": 1
+    }
+  },
+
+  "quotient_graph": {
+    "vertices": 30,
+    "edges": 60,
+    "degree": 4,
+    "regular_2_cover_base": true
+  },
+
+  "signed_cover": {
+    "is_nontrivial": true,
+    "sheet_structure": "two-sheet edge fiber",
+    "transition_patterns": {
+      "preserve": 40,
+      "swap": 20
+    }
+  },
+
+  "negative_identifications": {
+    "is_oriented_edge_arc_graph_of_icosahedron": false,
+    "is_plain_z2_voltage_lift_of_icosahedral_arc_graph": false,
+    "quotient_is_line_graph_of_icosahedron": false
+  },
+
+  "files": {
+    "primary_cycle_source": "artifacts/cycles/ordered_decagon_pair_cycles.txt",
+    "canonical_graph6": "artifacts/census/thalion_graph.g6",
+    "fingerprint_report": "artifacts/census/thalion_fingerprint.txt"
+  },
+
+  "evidence": {
+    "reports": [
+      "artifacts/invariants/chamber_graph_aut_order.txt",
+      "artifacts/reports/chamber_graph_arc_orbits.txt",
+      "artifacts/reports/test_arc_graph_model_rerun.txt",
+      "artifacts/reports/test_z2_voltage_lift_rerun.txt",
+      "artifacts/census/thalion_fingerprint.txt"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "spec_version": "1.1.0",
+  "spec_version": "1.2.0",
   "object_name": "Thalean Graph",
   "aliases": [
     "Thalean Chamber Graph",
@@ -52,10 +52,13 @@
   },
 
   "antipodal_structure": {
+    "graph_theory_term": "antipodal graph",
     "is_antipodal": true,
     "distance": 6,
     "unique_antipode_per_vertex": true,
     "antipode_map_is_involution": true,
+    "automorphism_invariant": true,
+    "relation_to_signed_cover": "Independent of sheet parity; the antipode map never acts as pure sheet inversion.",
     "pair_count": 30,
     "quotient_by_antipodal_pairs": {
       "vertices": 30,
@@ -64,7 +67,7 @@
       "connected": true,
       "diameter": 5
     },
-    "interpretation": "Each thalion has a unique antipodal thalion at distance 6, and the graph quotients to a 30-vertex 4-regular graph under antipodal pairing."
+    "interpretation": "Each thalion has a unique far-partner thalion at graph diameter, and the antipodal involution commutes with every automorphism of the Thalean graph."
   },
 
   "distance_structure": {
@@ -116,6 +119,58 @@
       "preserve": 40,
       "swap": 20
     }
+  },
+
+  "operator_layers": {
+    "flag_layer": {
+      "state_count": 120,
+      "description": "Local flag space of a single dodecahedral cell.",
+      "primitive_generators": {
+        "S": "edge flip",
+        "F": "face rotation",
+        "V": "vertex rotation"
+      },
+      "petrie_operator": {
+        "word": "SV",
+        "description": "Petrie circulation operator on flag space.",
+        "cycle_structure": {
+          "cycle_length": 10,
+          "cycle_count": 12
+        }
+      },
+      "pair_operator": {
+        "word": "S",
+        "description": "Local binary pair structure on flag space.",
+        "cycle_structure": {
+          "cycle_length": 2,
+          "cycle_count": 60
+        }
+      }
+    },
+    "thalion_layer": {
+      "state_count": 60,
+      "description": "Canonical Thalean graph layer whose vertices are thalions.",
+      "emergent_symmetries": {
+        "sheet_parity": {
+          "type": "signed 2-cover structure",
+          "description": "Internal binary degree of freedom induced by the signed cover."
+        },
+        "antipodal_pairing": {
+          "type": "canonical graph involution",
+          "description": "Unique far-partner pairing at graph diameter."
+        }
+      },
+      "relation_to_flag_layer": "Derived from the raw 120-flag generator layer."
+    },
+    "base_layer": {
+      "state_count": 30,
+      "description": "Underlying 30-vertex quotient/base structure.",
+      "roles": [
+        "signed-cover base",
+        "antipodal quotient target"
+      ]
+    },
+    "interpretation": "Primitive generators act on 120 flags. The canonical transport object lives on 60 thalions. The antipodal involution is a canonical symmetry of the thalion layer and not currently identified as a primitive short word in the raw flag generators."
   },
 
   "sector_decomposition": {

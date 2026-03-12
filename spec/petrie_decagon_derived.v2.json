@@ -1,0 +1,72 @@
+{
+  "spec_version": "2.0.0",
+  "object_name": "Petrie-Twisted Chamber Graph",
+  "status": "structurally_identified",
+  "summary": "A 60-vertex tetravalent arc-transitive chamber graph derived from the ordered Petrie decagon system, realized as a nontrivial signed regular 2-cover of a 30-vertex quotient graph.",
+  "source": {
+    "cell_geometry": "dodecahedron",
+    "base_vertex_system": "12-vertex Petrie support graph",
+    "construction": "ordered Petrie decagon adjacency union"
+  },
+  "chamber_graph": {
+    "vertices": 60,
+    "edges": 120,
+    "degree": 4,
+    "triangles": 40,
+    "connected": true,
+    "automorphism_order": 480,
+    "vertex_transitive": true,
+    "edge_transitive": true,
+    "arc_transitive": true
+  },
+  "quotient_graph": {
+    "vertices": 30,
+    "edges": 60,
+    "degree": 4,
+    "triangles": 20,
+    "connected": true,
+    "regular_2_cover_base": true
+  },
+  "signed_cover": {
+    "is_nontrivial": true,
+    "sign_histogram": {
+      "+1": 40,
+      "-1": 20
+    },
+    "transition_patterns": {
+      "preserve": {
+        "pattern": [[0,0],[1,1]],
+        "count": 40,
+        "meaning": "sheet preserved"
+      },
+      "swap": {
+        "pattern": [[0,1],[1,0]],
+        "count": 20,
+        "meaning": "sheet swapped"
+      }
+    }
+  },
+  "construction_model": {
+    "fiber_type": "2-sheet edge fiber",
+    "local_rule": "Petrie preserve/swap vertex coupling",
+    "global_interpretation": "signed regular 2-cover"
+  },
+  "negative_identifications": {
+    "is_oriented_edge_arc_graph_of_icosahedron": false,
+    "is_plain_z2_voltage_lift_of_icosahedral_arc_graph": false,
+    "quotient_is_line_graph_of_icosahedron": false
+  },
+  "files": {
+    "primary_cycle_source": "artifacts/cycles/ordered_decagon_pair_cycles.txt",
+    "spec_schema": "spec/petrie_decagon_derived_schema.v2.json"
+  },
+  "evidence": {
+    "reports": [
+      "artifacts/invariants/chamber_graph_aut_order.txt",
+      "artifacts/reports/chamber_graph_arc_orbits.txt",
+      "artifacts/invariants/check_cover_and_base_identification.txt",
+      "artifacts/reports/recovered_signing.txt",
+      "artifacts/reports/reconstruct_vertex_connection.txt"
+    ]
+  }
+}

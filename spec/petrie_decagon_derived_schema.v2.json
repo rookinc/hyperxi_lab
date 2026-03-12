@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Petrie Chamber Graph Spec",
+  "type": "object",
+  "required": [
+    "spec_version",
+    "object_name",
+    "status",
+    "source",
+    "chamber_graph",
+    "quotient_graph",
+    "signed_cover"
+  ],
+  "properties": {
+
+    "spec_version": { "type": "string" },
+
+    "object_name": { "type": "string" },
+
+    "status": { "type": "string" },
+
+    "summary": { "type": "string" },
+
+    "source": {
+      "type": "object",
+      "required": [
+        "cell_geometry",
+        "base_vertex_system",
+        "construction"
+      ]
+    },
+
+    "chamber_graph": {
+      "type": "object",
+      "required": [
+        "vertices",
+        "edges",
+        "degree"
+      ]
+    },
+
+    "quotient_graph": {
+      "type": "object",
+      "required": [
+        "vertices",
+        "edges",
+        "degree"
+      ]
+    },
+
+    "signed_cover": {
+      "type": "object",
+      "required": [
+        "is_nontrivial",
+        "sign_histogram"
+      ]
+    }
+
+  }
+}

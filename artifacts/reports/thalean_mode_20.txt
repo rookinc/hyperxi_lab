@@ -1,0 +1,108 @@
+================================================================================
+THALEAN MODE VISUALIZATION
+================================================================================
+graph: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/artifacts/census/thalion_graph.g6
+mode index: 20
+laplacian eigenvalue: 3.0000000000
+
+SIGN COUNTS
+--------------------------------------------------------------------------------
+positive: 29
+negative: 29
+zero-ish : 2
+
+VERTEX AMPLITUDES (sorted)
+--------------------------------------------------------------------------------
+v=48  amp=-1.0000000000  sign=-
+v=55  amp=-0.9741611876  sign=-
+v=43  amp=-0.8686196362  sign=-
+v=24  amp=-0.6901176498  sign=-
+v=39  amp=-0.6800694459  sign=-
+v=58  amp=-0.6687658473  sign=-
+v=44  amp=-0.6552780910  sign=-
+v=10  amp=-0.6544222451  sign=-
+v=07  amp=-0.6138306842  sign=-
+v=57  amp=-0.4748965803  sign=-
+v=33  amp=-0.4626145166  sign=-
+v=23  amp=-0.4228194066  sign=-
+v=50  amp=-0.4199614172  sign=-
+v=03  amp=-0.2806039854  sign=-
+v=06  amp=-0.2559946446  sign=-
+v=46  amp=-0.2522944882  sign=-
+v=17  amp=-0.2310116780  sign=-
+v=38  amp=-0.2076673295  sign=-
+v=19  amp=-0.1793578323  sign=-
+v=27  amp=-0.1694774609  sign=-
+v=29  amp=-0.1494056357  sign=-
+v=34  amp=-0.1428755740  sign=-
+v=11  amp=-0.1170367616  sign=-
+v=47  amp=-0.1163766088  sign=-
+v=14  amp=-0.0538877057  sign=-
+v=20  amp=-0.0491831610  sign=-
+v=02  amp=-0.0362865652  sign=-
+v=28  amp=-0.0090007464  sign=-
+v=59  amp=-0.0014470064  sign=-
+v=00  amp= 0.0000000000  sign=0
+v=32  amp= 0.0000000000  sign=0
+v=16  amp= 0.0014470064  sign=+
+v=05  amp= 0.0090007464  sign=+
+v=31  amp= 0.0362865652  sign=+
+v=45  amp= 0.0491831610  sign=+
+v=54  amp= 0.0538877057  sign=+
+v=25  amp= 0.1163766088  sign=+
+v=42  amp= 0.1170367616  sign=+
+v=08  amp= 0.1428755740  sign=+
+v=04  amp= 0.1494056357  sign=+
+v=13  amp= 0.1694774609  sign=+
+v=40  amp= 0.1793578323  sign=+
+v=15  amp= 0.2076673295  sign=+
+v=22  amp= 0.2310116780  sign=+
+v=26  amp= 0.2522944882  sign=+
+v=18  amp= 0.2559946446  sign=+
+v=30  amp= 0.2806039854  sign=+
+v=37  amp= 0.4199614172  sign=+
+v=01  amp= 0.4228194066  sign=+
+v=09  amp= 0.4626145166  sign=+
+v=51  amp= 0.4748965803  sign=+
+v=35  amp= 0.6138306842  sign=+
+v=56  amp= 0.6544222451  sign=+
+v=21  amp= 0.6552780910  sign=+
+v=12  amp= 0.6687658473  sign=+
+v=52  amp= 0.6800694459  sign=+
+v=36  amp= 0.6901176498  sign=+
+v=53  amp= 0.8686196362  sign=+
+v=49  amp= 0.9741611876  sign=+
+v=41  amp= 1.0000000000  sign=+
+
+TOP POSITIVE VERTICES
+--------------------------------------------------------------------------------
+v=41  amp= 1.0000000000
+v=49  amp= 0.9741611876
+v=53  amp= 0.8686196362
+v=36  amp= 0.6901176498
+v=52  amp= 0.6800694459
+v=12  amp= 0.6687658473
+v=21  amp= 0.6552780910
+v=56  amp= 0.6544222451
+v=35  amp= 0.6138306842
+v=51  amp= 0.4748965803
+v=09  amp= 0.4626145166
+v=01  amp= 0.4228194066
+
+TOP NEGATIVE VERTICES
+--------------------------------------------------------------------------------
+v=48  amp=-1.0000000000
+v=55  amp=-0.9741611876
+v=43  amp=-0.8686196362
+v=24  amp=-0.6901176498
+v=39  amp=-0.6800694459
+v=58  amp=-0.6687658473
+v=44  amp=-0.6552780910
+v=10  amp=-0.6544222451
+v=07  amp=-0.6138306842
+v=57  amp=-0.4748965803
+v=33  amp=-0.4626145166
+v=23  amp=-0.4228194066
+
+wrote: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/artifacts/reports/thalean_mode_20.txt
+wrote: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/artifacts/reports/thalean_mode_20.csv

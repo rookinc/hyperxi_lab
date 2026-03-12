@@ -1,0 +1,22 @@
+decagons loaded: 12
+================================================================================
+THALION GRAPH FINGERPRINT
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+triangles: 40
+adjacent common-neighbor profile: {1: 120}
+nonadjacent common-neighbor profile: {0: 1410, 1: 240}
+shell histogram:
+  (1, 4, 8, 16, 24, 6, 1): 60
+spectrum:
+  -2.0: 21
+  -1.236068: 6
+  -1.0: 4
+  -0.0: 5
+  1.0: 8
+  2.0: 5
+  3.0: 4
+  3.236068: 6
+  4.0: 1

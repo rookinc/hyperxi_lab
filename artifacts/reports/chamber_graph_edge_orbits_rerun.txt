@@ -1,0 +1,9 @@
+decagons loaded: 12
+vertices: 60
+edges: 120
+automorphisms found: 480
+================================================================================
+CHAMBER GRAPH EDGE ORBITS
+================================================================================
+number of edge orbits: 1
+orbit sizes: [120]

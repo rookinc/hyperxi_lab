@@ -1,0 +1,63 @@
+================================================================================
+COVER AND BASE IDENTIFICATION CHECK
+================================================================================
+30-vertex quotient from chamber graph
+--------------------------------------------------------------------------------
+vertices: 30
+edges: 60
+degree set: [4]
+triangles: 20
+shell classes: {(1, 4, 8, 8, 8, 1): 30}
+eigenvalue multiplicities:
+        -2.0: 10
+   -1.236068: 3
+        -1.0: 4
+         1.0: 4
+         2.0: 5
+    3.236068: 3
+         4.0: 1
+
+30-vertex line graph of the icosahedron
+--------------------------------------------------------------------------------
+vertices: 30
+edges: 120
+degree set: [8]
+triangles: 140
+shell classes: {(1, 8, 16, 5): 30}
+eigenvalue multiplicities:
+        -2.0: 18
+    0.763932: 3
+         2.0: 5
+    5.236068: 3
+         8.0: 1
+
+quotient equals line graph of icosahedron: False
+first quotient-only edges: []
+first line-graph-only edges: [((0, 1), (0, 4)), ((0, 1), (0, 11)), ((0, 1), (1, 7)), ((0, 1), (1, 10)), ((0, 4), (0, 6)), ((0, 4), (4, 8)), ((0, 4), (4, 9)), ((0, 5), (0, 6)), ((0, 5), (0, 11)), ((0, 5), (5, 8))]
+
+regular 2-cover check (60 -> 30): True
+
+15-vertex opposition quotient
+--------------------------------------------------------------------------------
+vertices: 15
+edges: 30
+degree set: [4]
+triangles: 10
+shell classes: {(1, 4, 8, 2): 15}
+eigenvalue multiplicities:
+        -2.0: 5
+        -1.0: 4
+         2.0: 5
+         4.0: 1
+
+not strongly regular from common-neighbor test
+{'lambda_profile': {1: 30}, 'mu_profile': {1: 60, 0: 15}}
+
+================================================================================
+INTERPRETATION
+================================================================================
+If the 30-vertex quotient equals the line graph of the icosahedron
+and the 60-vertex chamber graph is a regular 2-cover of it, then
+the chamber graph sits naturally as a signed/double lift of L(Icosahedron).
+If the 15-vertex quotient is strongly regular with parameters (15,8,4,4),
+then the opposition relation collapses to a classical known object.

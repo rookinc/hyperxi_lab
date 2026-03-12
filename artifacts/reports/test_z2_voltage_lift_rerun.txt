@@ -1,0 +1,80 @@
+================================================================================
+MEASURED CHAMBER GRAPH
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+triangles: 40
+
+adjacent common-neighbor profile:
+  1: 120
+nonadjacent common-neighbor profile:
+  0: 1410
+  1: 240
+
+eigenvalue multiplicities:
+        -2.0: 21
+   -1.236068: 6
+        -1.0: 4
+        -0.0: 5
+         1.0: 8
+         2.0: 5
+         3.0: 4
+    3.236068: 6
+         4.0: 1
+
+================================================================================
+Z2 VOLTAGE LIFT OF ICOSAHEDRAL ARC GRAPH
+================================================================================
+vertices: 120
+edges: 480
+degree set: [8]
+triangles: 32
+
+adjacent common-neighbor profile:
+  0: 384
+  1: 96
+nonadjacent common-neighbor profile:
+  0: 4500
+  1: 1536
+  2: 144
+  3: 480
+
+eigenvalue multiplicities:
+   -7.067048: 1
+   -5.574942: 1
+   -5.294698: 1
+   -5.236068: 3
+    -4.55142: 1
+   -4.150257: 1
+        -4.0: 5
+   -2.941461: 1
+        -2.0: 38
+   -1.571504: 1
+   -1.319029: 1
+   -1.067048: 1
+   -0.763932: 3
+    0.111276: 1
+    0.359082: 1
+    0.425058: 1
+    0.705302: 1
+    0.763932: 3
+     1.44858: 1
+    1.849743: 1
+         2.0: 42
+    3.058539: 1
+         4.0: 2
+    4.428496: 1
+    4.680971: 1
+    5.236068: 3
+    6.111276: 1
+    6.359082: 1
+         8.0: 1
+
+================================================================================
+INTERPRETATION
+================================================================================
+If this model matches, the chamber graph is a plain Z2 voltage lift
+of the icosahedral arc graph.
+If it does not match, then the chamber graph is stricter: it uses
+a Petrie/vertex-connection restriction in addition to the edge cocycle.

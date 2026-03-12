@@ -1,0 +1,67 @@
+================================================================================
+THALION SECTOR OPERATORS
+================================================================================
+sign path: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/artifacts/reports/recovered_signing.txt
+base vertices: 30
+base edges: 60
+degree set: [4]
++ edges: 40
+- edges: 20
+
+DEFINITION
+--------------------------------------------------------------------------------
+A_sym  = A_plus + A_minus
+A_anti = A_plus - A_minus
+
+SPECTRUM OF A_sym
+--------------------------------------------------------------------------------
+-2.000000  mult=10
+-1.236068  mult=3
+-1.000000  mult=4
+1.000000  mult=4
+2.000000  mult=5
+3.236068  mult=3
+4.000000  mult=1
+
+SPECTRUM OF A_anti
+--------------------------------------------------------------------------------
+-2.000000  mult=11
+-1.236068  mult=3
+-0.000000  mult=5
+1.000000  mult=4
+3.000000  mult=4
+3.236068  mult=3
+
+MODAL FREQUENCIES: SYMMETRIC SECTOR
+--------------------------------------------------------------------------------
+-2.000000  mult=10  omega=2.09439510
+-1.236068  mult=3  omega=1.88495560
+-1.000000  mult=4  omega=1.82347658
+1.000000  mult=4  omega=1.31811607
+2.000000  mult=5  omega=1.04719755
+3.236068  mult=3  omega=0.62831852
+4.000000  mult=1  omega=0.00000000
+
+MODAL FREQUENCIES: ANTISYMMETRIC SECTOR
+--------------------------------------------------------------------------------
+-2.000000  mult=11  omega=2.09439510
+-1.236068  mult=3  omega=1.88495560
+-0.000000  mult=5  omega=1.57079633
+1.000000  mult=4  omega=1.31811607
+3.000000  mult=4  omega=0.72273425
+3.236068  mult=3  omega=0.62831852
+
+UNION CHECK
+--------------------------------------------------------------------------------
+The multiset union Spec(A_sym) ∪ Spec(A_anti) should reproduce
+the 60-state lifted spectrum.
+union size = 60
+union values =
+[-2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -1.236068, -1.236068, -1.236068, -1.236068, -1.236068, -1.236068, -1.0, -1.0, -1.0, -1.0, -0.0, -0.0, -0.0, -0.0, -0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 2.0, 2.0, 2.0, 2.0, 3.0, 3.0, 3.0, 3.0, 3.236068, 3.236068, 3.236068, 3.236068, 3.236068, 3.236068, 4.0]
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+If A_sym and A_anti differ substantially, the cruller twist creates
+two distinct effective dynamics on the same 30-vertex base.
+The symmetric sector sees the unsigned base adjacency;
+the antisymmetric sector sees the signed base adjacency.

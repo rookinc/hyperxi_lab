@@ -1,0 +1,12 @@
+================================================================================
+THALEAN AUTOMORPHISM ANALYSIS
+================================================================================
+vertices: 60
+edges: 120
+
+computing automorphisms...
+
+automorphism group size: 480
+large symmetry group
+
+complete

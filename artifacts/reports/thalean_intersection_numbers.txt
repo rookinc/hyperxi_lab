@@ -1,0 +1,48 @@
+================================================================================
+THALEAN INTERSECTION NUMBER ANALYSIS
+================================================================================
+vertices: 60
+edges: 120
+degree set: [4]
+
+root: 0
+diameter: 6
+shell sizes: [1, 4, 8, 16, 24, 6, 1]
+
+INTERSECTION SIGNATURES BY DISTANCE
+--------------------------------------------------------------------------------
+distance 0:
+  (c,a,b)=(0,0,4)  count=1
+
+distance 1:
+  (c,a,b)=(1,1,2)  count=4
+
+distance 2:
+  (c,a,b)=(1,1,2)  count=8
+
+distance 3:
+  (c,a,b)=(1,1,2)  count=16
+
+distance 4:
+  (c,a,b)=(1,2,1)  count=16
+  (c,a,b)=(2,2,0)  count=8
+
+distance 5:
+  (c,a,b)=(2,1,1)  count=4
+  (c,a,b)=(4,0,0)  count=2
+
+distance 6:
+  (c,a,b)=(4,0,0)  count=1
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+The graph is not fully distance-regular.
+Some distance shells split into multiple intersection signatures.
+
+CANONICAL DISTANCE-REGULAR PREFIX
+--------------------------------------------------------------------------------
+distance 0: unique (c,a,b)=(0,0,4)
+distance 1: unique (c,a,b)=(1,1,2)
+distance 2: unique (c,a,b)=(1,1,2)
+distance 3: unique (c,a,b)=(1,1,2)
+distance 4: split into 2 signatures

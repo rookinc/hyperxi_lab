@@ -173,3 +173,34 @@
   "The signed cover generates two dynamically distinct resonant channels corresponding to symmetric and antisymmetric parity sectors."
 }
 }
+,
+"distance_structure": {
+
+  "distance_regular_prefix": {
+    "through_radius": 3,
+    "intersection_signature": [1,1,2],
+    "interpretation":
+    "The graph behaves as a distance-regular graph up to radius 3."
+  },
+
+  "bifurcation": {
+
+    "distance_4": {
+      "(1,2,1)": 16,
+      "(2,2,0)": 8
+    },
+
+    "distance_5": {
+      "(2,1,1)": 4,
+      "(4,0,0)": 2
+    },
+
+    "distance_6": {
+      "(4,0,0)": 1
+    }
+
+  },
+
+  "interpretation":
+  "The graph is not fully distance-regular; shell signatures split beginning at radius 4."
+}

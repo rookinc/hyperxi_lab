@@ -1,0 +1,13 @@
+================================================================================
+THALEAN ORBIT ANALYSIS
+================================================================================
+automorphisms: 480
+
+vertex orbits: 1
+  orbit 0 size 60
+
+edge orbits: 1
+  orbit 0 size 120
+
+triangle orbits: 1
+  orbit 0 size 40

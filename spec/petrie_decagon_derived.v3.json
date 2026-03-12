@@ -3,21 +3,17 @@
   "object_name": "Thalion Graph",
   "alias": "Petrie-Twisted Chamber Graph",
   "status": "canonically_identified",
-
   "summary": "A 60-vertex tetravalent arc-transitive chamber graph derived from the ordered Petrie decagon system of the dodecahedron, realized as a nontrivial signed regular 2-cover of a 30-vertex quotient graph.",
-
   "source": {
     "cell_geometry": "dodecahedron",
     "construction": "ordered Petrie decagon adjacency union",
     "geometric_origin": "dodecahedral Petrie transport system"
   },
-
   "canonical_encoding": {
     "format": "graph6",
     "graph6": "{hCGGC@_K?_@?@@_`_??@??F??G?????C??@???G???_??@???@????_???G??C@???_C????G????G???KC???K??????G?????_??W?@W???????????_?????GB????@?o???????????G??????H_?????C??K??????????BG?E???????????W@?B?W?????K??W?????E?W????o?@_??????E??B????E??B????????WB????????o?W??????oE??????@_?K?????@_?E?????B??E???",
     "sha256": "46b4deed98854cca49b31fac32d27843b706cf4f3ec129f4c467489a687dafd4"
   },
-
   "graph_invariants": {
     "vertices": 60,
     "edges": 120,
@@ -30,7 +26,27 @@
     "edge_transitive": true,
     "arc_transitive": true
   },
-
+  "distance_structure": {
+    "distance_regular_prefix": {
+      "through_radius": 3,
+      "intersection_signature": [1, 1, 2],
+      "interpretation": "The graph behaves as a distance-regular graph up to radius 3."
+    },
+    "bifurcation": {
+      "distance_4": {
+        "(1,2,1)": 16,
+        "(2,2,0)": 8
+      },
+      "distance_5": {
+        "(2,1,1)": 4,
+        "(4,0,0)": 2
+      },
+      "distance_6": {
+        "(4,0,0)": 1
+      }
+    },
+    "interpretation": "The graph is not fully distance-regular; shell signatures split beginning at radius 4."
+  },
   "spectral_signature": {
     "eigenvalues": {
       "-2.0": 21,
@@ -44,14 +60,12 @@
       "4.0": 1
     }
   },
-
   "quotient_graph": {
     "vertices": 30,
     "edges": 60,
     "degree": 4,
     "regular_2_cover_base": true
   },
-
   "signed_cover": {
     "is_nontrivial": true,
     "sheet_structure": "two-sheet edge fiber",
@@ -60,147 +74,127 @@
       "swap": 20
     }
   },
-
   "negative_identifications": {
     "is_oriented_edge_arc_graph_of_icosahedron": false,
     "is_plain_z2_voltage_lift_of_icosahedral_arc_graph": false,
     "quotient_is_line_graph_of_icosahedron": false
   },
-
   "files": {
     "primary_cycle_source": "artifacts/cycles/ordered_decagon_pair_cycles.txt",
     "canonical_graph6": "artifacts/census/thalion_graph.g6",
     "fingerprint_report": "artifacts/census/thalion_fingerprint.txt"
   },
-
   "evidence": {
     "reports": [
       "artifacts/invariants/chamber_graph_aut_order.txt",
       "artifacts/reports/chamber_graph_arc_orbits.txt",
       "artifacts/reports/test_arc_graph_model_rerun.txt",
       "artifacts/reports/test_z2_voltage_lift_rerun.txt",
-      "artifacts/census/thalion_fingerprint.txt"
+      "artifacts/census/thalion_fingerprint.txt",
+      "artifacts/reports/thalean_automorphisms.txt",
+      "artifacts/reports/thalean_orbits.txt",
+      "artifacts/reports/thalean_intersection_numbers.txt",
+      "artifacts/reports/thalean_check_seven_swap.txt"
     ]
+  },
+  "sector_decomposition": {
+    "parity_split": {
+      "exists": true,
+      "description": "The signed 2-lift decomposes exactly into symmetric and antisymmetric invariant sectors under sheet exchange."
+    },
+    "effective_operators": {
+      "base_vertices": 30,
+      "A_sym": "A_plus + A_minus",
+      "A_anti": "A_plus - A_minus",
+      "interpretation": {
+        "symmetric_sector": "unsigned base adjacency",
+        "antisymmetric_sector": "signed base adjacency"
+      }
+    },
+    "symmetric_sector_spectrum": {
+      "-2.0": 10,
+      "-1.236068": 3,
+      "-1.0": 4,
+      "1.0": 4,
+      "2.0": 5,
+      "3.236068": 3,
+      "4.0": 1
+    },
+    "antisymmetric_sector_spectrum": {
+      "-2.0": 11,
+      "-1.236068": 3,
+      "0.0": 5,
+      "1.0": 4,
+      "3.0": 4,
+      "3.236068": 3
+    },
+    "parity_pure_bands": {
+      "symmetric_only": [-1.0, 2.0, 4.0],
+      "antisymmetric_only": [0.0, 3.0]
+    },
+    "shared_bands": [-2.0, -1.236068, 1.0, 3.236068],
+    "spectrum_union_matches_lift": true
+  },
+  "resonant_dynamics": {
+    "discrete_wave_equation": "psi[t+1] - 2 psi[t] + psi[t-1] = -c^2 (4I - A) psi[t]",
+    "probe_parameter": {
+      "c_squared": 0.5
+    },
+    "modal_frequencies": {
+      "-2.0": 2.0943951,
+      "-1.236068": 1.8849556,
+      "-1.0": 1.82347658,
+      "0.0": 1.57079633,
+      "1.0": 1.31811607,
+      "2.0": 1.04719755,
+      "3.0": 0.72273425,
+      "3.236068": 0.62831852,
+      "4.0": 0.0
+    },
+    "wave_behavior": {
+      "finite_propagation": true,
+      "shell_breathing": true,
+      "compact_revival": true,
+      "inter_sheet_transfer": true,
+      "localized_seed_mixes_parity_sectors": true,
+      "symmetric_seed_remains_symmetric": true,
+      "antisymmetric_seed_remains_antisymmetric": true
+    },
+    "base_shell_structure": [1, 4, 8, 8, 8, 1],
+    "lift_shell_structure": [1, 4, 8, 16, 24, 6, 1]
+  },
+  "local_state_space": {
+    "description": "Local doubled address space arising from 4 adjacency directions and a binary sheet parity in the signed 2-cover.",
+    "address_space": 4,
+    "sheet_parity": 2,
+    "doubled_local_space": 8,
+    "swap_operator": {
+      "definition": "Sheet exchange operator acting on the doubled local basis.",
+      "eigenvalues": {
+        "+1": 4,
+        "-1": 4
+      }
+    },
+    "distinguished_modes": {
+      "preserve_uniform_mode": {
+        "dimension": 1,
+        "vector_form": "[1,1,1,1,1,1,1,1] / sqrt(8)",
+        "parity_sector": "symmetric"
+      },
+      "swap_mode": {
+        "dimension": 1,
+        "vector_form": "[1,1,1,1,-1,-1,-1,-1] / sqrt(8)",
+        "parity_sector": "antisymmetric",
+        "interpretation": "Uniform sheet-flip direction representing pure swap transport."
+      }
+    },
+    "derived_structure": {
+      "swap_complement_dimension": 7,
+      "interpretation": "The 8-dimensional doubled local state space contains a distinguished 1-dimensional swap mode corresponding to sheet exchange. Its orthogonal complement is therefore 7-dimensional and represents the complement to the swap mode in the effective preserve-transport state space."
+    }
+  },
+  "interpretive_notes": {
+    "resonant_cell_view": "The Thalion graph behaves as a compact resonant cavity with an internal binary degree of freedom induced by the signed two-sheet lift.",
+    "cruller_note": "The signed cover generates two dynamically distinct resonant channels corresponding to symmetric and antisymmetric parity sectors."
   }
-,
-"sector_decomposition": {
-  "parity_split": {
-    "exists": true,
-    "description": "The signed 2-lift decomposes exactly into symmetric and antisymmetric invariant sectors under sheet exchange."
-  },
-
-  "effective_operators": {
-    "base_vertices": 30,
-    "A_sym": "A_plus + A_minus",
-    "A_anti": "A_plus - A_minus",
-    "interpretation": {
-      "symmetric_sector": "unsigned base adjacency",
-      "antisymmetric_sector": "signed base adjacency"
-    }
-  },
-
-  "symmetric_sector_spectrum": {
-    "-2.0": 10,
-    "-1.236068": 3,
-    "-1.0": 4,
-    "1.0": 4,
-    "2.0": 5,
-    "3.236068": 3,
-    "4.0": 1
-  },
-
-  "antisymmetric_sector_spectrum": {
-    "-2.0": 11,
-    "-1.236068": 3,
-    "0.0": 5,
-    "1.0": 4,
-    "3.0": 4,
-    "3.236068": 3
-  },
-
-  "parity_pure_bands": {
-    "symmetric_only": [-1.0, 2.0, 4.0],
-    "antisymmetric_only": [0.0, 3.0]
-  },
-
-  "shared_bands": [-2.0, -1.236068, 1.0, 3.236068],
-
-  "spectrum_union_matches_lift": true
-},
-
-"resonant_dynamics": {
-
-  "discrete_wave_equation":
-  "psi[t+1] - 2 psi[t] + psi[t-1] = -c^2 (4I - A) psi[t]",
-
-  "probe_parameter": {
-    "c_squared": 0.5
-  },
-
-  "modal_frequencies": {
-    "-2.0": 2.09439510,
-    "-1.236068": 1.88495560,
-    "-1.0": 1.82347658,
-    "0.0": 1.57079633,
-    "1.0": 1.31811607,
-    "2.0": 1.04719755,
-    "3.0": 0.72273425,
-    "3.236068": 0.62831852,
-    "4.0": 0.0
-  },
-
-  "wave_behavior": {
-    "finite_propagation": true,
-    "shell_breathing": true,
-    "compact_revival": true,
-    "inter_sheet_transfer": true,
-    "localized_seed_mixes_parity_sectors": true,
-    "symmetric_seed_remains_symmetric": true,
-    "antisymmetric_seed_remains_antisymmetric": true
-  },
-
-  "base_shell_structure": [1,4,8,8,8,1],
-
-  "lift_shell_structure": [1,4,8,16,24,6,1]
-},
-
-"interpretive_notes": {
-
-  "resonant_cell_view":
-  "The Thalion graph behaves as a compact resonant cavity with an internal binary degree of freedom induced by the signed two-sheet lift.",
-
-  "cruller_note":
-  "The signed cover generates two dynamically distinct resonant channels corresponding to symmetric and antisymmetric parity sectors."
-}
-}
-,
-"distance_structure": {
-
-  "distance_regular_prefix": {
-    "through_radius": 3,
-    "intersection_signature": [1,1,2],
-    "interpretation":
-    "The graph behaves as a distance-regular graph up to radius 3."
-  },
-
-  "bifurcation": {
-
-    "distance_4": {
-      "(1,2,1)": 16,
-      "(2,2,0)": 8
-    },
-
-    "distance_5": {
-      "(2,1,1)": 4,
-      "(4,0,0)": 2
-    },
-
-    "distance_6": {
-      "(4,0,0)": 1
-    }
-
-  },
-
-  "interpretation":
-  "The graph is not fully distance-regular; shell signatures split beginning at radius 4."
 }

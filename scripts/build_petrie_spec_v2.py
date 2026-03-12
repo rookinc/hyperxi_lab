@@ -88,7 +88,15 @@ def main() -> None:
         "construction_model": {
             "fiber_type": "2-sheet edge fiber",
             "local_rule": "Petrie preserve/swap vertex coupling",
-            "global_interpretation": "signed regular 2-cover"
+            "global_interpretation": "signed regular 2-cover",
+            "symmetry_factorization": {
+                "automorphism_order": 480,
+                "thalions": 60,
+                "vertex_stabilizer_order": 8,
+                "arc_count": 240,
+                "arc_stabilizer_order": 2,
+                "factorization": "480 = 60 x 8"
+            }
         },
         "negative_identifications": {
             "is_oriented_edge_arc_graph_of_icosahedron": False,
@@ -113,7 +121,7 @@ def main() -> None:
     }
 
     SPEC_DIR.mkdir(parents=True, exist_ok=True)
-    OUTFILE.write_text(json.dumps(spec, indent=2) + "\\n", encoding="utf-8")
+    OUTFILE.write_text(json.dumps(spec, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUTFILE.relative_to(ROOT)}")
 
 

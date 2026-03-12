@@ -25,7 +25,47 @@
     "degree": 4,
     "triangles": 20,
     "connected": true,
-    "regular_2_cover_base": true
+    "regular_2_cover_base": true,
+    "shell_class_histogram": [
+      {
+        "shells": [
+          1,
+          4,
+          8,
+          8,
+          8,
+          1
+        ],
+        "count": 30
+      }
+    ]
+  },
+  "opposition_quotient": {
+    "vertices": 15,
+    "edges": 30,
+    "degree": 4,
+    "triangles": 10,
+    "strongly_regular": false,
+    "shell_class_histogram": [
+      {
+        "shells": [
+          1,
+          4,
+          8,
+          2
+        ],
+        "count": 15
+      }
+    ],
+    "common_neighbor_test": {
+      "lambda_profile": {
+        "1": 30
+      },
+      "mu_profile": {
+        "0": 15,
+        "1": 60
+      }
+    }
   },
   "signed_cover": {
     "is_nontrivial": true,
@@ -35,12 +75,30 @@
     },
     "transition_patterns": {
       "preserve": {
-        "pattern": [[0,0],[1,1]],
+        "pattern": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
         "count": 40,
         "meaning": "sheet preserved"
       },
       "swap": {
-        "pattern": [[0,1],[1,0]],
+        "pattern": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
         "count": 20,
         "meaning": "sheet swapped"
       }
@@ -66,7 +124,9 @@
       "artifacts/reports/chamber_graph_arc_orbits.txt",
       "artifacts/invariants/check_cover_and_base_identification.txt",
       "artifacts/reports/recovered_signing.txt",
-      "artifacts/reports/reconstruct_vertex_connection.txt"
+      "artifacts/reports/reconstruct_vertex_connection.txt",
+      "artifacts/reports/test_arc_graph_model_rerun.txt",
+      "artifacts/reports/test_z2_voltage_lift_rerun.txt"
     ]
   }
-}
+}\n

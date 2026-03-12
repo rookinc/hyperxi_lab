@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Thalean Graph Canonical Spec",
+  "type": "object",
+  "required": [
+    "spec_version",
+    "object_name",
+    "status",
+    "taxonomy",
+    "identity",
+    "canonical_encoding",
+    "graph_invariants",
+    "symmetry",
+    "distance_structure",
+    "spectral_structure",
+    "cover_structure",
+    "sector_decomposition",
+    "local_state_space",
+    "files"
+  ],
+  "properties": {
+    "spec_version": {
+      "type": "string"
+    },
+    "object_name": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "status": {
+      "type": "string"
+    },
+
+    "taxonomy": {
+      "type": "object",
+      "required": ["graph_name", "cell_name", "statement"],
+      "properties": {
+        "graph_name": { "type": "string" },
+        "cell_name": { "type": "string" },
+        "statement": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "identity": {
+      "type": "object",
+      "required": ["kind", "primary_interpretation", "census_identification"],
+      "properties": {
+        "kind": { "type": "string" },
+        "primary_interpretation": { "type": "string" },
+        "census_identification": {
+          "type": "object",
+          "required": ["arc_transitive_census", "house_of_graphs"],
+          "properties": {
+            "arc_transitive_census": { "type": "string" },
+            "house_of_graphs": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+
+    "provenance": {
+      "type": "object"
+    },
+
+    "canonical_encoding": {
+      "type": "object",
+      "required": ["format", "graph6", "sha256"],
+      "properties": {
+        "format": { "type": "string" },
+        "graph6": { "type": "string" },
+        "sha256": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "graph_invariants": {
+      "type": "object",
+      "required": ["vertices", "edges", "degree", "triangles", "diameter", "shell_structure"],
+      "properties": {
+        "vertices": { "type": "integer" },
+        "edges": { "type": "integer" },
+        "degree": { "type": "integer" },
+        "triangles": { "type": "integer" },
+        "diameter": { "type": "integer" },
+        "shell_structure": {
+          "type": "array",
+          "items": { "type": "integer" }
+        }
+      },
+      "additionalProperties": true
+    },
+
+    "symmetry": {
+      "type": "object",
+      "required": ["automorphism_order", "vertex_transitive", "edge_transitive", "arc_transitive"],
+      "properties": {
+        "automorphism_order": { "type": "integer" },
+        "vertex_transitive": { "type": "boolean" },
+        "edge_transitive": { "type": "boolean" },
+        "arc_transitive": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+
+    "antipodal_structure": {
+      "type": "object",
+      "properties": {
+        "is_antipodal": { "type": "boolean" },
+        "distance": { "type": "integer" },
+        "unique_antipode_per_vertex": { "type": "boolean" },
+        "antipode_map_is_involution": { "type": "boolean" },
+        "pair_count": { "type": "integer" },
+        "quotient_by_antipodal_pairs": {
+          "type": "object",
+          "properties": {
+            "vertices": { "type": "integer" },
+            "edges": { "type": "integer" },
+            "degree": { "type": "integer" },
+            "connected": { "type": "boolean" },
+            "diameter": { "type": "integer" }
+          },
+          "additionalProperties": true
+        },
+        "interpretation": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "distance_structure": {
+      "type": "object",
+      "required": ["distance_regular_prefix", "bifurcation"],
+      "properties": {
+        "distance_regular_prefix": {
+          "type": "object",
+          "required": ["through_radius", "intersection_signature"],
+          "properties": {
+            "through_radius": { "type": "integer" },
+            "intersection_signature": {
+              "type": "array",
+              "items": { "type": "integer" }
+            },
+            "interpretation": { "type": "string" }
+          },
+          "additionalProperties": true
+        },
+        "bifurcation": {
+          "type": "object"
+        },
+        "interpretation": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "spectral_structure": {
+      "type": "object",
+      "required": ["adjacency_eigenvalues"],
+      "properties": {
+        "adjacency_eigenvalues": {
+          "type": "object",
+          "additionalProperties": { "type": "integer" }
+        },
+        "interpretation": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "cover_structure": {
+      "type": "object",
+      "required": ["type", "base_graph", "sheet_structure", "transition_patterns"],
+      "properties": {
+        "type": { "type": "string" },
+        "base_graph": {
+          "type": "object",
+          "required": ["vertices", "edges", "degree"],
+          "properties": {
+            "vertices": { "type": "integer" },
+            "edges": { "type": "integer" },
+            "degree": { "type": "integer" }
+          },
+          "additionalProperties": true
+        },
+        "sheet_structure": { "type": "string" },
+        "transition_patterns": {
+          "type": "object",
+          "required": ["preserve", "swap"],
+          "properties": {
+            "preserve": { "type": "integer" },
+            "swap": { "type": "integer" }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+
+    "sector_decomposition": {
+      "type": "object",
+      "required": ["parity_split", "effective_operators"],
+      "properties": {
+        "parity_split": { "type": "object" },
+        "effective_operators": { "type": "object" },
+        "symmetric_sector_spectrum": { "type": "object" },
+        "antisymmetric_sector_spectrum": { "type": "object" },
+        "parity_pure_bands": { "type": "object" },
+        "shared_bands": {
+          "type": "array",
+          "items": { "type": "number" }
+        }
+      },
+      "additionalProperties": true
+    },
+
+    "local_state_space": {
+      "type": "object",
+      "required": ["address_space", "sheet_parity", "doubled_local_space", "swap_complement_dimension"],
+      "properties": {
+        "address_space": { "type": "integer" },
+        "sheet_parity": { "type": "integer" },
+        "doubled_local_space": { "type": "integer" },
+        "distinguished_swap_mode": { "type": "object" },
+        "swap_complement_dimension": { "type": "integer" },
+        "interpretation": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+
+    "dynamics": {
+      "type": "object"
+    },
+
+    "transport_mnemonics": {
+      "type": "object"
+    },
+
+    "interpretive_notes": {
+      "type": "object"
+    },
+
+    "files": {
+      "type": "object",
+      "required": ["construction_spec", "template_spec", "canonical_graph6"],
+      "properties": {
+        "construction_spec": { "type": "string" },
+        "template_spec": { "type": "string" },
+        "canonical_graph6": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

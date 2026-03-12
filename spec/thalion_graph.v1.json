@@ -1,8 +1,7 @@
 {
-  "spec_version": "1.0.0",
-  "object_name": "Thalion Graph",
+  "spec_version": "1.1.0",
+  "object_name": "Thalean Graph",
   "aliases": [
-    "Thalean Graph",
     "Thalean Chamber Graph",
     "Petrie-Twisted Chamber Graph",
     "AT4val[60,6]",
@@ -27,7 +26,7 @@
 
   "provenance": {
     "derived_from_spec": "spec/petrie_decagon_derived.v3.json",
-    "construction_summary": "Originally derived from ordered Petrie decagon adjacency in the dodecahedron, then elevated to a canonical graph object with independent symmetry, spectral, distance, and local-state-space structure."
+    "construction_summary": "Originally derived from ordered Petrie decagon adjacency in the dodecahedron, then elevated to a canonical graph object with independent symmetry, spectral, distance, antipodal, and local-state-space structure."
   },
 
   "canonical_encoding": {
@@ -50,6 +49,22 @@
     "vertex_transitive": true,
     "edge_transitive": true,
     "arc_transitive": true
+  },
+
+  "antipodal_structure": {
+    "is_antipodal": true,
+    "distance": 6,
+    "unique_antipode_per_vertex": true,
+    "antipode_map_is_involution": true,
+    "pair_count": 30,
+    "quotient_by_antipodal_pairs": {
+      "vertices": 30,
+      "edges": 60,
+      "degree": 4,
+      "connected": true,
+      "diameter": 5
+    },
+    "interpretation": "Each thalion has a unique antipodal thalion at distance 6, and the graph quotients to a 30-vertex 4-regular graph under antipodal pairing."
   },
 
   "distance_structure": {

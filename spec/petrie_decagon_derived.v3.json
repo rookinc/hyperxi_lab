@@ -1,6 +1,6 @@
 {
   "spec_version": "3.0.0",
-  "object_name": "Thalion Graph",
+  "object_name": "Thalean Graph",
   "alias": "Petrie-Twisted Chamber Graph",
   "status": "canonically_identified",
   "summary": "A 60-vertex tetravalent arc-transitive chamber graph derived from the ordered Petrie decagon system of the dodecahedron, realized as a nontrivial signed regular 2-cover of a 30-vertex quotient graph.",
@@ -233,7 +233,7 @@
     }
   },
   "interpretive_notes": {
-    "resonant_cell_view": "The Thalion graph behaves as a compact resonant cavity with an internal binary degree of freedom induced by the signed two-sheet lift.",
+    "resonant_cell_view": "The Thalean graph behaves as a compact resonant cavity with an internal binary degree of freedom induced by the signed two-sheet lift.",
     "cruller_note": "The signed cover generates two dynamically distinct resonant channels corresponding to symmetric and antisymmetric parity sectors."
   }
 }

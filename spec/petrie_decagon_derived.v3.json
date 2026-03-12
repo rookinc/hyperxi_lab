@@ -82,4 +82,94 @@
       "artifacts/census/thalion_fingerprint.txt"
     ]
   }
+,
+"sector_decomposition": {
+  "parity_split": {
+    "exists": true,
+    "description": "The signed 2-lift decomposes exactly into symmetric and antisymmetric invariant sectors under sheet exchange."
+  },
+
+  "effective_operators": {
+    "base_vertices": 30,
+    "A_sym": "A_plus + A_minus",
+    "A_anti": "A_plus - A_minus",
+    "interpretation": {
+      "symmetric_sector": "unsigned base adjacency",
+      "antisymmetric_sector": "signed base adjacency"
+    }
+  },
+
+  "symmetric_sector_spectrum": {
+    "-2.0": 10,
+    "-1.236068": 3,
+    "-1.0": 4,
+    "1.0": 4,
+    "2.0": 5,
+    "3.236068": 3,
+    "4.0": 1
+  },
+
+  "antisymmetric_sector_spectrum": {
+    "-2.0": 11,
+    "-1.236068": 3,
+    "0.0": 5,
+    "1.0": 4,
+    "3.0": 4,
+    "3.236068": 3
+  },
+
+  "parity_pure_bands": {
+    "symmetric_only": [-1.0, 2.0, 4.0],
+    "antisymmetric_only": [0.0, 3.0]
+  },
+
+  "shared_bands": [-2.0, -1.236068, 1.0, 3.236068],
+
+  "spectrum_union_matches_lift": true
+},
+
+"resonant_dynamics": {
+
+  "discrete_wave_equation":
+  "psi[t+1] - 2 psi[t] + psi[t-1] = -c^2 (4I - A) psi[t]",
+
+  "probe_parameter": {
+    "c_squared": 0.5
+  },
+
+  "modal_frequencies": {
+    "-2.0": 2.09439510,
+    "-1.236068": 1.88495560,
+    "-1.0": 1.82347658,
+    "0.0": 1.57079633,
+    "1.0": 1.31811607,
+    "2.0": 1.04719755,
+    "3.0": 0.72273425,
+    "3.236068": 0.62831852,
+    "4.0": 0.0
+  },
+
+  "wave_behavior": {
+    "finite_propagation": true,
+    "shell_breathing": true,
+    "compact_revival": true,
+    "inter_sheet_transfer": true,
+    "localized_seed_mixes_parity_sectors": true,
+    "symmetric_seed_remains_symmetric": true,
+    "antisymmetric_seed_remains_antisymmetric": true
+  },
+
+  "base_shell_structure": [1,4,8,8,8,1],
+
+  "lift_shell_structure": [1,4,8,16,24,6,1]
+},
+
+"interpretive_notes": {
+
+  "resonant_cell_view":
+  "The Thalion graph behaves as a compact resonant cavity with an internal binary degree of freedom induced by the signed two-sheet lift.",
+
+  "cruller_note":
+  "The signed cover generates two dynamically distinct resonant channels corresponding to symmetric and antisymmetric parity sectors."
+}
 }

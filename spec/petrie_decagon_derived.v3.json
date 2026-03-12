@@ -20,7 +20,15 @@
     "degree": 4,
     "triangles": 40,
     "diameter": 6,
-    "shell_structure": [1, 4, 8, 16, 24, 6, 1],
+    "shell_structure": [
+      1,
+      4,
+      8,
+      16,
+      24,
+      6,
+      1
+    ],
     "automorphism_order": 480,
     "vertex_transitive": true,
     "edge_transitive": true,
@@ -29,7 +37,11 @@
   "distance_structure": {
     "distance_regular_prefix": {
       "through_radius": 3,
-      "intersection_signature": [1, 1, 2],
+      "intersection_signature": [
+        1,
+        1,
+        2
+      ],
       "interpretation": "The graph behaves as a distance-regular graph up to radius 3."
     },
     "bifurcation": {
@@ -129,10 +141,22 @@
       "3.236068": 3
     },
     "parity_pure_bands": {
-      "symmetric_only": [-1.0, 2.0, 4.0],
-      "antisymmetric_only": [0.0, 3.0]
+      "symmetric_only": [
+        -1.0,
+        2.0,
+        4.0
+      ],
+      "antisymmetric_only": [
+        0.0,
+        3.0
+      ]
     },
-    "shared_bands": [-2.0, -1.236068, 1.0, 3.236068],
+    "shared_bands": [
+      -2.0,
+      -1.236068,
+      1.0,
+      3.236068
+    ],
     "spectrum_union_matches_lift": true
   },
   "resonant_dynamics": {
@@ -160,8 +184,23 @@
       "symmetric_seed_remains_symmetric": true,
       "antisymmetric_seed_remains_antisymmetric": true
     },
-    "base_shell_structure": [1, 4, 8, 8, 8, 1],
-    "lift_shell_structure": [1, 4, 8, 16, 24, 6, 1]
+    "base_shell_structure": [
+      1,
+      4,
+      8,
+      8,
+      8,
+      1
+    ],
+    "lift_shell_structure": [
+      1,
+      4,
+      8,
+      16,
+      24,
+      6,
+      1
+    ]
   },
   "local_state_space": {
     "description": "Local doubled address space arising from 4 adjacency directions and a binary sheet parity in the signed 2-cover.",
@@ -190,7 +229,7 @@
     },
     "derived_structure": {
       "swap_complement_dimension": 7,
-      "interpretation": "The 8-dimensional doubled local state space contains a distinguished 1-dimensional swap mode corresponding to sheet exchange. Its orthogonal complement is therefore 7-dimensional and represents the complement to the swap mode in the effective preserve-transport state space."
+      "interpretation": "The 8-dimensional doubled local state space contains a distinguished 1-dimensional swap mode corresponding to sheet exchange. Its orthogonal complement is therefore 7-dimensional and represents the effective preserve-transport state space."
     }
   },
   "interpretive_notes": {

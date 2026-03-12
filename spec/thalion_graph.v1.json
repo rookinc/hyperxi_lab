@@ -1,0 +1,197 @@
+{
+  "spec_version": "1.0.0",
+  "object_name": "Thalion Graph",
+  "aliases": [
+    "Thalean Graph",
+    "Thalean Chamber Graph",
+    "Petrie-Twisted Chamber Graph",
+    "AT4val[60,6]",
+    "Graph52002"
+  ],
+  "status": "canonically_identified",
+
+  "taxonomy": {
+    "graph_name": "Thalean Graph",
+    "cell_name": "Thalion",
+    "statement": "A thalion is a cell in the Thalean graph."
+  },
+
+  "identity": {
+    "kind": "finite arc-transitive 4-regular graph",
+    "primary_interpretation": "symmetric transport cavity with a binary internal cover degree of freedom",
+    "census_identification": {
+      "arc_transitive_census": "AT4val[60,6]",
+      "house_of_graphs": "Graph52002"
+    }
+  },
+
+  "provenance": {
+    "derived_from_spec": "spec/petrie_decagon_derived.v3.json",
+    "construction_summary": "Originally derived from ordered Petrie decagon adjacency in the dodecahedron, then elevated to a canonical graph object with independent symmetry, spectral, distance, and local-state-space structure."
+  },
+
+  "canonical_encoding": {
+    "format": "graph6",
+    "graph6": "{hCGGC@_K?_@?@@_`_??@??F??G?????C??@???G???_??@???@????_???G??C@???_C????G????G???KC???K??????G?????_??W?@W???????????_?????GB????@?o???????????G??????H_?????C??K??????????BG?E???????????W@?B?W?????K??W?????E?W????o?@_??????E??B????E??B????????WB????????o?W??????oE??????@_?K?????@_?E?????B??E???",
+    "sha256": "46b4deed98854cca49b31fac32d27843b706cf4f3ec129f4c467489a687dafd4"
+  },
+
+  "graph_invariants": {
+    "vertices": 60,
+    "edges": 120,
+    "degree": 4,
+    "triangles": 40,
+    "diameter": 6,
+    "shell_structure": [1, 4, 8, 16, 24, 6, 1]
+  },
+
+  "symmetry": {
+    "automorphism_order": 480,
+    "vertex_transitive": true,
+    "edge_transitive": true,
+    "arc_transitive": true
+  },
+
+  "distance_structure": {
+    "distance_regular_prefix": {
+      "through_radius": 3,
+      "intersection_signature": [1, 1, 2],
+      "interpretation": "The graph is locally distance-regular through radius 3."
+    },
+    "bifurcation": {
+      "distance_4": {
+        "(1,2,1)": 16,
+        "(2,2,0)": 8
+      },
+      "distance_5": {
+        "(2,1,1)": 4,
+        "(4,0,0)": 2
+      },
+      "distance_6": {
+        "(4,0,0)": 1
+      }
+    },
+    "interpretation": "The graph is not fully distance-regular; far-shell structure splits beginning at radius 4."
+  },
+
+  "spectral_structure": {
+    "adjacency_eigenvalues": {
+      "-2.0": 21,
+      "-1.236068": 6,
+      "-1.0": 4,
+      "0.0": 5,
+      "1.0": 8,
+      "2.0": 5,
+      "3.0": 4,
+      "3.236068": 6,
+      "4.0": 1
+    },
+    "interpretation": "The spectrum contains golden-ratio-derived values consistent with dodecahedral/icosahedral symmetry."
+  },
+
+  "cover_structure": {
+    "type": "nontrivial signed regular 2-cover",
+    "base_graph": {
+      "vertices": 30,
+      "edges": 60,
+      "degree": 4
+    },
+    "sheet_structure": "two-sheet edge fiber",
+    "transition_patterns": {
+      "preserve": 40,
+      "swap": 20
+    }
+  },
+
+  "sector_decomposition": {
+    "parity_split": {
+      "exists": true,
+      "description": "The signed 2-cover decomposes exactly into symmetric and antisymmetric sectors under sheet exchange."
+    },
+    "effective_operators": {
+      "A_sym": "A_plus + A_minus",
+      "A_anti": "A_plus - A_minus"
+    },
+    "symmetric_sector_spectrum": {
+      "-2.0": 10,
+      "-1.236068": 3,
+      "-1.0": 4,
+      "1.0": 4,
+      "2.0": 5,
+      "3.236068": 3,
+      "4.0": 1
+    },
+    "antisymmetric_sector_spectrum": {
+      "-2.0": 11,
+      "-1.236068": 3,
+      "0.0": 5,
+      "1.0": 4,
+      "3.0": 4,
+      "3.236068": 3
+    },
+    "parity_pure_bands": {
+      "symmetric_only": [-1.0, 2.0, 4.0],
+      "antisymmetric_only": [0.0, 3.0]
+    },
+    "shared_bands": [-2.0, -1.236068, 1.0, 3.236068]
+  },
+
+  "local_state_space": {
+    "address_space": 4,
+    "sheet_parity": 2,
+    "doubled_local_space": 8,
+    "distinguished_swap_mode": {
+      "dimension": 1,
+      "vector_form": "[1,1,1,1,-1,-1,-1,-1] / sqrt(8)",
+      "interpretation": "Uniform sheet-flip direction in the doubled local frame."
+    },
+    "swap_complement_dimension": 7,
+    "interpretation": "In the natural local doubled frame, the distinguished swap mode leaves a 7-dimensional complementary transport space."
+  },
+
+  "dynamics": {
+    "discrete_wave_equation": "psi[t+1] - 2 psi[t] + psi[t-1] = -c^2 (4I - A) psi[t]",
+    "probe_parameter": {
+      "c_squared": 0.5
+    },
+    "observed_behaviors": [
+      "finite propagation",
+      "shell breathing",
+      "compact revival",
+      "inter-sheet transfer",
+      "parity-sector splitting"
+    ],
+    "interpretation": "The graph behaves as a finite resonant transport cavity."
+  },
+
+  "transport_mnemonics": {
+    "stable_local_signature": {
+      "intersection_signature": [1, 1, 2],
+      "through_radius": 3
+    },
+    "petrie_spacing": {
+      "edge_fiber_spacing": 5,
+      "interpretation": "Shared edge-fiber positions in ordered decagon cycles are separated by half-decagon spacing 5."
+    },
+    "b_series_shadow": {
+      "series": [3, 5, 7, 8, 3, 2],
+      "interpretation": "Compressed mnemonic of Thalean transport: local regularity horizon, Petrie half-decagon spacing, swap-complement local transport space, doubled local saturation, reclosure, parity seal."
+    },
+    "generator_series": {
+      "series": [1, 2, 3, 5, 10],
+      "interpretation": "Structural generator ladder: seed, polarity, closure, pentagonal generator, doubled Petrie closure."
+    }
+  },
+
+  "interpretive_notes": {
+    "primary_note": "The Thalean graph is the full object; a thalion is one cell in that graph.",
+    "qm_translation": "A finite 60-site tight-binding graph Hamiltonian with a built-in Z2 internal degree of freedom from a signed double cover.",
+    "geometric_note": "The Petrie construction is the provenance channel, not the full identity of the object."
+  },
+
+  "files": {
+    "construction_spec": "spec/petrie_decagon_derived.v3.json",
+    "template_spec": "spec/thalean_templates.v1.json",
+    "canonical_graph6": "artifacts/census/thalion_graph.g6"
+  }
+}

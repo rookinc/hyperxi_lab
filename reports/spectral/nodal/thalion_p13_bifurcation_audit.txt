@@ -1,0 +1,37 @@
+================================================================================
+THALION P13 BIFURCATION AUDIT
+================================================================================
+lambda_1: 2.821023449
+
+PER-PHASE P13 DATA
+--------------------------------------------------------------------------------
+phase 00: theta=0.000000000 quarter_block=0 cut=A mode=same corr=0.891022586526 perm=[4, 3, 2, 0, 1] cycles=[(0, 4, 1, 3), (2,)]
+phase 01: theta=0.523598776 quarter_block=0 cut=A mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+phase 02: theta=1.047197551 quarter_block=0 cut=A mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+phase 03: theta=1.570796327 quarter_block=1 cut=B mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+phase 04: theta=2.094395102 quarter_block=1 cut=B mode=same corr=0.891022749145 perm=[4, 3, 2, 0, 1] cycles=[(0, 4, 1, 3), (2,)]
+phase 05: theta=2.617993878 quarter_block=1 cut=B mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+phase 06: theta=3.141592654 quarter_block=2 cut=A mode=same corr=0.891022586526 perm=[4, 3, 2, 0, 1] cycles=[(0, 4, 1, 3), (2,)]
+phase 07: theta=3.665191429 quarter_block=2 cut=A mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+phase 08: theta=4.188790205 quarter_block=2 cut=A mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+phase 09: theta=4.712388980 quarter_block=3 cut=B mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+phase 10: theta=5.235987756 quarter_block=3 cut=B mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+phase 11: theta=5.759586532 quarter_block=3 cut=B mode=same corr=0.891022749145 perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)]
+
+P13 PERMUTATION GROUPS
+--------------------------------------------------------------------------------
+perm=[4, 3, 2, 0, 1] cycles=[(0, 4, 1, 3), (2,)] phases=[0, 4, 6]
+perm=[4, 3, 2, 1, 0] cycles=[(0, 4), (1, 3), (2,)] phases=[1, 2, 3, 5, 7, 8, 9, 10, 11]
+
+P13 VS QUARTER BLOCK
+--------------------------------------------------------------------------------
+block 0: phases=[0, 1, 2] perms=[[4, 3, 2, 0, 1], [4, 3, 2, 1, 0]]
+block 1: phases=[3, 4, 5] perms=[[4, 3, 2, 0, 1], [4, 3, 2, 1, 0]]
+block 2: phases=[6, 7, 8] perms=[[4, 3, 2, 0, 1], [4, 3, 2, 1, 0]]
+block 3: phases=[9, 10, 11] perms=[[4, 3, 2, 1, 0]]
+
+P13 VS NODAL CUT REGIME
+--------------------------------------------------------------------------------
+cut A: phases=[0, 1, 2, 6, 7, 8] perms=[[4, 3, 2, 0, 1], [4, 3, 2, 1, 0]]
+cut B: phases=[3, 4, 5, 9, 10, 11] perms=[[4, 3, 2, 0, 1], [4, 3, 2, 1, 0]]
+

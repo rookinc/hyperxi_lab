@@ -6,7 +6,10 @@ from tkinter.scrolledtext import ScrolledText
 
 from .state import HyperXiState
 from .graph_view import draw_chamber_graph
-from .icosahedral_view import draw_icosahedral_skeleton, skeleton_summary
+from .icosahedral_view import (
+    draw_chamber_graph as _unused_graph_draw,  # harmless if removed
+)
+from .icosahedral_view import draw_icosahedral_skeleton, skeleton_summary, draw_cubic_resonance
 
 from hyperxi.combinatorics.transport_scaffold import (
     Flag,
@@ -23,6 +26,7 @@ from hyperxi.combinatorics.chamber_graph import (
     summary as chamber_graph_summary,
 )
 
+
 class HyperXILabViewerApp:
     def __init__(self) -> None:
         self.root = tk.Tk()
@@ -31,6 +35,7 @@ class HyperXILabViewerApp:
         self.root.minsize(900, 560)
 
         self.state = HyperXiState()
+        self.state.load_cubic_payload()
 
         self.tree: ttk.Treeview | None = None
         self.main_title_var = tk.StringVar(value="Main View")
@@ -39,6 +44,9 @@ class HyperXILabViewerApp:
         self.main_content_frame: ttk.Frame | None = None
         self.word_var = tk.StringVar(value=self.state.default_word)
         self.word_result_var = tk.StringVar(value="Select Word Explorer to run a transport word.")
+
+        self.cubic_phase_var = tk.IntVar(value=0)
+        self.cubic_display_var = tk.StringVar(value="faces")
 
         self._configure_style()
         self._build_ui()
@@ -162,6 +170,7 @@ class HyperXILabViewerApp:
         self.tree.insert(analysis, "end", text="Spectrum")
         self.tree.insert(analysis, "end", text="Antipodes")
         self.tree.insert(analysis, "end", text="Icosahedral Skeleton")
+        self.tree.insert(analysis, "end", text="Cubic Resonance")
 
     def _boot_log(self) -> None:
         self.log("HyperXi Lab Viewer v0.1")
@@ -216,6 +225,8 @@ class HyperXILabViewerApp:
             "Invariants": "Counts, shells, triangles, degree, diameter, and related data.",
             "Spectrum": "Adjacency eigenvalues and multiplicities.",
             "Antipodes": "Distance-6 structure and unique antipodal behavior.",
+            "Icosahedral Skeleton": "12-bucket coarse skeleton from the chamber graph.",
+            "Cubic Resonance": "Viewer for the first excited cubic thalion resonance.",
         }
         return descriptions.get(label, "No description available yet.")
 
@@ -444,6 +455,89 @@ class HyperXILabViewerApp:
         for line in lines:
             self.log(line)
 
+    def _render_cubic_resonance(self) -> None:
+        self._clear_main_content()
+
+        if self.main_content_frame is None:
+            return
+
+        payload = self.state.cubic_payload
+        if payload is None:
+            ttk.Label(
+                self.main_content_frame,
+                text="Cubic resonance payload not found.\nExpected reports/spectral/nodal/thalion_cubic_viewer_payload.json",
+                justify="left",
+                wraplength=520,
+            ).pack(anchor="w")
+            return
+
+        info_lines = [
+            f"eigenvalue: {payload.eigenvalue:.12f}",
+            f"steps: {payload.steps}",
+            "display modes: faces | classes | faces+slots",
+            "",
+            "This view renders the first excited cubic resonance of one thalion.",
+        ]
+
+        info = ttk.Label(
+            self.main_content_frame,
+            text="\n".join(info_lines),
+            justify="left",
+            wraplength=520,
+        )
+        info.pack(anchor="w", pady=(0, 12))
+
+        controls = ttk.Frame(self.main_content_frame)
+        controls.pack(fill="x", pady=(0, 12))
+
+        ttk.Label(controls, text="Display:").pack(side="left")
+        mode_box = ttk.Combobox(
+            controls,
+            textvariable=self.cubic_display_var,
+            values=["faces", "classes", "faces+slots"],
+            width=14,
+            state="readonly",
+        )
+        mode_box.pack(side="left", padx=(8, 16))
+
+        ttk.Label(controls, text="Phase:").pack(side="left")
+
+        phase_scale = ttk.Scale(
+            controls,
+            from_=0,
+            to=payload.steps - 1,
+            variable=self.cubic_phase_var,
+            orient="horizontal",
+        )
+        phase_scale.pack(side="left", fill="x", expand=True, padx=(8, 8))
+
+        phase_label_var = tk.StringVar(value=f"{self.cubic_phase_var.get()}")
+
+        ttk.Label(controls, textvariable=phase_label_var, width=4).pack(side="left")
+
+        canvas = tk.Canvas(self.main_content_frame, bg="white", height=420)
+        canvas.pack(fill="both", expand=True)
+
+        def render(_event=None):
+            canvas.delete("all")
+            phase = int(round(self.cubic_phase_var.get()))
+            phase_label_var.set(str(phase))
+            draw_cubic_resonance(
+                canvas,
+                payload=payload,
+                phase_index=phase,
+                display_mode=self.cubic_display_var.get(),
+            )
+
+        canvas.bind("<Configure>", render)
+        phase_scale.configure(command=lambda _v: render())
+        mode_box.bind("<<ComboboxSelected>>", render)
+
+        self.log("")
+        self.log("[cubic resonance]")
+        for line in info_lines:
+            self.log(line)
+
     def _handle_special_view(self, label: str) -> bool:
         if label == "Word Explorer":
             self.main_title_var.set("Word Explorer")
@@ -473,6 +567,12 @@ class HyperXILabViewerApp:
             self.main_title_var.set("Icosahedral Skeleton")
             self._render_icosahedral_skeleton()
             self.status_var.set("Viewing: Icosahedral Skeleton")
+            return True
+
+        if label == "Cubic Resonance":
+            self.main_title_var.set("Cubic Resonance")
+            self._render_cubic_resonance()
+            self.status_var.set("Viewing: Cubic Resonance")
             return True
 
         return False

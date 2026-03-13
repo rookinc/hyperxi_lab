@@ -50,12 +50,16 @@ class HyperXILabViewerApp:
 
         self.cubic_phase_var = tk.IntVar(value=0)
         self.cubic_display_var = tk.StringVar(value="faces")
+        self._cubic_autoplay_job: str | None = None
+        self._cubic_render_callback = None
 
         self._configure_style()
         self._build_ui()
         self._render_text_view(self.main_body_var.get())
         self._populate_tree()
         self._boot_log()
+
+        self.root.bind("<space>", self._toggle_cubic_autoplay)
 
     def _configure_style(self) -> None:
         style = ttk.Style()
@@ -248,8 +252,48 @@ class HyperXILabViewerApp:
         for child in self.main_content_frame.winfo_children():
             child.destroy()
 
+    def _toggle_cubic_autoplay(self, _event=None) -> None:
+        if self.main_title_var.get() != "Cubic Resonance":
+            return
+
+        if self._cubic_autoplay_job is None:
+            self._start_cubic_autoplay()
+            self.status_var.set("Cubic Resonance autoplay: ON")
+            self.log("[cubic resonance] autoplay ON")
+        else:
+            self._stop_cubic_autoplay()
+            self.status_var.set("Cubic Resonance autoplay: OFF")
+            self.log("[cubic resonance] autoplay OFF")
+
+    def _start_cubic_autoplay(self) -> None:
+        if self._cubic_autoplay_job is not None:
+            return
+
+        def tick() -> None:
+            payload = self.state.cubic_payload
+            if payload is None or self.main_title_var.get() != "Cubic Resonance":
+                self._cubic_autoplay_job = None
+                return
+
+            phase = (int(round(self.cubic_phase_var.get())) + 1) % payload.steps
+            self.cubic_phase_var.set(phase)
+
+            if self._cubic_render_callback is not None:
+                self._cubic_render_callback()
+
+            self._cubic_autoplay_job = self.root.after(180, tick)
+
+        self._cubic_autoplay_job = self.root.after(180, tick)
+
+    def _stop_cubic_autoplay(self) -> None:
+        if self._cubic_autoplay_job is not None:
+            self.root.after_cancel(self._cubic_autoplay_job)
+            self._cubic_autoplay_job = None
+
     def _render_text_view(self, body: str) -> None:
         self._clear_main_content()
+        self._stop_cubic_autoplay()
+        self._cubic_render_callback = None
 
         if self.main_content_frame is None:
             return
@@ -264,6 +308,8 @@ class HyperXILabViewerApp:
 
     def _render_word_explorer(self) -> None:
         self._clear_main_content()
+        self._stop_cubic_autoplay()
+        self._cubic_render_callback = None
 
         if self.main_content_frame is None:
             return
@@ -293,6 +339,8 @@ class HyperXILabViewerApp:
 
     def _render_petrie_cycles(self) -> None:
         self._clear_main_content()
+        self._stop_cubic_autoplay()
+        self._cubic_render_callback = None
 
         if self.main_content_frame is None:
             return
@@ -323,6 +371,8 @@ class HyperXILabViewerApp:
 
     def _render_thalions(self) -> None:
         self._clear_main_content()
+        self._stop_cubic_autoplay()
+        self._cubic_render_callback = None
 
         if self.main_content_frame is None:
             return
@@ -383,6 +433,8 @@ class HyperXILabViewerApp:
 
     def _render_chamber_graph(self) -> None:
         self._clear_main_content()
+        self._stop_cubic_autoplay()
+        self._cubic_render_callback = None
 
         if self.main_content_frame is None:
             return
@@ -431,6 +483,8 @@ class HyperXILabViewerApp:
 
     def _render_icosahedral_skeleton(self) -> None:
         self._clear_main_content()
+        self._stop_cubic_autoplay()
+        self._cubic_render_callback = None
 
         if self.main_content_frame is None:
             return
@@ -468,6 +522,8 @@ class HyperXILabViewerApp:
 
     def _render_cubic_resonance(self) -> None:
         self._clear_main_content()
+        self._stop_cubic_autoplay()
+        self._cubic_render_callback = None
 
         if self.main_content_frame is None:
             return
@@ -491,6 +547,7 @@ class HyperXILabViewerApp:
             "display modes: faces | classes | faces+slots",
             "",
             "This view renders the first excited cubic resonance of one thalion.",
+            "Press SPACE to play/pause.",
         ]
 
         info = ttk.Label(
@@ -526,7 +583,6 @@ class HyperXILabViewerApp:
         phase_scale.pack(side="left", fill="x", expand=True, padx=(8, 8))
 
         phase_label_var = tk.StringVar(value=f"{self.cubic_phase_var.get()}")
-
         ttk.Label(controls, textvariable=phase_label_var, width=4).pack(side="left")
 
         canvas = tk.Canvas(self.main_content_frame, bg="white", height=420)
@@ -543,6 +599,7 @@ class HyperXILabViewerApp:
                 display_mode=self.cubic_display_var.get(),
             )
 
+        self._cubic_render_callback = render
         canvas.bind("<Configure>", render)
         phase_scale.configure(command=lambda _v: render())
         mode_box.bind("<<ComboboxSelected>>", render)
@@ -607,6 +664,7 @@ class HyperXILabViewerApp:
 def main() -> None:
     app = HyperXILabViewerApp()
     app.run()
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,53 @@
+PHASE FAMILY OF FIRST EXCITED CHAMBER MODES
+========================================================================
+lambda_1 = 2.821023449
+indices = [1, 2]
+
+k=00  theta=0.000000000
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_00.png
+
+k=01  theta=0.523598776
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_01.png
+
+k=02  theta=1.047197551
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_02.png
+
+k=03  theta=1.570796327
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_03.png
+
+k=04  theta=2.094395102
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_04.png
+
+k=05  theta=2.617993878
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_05.png
+
+k=06  theta=3.141592654
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_06.png
+
+k=07  theta=3.665191429
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_07.png
+
+k=08  theta=4.188790205
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_08.png
+
+k=09  theta=4.712388980
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_09.png
+
+k=10  theta=5.235987756
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_10.png
+
+k=11  theta=5.759586532
+sign counts: +:30  -:30  0:0
+image: reports/spectral/phase_family/phase_11.png
+

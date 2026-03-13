@@ -1,0 +1,299 @@
+================================================================================
+CHAMBER NODAL FACE AUDIT
+================================================================================
+vertices: 60
+edges:    120
+lambda_1: 2.821023449
+block:    [1, 2]
+faces seen in thalions: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+PHASE k=00 theta=0.000000000
+--------------------------------------------------------------------------------
+face 0: +=5  -=0  0=0  imbalance=5
+face 1: +=5  -=0  0=0  imbalance=5
+face 7: +=0  -=5  0=0  imbalance=-5
+top face imbalances:
+  face 11: +=0  -=5  0=0  imbalance=-5
+  face 10: +=0  -=5  0=0  imbalance=-5
+  face 9: +=5  -=0  0=0  imbalance=5
+  face 8: +=5  -=0  0=0  imbalance=5
+  face 7: +=0  -=5  0=0  imbalance=-5
+  face 6: +=0  -=5  0=0  imbalance=-5
+  face 5: +=5  -=0  0=0  imbalance=5
+  face 4: +=5  -=0  0=0  imbalance=5
+  face 3: +=0  -=5  0=0  imbalance=-5
+  face 2: +=0  -=5  0=0  imbalance=-5
+  face 1: +=5  -=0  0=0  imbalance=5
+  face 0: +=5  -=0  0=0  imbalance=5
+
+PHASE k=01 theta=0.523598776
+--------------------------------------------------------------------------------
+face 0: +=5  -=0  0=0  imbalance=5
+face 1: +=5  -=0  0=0  imbalance=5
+face 7: +=0  -=5  0=0  imbalance=-5
+top face imbalances:
+  face 11: +=0  -=5  0=0  imbalance=-5
+  face 10: +=0  -=5  0=0  imbalance=-5
+  face 9: +=5  -=0  0=0  imbalance=5
+  face 8: +=5  -=0  0=0  imbalance=5
+  face 7: +=0  -=5  0=0  imbalance=-5
+  face 6: +=0  -=5  0=0  imbalance=-5
+  face 5: +=5  -=0  0=0  imbalance=5
+  face 4: +=5  -=0  0=0  imbalance=5
+  face 3: +=0  -=5  0=0  imbalance=-5
+  face 2: +=0  -=5  0=0  imbalance=-5
+  face 1: +=5  -=0  0=0  imbalance=5
+  face 0: +=5  -=0  0=0  imbalance=5
+
+PHASE k=02 theta=1.047197551
+--------------------------------------------------------------------------------
+face 0: +=5  -=0  0=0  imbalance=5
+face 1: +=5  -=0  0=0  imbalance=5
+face 7: +=0  -=5  0=0  imbalance=-5
+top face imbalances:
+  face 11: +=0  -=5  0=0  imbalance=-5
+  face 10: +=0  -=5  0=0  imbalance=-5
+  face 9: +=5  -=0  0=0  imbalance=5
+  face 8: +=5  -=0  0=0  imbalance=5
+  face 7: +=0  -=5  0=0  imbalance=-5
+  face 6: +=0  -=5  0=0  imbalance=-5
+  face 5: +=5  -=0  0=0  imbalance=5
+  face 4: +=5  -=0  0=0  imbalance=5
+  face 3: +=0  -=5  0=0  imbalance=-5
+  face 2: +=0  -=5  0=0  imbalance=-5
+  face 1: +=5  -=0  0=0  imbalance=5
+  face 0: +=5  -=0  0=0  imbalance=5
+
+PHASE k=03 theta=1.570796327
+--------------------------------------------------------------------------------
+face 0: +=0  -=5  0=0  imbalance=-5
+face 1: +=5  -=0  0=0  imbalance=5
+face 7: +=0  -=5  0=0  imbalance=-5
+top face imbalances:
+  face 11: +=0  -=5  0=0  imbalance=-5
+  face 10: +=5  -=0  0=0  imbalance=5
+  face 9: +=5  -=0  0=0  imbalance=5
+  face 8: +=0  -=5  0=0  imbalance=-5
+  face 7: +=0  -=5  0=0  imbalance=-5
+  face 6: +=5  -=0  0=0  imbalance=5
+  face 5: +=5  -=0  0=0  imbalance=5
+  face 4: +=0  -=5  0=0  imbalance=-5
+  face 3: +=0  -=5  0=0  imbalance=-5
+  face 2: +=5  -=0  0=0  imbalance=5
+  face 1: +=5  -=0  0=0  imbalance=5
+  face 0: +=0  -=5  0=0  imbalance=-5
+
+PHASE k=04 theta=2.094395102
+--------------------------------------------------------------------------------
+face 0: +=0  -=5  0=0  imbalance=-5
+face 1: +=5  -=0  0=0  imbalance=5
+face 7: +=0  -=5  0=0  imbalance=-5
+top face imbalances:
+  face 11: +=0  -=5  0=0  imbalance=-5
+  face 10: +=5  -=0  0=0  imbalance=5
+  face 9: +=5  -=0  0=0  imbalance=5
+  face 8: +=0  -=5  0=0  imbalance=-5
+  face 7: +=0  -=5  0=0  imbalance=-5
+  face 6: +=5  -=0  0=0  imbalance=5
+  face 5: +=5  -=0  0=0  imbalance=5
+  face 4: +=0  -=5  0=0  imbalance=-5
+  face 3: +=0  -=5  0=0  imbalance=-5
+  face 2: +=5  -=0  0=0  imbalance=5
+  face 1: +=5  -=0  0=0  imbalance=5
+  face 0: +=0  -=5  0=0  imbalance=-5
+
+PHASE k=05 theta=2.617993878
+--------------------------------------------------------------------------------
+face 0: +=0  -=5  0=0  imbalance=-5
+face 1: +=5  -=0  0=0  imbalance=5
+face 7: +=0  -=5  0=0  imbalance=-5
+top face imbalances:
+  face 11: +=0  -=5  0=0  imbalance=-5
+  face 10: +=5  -=0  0=0  imbalance=5
+  face 9: +=5  -=0  0=0  imbalance=5
+  face 8: +=0  -=5  0=0  imbalance=-5
+  face 7: +=0  -=5  0=0  imbalance=-5
+  face 6: +=5  -=0  0=0  imbalance=5
+  face 5: +=5  -=0  0=0  imbalance=5
+  face 4: +=0  -=5  0=0  imbalance=-5
+  face 3: +=0  -=5  0=0  imbalance=-5
+  face 2: +=5  -=0  0=0  imbalance=5
+  face 1: +=5  -=0  0=0  imbalance=5
+  face 0: +=0  -=5  0=0  imbalance=-5
+
+PHASE k=06 theta=3.141592654
+--------------------------------------------------------------------------------
+face 0: +=0  -=5  0=0  imbalance=-5
+face 1: +=0  -=5  0=0  imbalance=-5
+face 7: +=5  -=0  0=0  imbalance=5
+top face imbalances:
+  face 11: +=5  -=0  0=0  imbalance=5
+  face 10: +=5  -=0  0=0  imbalance=5
+  face 9: +=0  -=5  0=0  imbalance=-5
+  face 8: +=0  -=5  0=0  imbalance=-5
+  face 7: +=5  -=0  0=0  imbalance=5
+  face 6: +=5  -=0  0=0  imbalance=5
+  face 5: +=0  -=5  0=0  imbalance=-5
+  face 4: +=0  -=5  0=0  imbalance=-5
+  face 3: +=5  -=0  0=0  imbalance=5
+  face 2: +=5  -=0  0=0  imbalance=5
+  face 1: +=0  -=5  0=0  imbalance=-5
+  face 0: +=0  -=5  0=0  imbalance=-5
+
+PHASE k=07 theta=3.665191429
+--------------------------------------------------------------------------------
+face 0: +=0  -=5  0=0  imbalance=-5
+face 1: +=0  -=5  0=0  imbalance=-5
+face 7: +=5  -=0  0=0  imbalance=5
+top face imbalances:
+  face 11: +=5  -=0  0=0  imbalance=5
+  face 10: +=5  -=0  0=0  imbalance=5
+  face 9: +=0  -=5  0=0  imbalance=-5
+  face 8: +=0  -=5  0=0  imbalance=-5
+  face 7: +=5  -=0  0=0  imbalance=5
+  face 6: +=5  -=0  0=0  imbalance=5
+  face 5: +=0  -=5  0=0  imbalance=-5
+  face 4: +=0  -=5  0=0  imbalance=-5
+  face 3: +=5  -=0  0=0  imbalance=5
+  face 2: +=5  -=0  0=0  imbalance=5
+  face 1: +=0  -=5  0=0  imbalance=-5
+  face 0: +=0  -=5  0=0  imbalance=-5
+
+PHASE k=08 theta=4.188790205
+--------------------------------------------------------------------------------
+face 0: +=0  -=5  0=0  imbalance=-5
+face 1: +=0  -=5  0=0  imbalance=-5
+face 7: +=5  -=0  0=0  imbalance=5
+top face imbalances:
+  face 11: +=5  -=0  0=0  imbalance=5
+  face 10: +=5  -=0  0=0  imbalance=5
+  face 9: +=0  -=5  0=0  imbalance=-5
+  face 8: +=0  -=5  0=0  imbalance=-5
+  face 7: +=5  -=0  0=0  imbalance=5
+  face 6: +=5  -=0  0=0  imbalance=5
+  face 5: +=0  -=5  0=0  imbalance=-5
+  face 4: +=0  -=5  0=0  imbalance=-5
+  face 3: +=5  -=0  0=0  imbalance=5
+  face 2: +=5  -=0  0=0  imbalance=5
+  face 1: +=0  -=5  0=0  imbalance=-5
+  face 0: +=0  -=5  0=0  imbalance=-5
+
+PHASE k=09 theta=4.712388980
+--------------------------------------------------------------------------------
+face 0: +=5  -=0  0=0  imbalance=5
+face 1: +=0  -=5  0=0  imbalance=-5
+face 7: +=5  -=0  0=0  imbalance=5
+top face imbalances:
+  face 11: +=5  -=0  0=0  imbalance=5
+  face 10: +=0  -=5  0=0  imbalance=-5
+  face 9: +=0  -=5  0=0  imbalance=-5
+  face 8: +=5  -=0  0=0  imbalance=5
+  face 7: +=5  -=0  0=0  imbalance=5
+  face 6: +=0  -=5  0=0  imbalance=-5
+  face 5: +=0  -=5  0=0  imbalance=-5
+  face 4: +=5  -=0  0=0  imbalance=5
+  face 3: +=5  -=0  0=0  imbalance=5
+  face 2: +=0  -=5  0=0  imbalance=-5
+  face 1: +=0  -=5  0=0  imbalance=-5
+  face 0: +=5  -=0  0=0  imbalance=5
+
+PHASE k=10 theta=5.235987756
+--------------------------------------------------------------------------------
+face 0: +=5  -=0  0=0  imbalance=5
+face 1: +=0  -=5  0=0  imbalance=-5
+face 7: +=5  -=0  0=0  imbalance=5
+top face imbalances:
+  face 11: +=5  -=0  0=0  imbalance=5
+  face 10: +=0  -=5  0=0  imbalance=-5
+  face 9: +=0  -=5  0=0  imbalance=-5
+  face 8: +=5  -=0  0=0  imbalance=5
+  face 7: +=5  -=0  0=0  imbalance=5
+  face 6: +=0  -=5  0=0  imbalance=-5
+  face 5: +=0  -=5  0=0  imbalance=-5
+  face 4: +=5  -=0  0=0  imbalance=5
+  face 3: +=5  -=0  0=0  imbalance=5
+  face 2: +=0  -=5  0=0  imbalance=-5
+  face 1: +=0  -=5  0=0  imbalance=-5
+  face 0: +=5  -=0  0=0  imbalance=5
+
+PHASE k=11 theta=5.759586532
+--------------------------------------------------------------------------------
+face 0: +=5  -=0  0=0  imbalance=5
+face 1: +=0  -=5  0=0  imbalance=-5
+face 7: +=5  -=0  0=0  imbalance=5
+top face imbalances:
+  face 11: +=5  -=0  0=0  imbalance=5
+  face 10: +=0  -=5  0=0  imbalance=-5
+  face 9: +=0  -=5  0=0  imbalance=-5
+  face 8: +=5  -=0  0=0  imbalance=5
+  face 7: +=5  -=0  0=0  imbalance=5
+  face 6: +=0  -=5  0=0  imbalance=-5
+  face 5: +=0  -=5  0=0  imbalance=-5
+  face 4: +=5  -=0  0=0  imbalance=5
+  face 3: +=5  -=0  0=0  imbalance=5
+  face 2: +=0  -=5  0=0  imbalance=-5
+  face 1: +=0  -=5  0=0  imbalance=-5
+  face 0: +=5  -=0  0=0  imbalance=5
+
+THALION -> FACE SUPPORT
+--------------------------------------------------------------------------------
+0: [9]
+1: [6]
+2: [10]
+3: [4]
+4: [8]
+5: [3]
+6: [11]
+7: [11]
+8: [1]
+9: [6]
+10: [1]
+11: [1]
+12: [7]
+13: [9]
+14: [2]
+15: [6]
+16: [4]
+17: [9]
+18: [4]
+19: [0]
+20: [8]
+21: [5]
+22: [7]
+23: [2]
+24: [0]
+25: [3]
+26: [10]
+27: [2]
+28: [11]
+29: [5]
+30: [7]
+31: [0]
+32: [10]
+33: [11]
+34: [5]
+35: [0]
+36: [5]
+37: [8]
+38: [6]
+39: [4]
+40: [9]
+41: [1]
+42: [3]
+43: [3]
+44: [8]
+45: [11]
+46: [9]
+47: [2]
+48: [7]
+49: [1]
+50: [2]
+51: [6]
+52: [7]
+53: [10]
+54: [10]
+55: [5]
+56: [8]
+57: [0]
+58: [3]
+59: [4]

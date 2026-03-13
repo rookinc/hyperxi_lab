@@ -1,0 +1,201 @@
+================================================================================
+THALION FACE PHASE SIGNATURES
+================================================================================
+thalion vertices: 60
+thalion edges:    120
+lambda_1:         2.821023449
+first block:      [1, 2]
+
+FACE SIGNATURES BY PHASE
+--------------------------------------------------------------------------------
+face : 00 01 02 03 04 05 06 07 08 09 10 11
+   0 : + + + - - - - - - + + +
+   1 : + + + + + + - - - - - -
+   2 : - - - + + + + + + - - -
+   3 : - - - - - - + + + + + +
+   4 : + + + - - - - - - + + +
+   5 : + + + + + + - - - - - -
+   6 : - - - + + + + + + - - -
+   7 : - - - - - - + + + + + +
+   8 : + + + - - - - - - + + +
+   9 : + + + + + + - - - - - -
+  10 : - - - + + + + + + - - -
+  11 : - - - - - - + + + + + +
+
+FACE SIGNATURE CLUSTERS
+--------------------------------------------------------------------------------
+------++++++  ->  faces [3, 7, 11]
+---++++++---  ->  faces [2, 6, 10]
++++------+++  ->  faces [0, 4, 8]
+++++++------  ->  faces [1, 5, 9]
+
+PER-PHASE FACE DOMINANCE COUNTS
+--------------------------------------------------------------------------------
+PHASE 00
+  face  0: +=5 -=0 0=0 dom=+
+  face  1: +=5 -=0 0=0 dom=+
+  face  2: +=0 -=5 0=0 dom=-
+  face  3: +=0 -=5 0=0 dom=-
+  face  4: +=5 -=0 0=0 dom=+
+  face  5: +=5 -=0 0=0 dom=+
+  face  6: +=0 -=5 0=0 dom=-
+  face  7: +=0 -=5 0=0 dom=-
+  face  8: +=5 -=0 0=0 dom=+
+  face  9: +=5 -=0 0=0 dom=+
+  face 10: +=0 -=5 0=0 dom=-
+  face 11: +=0 -=5 0=0 dom=-
+
+PHASE 01
+  face  0: +=5 -=0 0=0 dom=+
+  face  1: +=5 -=0 0=0 dom=+
+  face  2: +=0 -=5 0=0 dom=-
+  face  3: +=0 -=5 0=0 dom=-
+  face  4: +=5 -=0 0=0 dom=+
+  face  5: +=5 -=0 0=0 dom=+
+  face  6: +=0 -=5 0=0 dom=-
+  face  7: +=0 -=5 0=0 dom=-
+  face  8: +=5 -=0 0=0 dom=+
+  face  9: +=5 -=0 0=0 dom=+
+  face 10: +=0 -=5 0=0 dom=-
+  face 11: +=0 -=5 0=0 dom=-
+
+PHASE 02
+  face  0: +=5 -=0 0=0 dom=+
+  face  1: +=5 -=0 0=0 dom=+
+  face  2: +=0 -=5 0=0 dom=-
+  face  3: +=0 -=5 0=0 dom=-
+  face  4: +=5 -=0 0=0 dom=+
+  face  5: +=5 -=0 0=0 dom=+
+  face  6: +=0 -=5 0=0 dom=-
+  face  7: +=0 -=5 0=0 dom=-
+  face  8: +=5 -=0 0=0 dom=+
+  face  9: +=5 -=0 0=0 dom=+
+  face 10: +=0 -=5 0=0 dom=-
+  face 11: +=0 -=5 0=0 dom=-
+
+PHASE 03
+  face  0: +=0 -=5 0=0 dom=-
+  face  1: +=5 -=0 0=0 dom=+
+  face  2: +=5 -=0 0=0 dom=+
+  face  3: +=0 -=5 0=0 dom=-
+  face  4: +=0 -=5 0=0 dom=-
+  face  5: +=5 -=0 0=0 dom=+
+  face  6: +=5 -=0 0=0 dom=+
+  face  7: +=0 -=5 0=0 dom=-
+  face  8: +=0 -=5 0=0 dom=-
+  face  9: +=5 -=0 0=0 dom=+
+  face 10: +=5 -=0 0=0 dom=+
+  face 11: +=0 -=5 0=0 dom=-
+
+PHASE 04
+  face  0: +=0 -=5 0=0 dom=-
+  face  1: +=5 -=0 0=0 dom=+
+  face  2: +=5 -=0 0=0 dom=+
+  face  3: +=0 -=5 0=0 dom=-
+  face  4: +=0 -=5 0=0 dom=-
+  face  5: +=5 -=0 0=0 dom=+
+  face  6: +=5 -=0 0=0 dom=+
+  face  7: +=0 -=5 0=0 dom=-
+  face  8: +=0 -=5 0=0 dom=-
+  face  9: +=5 -=0 0=0 dom=+
+  face 10: +=5 -=0 0=0 dom=+
+  face 11: +=0 -=5 0=0 dom=-
+
+PHASE 05
+  face  0: +=0 -=5 0=0 dom=-
+  face  1: +=5 -=0 0=0 dom=+
+  face  2: +=5 -=0 0=0 dom=+
+  face  3: +=0 -=5 0=0 dom=-
+  face  4: +=0 -=5 0=0 dom=-
+  face  5: +=5 -=0 0=0 dom=+
+  face  6: +=5 -=0 0=0 dom=+
+  face  7: +=0 -=5 0=0 dom=-
+  face  8: +=0 -=5 0=0 dom=-
+  face  9: +=5 -=0 0=0 dom=+
+  face 10: +=5 -=0 0=0 dom=+
+  face 11: +=0 -=5 0=0 dom=-
+
+PHASE 06
+  face  0: +=0 -=5 0=0 dom=-
+  face  1: +=0 -=5 0=0 dom=-
+  face  2: +=5 -=0 0=0 dom=+
+  face  3: +=5 -=0 0=0 dom=+
+  face  4: +=0 -=5 0=0 dom=-
+  face  5: +=0 -=5 0=0 dom=-
+  face  6: +=5 -=0 0=0 dom=+
+  face  7: +=5 -=0 0=0 dom=+
+  face  8: +=0 -=5 0=0 dom=-
+  face  9: +=0 -=5 0=0 dom=-
+  face 10: +=5 -=0 0=0 dom=+
+  face 11: +=5 -=0 0=0 dom=+
+
+PHASE 07
+  face  0: +=0 -=5 0=0 dom=-
+  face  1: +=0 -=5 0=0 dom=-
+  face  2: +=5 -=0 0=0 dom=+
+  face  3: +=5 -=0 0=0 dom=+
+  face  4: +=0 -=5 0=0 dom=-
+  face  5: +=0 -=5 0=0 dom=-
+  face  6: +=5 -=0 0=0 dom=+
+  face  7: +=5 -=0 0=0 dom=+
+  face  8: +=0 -=5 0=0 dom=-
+  face  9: +=0 -=5 0=0 dom=-
+  face 10: +=5 -=0 0=0 dom=+
+  face 11: +=5 -=0 0=0 dom=+
+
+PHASE 08
+  face  0: +=0 -=5 0=0 dom=-
+  face  1: +=0 -=5 0=0 dom=-
+  face  2: +=5 -=0 0=0 dom=+
+  face  3: +=5 -=0 0=0 dom=+
+  face  4: +=0 -=5 0=0 dom=-
+  face  5: +=0 -=5 0=0 dom=-
+  face  6: +=5 -=0 0=0 dom=+
+  face  7: +=5 -=0 0=0 dom=+
+  face  8: +=0 -=5 0=0 dom=-
+  face  9: +=0 -=5 0=0 dom=-
+  face 10: +=5 -=0 0=0 dom=+
+  face 11: +=5 -=0 0=0 dom=+
+
+PHASE 09
+  face  0: +=5 -=0 0=0 dom=+
+  face  1: +=0 -=5 0=0 dom=-
+  face  2: +=0 -=5 0=0 dom=-
+  face  3: +=5 -=0 0=0 dom=+
+  face  4: +=5 -=0 0=0 dom=+
+  face  5: +=0 -=5 0=0 dom=-
+  face  6: +=0 -=5 0=0 dom=-
+  face  7: +=5 -=0 0=0 dom=+
+  face  8: +=5 -=0 0=0 dom=+
+  face  9: +=0 -=5 0=0 dom=-
+  face 10: +=0 -=5 0=0 dom=-
+  face 11: +=5 -=0 0=0 dom=+
+
+PHASE 10
+  face  0: +=5 -=0 0=0 dom=+
+  face  1: +=0 -=5 0=0 dom=-
+  face  2: +=0 -=5 0=0 dom=-
+  face  3: +=5 -=0 0=0 dom=+
+  face  4: +=5 -=0 0=0 dom=+
+  face  5: +=0 -=5 0=0 dom=-
+  face  6: +=0 -=5 0=0 dom=-
+  face  7: +=5 -=0 0=0 dom=+
+  face  8: +=5 -=0 0=0 dom=+
+  face  9: +=0 -=5 0=0 dom=-
+  face 10: +=0 -=5 0=0 dom=-
+  face 11: +=5 -=0 0=0 dom=+
+
+PHASE 11
+  face  0: +=5 -=0 0=0 dom=+
+  face  1: +=0 -=5 0=0 dom=-
+  face  2: +=0 -=5 0=0 dom=-
+  face  3: +=5 -=0 0=0 dom=+
+  face  4: +=5 -=0 0=0 dom=+
+  face  5: +=0 -=5 0=0 dom=-
+  face  6: +=0 -=5 0=0 dom=-
+  face  7: +=5 -=0 0=0 dom=+
+  face  8: +=5 -=0 0=0 dom=+
+  face  9: +=0 -=5 0=0 dom=-
+  face 10: +=0 -=5 0=0 dom=-
+  face 11: +=5 -=0 0=0 dom=+
+

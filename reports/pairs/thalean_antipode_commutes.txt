@@ -1,0 +1,14 @@
+================================================================================
+THALEAN ANTIPODE COMMUTATION CHECK
+================================================================================
+vertices: 60
+edges: 120
+diameter: 6
+
+automorphisms checked: 480
+commuting failures   : 0
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+The antipode map commutes with every automorphism.
+So the antipodal pairing is a canonical symmetry of the Thalean graph.

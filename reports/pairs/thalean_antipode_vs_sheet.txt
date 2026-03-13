@@ -1,0 +1,41 @@
+================================================================================
+THALEAN ANTIPODE VS SHEET CHECK
+================================================================================
+sign file: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/artifacts/reports/recovered_signing.txt
+signed edges loaded: 60
+
+base vertices: 30
+base edges: 60
+base degree set: [4]
+
+lift vertices: 60
+lift edges: 120
+lift degree set: [4]
+
+lift diameter: 6
+
+ANTIPODE RELATION COUNTS
+--------------------------------------------------------------------------------
+same base, opposite sheet: 0
+same base, same sheet    : 0
+different base vertex    : 60
+
+SAMPLE same-base opposite-sheet matches
+--------------------------------------------------------------------------------
+
+SAMPLE different-base matches
+--------------------------------------------------------------------------------
+(0, (0, 0), 33, (16, 1))
+(1, (0, 1), 32, (16, 0))
+(2, (1, 0), 29, (14, 1))
+(3, (1, 1), 28, (14, 0))
+(4, (2, 0), 19, (9, 1))
+(5, (2, 1), 18, (9, 0))
+(6, (3, 0), 31, (15, 1))
+(7, (3, 1), 30, (15, 0))
+(8, (4, 0), 34, (17, 0))
+(9, (4, 1), 35, (17, 1))
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+The antipode map never acts as pure sheet inversion; it always moves to a different base vertex.

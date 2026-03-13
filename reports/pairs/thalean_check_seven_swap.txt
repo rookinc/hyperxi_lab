@@ -1,0 +1,58 @@
+================================================================================
+THALEAN CHECK SEVEN / SWAP
+================================================================================
+root: 0
+neighbors: [1, 9, 10, 17]
+shells: [1, 4, 8, 16, 24, 6, 1]
+
+8-STATE LOCAL DOUBLED FRAME
+--------------------------------------------------------------------------------
+Interpretation: 4 local addresses x 2 sheets = 8 states
+
+SWAP OPERATOR EIGENSTRUCTURE
+--------------------------------------------------------------------------------
+eigenvalue -1.0  multiplicity 4
+eigenvalue +1.0  multiplicity 4
+
+CANONICAL LOCAL MODES
+--------------------------------------------------------------------------------
+preserve-uniform vector:
+[0.353553 0.353553 0.353553 0.353553 0.353553 0.353553 0.353553 0.353553]
+swap vector:
+[ 0.353553  0.353553  0.353553  0.353553 -0.353553 -0.353553 -0.353553
+ -0.353553]
+
+project preserve-uniform into + / - parity:
+||P+ preserve|| = 1.0
+||P- preserve|| = 0.0
+
+project swap vector into + / - parity:
+||P+ swap|| = 0.0
+||P- swap|| = 1.0
+
+DIMENSION COUNT
+--------------------------------------------------------------------------------
+total local doubled space = 8
+distinguished preserve-uniform direction = 1
+distinguished swap direction = 1
+remaining orthogonal complement = 6
+
+SEVEN-SPACE CHECK
+--------------------------------------------------------------------------------
+If you treat the swap vector as the special correction channel,
+then the orthogonal complement to that single mode has dimension 7.
+That is:
+  8 total local doubled states
+  1 distinguished swap-like mode
+  7-dimensional complementary transport space
+
+rank of complement-to-swap projector = 7
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+This does NOT prove a canonical global 7-dimensional eigenspace of the
+full Thalean graph. It does show that in the natural local doubled frame
+(4 addresses x 2 sheets), there is a distinguished 1-dimensional swap
+direction and therefore a natural 7-dimensional complementary space.
+So the intuition '7 is the swap-space complement' is mathematically
+coherent at the local state-space level.

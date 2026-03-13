@@ -1,0 +1,31 @@
+================================================================================
+PETRIE OPERATOR ORDER CHECK
+================================================================================
+word: SV
+dimension: 120 x 120
+
+k= 1  identity=False
+k= 2  identity=False
+k= 3  identity=False
+k= 4  identity=False
+k= 5  identity=False
+k= 6  identity=False
+k= 7  identity=False
+k= 8  identity=False
+k= 9  identity=False
+k=10  identity=True
+k=11  identity=False
+k=12  identity=False
+k=13  identity=False
+k=14  identity=False
+k=15  identity=False
+k=16  identity=False
+k=17  identity=False
+k=18  identity=False
+k=19  identity=False
+k=20  identity=True
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+Smallest k with (SV)^k = I is k=10.
+So the Petrie operator has exact order 10.

@@ -1,0 +1,47 @@
+{
+  "local_state_space": {
+
+    "description":
+    "Local doubled address space arising from 4 adjacency directions and a binary sheet parity in the signed 2-cover.",
+
+    "address_space": 4,
+    "sheet_parity": 2,
+
+    "doubled_local_space": 8,
+
+    "swap_operator": {
+      "definition":
+      "Sheet exchange operator acting on the doubled local basis.",
+      "eigenvalues": {
+        "+1": 4,
+        "-1": 4
+      }
+    },
+
+    "distinguished_modes": {
+
+      "preserve_uniform_mode": {
+        "dimension": 1,
+        "vector_form": "[1,1,1,1,1,1,1,1] / sqrt(8)",
+        "parity_sector": "symmetric"
+      },
+
+      "swap_mode": {
+        "dimension": 1,
+        "vector_form": "[1,1,1,1,-1,-1,-1,-1] / sqrt(8)",
+        "parity_sector": "antisymmetric",
+        "interpretation":
+        "Uniform sheet-flip direction representing pure swap transport."
+      }
+    },
+
+    "derived_structure": {
+
+      "swap_complement_dimension": 7,
+
+      "interpretation":
+      "The 8-dimensional doubled local state space contains a distinguished 1-dimensional swap mode corresponding to sheet exchange. Its orthogonal complement is therefore 7-dimensional and represents the effective preserve-transport state space."
+
+    }
+  }
+}

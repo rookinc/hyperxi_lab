@@ -7,9 +7,10 @@ from tkinter.scrolledtext import ScrolledText
 from .state import HyperXiState
 from .graph_view import draw_chamber_graph
 from .icosahedral_view import (
-    draw_chamber_graph as _unused_graph_draw,  # harmless if removed
+    draw_icosahedral_skeleton,
+    skeleton_summary,
+    draw_cubic_resonance,
 )
-from .icosahedral_view import draw_icosahedral_skeleton, skeleton_summary, draw_cubic_resonance
 
 from hyperxi.combinatorics.transport_scaffold import (
     Flag,
@@ -43,7 +44,9 @@ class HyperXILabViewerApp:
         self.report_console: ScrolledText | None = None
         self.main_content_frame: ttk.Frame | None = None
         self.word_var = tk.StringVar(value=self.state.default_word)
-        self.word_result_var = tk.StringVar(value="Select Word Explorer to run a transport word.")
+        self.word_result_var = tk.StringVar(
+            value="Select Word Explorer to run a transport word."
+        )
 
         self.cubic_phase_var = tk.IntVar(value=0)
         self.cubic_display_var = tk.StringVar(value="faces")
@@ -102,7 +105,11 @@ class HyperXILabViewerApp:
         status_label.pack(anchor="w")
 
     def _build_left_pane(self, parent: ttk.Frame) -> None:
-        label = ttk.Label(parent, text="Object Explorer", font=("TkDefaultFont", 11, "bold"))
+        label = ttk.Label(
+            parent,
+            text="Object Explorer",
+            font=("TkDefaultFont", 11, "bold"),
+        )
         label.pack(anchor="w", pady=(0, 8))
 
         tree = ttk.Treeview(parent, show="tree", selectmode="browse")
@@ -138,7 +145,11 @@ class HyperXILabViewerApp:
         main_body.pack(anchor="w")
 
     def _build_right_pane(self, parent: ttk.Frame) -> None:
-        label = ttk.Label(parent, text="Report Console", font=("TkDefaultFont", 11, "bold"))
+        label = ttk.Label(
+            parent,
+            text="Report Console",
+            font=("TkDefaultFont", 11, "bold"),
+        )
         label.pack(anchor="w", pady=(0, 8))
 
         console = ScrolledText(parent, wrap="word", height=20)
@@ -465,7 +476,10 @@ class HyperXILabViewerApp:
         if payload is None:
             ttk.Label(
                 self.main_content_frame,
-                text="Cubic resonance payload not found.\nExpected reports/spectral/nodal/thalion_cubic_viewer_payload.json",
+                text=(
+                    "Cubic resonance payload not found.\n"
+                    "Expected reports/spectral/nodal/thalion_cubic_viewer_payload.json"
+                ),
                 justify="left",
                 wraplength=520,
             ).pack(anchor="w")
@@ -593,3 +607,6 @@ class HyperXILabViewerApp:
 def main() -> None:
     app = HyperXILabViewerApp()
     app.run()
+
+if __name__ == "__main__":
+    main()

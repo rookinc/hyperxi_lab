@@ -1,0 +1,485 @@
+{
+  "eigenvalue": 2.821023448650914,
+  "mode": [
+    {
+      "flag": "Flag(face=0, slot=0, orient=0)",
+      "value": -0.48434625763633693
+    },
+    {
+      "flag": "Flag(face=0, slot=0, orient=1)",
+      "value": 0.3168239249707908
+    },
+    {
+      "flag": "Flag(face=0, slot=1, orient=0)",
+      "value": -1.0
+    },
+    {
+      "flag": "Flag(face=0, slot=1, orient=1)",
+      "value": 0.8937677214362127
+    },
+    {
+      "flag": "Flag(face=0, slot=2, orient=0)",
+      "value": -0.549141748142144
+    },
+    {
+      "flag": "Flag(face=0, slot=2, orient=1)",
+      "value": 0.2045157748480741
+    },
+    {
+      "flag": "Flag(face=0, slot=3, orient=0)",
+      "value": -0.5491417481421432
+    },
+    {
+      "flag": "Flag(face=0, slot=3, orient=1)",
+      "value": -0.3168239249707833
+    },
+    {
+      "flag": "Flag(face=0, slot=4, orient=0)",
+      "value": -0.36635215005841926
+    },
+    {
+      "flag": "Flag(face=0, slot=4, orient=1)",
+      "value": 4.956759362075501e-15
+    },
+    {
+      "flag": "Flag(face=1, slot=0, orient=0)",
+      "value": 2.9504520012354174e-15
+    },
+    {
+      "flag": "Flag(face=1, slot=0, orient=1)",
+      "value": -2.5963977610871672e-15
+    },
+    {
+      "flag": "Flag(face=1, slot=1, orient=0)",
+      "value": 3.3045062413836676e-15
+    },
+    {
+      "flag": "Flag(face=1, slot=1, orient=1)",
+      "value": -5.310813602223751e-15
+    },
+    {
+      "flag": "Flag(face=1, slot=2, orient=0)",
+      "value": -2.360361600988334e-16
+    },
+    {
+      "flag": "Flag(face=1, slot=2, orient=1)",
+      "value": -2.7734248811612923e-15
+    },
+    {
+      "flag": "Flag(face=1, slot=3, orient=0)",
+      "value": 1.5932440806671254e-15
+    },
+    {
+      "flag": "Flag(face=1, slot=3, orient=1)",
+      "value": 3.5405424014825007e-16
+    },
+    {
+      "flag": "Flag(face=1, slot=4, orient=0)",
+      "value": 2.0063073608400838e-15
+    },
+    {
+      "flag": "Flag(face=1, slot=4, orient=1)",
+      "value": 2.360361600988334e-16
+    },
+    {
+      "flag": "Flag(face=10, slot=0, orient=0)",
+      "value": 0.4843462576363344
+    },
+    {
+      "flag": "Flag(face=10, slot=0, orient=1)",
+      "value": -0.3168239249707946
+    },
+    {
+      "flag": "Flag(face=10, slot=1, orient=0)",
+      "value": 0.9999999999999949
+    },
+    {
+      "flag": "Flag(face=10, slot=1, orient=1)",
+      "value": -0.8937677214362176
+    },
+    {
+      "flag": "Flag(face=10, slot=2, orient=0)",
+      "value": 0.5491417481421387
+    },
+    {
+      "flag": "Flag(face=10, slot=2, orient=1)",
+      "value": -0.20451577484807934
+    },
+    {
+      "flag": "Flag(face=10, slot=3, orient=0)",
+      "value": 0.5491417481421386
+    },
+    {
+      "flag": "Flag(face=10, slot=3, orient=1)",
+      "value": 0.3168239249707819
+    },
+    {
+      "flag": "Flag(face=10, slot=4, orient=0)",
+      "value": 0.36635215005841776
+    },
+    {
+      "flag": "Flag(face=10, slot=4, orient=1)",
+      "value": -4.543696081902542e-15
+    },
+    {
+      "flag": "Flag(face=11, slot=0, orient=0)",
+      "value": -3.761826301575157e-15
+    },
+    {
+      "flag": "Flag(face=11, slot=0, orient=1)",
+      "value": -9.588969004015107e-16
+    },
+    {
+      "flag": "Flag(face=11, slot=1, orient=0)",
+      "value": -5.716500752393621e-15
+    },
+    {
+      "flag": "Flag(face=11, slot=1, orient=1)",
+      "value": -1.180180800494167e-16
+    },
+    {
+      "flag": "Flag(face=11, slot=2, orient=0)",
+      "value": -4.647883918196169e-15
+    },
+    {
+      "flag": "Flag(face=11, slot=2, orient=1)",
+      "value": -2.1280135058910446e-15
+    },
+    {
+      "flag": "Flag(face=11, slot=3, orient=0)",
+      "value": -4.6013220975516716e-15
+    },
+    {
+      "flag": "Flag(face=11, slot=3, orient=1)",
+      "value": -3.815303244097549e-15
+    },
+    {
+      "flag": "Flag(face=11, slot=4, orient=0)",
+      "value": -1.886445248289895e-15
+    },
+    {
+      "flag": "Flag(face=11, slot=4, orient=1)",
+      "value": -4.955837345825115e-16
+    },
+    {
+      "flag": "Flag(face=2, slot=0, orient=0)",
+      "value": 0.4843462576363349
+    },
+    {
+      "flag": "Flag(face=2, slot=0, orient=1)",
+      "value": -0.3168239249707887
+    },
+    {
+      "flag": "Flag(face=2, slot=1, orient=0)",
+      "value": 0.9999999999999962
+    },
+    {
+      "flag": "Flag(face=2, slot=1, orient=1)",
+      "value": -0.8937677214362136
+    },
+    {
+      "flag": "Flag(face=2, slot=2, orient=0)",
+      "value": 0.54914174814214
+    },
+    {
+      "flag": "Flag(face=2, slot=2, orient=1)",
+      "value": -0.2045157748480755
+    },
+    {
+      "flag": "Flag(face=2, slot=3, orient=0)",
+      "value": 0.5491417481421382
+    },
+    {
+      "flag": "Flag(face=2, slot=3, orient=1)",
+      "value": 0.3168239249707852
+    },
+    {
+      "flag": "Flag(face=2, slot=4, orient=0)",
+      "value": 0.3663521500584172
+    },
+    {
+      "flag": "Flag(face=2, slot=4, orient=1)",
+      "value": -1.9592845320703943e-16
+    },
+    {
+      "flag": "Flag(face=3, slot=0, orient=0)",
+      "value": -1.6467210231895174e-15
+    },
+    {
+      "flag": "Flag(face=3, slot=0, orient=1)",
+      "value": 5.614156948600768e-15
+    },
+    {
+      "flag": "Flag(face=3, slot=1, orient=0)",
+      "value": -3.429900451436173e-15
+    },
+    {
+      "flag": "Flag(face=3, slot=1, orient=1)",
+      "value": 5.616922997351926e-15
+    },
+    {
+      "flag": "Flag(face=3, slot=2, orient=0)",
+      "value": -2.9914817243775974e-15
+    },
+    {
+      "flag": "Flag(face=3, slot=2, orient=1)",
+      "value": 9.353854860166658e-16
+    },
+    {
+      "flag": "Flag(face=3, slot=3, orient=0)",
+      "value": -5.4767765272932436e-15
+    },
+    {
+      "flag": "Flag(face=3, slot=3, orient=1)",
+      "value": -1.5015034637537116e-15
+    },
+    {
+      "flag": "Flag(face=3, slot=4, orient=0)",
+      "value": -3.8632480891176245e-15
+    },
+    {
+      "flag": "Flag(face=3, slot=4, orient=1)",
+      "value": 2.87484666870376e-15
+    },
+    {
+      "flag": "Flag(face=4, slot=0, orient=0)",
+      "value": -0.4843462576363269
+    },
+    {
+      "flag": "Flag(face=4, slot=0, orient=1)",
+      "value": 0.31682392497079187
+    },
+    {
+      "flag": "Flag(face=4, slot=1, orient=0)",
+      "value": -0.999999999999992
+    },
+    {
+      "flag": "Flag(face=4, slot=1, orient=1)",
+      "value": 0.8937677214362149
+    },
+    {
+      "flag": "Flag(face=4, slot=2, orient=0)",
+      "value": -0.5491417481421419
+    },
+    {
+      "flag": "Flag(face=4, slot=2, orient=1)",
+      "value": 0.2045157748480725
+    },
+    {
+      "flag": "Flag(face=4, slot=3, orient=0)",
+      "value": -0.5491417481421386
+    },
+    {
+      "flag": "Flag(face=4, slot=3, orient=1)",
+      "value": -0.3168239249707875
+    },
+    {
+      "flag": "Flag(face=4, slot=4, orient=0)",
+      "value": -0.36635215005841426
+    },
+    {
+      "flag": "Flag(face=4, slot=4, orient=1)",
+      "value": 1.3678111074477317e-15
+    },
+    {
+      "flag": "Flag(face=5, slot=0, orient=0)",
+      "value": 7.379357059964894e-15
+    },
+    {
+      "flag": "Flag(face=5, slot=0, orient=1)",
+      "value": 3.8669361541191685e-15
+    },
+    {
+      "flag": "Flag(face=5, slot=1, orient=0)",
+      "value": 6.2291417876082745e-15
+    },
+    {
+      "flag": "Flag(face=5, slot=1, orient=1)",
+      "value": -2.0653164008647922e-16
+    },
+    {
+      "flag": "Flag(face=5, slot=2, orient=0)",
+      "value": 2.5341616641861076e-15
+    },
+    {
+      "flag": "Flag(face=5, slot=2, orient=1)",
+      "value": -6.278930665129122e-16
+    },
+    {
+      "flag": "Flag(face=5, slot=3, orient=0)",
+      "value": 2.932933692478082e-15
+    },
+    {
+      "flag": "Flag(face=5, slot=3, orient=1)",
+      "value": 7.431450978111708e-16
+    },
+    {
+      "flag": "Flag(face=5, slot=4, orient=0)",
+      "value": 3.5672808727436966e-15
+    },
+    {
+      "flag": "Flag(face=5, slot=4, orient=1)",
+      "value": 5.542470185133251e-16
+    },
+    {
+      "flag": "Flag(face=6, slot=0, orient=0)",
+      "value": 0.4843462576363374
+    },
+    {
+      "flag": "Flag(face=6, slot=0, orient=1)",
+      "value": -0.3168239249707827
+    },
+    {
+      "flag": "Flag(face=6, slot=1, orient=0)",
+      "value": 0.9999999999999982
+    },
+    {
+      "flag": "Flag(face=6, slot=1, orient=1)",
+      "value": -0.8937677214362083
+    },
+    {
+      "flag": "Flag(face=6, slot=2, orient=0)",
+      "value": 0.549141748142143
+    },
+    {
+      "flag": "Flag(face=6, slot=2, orient=1)",
+      "value": -0.20451577484807223
+    },
+    {
+      "flag": "Flag(face=6, slot=3, orient=0)",
+      "value": 0.549141748142139
+    },
+    {
+      "flag": "Flag(face=6, slot=3, orient=1)",
+      "value": 0.3168239249707871
+    },
+    {
+      "flag": "Flag(face=6, slot=4, orient=0)",
+      "value": 0.36635215005841887
+    },
+    {
+      "flag": "Flag(face=6, slot=4, orient=1)",
+      "value": 2.1132612458848678e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=0, orient=0)",
+      "value": 2.7471474180252892e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=0, orient=1)",
+      "value": 3.693597099046588e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=1, orient=0)",
+      "value": -1.1875569304972554e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=1, orient=1)",
+      "value": 3.499051670215128e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=2, orient=0)",
+      "value": -3.629055961519564e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=2, orient=1)",
+      "value": -1.76566111948932e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=3, orient=0)",
+      "value": -2.5982417935879392e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=3, orient=1)",
+      "value": -4.9659795245793616e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=4, orient=0)",
+      "value": 1.5499093168989802e-15
+    },
+    {
+      "flag": "Flag(face=7, slot=4, orient=1)",
+      "value": -1.5503703250241732e-15
+    },
+    {
+      "flag": "Flag(face=8, slot=0, orient=0)",
+      "value": -0.4843462576363294
+    },
+    {
+      "flag": "Flag(face=8, slot=0, orient=1)",
+      "value": 0.31682392497078915
+    },
+    {
+      "flag": "Flag(face=8, slot=1, orient=0)",
+      "value": -0.9999999999999941
+    },
+    {
+      "flag": "Flag(face=8, slot=1, orient=1)",
+      "value": 0.8937677214362131
+    },
+    {
+      "flag": "Flag(face=8, slot=2, orient=0)",
+      "value": -0.5491417481421415
+    },
+    {
+      "flag": "Flag(face=8, slot=2, orient=1)",
+      "value": 0.20451577484807237
+    },
+    {
+      "flag": "Flag(face=8, slot=3, orient=0)",
+      "value": -0.5491417481421387
+    },
+    {
+      "flag": "Flag(face=8, slot=3, orient=1)",
+      "value": -0.31682392497078793
+    },
+    {
+      "flag": "Flag(face=8, slot=4, orient=0)",
+      "value": -0.36635215005841526
+    },
+    {
+      "flag": "Flag(face=8, slot=4, orient=1)",
+      "value": 8.528650316071128e-17
+    },
+    {
+      "flag": "Flag(face=9, slot=0, orient=0)",
+      "value": -1.9657386458230968e-15
+    },
+    {
+      "flag": "Flag(face=9, slot=0, orient=1)",
+      "value": 2.1925546434180697e-15
+    },
+    {
+      "flag": "Flag(face=9, slot=1, orient=0)",
+      "value": 1.0215940054277633e-15
+    },
+    {
+      "flag": "Flag(face=9, slot=1, orient=1)",
+      "value": -1.4272811555976331e-15
+    },
+    {
+      "flag": "Flag(face=9, slot=2, orient=0)",
+      "value": 9.75954201033653e-16
+    },
+    {
+      "flag": "Flag(face=9, slot=2, orient=1)",
+      "value": -2.30504062596517e-18
+    },
+    {
+      "flag": "Flag(face=9, slot=3, orient=0)",
+      "value": 1.0676948179470667e-15
+    },
+    {
+      "flag": "Flag(face=9, slot=3, orient=1)",
+      "value": 2.432970380706237e-15
+    },
+    {
+      "flag": "Flag(face=9, slot=4, orient=0)",
+      "value": 3.7710464640790176e-16
+    },
+    {
+      "flag": "Flag(face=9, slot=4, orient=1)",
+      "value": 3.1468414625676498e-15
+    }
+  ]
+}

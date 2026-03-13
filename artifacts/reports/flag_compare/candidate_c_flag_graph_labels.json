@@ -1,0 +1,362 @@
+{
+  "0": {
+    "adjacent_face": 3,
+    "face": 0,
+    "label": "0:0",
+    "slot": 0
+  },
+  "1": {
+    "adjacent_face": 5,
+    "face": 0,
+    "label": "0:1",
+    "slot": 1
+  },
+  "10": {
+    "adjacent_face": 1,
+    "face": 2,
+    "label": "2:0",
+    "slot": 0
+  },
+  "11": {
+    "adjacent_face": 4,
+    "face": 2,
+    "label": "2:1",
+    "slot": 1
+  },
+  "12": {
+    "adjacent_face": 3,
+    "face": 2,
+    "label": "2:2",
+    "slot": 2
+  },
+  "13": {
+    "adjacent_face": 11,
+    "face": 2,
+    "label": "2:3",
+    "slot": 3
+  },
+  "14": {
+    "adjacent_face": 10,
+    "face": 2,
+    "label": "2:4",
+    "slot": 4
+  },
+  "15": {
+    "adjacent_face": 0,
+    "face": 3,
+    "label": "3:0",
+    "slot": 0
+  },
+  "16": {
+    "adjacent_face": 11,
+    "face": 3,
+    "label": "3:1",
+    "slot": 1
+  },
+  "17": {
+    "adjacent_face": 2,
+    "face": 3,
+    "label": "3:2",
+    "slot": 2
+  },
+  "18": {
+    "adjacent_face": 4,
+    "face": 3,
+    "label": "3:3",
+    "slot": 3
+  },
+  "19": {
+    "adjacent_face": 5,
+    "face": 3,
+    "label": "3:4",
+    "slot": 4
+  },
+  "2": {
+    "adjacent_face": 7,
+    "face": 0,
+    "label": "0:2",
+    "slot": 2
+  },
+  "20": {
+    "adjacent_face": 1,
+    "face": 4,
+    "label": "4:0",
+    "slot": 0
+  },
+  "21": {
+    "adjacent_face": 6,
+    "face": 4,
+    "label": "4:1",
+    "slot": 1
+  },
+  "22": {
+    "adjacent_face": 5,
+    "face": 4,
+    "label": "4:2",
+    "slot": 2
+  },
+  "23": {
+    "adjacent_face": 3,
+    "face": 4,
+    "label": "4:3",
+    "slot": 3
+  },
+  "24": {
+    "adjacent_face": 2,
+    "face": 4,
+    "label": "4:4",
+    "slot": 4
+  },
+  "25": {
+    "adjacent_face": 0,
+    "face": 5,
+    "label": "5:0",
+    "slot": 0
+  },
+  "26": {
+    "adjacent_face": 3,
+    "face": 5,
+    "label": "5:1",
+    "slot": 1
+  },
+  "27": {
+    "adjacent_face": 4,
+    "face": 5,
+    "label": "5:2",
+    "slot": 2
+  },
+  "28": {
+    "adjacent_face": 6,
+    "face": 5,
+    "label": "5:3",
+    "slot": 3
+  },
+  "29": {
+    "adjacent_face": 7,
+    "face": 5,
+    "label": "5:4",
+    "slot": 4
+  },
+  "3": {
+    "adjacent_face": 9,
+    "face": 0,
+    "label": "0:3",
+    "slot": 3
+  },
+  "30": {
+    "adjacent_face": 1,
+    "face": 6,
+    "label": "6:0",
+    "slot": 0
+  },
+  "31": {
+    "adjacent_face": 8,
+    "face": 6,
+    "label": "6:1",
+    "slot": 1
+  },
+  "32": {
+    "adjacent_face": 7,
+    "face": 6,
+    "label": "6:2",
+    "slot": 2
+  },
+  "33": {
+    "adjacent_face": 5,
+    "face": 6,
+    "label": "6:3",
+    "slot": 3
+  },
+  "34": {
+    "adjacent_face": 4,
+    "face": 6,
+    "label": "6:4",
+    "slot": 4
+  },
+  "35": {
+    "adjacent_face": 0,
+    "face": 7,
+    "label": "7:0",
+    "slot": 0
+  },
+  "36": {
+    "adjacent_face": 5,
+    "face": 7,
+    "label": "7:1",
+    "slot": 1
+  },
+  "37": {
+    "adjacent_face": 6,
+    "face": 7,
+    "label": "7:2",
+    "slot": 2
+  },
+  "38": {
+    "adjacent_face": 8,
+    "face": 7,
+    "label": "7:3",
+    "slot": 3
+  },
+  "39": {
+    "adjacent_face": 9,
+    "face": 7,
+    "label": "7:4",
+    "slot": 4
+  },
+  "4": {
+    "adjacent_face": 11,
+    "face": 0,
+    "label": "0:4",
+    "slot": 4
+  },
+  "40": {
+    "adjacent_face": 1,
+    "face": 8,
+    "label": "8:0",
+    "slot": 0
+  },
+  "41": {
+    "adjacent_face": 10,
+    "face": 8,
+    "label": "8:1",
+    "slot": 1
+  },
+  "42": {
+    "adjacent_face": 9,
+    "face": 8,
+    "label": "8:2",
+    "slot": 2
+  },
+  "43": {
+    "adjacent_face": 7,
+    "face": 8,
+    "label": "8:3",
+    "slot": 3
+  },
+  "44": {
+    "adjacent_face": 6,
+    "face": 8,
+    "label": "8:4",
+    "slot": 4
+  },
+  "45": {
+    "adjacent_face": 0,
+    "face": 9,
+    "label": "9:0",
+    "slot": 0
+  },
+  "46": {
+    "adjacent_face": 7,
+    "face": 9,
+    "label": "9:1",
+    "slot": 1
+  },
+  "47": {
+    "adjacent_face": 8,
+    "face": 9,
+    "label": "9:2",
+    "slot": 2
+  },
+  "48": {
+    "adjacent_face": 10,
+    "face": 9,
+    "label": "9:3",
+    "slot": 3
+  },
+  "49": {
+    "adjacent_face": 11,
+    "face": 9,
+    "label": "9:4",
+    "slot": 4
+  },
+  "5": {
+    "adjacent_face": 2,
+    "face": 1,
+    "label": "1:0",
+    "slot": 0
+  },
+  "50": {
+    "adjacent_face": 1,
+    "face": 10,
+    "label": "10:0",
+    "slot": 0
+  },
+  "51": {
+    "adjacent_face": 2,
+    "face": 10,
+    "label": "10:1",
+    "slot": 1
+  },
+  "52": {
+    "adjacent_face": 11,
+    "face": 10,
+    "label": "10:2",
+    "slot": 2
+  },
+  "53": {
+    "adjacent_face": 9,
+    "face": 10,
+    "label": "10:3",
+    "slot": 3
+  },
+  "54": {
+    "adjacent_face": 8,
+    "face": 10,
+    "label": "10:4",
+    "slot": 4
+  },
+  "55": {
+    "adjacent_face": 0,
+    "face": 11,
+    "label": "11:0",
+    "slot": 0
+  },
+  "56": {
+    "adjacent_face": 9,
+    "face": 11,
+    "label": "11:1",
+    "slot": 1
+  },
+  "57": {
+    "adjacent_face": 10,
+    "face": 11,
+    "label": "11:2",
+    "slot": 2
+  },
+  "58": {
+    "adjacent_face": 2,
+    "face": 11,
+    "label": "11:3",
+    "slot": 3
+  },
+  "59": {
+    "adjacent_face": 3,
+    "face": 11,
+    "label": "11:4",
+    "slot": 4
+  },
+  "6": {
+    "adjacent_face": 4,
+    "face": 1,
+    "label": "1:1",
+    "slot": 1
+  },
+  "7": {
+    "adjacent_face": 6,
+    "face": 1,
+    "label": "1:2",
+    "slot": 2
+  },
+  "8": {
+    "adjacent_face": 8,
+    "face": 1,
+    "label": "1:3",
+    "slot": 3
+  },
+  "9": {
+    "adjacent_face": 10,
+    "face": 1,
+    "label": "1:4",
+    "slot": 4
+  }
+}

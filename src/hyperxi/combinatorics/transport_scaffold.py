@@ -50,6 +50,109 @@ def all_flags() -> list[Flag]:
     ]
 
 
+# -------------------------------------------------------------------
+# Real dodecahedral face-edge transport tables
+# -------------------------------------------------------------------
+#
+# These are derived from src/hyperxi/geometry/incidences.py.
+#
+# For each face f and local slot s, the edge
+#   (face_vertices[s], face_vertices[(s+1) % 5])
+# determines a unique adjacent face and a unique corresponding slot on
+# that adjacent face.
+
+
+FACE_NEIGHBORS: dict[int, tuple[int, int, int, int, int]] = {
+    0:  (1, 2, 3, 4, 5),
+    1:  (5, 6, 7, 2, 0),
+    2:  (1, 7, 8, 3, 0),
+    3:  (2, 8, 9, 4, 0),
+    4:  (3, 9, 10, 5, 0),
+    5:  (4, 10, 6, 1, 0),
+    6:  (7, 1, 5, 10, 11),
+    7:  (8, 2, 1, 6, 11),
+    8:  (9, 3, 2, 7, 11),
+    9:  (10, 4, 3, 8, 11),
+    10: (6, 5, 4, 9, 11),
+    11: (7, 8, 9, 10, 6),
+}
+
+
+FACE_SLOT_MAP: dict[tuple[int, int], int] = {
+    (0, 0): 4,
+    (0, 1): 4,
+    (0, 2): 4,
+    (0, 3): 4,
+    (0, 4): 4,
+
+    (1, 0): 3,
+    (1, 1): 1,
+    (1, 2): 2,
+    (1, 3): 0,
+    (1, 4): 0,
+
+    (2, 0): 3,
+    (2, 1): 1,
+    (2, 2): 2,
+    (2, 3): 0,
+    (2, 4): 1,
+
+    (3, 0): 3,
+    (3, 1): 1,
+    (3, 2): 2,
+    (3, 3): 0,
+    (3, 4): 2,
+
+    (4, 0): 3,
+    (4, 1): 1,
+    (4, 2): 2,
+    (4, 3): 0,
+    (4, 4): 3,
+
+    (5, 0): 3,
+    (5, 1): 1,
+    (5, 2): 2,
+    (5, 3): 0,
+    (5, 4): 4,
+
+    (6, 0): 3,
+    (6, 1): 1,
+    (6, 2): 2,
+    (6, 3): 0,
+    (6, 4): 4,
+
+    (7, 0): 3,
+    (7, 1): 1,
+    (7, 2): 2,
+    (7, 3): 0,
+    (7, 4): 0,
+
+    (8, 0): 3,
+    (8, 1): 1,
+    (8, 2): 2,
+    (8, 3): 0,
+    (8, 4): 1,
+
+    (9, 0): 3,
+    (9, 1): 1,
+    (9, 2): 2,
+    (9, 3): 0,
+    (9, 4): 2,
+
+    (10, 0): 3,
+    (10, 1): 1,
+    (10, 2): 2,
+    (10, 3): 0,
+    (10, 4): 3,
+
+    (11, 0): 4,
+    (11, 1): 4,
+    (11, 2): 4,
+    (11, 3): 4,
+    (11, 4): 4,
+}
+
+
 def S(flag: Flag) -> Flag:
     """
     Edge-flip style involution.
@@ -67,14 +170,16 @@ def F(flag: Flag) -> Flag:
 
 def V(flag: Flag) -> Flag:
     """
-    Vertex-rotation style move.
+    Cross the local face edge at the current slot into the adjacent face.
 
-    Temporary scaffold rule:
-    - toggles orientation
-    - advances to a neighboring face chart in a deterministic way
+    Current scaffold convention:
+    - move to the adjacent face across the edge indexed by `slot`
+    - land on the corresponding edge-slot of the adjacent face
+    - flip the local orientation bit
     """
-    next_face = (flag.face + flag.slot + 1) % FACE_COUNT
-    return Flag(next_face, flag.slot, 1 - flag.orient)
+    next_face = FACE_NEIGHBORS[flag.face][flag.slot]
+    next_slot = FACE_SLOT_MAP[(flag.face, flag.slot)]
+    return Flag(next_face, next_slot, 1 - flag.orient)
 
 
 GENERATORS: dict[str, callable] = {
@@ -157,3 +262,27 @@ def summary(word: str) -> list[str]:
         f"cycles: {len(lengths)}",
         f"cycle lengths: {lengths}",
     ]
+
+
+def validate_face_tables() -> None:
+    for face in range(FACE_COUNT):
+        if face not in FACE_NEIGHBORS:
+            raise ValueError(f"missing FACE_NEIGHBORS entry for face {face}")
+        row = FACE_NEIGHBORS[face]
+        if len(row) != FACE_SIZE:
+            raise ValueError(f"face {face} must have {FACE_SIZE} neighbor entries")
+
+        for slot in range(FACE_SIZE):
+            nbr = row[slot]
+            if not (0 <= nbr < FACE_COUNT):
+                raise ValueError(f"invalid neighbor {nbr} at face {face} slot {slot}")
+
+            dst_slot = FACE_SLOT_MAP[(face, slot)]
+            if not (0 <= dst_slot < FACE_SIZE):
+                raise ValueError(
+                    f"invalid destination slot {dst_slot} at face {face} slot {slot}"
+                )
+
+
+validate_face_tables()
+

@@ -186,7 +186,8 @@ class HyperXILabViewerApp:
         self.tree.insert(analysis, "end", text="Antipodes")
         self.tree.insert(analysis, "end", text="Icosahedral Skeleton")
         self.tree.insert(analysis, "end", text="Cubic Resonance")
-
+        self.tree.insert(analysis, "end", text="Polar Dodecahedron")
+        
     def _boot_log(self) -> None:
         self.log("HyperXi Lab Viewer v0.1")
         self.log("--------------------------------")
@@ -305,6 +306,30 @@ class HyperXILabViewerApp:
             wraplength=520,
         )
         main_body.pack(anchor="w")
+
+    def _render_canvas_view(self, draw_fn) -> None:
+        assert self.main_content_frame is not None
+
+        # clear existing content
+        for child in self.main_content_frame.winfo_children():
+            child.destroy()
+
+        canvas = tk.Canvas(
+            self.main_content_frame,
+            background="white",
+            highlightthickness=0,
+        )
+        canvas.pack(fill="both", expand=True)
+
+        def _redraw(_event=None):
+            canvas.delete("all")
+            draw_fn(canvas)
+
+        canvas.bind("<Configure>", _redraw)
+
+        # draw once immediately
+        self.root.after_idle(_redraw)
+
 
     def _render_word_explorer(self) -> None:
         self._clear_main_content()
@@ -645,6 +670,28 @@ class HyperXILabViewerApp:
             self._render_cubic_resonance()
             self.status_var.set("Viewing: Cubic Resonance")
             return True
+
+        if label == "Polar Dodecahedron":
+            self.main_title_var.set("Polar Dodecahedron")
+            self._render_canvas_view(
+                lambda canvas: draw_chamber_graph(
+                    canvas,
+                    petrie_word=self.state.petrie_word,
+                    thalion_word=self.state.thalion_word,
+                    color_mode="side",
+                    layout_mode="polar",
+                    face7_twist=3.141592653589793 / 5.0,
+                )
+            )
+            self.log("")
+            self.log("[polar dodecahedron]")
+            self.log("deterministic double-shell embedding")
+            self.log("face 0 aligned to south pole")
+            self.log("face 1 aligned to north pole")
+            self.log("face 7 twist enabled: pi/5")
+            self.status_var.set("Polar dodecahedron view rendered.")
+            return True
+
 
         return False
 

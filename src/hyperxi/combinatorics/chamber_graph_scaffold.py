@@ -1,10 +1,9 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Callable
 
 from .thalions import Thalion, build_thalions
-from .transport_scaffold import F, V, Flag
+from .transport_scaffold import F, Flag
 
 
 @dataclass(frozen=True)
@@ -37,10 +36,16 @@ def _flag_to_thalion_map(thalions: list[Thalion]) -> dict[Flag, int]:
     return out
 
 
-def _build_graph_from_moves(
-    moves: tuple[Callable[[Flag], Flag], ...],
-    thalion_word: str = "FSF",
-) -> ChamberGraph:
+def V_scaffold(flag: Flag) -> Flag:
+    """
+    Original synthetic inter-face transport that produced the 4-regular
+    60-vertex scaffold graph.
+    """
+    next_face = (flag.face + flag.slot + 1) % 12
+    return Flag(next_face, flag.slot, 1 - flag.orient)
+
+
+def build_scaffold_chamber_graph(thalion_word: str = "FSF") -> ChamberGraph:
     thalions = build_thalions(thalion_word)
     owner = _flag_to_thalion_map(thalions)
 
@@ -49,7 +54,7 @@ def _build_graph_from_moves(
     for th in thalions:
         src = th.id
         for flag in th.members:
-            for move in moves:
+            for move in (F, V_scaffold):
                 image = move(flag)
                 dst = owner[image]
                 if dst == src:
@@ -62,27 +67,10 @@ def _build_graph_from_moves(
     return ChamberGraph(vertices=vertices, edges=edges)
 
 
-def build_incidence_quotient_graph(thalion_word: str = "FSF") -> ChamberGraph:
-    return _build_graph_from_moves((F, V), thalion_word=thalion_word)
-
-
-def build_chamber_graph(thalion_word: str = "FSF") -> ChamberGraph:
-    return build_incidence_quotient_graph(thalion_word=thalion_word)
-
-
 def summary() -> list[str]:
-    g = build_chamber_graph()
+    g = build_scaffold_chamber_graph()
     return [
-        f"vertices: {g.vertex_count()}",
-        f"edges: {g.edge_count()}",
-        f"degree set: {g.degree_set()}",
-    ]
-
-
-def incidence_summary() -> list[str]:
-    g = build_incidence_quotient_graph()
-    return [
-        "graph: incidence quotient",
+        "graph: scaffold chamber graph",
         f"vertices: {g.vertex_count()}",
         f"edges: {g.edge_count()}",
         f"degree set: {g.degree_set()}",

@@ -1,0 +1,7 @@
+================================================================================
+CHAMBER OCCUPANCY MODE ANALYSIS
+================================================================================
+saved report: reports/spectral/occupancy/chamber_occupancy_modes.txt
+saved image : reports/spectral/occupancy/occupancy_mode_density.png
+saved image : reports/spectral/occupancy/occupancy_class_profile.png
+================================================================================

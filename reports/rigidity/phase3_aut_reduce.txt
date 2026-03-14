@@ -1,0 +1,11 @@
+================================================================================
+PHASE 3 — AUTOMORPHISM + SWITCHING REDUCTION
+================================================================================
+phase1 distinct lift hashes:   1
+automorphisms found:           120
+distinct aut+switch orbits:    1
+
+TOP AUTOMORPHISM+SWITCHING ORBITS
+--------------------------------------------------------------------------------
+count=1 repr_prefix=[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1] ...
+

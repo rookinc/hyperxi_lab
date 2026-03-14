@@ -1,0 +1,38 @@
+========================================================================
+IDENTIFY 15-VERTEX QUOTIENT
+========================================================================
+TARGET 15-GRAPH
+------------------------------------------------------------------------
+vertices: 15
+edges: 30
+degree set: [4]
+connected: True
+diameter: 3
+triangles: 10
+shell counts from 0: (1, 4, 8, 2)
+spectrum:
+   -2.000000 : 5
+   -1.000000 : 4
+    2.000000 : 5
+    4.000000 : 1
+
+GRAPH6
+------------------------------------------------------------------------
+Nto`GCJAIAAHPA@CaAg
+
+CANDIDATE COMPARISONS
+------------------------------------------------------------------------
+checking: triangular_graph(6) / line_graph(K6)
+  order=15 size=60 degree set=[8]
+  isomorphic: False
+checking: complement(triangular_graph(6))
+  order=15 size=45 degree set=[6]
+  isomorphic: False
+checking: rook_graph(3,5)
+  order=15 size=45 degree set=[6]
+  isomorphic: False
+checking: complete_multipartite_graph(5,5,5)
+  order=15 size=75 degree set=[10]
+  isomorphic: False
+
+No matches among built-in candidate graphs.

@@ -1,0 +1,54 @@
+================================================================================
+PROBE ODD PENTAGONS BACK TO PETERSEN
+================================================================================
+odd pentagons in G15: 12
+G15 ≅ L(Petersen): True
+
+ODD PENTAGONS AS 5-EDGE SETS IN PETERSEN
+--------------------------------------------------------------------------------
+G15 cycle (0, 1, 10, 11, 3)
+  Petersen edges: [(6, 8), (6, 9), (7, 9), (5, 7), (5, 8)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (0, 1, 12, 5, 2)
+  Petersen edges: [(6, 8), (6, 9), (4, 9), (3, 4), (3, 8)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (0, 2, 6, 8, 4)
+  Petersen edges: [(6, 8), (3, 8), (2, 3), (1, 2), (1, 6)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (0, 3, 14, 9, 4)
+  Petersen edges: [(6, 8), (5, 8), (0, 5), (0, 1), (1, 6)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (1, 4, 8, 7, 10)
+  Petersen edges: [(6, 9), (1, 6), (1, 2), (2, 7), (7, 9)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (1, 4, 9, 13, 12)
+  Petersen edges: [(6, 9), (1, 6), (0, 1), (0, 4), (4, 9)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (2, 3, 11, 7, 6)
+  Petersen edges: [(3, 8), (5, 8), (5, 7), (2, 7), (2, 3)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (2, 3, 14, 13, 5)
+  Petersen edges: [(3, 8), (5, 8), (0, 5), (0, 4), (3, 4)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (5, 6, 7, 10, 12)
+  Petersen edges: [(3, 4), (2, 3), (2, 7), (7, 9), (4, 9)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (5, 6, 8, 9, 13)
+  Petersen edges: [(3, 4), (2, 3), (1, 2), (0, 1), (0, 4)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (7, 8, 9, 14, 11)
+  Petersen edges: [(2, 7), (1, 2), (0, 1), (0, 5), (5, 7)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (10, 11, 14, 13, 12)
+  Petersen edges: [(7, 9), (5, 7), (0, 5), (0, 4), (4, 9)]
+  induced type: 5-cycle-in-Petersen
+
+TYPE HISTOGRAM
+--------------------------------------------------------------------------------
+{'5-cycle-in-Petersen': 12}
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+If all six odd pentagons map to canonical 5-cycles in the Petersen graph,
+then the 'rotation loops' are directly inherited from the Petersen pentagon
+structure, explaining why Petersen appears at the core.

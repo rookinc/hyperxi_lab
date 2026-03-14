@@ -1,0 +1,74 @@
+================================================================================
+PUSH TRANSPORT SIGN TO PETERSEN
+================================================================================
+transport sign histogram on G15: Counter({0: 16, 1: 14})
+pentagons total: 12
+odd pentagons  : 6
+even pentagons : 6
+G15 ≅ L(Petersen): True
+
+ODD PENTAGONS PUSHED TO PETERSEN
+--------------------------------------------------------------------------------
+G15 cycle (0, 1, 10, 11, 3)
+  edge signs: [((0, 1), 0), ((1, 10), 0), ((10, 11), 0), ((3, 11), 1), ((0, 3), 0)]
+  Petersen edges: [(6, 8), (6, 9), (7, 9), (5, 7), (5, 8)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (0, 2, 6, 8, 4)
+  edge signs: [((0, 2), 0), ((2, 6), 1), ((6, 8), 1), ((4, 8), 1), ((0, 4), 0)]
+  Petersen edges: [(6, 8), (3, 8), (2, 3), (1, 2), (1, 6)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (1, 4, 9, 13, 12)
+  edge signs: [((1, 4), 0), ((4, 9), 1), ((9, 13), 0), ((12, 13), 1), ((1, 12), 1)]
+  Petersen edges: [(6, 9), (1, 6), (0, 1), (0, 4), (4, 9)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (2, 3, 14, 13, 5)
+  edge signs: [((2, 3), 0), ((3, 14), 1), ((13, 14), 0), ((5, 13), 1), ((2, 5), 1)]
+  Petersen edges: [(3, 8), (5, 8), (0, 5), (0, 4), (3, 4)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (5, 6, 7, 10, 12)
+  edge signs: [((5, 6), 0), ((6, 7), 1), ((7, 10), 1), ((10, 12), 1), ((5, 12), 0)]
+  Petersen edges: [(3, 4), (2, 3), (2, 7), (7, 9), (4, 9)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (7, 8, 9, 14, 11)
+  edge signs: [((7, 8), 0), ((8, 9), 0), ((9, 14), 0), ((11, 14), 0), ((7, 11), 1)]
+  Petersen edges: [(2, 7), (1, 2), (0, 1), (0, 5), (5, 7)]
+  induced type: 5-cycle-in-Petersen
+
+EVEN PENTAGONS PUSHED TO PETERSEN
+--------------------------------------------------------------------------------
+G15 cycle (0, 1, 12, 5, 2)
+  edge signs: [((0, 1), 0), ((1, 12), 1), ((5, 12), 0), ((2, 5), 1), ((0, 2), 0)]
+  Petersen edges: [(6, 8), (6, 9), (4, 9), (3, 4), (3, 8)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (0, 3, 14, 9, 4)
+  edge signs: [((0, 3), 0), ((3, 14), 1), ((9, 14), 0), ((4, 9), 1), ((0, 4), 0)]
+  Petersen edges: [(6, 8), (5, 8), (0, 5), (0, 1), (1, 6)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (1, 4, 8, 7, 10)
+  edge signs: [((1, 4), 0), ((4, 8), 1), ((7, 8), 0), ((7, 10), 1), ((1, 10), 0)]
+  Petersen edges: [(6, 9), (1, 6), (1, 2), (2, 7), (7, 9)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (2, 3, 11, 7, 6)
+  edge signs: [((2, 3), 0), ((3, 11), 1), ((7, 11), 1), ((6, 7), 1), ((2, 6), 1)]
+  Petersen edges: [(3, 8), (5, 8), (5, 7), (2, 7), (2, 3)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (5, 6, 8, 9, 13)
+  edge signs: [((5, 6), 0), ((6, 8), 1), ((8, 9), 0), ((9, 13), 0), ((5, 13), 1)]
+  Petersen edges: [(3, 4), (2, 3), (1, 2), (0, 1), (0, 4)]
+  induced type: 5-cycle-in-Petersen
+G15 cycle (10, 11, 14, 13, 12)
+  edge signs: [((10, 11), 0), ((11, 14), 0), ((13, 14), 0), ((12, 13), 1), ((10, 12), 1)]
+  Petersen edges: [(7, 9), (5, 7), (0, 5), (0, 4), (4, 9)]
+  induced type: 5-cycle-in-Petersen
+
+TYPE HISTOGRAMS
+--------------------------------------------------------------------------------
+odd pentagons : {'5-cycle-in-Petersen': 6}
+even pentagons: {'5-cycle-in-Petersen': 6}
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+This probe uses the actual transport sign from G30 -> G15.
+If both odd and even pentagons push to 5-cycles in Petersen, then the
+transport sign does not create the pentagons; it polarizes the canonical
+Petersen pentagon system into two parity classes (6 odd, 6 even).

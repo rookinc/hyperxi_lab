@@ -1,0 +1,55 @@
+================================================================================
+CHECK 15-CORE FROM CANONICAL DODECAHEDRON
+================================================================================
+DIRECT GRAPH SUMMARY
+--------------------------------------------------------------------------------
+vertices: 15
+edges: 30
+degree set: [4]
+connected: True
+diameter: 3
+triangles: 10
+shell counts from 0: (1, 4, 8, 2)
+
+TARGET GRAPH SUMMARY
+--------------------------------------------------------------------------------
+vertices: 15
+edges: 30
+degree set: [4]
+connected: True
+diameter: 3
+triangles: 10
+shell counts from 0: (1, 4, 8, 2)
+
+ISOMORPHISM TEST
+--------------------------------------------------------------------------------
+direct-from-dodecahedron ≅ recovered 15-core: True
+
+FIRST 15 OPPOSITE-EDGE CLASSES
+--------------------------------------------------------------------------------
+ 0 -> ((0, 1), (15, 16))
+ 1 -> ((0, 10), (5, 15))
+ 2 -> ((0, 19), (14, 15))
+ 3 -> ((1, 2), (12, 16))
+ 4 -> ((1, 8), (16, 17))
+ 5 -> ((2, 3), (12, 13))
+ 6 -> ((2, 6), (11, 12))
+ 7 -> ((3, 4), (9, 13))
+ 8 -> ((3, 19), (13, 14))
+ 9 -> ((4, 5), (9, 10))
+10 -> ((4, 17), (8, 9))
+11 -> ((5, 6), (10, 11))
+12 -> ((6, 7), (11, 18))
+13 -> ((7, 8), (17, 18))
+14 -> ((7, 14), (18, 19))
+
+GRAPH6
+--------------------------------------------------------------------------------
+direct : N{cOgGdOOQgQ?`AAcCW
+target : Nto`GCJAIAAHPA@CaAg
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+The recovered 15-core is exactly the compatibility graph on
+opposite-edge classes of the canonical dodecahedron.
+This identifies the 15-core as a native polyhedral object.

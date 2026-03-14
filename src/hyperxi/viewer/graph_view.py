@@ -315,6 +315,8 @@ def draw_chamber_graph(
         for node, (x, y) in pos.items():
             coords[node] = (cx + x * scale, cy + y * scale)
 
+    canvas._hyperxi_node_coords = coords
+
     for a, b in G.edges:
         x1, y1 = coords[a]
         x2, y2 = coords[b]

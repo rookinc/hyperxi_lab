@@ -1,0 +1,42 @@
+================================================================================
+AUTOMORPHISM ACTION ON 15 FIBERS
+================================================================================
+automorphisms of G60: 480
+found second involution b giving 15 fibers of size 4
+first 15 fibers:
+ 0 -> [0, 9, 33, 34]
+ 1 -> [1, 19, 31, 36]
+ 2 -> [2, 5, 23, 37]
+ 3 -> [3, 8, 35, 39]
+ 4 -> [4, 17, 29, 30]
+ 5 -> [6, 13, 22, 38]
+ 6 -> [7, 10, 20, 27]
+ 7 -> [11, 15, 24, 26]
+ 8 -> [12, 14, 21, 25]
+ 9 -> [16, 18, 28, 32]
+10 -> [40, 42, 54, 55]
+11 -> [41, 43, 56, 57]
+12 -> [44, 45, 52, 53]
+13 -> [46, 47, 50, 51]
+14 -> [48, 49, 58, 59]
+
+INDUCED ACTION ON 15 FIBERS
+--------------------------------------------------------------------------------
+distinct induced permutations: 120
+kernel size (acts trivially on fibers): 4
+
+ORBIT STRUCTURE OF 15-FIBER ACTION
+--------------------------------------------------------------------------------
+orbit sizes: [15]
+orbit 1: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+CHECK PRODUCT
+--------------------------------------------------------------------------------
+kernel * induced = 480
+full aut size      = 480
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+Aut(G60) factors cleanly through the action on 15 fibers.
+The induced action on 15 fibers has order 120.
+If kernel size is 4 and induced size is 120, this matches the V4 × 120 picture exactly.

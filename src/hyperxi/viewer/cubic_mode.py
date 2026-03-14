@@ -39,3 +39,10 @@ def load_cubic_mode_payload(path: str | Path) -> CubicModePayload:
     with p.open("r", encoding="utf-8") as f:
         raw = json.load(f)
     return CubicModePayload(raw=raw)
+
+def main():
+    app = App()          # or whatever the main viewer class is
+    app.run()
+
+if __name__ == "__main__":
+    main()

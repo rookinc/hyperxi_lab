@@ -1,0 +1,19 @@
+================================================================================
+PHASE 1 PARALLEL — FULL ENUMERATION OF 14/16 SIGNINGS BY LIFT HASH
+================================================================================
+vertices: 15
+edges: 30
+negatives target: 14
+total signings: 145422675
+workers: 8
+chunk size: 250000
+samples processed: 145422675
+elapsed seconds: 3335.283355
+rate samples/sec: 43601.295452
+distinct cycle parity signatures: 32768
+distinct lift hashes: 1
+
+TOP LIFT HASHES
+--------------------------------------------------------------------------------
+3334d948f84184ec476349e5185b0ccf  count=145422675
+

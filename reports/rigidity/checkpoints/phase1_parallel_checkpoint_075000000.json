@@ -1,0 +1,34 @@
+{
+  "processed": 75000000,
+  "total_signings": 145422675,
+  "percent_complete": 51.5738003031508,
+  "elapsed_seconds": 1760.2725515830098,
+  "rate_samples_per_second": 42607.03828651571,
+  "eta_seconds": 1652.8413574873473,
+  "distinct_cycle_parity_signatures": 32768,
+  "distinct_lift_hashes": 1,
+  "top_lift_hashes": [
+    [
+      "3334d948f84184ec476349e5185b0ccf",
+      75000000
+    ]
+  ],
+  "representative_masks": {
+    "3334d948f84184ec476349e5185b0ccf": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+}

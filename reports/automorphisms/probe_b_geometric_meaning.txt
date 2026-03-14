@@ -1,0 +1,58 @@
+================================================================================
+PROBE GEOMETRIC MEANING OF SECOND INVOLUTION b
+================================================================================
+found b with 15 four-element fibers
+first 10 actions:
+  0 -> 9
+  1 -> 19
+  2 -> 5
+  3 -> 8
+  4 -> 17
+  5 -> 2
+  6 -> 13
+  7 -> 10
+  8 -> 3
+  9 -> 0
+
+RELATION TO 30-LAYER
+--------------------------------------------------------------------------------
+{'different_30_class': 60}
+
+RELATION TO 15-LAYER
+--------------------------------------------------------------------------------
+{'same_15_fiber': 60}
+
+COMPARE WITH SHEET STRUCTURE (if available)
+--------------------------------------------------------------------------------
+No readable signing found at artifacts/reports/recovered_signing.txt
+
+COMPARE b TO a, ab
+--------------------------------------------------------------------------------
+b fixed points: 0
+ab fixed points: 0
+a and b commute: True
+
+FIRST 15 FOUR-ELEMENT FIBERS
+--------------------------------------------------------------------------------
+ 0 -> [0, 9, 33, 34]
+ 1 -> [1, 19, 31, 36]
+ 2 -> [2, 5, 23, 37]
+ 3 -> [3, 8, 35, 39]
+ 4 -> [4, 17, 29, 30]
+ 5 -> [6, 13, 22, 38]
+ 6 -> [7, 10, 20, 27]
+ 7 -> [11, 15, 24, 26]
+ 8 -> [12, 14, 21, 25]
+ 9 -> [16, 18, 28, 32]
+10 -> [40, 42, 54, 55]
+11 -> [41, 43, 56, 57]
+12 -> [44, 45, 52, 53]
+13 -> [46, 47, 50, 51]
+14 -> [48, 49, 58, 59]
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+If b preserves the 15-fiber and usually changes the 30-layer representative,
+then b is the second binary distinction inside each 4-lift fiber.
+If b also appears as a pure sheet flip with respect to recovered signing,
+that is strong evidence b is the chamber-side flip on a fixed edge class.

@@ -1,152 +1,94 @@
 #!/usr/bin/env python3
 
-import sys
-from pathlib import Path
-from collections import deque
+import itertools
 import networkx as nx
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "src"))
-
-from hyperxi.transport.coxeter_generators import F, S
-
-G6_PATH = ROOT / "artifacts/census/thalion_graph.g6"
+from load_thalean_graph import load_spec, build_graph
 
 
-def load_graph():
-    g6 = G6_PATH.read_text(encoding="utf-8").strip()
-    G = nx.from_graph6_bytes(g6.encode())
-    return nx.convert_node_labels_to_integers(G)
+def load_thalean_graph():
+    spec = load_spec()
+    return build_graph(spec)
 
 
-def antipode_map(G):
-    diam = nx.diameter(G)
-    dists = dict(nx.all_pairs_shortest_path_length(G))
-    amap = {}
+def compute_antipode_map(G):
+    """Return dict v -> antipode(v) using distance-6 property."""
+    lengths = dict(nx.all_pairs_shortest_path_length(G))
+
+    antipode = {}
     for v in G.nodes():
-        far = [u for u, d in dists[v].items() if d == diam]
+        far = [u for u, d in lengths[v].items() if d == 6]
         if len(far) != 1:
-            raise ValueError(f"vertex {v} has {len(far)} distance-{diam} partners")
-        amap[v] = far[0]
-    return diam, amap
+            raise RuntimeError(f"Vertex {v} has {len(far)} distance-6 partners")
+        antipode[v] = far[0]
+
+    return antipode
 
 
-def build_perm(n, fn):
-    return tuple(fn(i) for i in range(n))
+def build_generators(G):
+    """
+    Build crude adjacency generators from the sorted neighbor list.
+    This is only a first probe for whether a short local word can realize
+    the antipode map.
+    """
+    gens = {}
+    nodes = sorted(G.nodes())
+
+    for i in range(4):
+        mapping = {}
+        for v in nodes:
+            neigh = sorted(G.neighbors(v))
+            mapping[v] = neigh[i]
+        gens[f"g{i}"] = mapping
+
+    return gens
 
 
-def compose(p, q):
-    return tuple(p[q[i]] for i in range(len(p)))
+def compose(a, b):
+    """Compose maps a∘b."""
+    return {k: a[b[k]] for k in b}
 
 
-def perm_from_map(n, mapping):
-    return tuple(mapping[i] for i in range(n))
-
-
-def inverse(p):
-    q = [None] * len(p)
-    for i, j in enumerate(p):
-        q[j] = i
-    return tuple(q)
+def is_antipode(mapping, antipode):
+    return all(mapping[v] == antipode[v] for v in mapping)
 
 
 def main():
-    G = load_graph()
-    n = G.number_of_nodes()
-
     print("=" * 80)
     print("THALEAN ANTIPODE WORD SEARCH")
     print("=" * 80)
-    print("vertices:", n)
-    print("edges:", G.number_of_edges())
-    print()
 
-    diam, amap = antipode_map(G)
-    A = perm_from_map(n, amap)
+    G = load_thalean_graph()
+    antipode = compute_antipode_map(G)
+    gens = build_generators(G)
+    names = list(gens.keys())
 
-    print("diameter:", diam)
-    print("antipode involution:", compose(A, A) == tuple(range(n)))
-    print()
+    print(f"vertices: {G.number_of_nodes()}")
+    print(f"edges: {G.number_of_edges()}")
+    print(f"generators: {names}")
 
-    pF = build_perm(n, F)
-    pS = build_perm(n, S)
+    max_len = 6
+    found = []
 
-    print("GENERATOR SANITY")
-    print("-" * 80)
-    print("F is permutation:", sorted(pF) == list(range(n)))
-    print("S is permutation:", sorted(pS) == list(range(n)))
-    print()
+    for L in range(1, max_len + 1):
+        print(f"\nsearching words of length {L}")
 
-    gens = {
-        "F": pF,
-        "S": pS,
-        "f": inverse(pF),
-        "s": inverse(pS),
-    }
+        for word in itertools.product(names, repeat=L):
+            perm = gens[word[0]]
+            for w in word[1:]:
+                perm = compose(gens[w], perm)
 
-    max_len = 14
-    ident = tuple(range(n))
-    seen = {ident: ""}
-    q = deque([ident])
+            if is_antipode(perm, antipode):
+                found.append(word)
+                print("FOUND:", word)
 
-    found_exact = []
-
-    while q:
-        p = q.popleft()
-        w = seen[p]
-
-        if p == A:
-            found_exact.append(w)
-
-        if len(w) >= max_len:
-            continue
-
-        for gname, gperm in gens.items():
-            newp = compose(gperm, p)
-            if newp not in seen:
-                seen[newp] = w + gname
-                q.append(newp)
-
-    print("search depth:", max_len)
-    print("words searched:", len(seen))
-    print()
-
-    print("EXACT MATCHES")
-    print("-" * 80)
-    if found_exact:
-        for w in sorted(found_exact, key=len):
-            print(f"word={w!r}  length={len(w)}")
+    print("\n" + "-" * 80)
+    if not found:
+        print(f"No generator word matched the antipode map up to length {max_len}.")
     else:
-        print("No exact word found up to this depth.")
-    print()
-
-    fam = {
-        "S": pS,
-        "F": pF,
-        "FS": compose(pF, pS),
-        "SF": compose(pS, pF),
-        "F2": compose(pF, pF),
-        "S2": compose(pS, pS),
-        "FSF": compose(pF, compose(pS, pF)),
-        "SFS": compose(pS, compose(pF, pS)),
-        "FSFS": compose(pF, compose(pS, compose(pF, pS))),
-        "SFSF": compose(pS, compose(pF, compose(pS, pF))),
-    }
-
-    print("CANDIDATE CHECKS")
-    print("-" * 80)
-    for name, perm in fam.items():
-        print(f"{name:>5}  matches antipode: {perm == A}")
-    print()
-
-    print("INTERPRETATION")
-    print("-" * 80)
-    if found_exact:
-        print("A transport word realizes the antipode map exactly.")
-        print("So the far-partner involution is not only metric but also generated by transport.")
-    else:
-        print("No short word in F,S realizes the antipode map at this search depth.")
-        print("The antipode may still be generated by a longer word or by a more natural composite operator.")
+        print("Words matching antipode map:")
+        for w in found:
+            print(" ", w)
 
 
 if __name__ == "__main__":

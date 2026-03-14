@@ -1,0 +1,21 @@
+================================================================================
+THALEAN ANTIPODE WORD SEARCH
+================================================================================
+vertices: 60
+edges: 120
+generators: ['g0', 'g1', 'g2', 'g3']
+
+searching words of length 1
+
+searching words of length 2
+
+searching words of length 3
+
+searching words of length 4
+
+searching words of length 5
+
+searching words of length 6
+
+--------------------------------------------------------------------------------
+No generator word matched the antipode map up to length 6.

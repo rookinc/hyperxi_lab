@@ -14,19 +14,24 @@ IN_PATH = ROOT / "reports" / "spectral" / "signature_transitions" / "signature_r
 OUT_DIR = ROOT / "reports" / "spectral" / "signature_transitions"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+PROB_EPS = 1e-12
+
 
 def canonical_cycle(nodes: tuple[int, ...]) -> tuple[int, ...]:
-    """
-    Put a simple directed cycle into a canonical representative up to cyclic rotation.
-    We do not identify reversal, since direction matters for Markov flow.
-    """
     rots = [nodes[i:] + nodes[:i] for i in range(len(nodes))]
     return min(rots)
 
 
 def cycle_probability(P: np.ndarray, cyc: tuple[int, ...]) -> float:
     n = len(cyc)
-    return prod(P[cyc[i], cyc[(i + 1) % n]] for i in range(n))
+    vals = [float(P[cyc[i], cyc[(i + 1) % n]]) for i in range(n)]
+    if any(v <= 0.0 for v in vals):
+        return 0.0
+    return float(prod(vals))
+
+
+def format_cycle(states: list[str]) -> str:
+    return " -> ".join(states + [states[0]])
 
 
 def main():
@@ -43,10 +48,11 @@ def main():
 
     n = len(signatures)
     print(f"signature count: {n}")
+    print(f"probability threshold: {PROB_EPS:.1e}")
     print()
 
-    all_cycles = {2: [], 3: [], 4: [], 5: []}
-    seen = {2: set(), 3: set(), 4: set(), 5: set()}
+    all_cycles: dict[int, list[dict]] = {2: [], 3: [], 4: [], 5: []}
+    seen: dict[int, set[tuple[int, ...]]] = {2: set(), 3: set(), 4: set(), 5: set()}
 
     for L in [2, 3, 4, 5]:
         for cyc in itertools.permutations(range(n), L):
@@ -56,61 +62,33 @@ def main():
             seen[L].add(can)
 
             p = cycle_probability(P, cyc)
-            if p <= 0:
+            if p <= PROB_EPS:
                 continue
 
             entry = {
                 "indices": list(cyc),
                 "states": [signatures[i] for i in cyc],
-                "probability": float(p),
+                "probability": p,
                 "mean_edge_probability": float(p ** (1.0 / L)),
             }
             all_cycles[L].append(entry)
 
         all_cycles[L].sort(key=lambda x: x["probability"], reverse=True)
 
-    print("TOP 2-CYCLES")
-    print("-" * 80)
-    for c in all_cycles[2][:10]:
-        a, b = c["states"]
-        print(
-            f"{a} -> {b} -> {a}   "
-            f"p={c['probability']:.6f}   "
-            f"geom_mean={c['mean_edge_probability']:.6f}"
-        )
-    print()
+    for L in [2, 3, 4, 5]:
+        print(f"TOP {L}-CYCLES")
+        print("-" * 80)
+        if not all_cycles[L]:
+            print("(none above threshold)")
+        else:
+            for c in all_cycles[L][:10]:
+                print(
+                    f"{format_cycle(c['states'])}   "
+                    f"p={c['probability']:.6f}   "
+                    f"geom_mean={c['mean_edge_probability']:.6f}"
+                )
+        print()
 
-    print("TOP 3-CYCLES")
-    print("-" * 80)
-    for c in all_cycles[3][:10]:
-        s = " -> ".join(c["states"] + [c["states"][0]])
-        print(
-            f"{s}   p={c['probability']:.6f}   "
-            f"geom_mean={c['mean_edge_probability']:.6f}"
-        )
-    print()
-
-    print("TOP 4-CYCLES")
-    print("-" * 80)
-    for c in all_cycles[4][:10]:
-        s = " -> ".join(c["states"] + [c["states"][0]])
-        print(
-            f"{s}   p={c['probability']:.6f}   "
-            f"geom_mean={c['mean_edge_probability']:.6f}"
-        )
-    print()
-
-    print("TOP 5-CYCLES")
-    print("-" * 80)
-    for c in all_cycles[5][:10]:
-        s = " -> ".join(c["states"] + [c["states"][0]])
-        print(
-            f"{s}   p={c['probability']:.6f}   "
-            f"geom_mean={c['mean_edge_probability']:.6f}"
-        )
-    print()
-
-    # strongest outgoing edge per state
     print("STRONGEST OUTGOING EDGE PER SIGNATURE")
     print("-" * 80)
     strongest = []
@@ -132,15 +110,21 @@ def main():
     txt_lines.append("=" * 80)
     txt_lines.append("SIGNATURE CYCLES")
     txt_lines.append("=" * 80)
+    txt_lines.append(f"probability threshold: {PROB_EPS:.1e}")
+    txt_lines.append("")
 
     for L in [2, 3, 4, 5]:
         txt_lines.append(f"TOP {L}-CYCLES")
         txt_lines.append("-" * 80)
-        for c in all_cycles[L][:15]:
-            s = " -> ".join(c["states"] + [c["states"][0]])
-            txt_lines.append(
-                f"{s}   p={c['probability']:.6f}   geom_mean={c['mean_edge_probability']:.6f}"
-            )
+        if not all_cycles[L]:
+            txt_lines.append("(none above threshold)")
+        else:
+            for c in all_cycles[L][:15]:
+                txt_lines.append(
+                    f"{format_cycle(c['states'])}   "
+                    f"p={c['probability']:.6f}   "
+                    f"geom_mean={c['mean_edge_probability']:.6f}"
+                )
         txt_lines.append("")
 
     txt_lines.append("STRONGEST OUTGOING EDGE PER SIGNATURE")
@@ -159,6 +143,7 @@ def main():
         json.dumps(
             {
                 "signatures": signatures,
+                "probability_threshold": PROB_EPS,
                 "top_cycles": {str(L): all_cycles[L][:20] for L in [2, 3, 4, 5]},
                 "strongest_outgoing": strongest,
             },

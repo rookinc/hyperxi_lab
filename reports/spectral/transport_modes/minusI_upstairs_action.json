@@ -1,0 +1,5584 @@
+{
+  "words": [
+    {
+      "word": "FFF",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ],
+          "dst_pair_images": [
+            3,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ],
+          "dst_pair_images": [
+            4,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ],
+          "dst_pair_images": [
+            0,
+            4
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ],
+          "dst_pair_images": [
+            1,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ],
+          "dst_pair_images": [
+            1,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            17,
+            14
+          ],
+          "dst_pair_images": [
+            8,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            19,
+            16
+          ],
+          "dst_pair_images": [
+            9,
+            8
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            18,
+            10
+          ],
+          "dst_pair_images": [
+            9,
+            5
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            11,
+            12
+          ],
+          "dst_pair_images": [
+            5,
+            6
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            13,
+            15
+          ],
+          "dst_pair_images": [
+            6,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            27,
+            24
+          ],
+          "dst_pair_images": [
+            13,
+            12
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            29,
+            26
+          ],
+          "dst_pair_images": [
+            14,
+            13
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            2,
+            3
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            3,
+            4
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            0,
+            4
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            0,
+            1
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            1,
+            2
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            7,
+            8
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            17,
+            14
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            8,
+            9
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            19,
+            16
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            5,
+            9
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            18,
+            10
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            5,
+            6
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            11,
+            12
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            6,
+            7
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            13,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "word": "SFFS",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ],
+          "dst_pair_images": [
+            3,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ],
+          "dst_pair_images": [
+            4,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ],
+          "dst_pair_images": [
+            0,
+            4
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ],
+          "dst_pair_images": [
+            1,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ],
+          "dst_pair_images": [
+            1,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            17,
+            14
+          ],
+          "dst_pair_images": [
+            8,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            19,
+            16
+          ],
+          "dst_pair_images": [
+            9,
+            8
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            18,
+            10
+          ],
+          "dst_pair_images": [
+            9,
+            5
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            11,
+            12
+          ],
+          "dst_pair_images": [
+            5,
+            6
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            13,
+            15
+          ],
+          "dst_pair_images": [
+            6,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            27,
+            24
+          ],
+          "dst_pair_images": [
+            13,
+            12
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            29,
+            26
+          ],
+          "dst_pair_images": [
+            14,
+            13
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            2,
+            3
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            3,
+            4
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            0,
+            4
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            0,
+            1
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            1,
+            2
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            7,
+            8
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            17,
+            14
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            8,
+            9
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            19,
+            16
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            5,
+            9
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            18,
+            10
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            5,
+            6
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            11,
+            12
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            6,
+            7
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            13,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "word": "FFFSS",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ],
+          "dst_pair_images": [
+            3,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ],
+          "dst_pair_images": [
+            4,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ],
+          "dst_pair_images": [
+            0,
+            4
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ],
+          "dst_pair_images": [
+            1,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ],
+          "dst_pair_images": [
+            1,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            17,
+            14
+          ],
+          "dst_pair_images": [
+            8,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            19,
+            16
+          ],
+          "dst_pair_images": [
+            9,
+            8
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            18,
+            10
+          ],
+          "dst_pair_images": [
+            9,
+            5
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            11,
+            12
+          ],
+          "dst_pair_images": [
+            5,
+            6
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            13,
+            15
+          ],
+          "dst_pair_images": [
+            6,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            27,
+            24
+          ],
+          "dst_pair_images": [
+            13,
+            12
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            29,
+            26
+          ],
+          "dst_pair_images": [
+            14,
+            13
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            2,
+            3
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            3,
+            4
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            0,
+            4
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            0,
+            1
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            1,
+            2
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            7,
+            8
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            17,
+            14
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            8,
+            9
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            19,
+            16
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            5,
+            9
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            18,
+            10
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            5,
+            6
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            11,
+            12
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            6,
+            7
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            13,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "word": "FFSSF",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ],
+          "dst_pair_images": [
+            3,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ],
+          "dst_pair_images": [
+            4,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ],
+          "dst_pair_images": [
+            0,
+            4
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ],
+          "dst_pair_images": [
+            1,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ],
+          "dst_pair_images": [
+            1,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            17,
+            14
+          ],
+          "dst_pair_images": [
+            8,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            19,
+            16
+          ],
+          "dst_pair_images": [
+            9,
+            8
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            18,
+            10
+          ],
+          "dst_pair_images": [
+            9,
+            5
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            11,
+            12
+          ],
+          "dst_pair_images": [
+            5,
+            6
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            13,
+            15
+          ],
+          "dst_pair_images": [
+            6,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            27,
+            24
+          ],
+          "dst_pair_images": [
+            13,
+            12
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            29,
+            26
+          ],
+          "dst_pair_images": [
+            14,
+            13
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            2,
+            3
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            3,
+            4
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            0,
+            4
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            0,
+            1
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            1,
+            2
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            7,
+            8
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            17,
+            14
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            8,
+            9
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            19,
+            16
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            5,
+            9
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            18,
+            10
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            5,
+            6
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            11,
+            12
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            6,
+            7
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            13,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "word": "FSSFF",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ],
+          "dst_pair_images": [
+            3,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ],
+          "dst_pair_images": [
+            4,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ],
+          "dst_pair_images": [
+            0,
+            4
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ],
+          "dst_pair_images": [
+            1,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ],
+          "dst_pair_images": [
+            1,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            17,
+            14
+          ],
+          "dst_pair_images": [
+            8,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            19,
+            16
+          ],
+          "dst_pair_images": [
+            9,
+            8
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            18,
+            10
+          ],
+          "dst_pair_images": [
+            9,
+            5
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            11,
+            12
+          ],
+          "dst_pair_images": [
+            5,
+            6
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            13,
+            15
+          ],
+          "dst_pair_images": [
+            6,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            27,
+            24
+          ],
+          "dst_pair_images": [
+            13,
+            12
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            29,
+            26
+          ],
+          "dst_pair_images": [
+            14,
+            13
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            2,
+            3
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            3,
+            4
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            0,
+            4
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            0,
+            1
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            1,
+            2
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            7,
+            8
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            17,
+            14
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            8,
+            9
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            19,
+            16
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            5,
+            9
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            18,
+            10
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            5,
+            6
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            11,
+            12
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            6,
+            7
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            13,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "word": "SSFFF",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ],
+          "dst_pair_images": [
+            3,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ],
+          "dst_pair_images": [
+            4,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ],
+          "dst_pair_images": [
+            0,
+            4
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ],
+          "dst_pair_images": [
+            1,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ],
+          "dst_pair_images": [
+            1,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            17,
+            14
+          ],
+          "dst_pair_images": [
+            8,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            19,
+            16
+          ],
+          "dst_pair_images": [
+            9,
+            8
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            18,
+            10
+          ],
+          "dst_pair_images": [
+            9,
+            5
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            11,
+            12
+          ],
+          "dst_pair_images": [
+            5,
+            6
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            13,
+            15
+          ],
+          "dst_pair_images": [
+            6,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            27,
+            24
+          ],
+          "dst_pair_images": [
+            13,
+            12
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            29,
+            26
+          ],
+          "dst_pair_images": [
+            14,
+            13
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            2,
+            3
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            3,
+            4
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            0,
+            4
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            0,
+            1
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            1,
+            2
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            7,
+            8
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            17,
+            14
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            8,
+            9
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            19,
+            16
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            5,
+            9
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            18,
+            10
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            5,
+            6
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            11,
+            12
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            6,
+            7
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            13,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "word": "VSVVS",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ],
+          "dst_pair_images": [
+            3,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ],
+          "dst_pair_images": [
+            4,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ],
+          "dst_pair_images": [
+            0,
+            4
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ],
+          "dst_pair_images": [
+            1,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ],
+          "dst_pair_images": [
+            1,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            17,
+            14
+          ],
+          "dst_pair_images": [
+            8,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            19,
+            16
+          ],
+          "dst_pair_images": [
+            9,
+            8
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            18,
+            10
+          ],
+          "dst_pair_images": [
+            9,
+            5
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            11,
+            12
+          ],
+          "dst_pair_images": [
+            5,
+            6
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            13,
+            15
+          ],
+          "dst_pair_images": [
+            6,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            27,
+            24
+          ],
+          "dst_pair_images": [
+            13,
+            12
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            29,
+            26
+          ],
+          "dst_pair_images": [
+            14,
+            13
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            2,
+            3
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            6,
+            5
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            3,
+            4
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            9,
+            7
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            0,
+            4
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            0,
+            8
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            0,
+            1
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            2,
+            1
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            1,
+            2
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            3,
+            4
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            7,
+            8
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            17,
+            14
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            8,
+            9
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            19,
+            16
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            5,
+            9
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            18,
+            10
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            5,
+            6
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            11,
+            12
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            6,
+            7
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            13,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "word": "VFFSV",
+      "flag_cycle_histogram": {
+        "6": 20
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            65,
+            73
+          ],
+          "dst_pair_images": [
+            32,
+            36
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              10
+            ],
+            [
+              9,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            75,
+            83
+          ],
+          "dst_pair_images": [
+            37,
+            41
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              11
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            85,
+            93
+          ],
+          "dst_pair_images": [
+            42,
+            46
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            95,
+            103
+          ],
+          "dst_pair_images": [
+            47,
+            51
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            63,
+            105
+          ],
+          "dst_pair_images": [
+            31,
+            52
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              10
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            48,
+            101
+          ],
+          "dst_pair_images": [
+            24,
+            50
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            102,
+            111
+          ],
+          "dst_pair_images": [
+            51,
+            55
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              11
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            84,
+            119
+          ],
+          "dst_pair_images": [
+            42,
+            59
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              5
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            39,
+            87
+          ],
+          "dst_pair_images": [
+            19,
+            43
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            47,
+            31
+          ],
+          "dst_pair_images": [
+            23,
+            15
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            59,
+            61
+          ],
+          "dst_pair_images": [
+            29,
+            30
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              6
+            ],
+            [
+              5,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            62,
+            113
+          ],
+          "dst_pair_images": [
+            31,
+            56
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              11
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            32,
+            36
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            65,
+            73
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            37,
+            41
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            75,
+            83
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            42,
+            46
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            85,
+            93
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            47,
+            51
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            95,
+            103
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            31,
+            52
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            63,
+            105
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            24,
+            50
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            48,
+            101
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            51,
+            55
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            102,
+            111
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            42,
+            59
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            84,
+            119
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            19,
+            43
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            39,
+            87
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            15,
+            23
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            47,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "word": "FFFV",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            39,
+            48
+          ],
+          "dst_pair_images": [
+            19,
+            24
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            49,
+            59
+          ],
+          "dst_pair_images": [
+            24,
+            29
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              6
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            58,
+            18
+          ],
+          "dst_pair_images": [
+            29,
+            9
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            19,
+            28
+          ],
+          "dst_pair_images": [
+            9,
+            14
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            38,
+            29
+          ],
+          "dst_pair_images": [
+            19,
+            14
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            74,
+            21
+          ],
+          "dst_pair_images": [
+            37,
+            10
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              9
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            20,
+            1
+          ],
+          "dst_pair_images": [
+            10,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            56,
+            0
+          ],
+          "dst_pair_images": [
+            28,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            62,
+            57
+          ],
+          "dst_pair_images": [
+            31,
+            28
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              8
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            75,
+            63
+          ],
+          "dst_pair_images": [
+            37,
+            31
+          ],
+          "dst_decagon_sets": [
+            [
+              5,
+              10
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            84,
+            31
+          ],
+          "dst_pair_images": [
+            42,
+            15
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              4
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            30,
+            3
+          ],
+          "dst_pair_images": [
+            15,
+            1
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            19,
+            24
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            39,
+            48
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            24,
+            29
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            49,
+            59
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            9,
+            29
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            58,
+            18
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            9,
+            14
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            19,
+            28
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            14,
+            19
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            38,
+            29
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            10,
+            37
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            74,
+            21
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            0,
+            10
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            20,
+            1
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            0,
+            28
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            56,
+            0
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            28,
+            31
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            62,
+            57
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            31,
+            37
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            75,
+            63
+          ]
+        }
+      ]
+    },
+    {
+      "word": "FSVS",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            39,
+            48
+          ],
+          "dst_pair_images": [
+            19,
+            24
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            49,
+            59
+          ],
+          "dst_pair_images": [
+            24,
+            29
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              6
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            58,
+            18
+          ],
+          "dst_pair_images": [
+            29,
+            9
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            19,
+            28
+          ],
+          "dst_pair_images": [
+            9,
+            14
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            38,
+            29
+          ],
+          "dst_pair_images": [
+            19,
+            14
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            74,
+            21
+          ],
+          "dst_pair_images": [
+            37,
+            10
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              9
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            20,
+            1
+          ],
+          "dst_pair_images": [
+            10,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            56,
+            0
+          ],
+          "dst_pair_images": [
+            28,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            62,
+            57
+          ],
+          "dst_pair_images": [
+            31,
+            28
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              8
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            75,
+            63
+          ],
+          "dst_pair_images": [
+            37,
+            31
+          ],
+          "dst_decagon_sets": [
+            [
+              5,
+              10
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            84,
+            31
+          ],
+          "dst_pair_images": [
+            42,
+            15
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              4
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            30,
+            3
+          ],
+          "dst_pair_images": [
+            15,
+            1
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            19,
+            24
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            39,
+            48
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            24,
+            29
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            49,
+            59
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            9,
+            29
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            58,
+            18
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            9,
+            14
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            19,
+            28
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            14,
+            19
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            38,
+            29
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            10,
+            37
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            74,
+            21
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            0,
+            10
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            20,
+            1
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            0,
+            28
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            56,
+            0
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            28,
+            31
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            62,
+            57
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            31,
+            37
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            75,
+            63
+          ]
+        }
+      ]
+    },
+    {
+      "word": "SFFSV",
+      "flag_cycle_histogram": {
+        "5": 24
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            39,
+            48
+          ],
+          "dst_pair_images": [
+            19,
+            24
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            49,
+            59
+          ],
+          "dst_pair_images": [
+            24,
+            29
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              6
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            58,
+            18
+          ],
+          "dst_pair_images": [
+            29,
+            9
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              6
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            19,
+            28
+          ],
+          "dst_pair_images": [
+            9,
+            14
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            38,
+            29
+          ],
+          "dst_pair_images": [
+            19,
+            14
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            74,
+            21
+          ],
+          "dst_pair_images": [
+            37,
+            10
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              9
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            20,
+            1
+          ],
+          "dst_pair_images": [
+            10,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            56,
+            0
+          ],
+          "dst_pair_images": [
+            28,
+            0
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            62,
+            57
+          ],
+          "dst_pair_images": [
+            31,
+            28
+          ],
+          "dst_decagon_sets": [
+            [
+              3,
+              8
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            75,
+            63
+          ],
+          "dst_pair_images": [
+            37,
+            31
+          ],
+          "dst_decagon_sets": [
+            [
+              5,
+              10
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            84,
+            31
+          ],
+          "dst_pair_images": [
+            42,
+            15
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              4
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            30,
+            3
+          ],
+          "dst_pair_images": [
+            15,
+            1
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            19,
+            24
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            39,
+            48
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            24,
+            29
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            49,
+            59
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            9,
+            29
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            58,
+            18
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            9,
+            14
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            19,
+            28
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            14,
+            19
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            38,
+            29
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            10,
+            37
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            74,
+            21
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            0,
+            10
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            20,
+            1
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            0,
+            28
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            56,
+            0
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            28,
+            31
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            62,
+            57
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            31,
+            37
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            75,
+            63
+          ]
+        }
+      ]
+    },
+    {
+      "word": "SVFF",
+      "flag_cycle_histogram": {
+        "6": 20
+      },
+      "pairs_preserved_setwise": 0,
+      "pairs_swapped_internally": 0,
+      "pairs_split_across_distinct_Spairs": 60,
+      "same_decagon_membership_set": 0,
+      "changed_decagon_membership_set": 60,
+      "first_12_membership_moves": [
+        {
+          "pair": 0,
+          "src_decagons": [
+            0,
+            1
+          ],
+          "flag_images": [
+            24,
+            52
+          ],
+          "dst_pair_images": [
+            12,
+            26
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              11
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 1,
+          "src_decagons": [
+            2,
+            3
+          ],
+          "flag_images": [
+            34,
+            12
+          ],
+          "dst_pair_images": [
+            17,
+            6
+          ],
+          "dst_decagon_sets": [
+            [
+              6,
+              11
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 2,
+          "src_decagons": [
+            4,
+            5
+          ],
+          "flag_images": [
+            44,
+            22
+          ],
+          "dst_pair_images": [
+            22,
+            11
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              10
+            ],
+            [
+              9,
+              11
+            ]
+          ]
+        },
+        {
+          "pair": 3,
+          "src_decagons": [
+            6,
+            7
+          ],
+          "flag_images": [
+            54,
+            32
+          ],
+          "dst_pair_images": [
+            27,
+            16
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              11
+            ],
+            [
+              3,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 4,
+          "src_decagons": [
+            8,
+            9
+          ],
+          "flag_images": [
+            42,
+            14
+          ],
+          "dst_pair_images": [
+            21,
+            7
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              11
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 5,
+          "src_decagons": [
+            0,
+            6
+          ],
+          "flag_images": [
+            68,
+            4
+          ],
+          "dst_pair_images": [
+            34,
+            2
+          ],
+          "dst_decagon_sets": [
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "pair": 6,
+          "src_decagons": [
+            8,
+            10
+          ],
+          "flag_images": [
+            70,
+            50
+          ],
+          "dst_pair_images": [
+            35,
+            25
+          ],
+          "dst_decagon_sets": [
+            [
+              1,
+              7
+            ],
+            [
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "pair": 7,
+          "src_decagons": [
+            2,
+            11
+          ],
+          "flag_images": [
+            66,
+            26
+          ],
+          "dst_pair_images": [
+            33,
+            13
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              4
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 8,
+          "src_decagons": [
+            1,
+            5
+          ],
+          "flag_images": [
+            78,
+            7
+          ],
+          "dst_pair_images": [
+            39,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              8
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 9,
+          "src_decagons": [
+            3,
+            9
+          ],
+          "flag_images": [
+            25,
+            53
+          ],
+          "dst_pair_images": [
+            12,
+            26
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              11
+            ],
+            [
+              7,
+              10
+            ]
+          ]
+        },
+        {
+          "pair": 10,
+          "src_decagons": [
+            2,
+            9
+          ],
+          "flag_images": [
+            79,
+            6
+          ],
+          "dst_pair_images": [
+            39,
+            3
+          ],
+          "dst_decagon_sets": [
+            [
+              4,
+              8
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "pair": 11,
+          "src_decagons": [
+            1,
+            10
+          ],
+          "flag_images": [
+            80,
+            10
+          ],
+          "dst_pair_images": [
+            40,
+            5
+          ],
+          "dst_decagon_sets": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              8
+            ]
+          ]
+        }
+      ],
+      "first_10_split_pair_events": [
+        {
+          "src_pair": 0,
+          "target": [
+            12,
+            26
+          ],
+          "src_flags": [
+            0,
+            1
+          ],
+          "flag_images": [
+            24,
+            52
+          ]
+        },
+        {
+          "src_pair": 1,
+          "target": [
+            6,
+            17
+          ],
+          "src_flags": [
+            2,
+            3
+          ],
+          "flag_images": [
+            34,
+            12
+          ]
+        },
+        {
+          "src_pair": 2,
+          "target": [
+            11,
+            22
+          ],
+          "src_flags": [
+            4,
+            5
+          ],
+          "flag_images": [
+            44,
+            22
+          ]
+        },
+        {
+          "src_pair": 3,
+          "target": [
+            16,
+            27
+          ],
+          "src_flags": [
+            6,
+            7
+          ],
+          "flag_images": [
+            54,
+            32
+          ]
+        },
+        {
+          "src_pair": 4,
+          "target": [
+            7,
+            21
+          ],
+          "src_flags": [
+            8,
+            9
+          ],
+          "flag_images": [
+            42,
+            14
+          ]
+        },
+        {
+          "src_pair": 5,
+          "target": [
+            2,
+            34
+          ],
+          "src_flags": [
+            10,
+            11
+          ],
+          "flag_images": [
+            68,
+            4
+          ]
+        },
+        {
+          "src_pair": 6,
+          "target": [
+            25,
+            35
+          ],
+          "src_flags": [
+            12,
+            13
+          ],
+          "flag_images": [
+            70,
+            50
+          ]
+        },
+        {
+          "src_pair": 7,
+          "target": [
+            13,
+            33
+          ],
+          "src_flags": [
+            14,
+            15
+          ],
+          "flag_images": [
+            66,
+            26
+          ]
+        },
+        {
+          "src_pair": 8,
+          "target": [
+            3,
+            39
+          ],
+          "src_flags": [
+            16,
+            17
+          ],
+          "flag_images": [
+            78,
+            7
+          ]
+        },
+        {
+          "src_pair": 9,
+          "target": [
+            12,
+            26
+          ],
+          "src_flags": [
+            18,
+            19
+          ],
+          "flag_images": [
+            25,
+            53
+          ]
+        }
+      ]
+    }
+  ]
+}

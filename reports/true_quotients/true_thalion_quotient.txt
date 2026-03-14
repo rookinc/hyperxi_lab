@@ -1,0 +1,19 @@
+================================================================================
+REBUILD TRUE THALION QUOTIENT
+================================================================================
+quotient word: S
+move words: ['F', 'V']
+
+upstairs flags: 120
+quotient classes: 60
+cycle lengths: [2]
+
+vertices: 60
+edges: 180
+degree set: [6]
+connected: True
+triangles: 40
+diameter: 5
+shell profile from node 0: (1, 6, 17, 16, 16, 4)
+
+automorphism group size: 120

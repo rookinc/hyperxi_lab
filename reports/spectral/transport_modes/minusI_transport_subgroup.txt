@@ -1,0 +1,176 @@
+================================================================================
+MINUS-I TRANSPORT SUBGROUP GROWTH
+================================================================================
+seed words: ['FFF', 'FFFV', 'VFFSV', 'SVFF']
+subgroup size: 120
+
+ORDER HISTOGRAM
+--------------------------------------------------------------------------------
+order 1: 1
+order 2: 31
+order 3: 20
+order 5: 24
+order 6: 20
+order 10: 24
+
+CYCLE HISTOGRAM CLASSES
+--------------------------------------------------------------------------------
+{2: 60} : 31
+{5: 24} : 24
+{10: 12} : 24
+{6: 20} : 20
+{3: 40} : 20
+{1: 120} : 1
+
+FIRST 50 ELEMENTS
+--------------------------------------------------------------------------------
+I
+  order=1
+  cycles={1: 120}
+FFF
+  order=5
+  cycles={5: 24}
+FFFV
+  order=5
+  cycles={5: 24}
+SVFF
+  order=6
+  cycles={6: 20}
+VFFSV
+  order=6
+  cycles={6: 20}
+FFF^-1
+  order=5
+  cycles={5: 24}
+FFFV^-1
+  order=5
+  cycles={5: 24}
+FFF·FFF
+  order=5
+  cycles={5: 24}
+SVFF^-1
+  order=6
+  cycles={6: 20}
+FFFV·FFF
+  order=2
+  cycles={2: 60}
+FFF·FFFV
+  order=2
+  cycles={2: 60}
+FFF·SVFF
+  order=10
+  cycles={10: 12}
+SVFF·FFF
+  order=10
+  cycles={10: 12}
+VFFSV^-1
+  order=6
+  cycles={6: 20}
+FFFV·FFFV
+  order=5
+  cycles={5: 24}
+FFFV·SVFF
+  order=10
+  cycles={10: 12}
+FFF·VFFSV
+  order=10
+  cycles={10: 12}
+SVFF·FFFV
+  order=10
+  cycles={10: 12}
+SVFF·SVFF
+  order=3
+  cycles={3: 40}
+VFFSV·FFF
+  order=10
+  cycles={10: 12}
+FFFV·VFFSV
+  order=6
+  cycles={6: 20}
+SVFF·VFFSV
+  order=3
+  cycles={3: 40}
+VFFSV·FFFV
+  order=6
+  cycles={6: 20}
+VFFSV·SVFF
+  order=3
+  cycles={3: 40}
+FFFV^-1·FFF
+  order=3
+  cycles={3: 40}
+FFFV·FFF^-1
+  order=3
+  cycles={3: 40}
+FFF^-1·FFFV
+  order=3
+  cycles={3: 40}
+FFF^-1·SVFF
+  order=2
+  cycles={2: 60}
+FFF·FFFV^-1
+  order=3
+  cycles={3: 40}
+FFF·FFF·FFF
+  order=5
+  cycles={5: 24}
+FFF·SVFF^-1
+  order=2
+  cycles={2: 60}
+FFFV^-1·SVFF
+  order=6
+  cycles={6: 20}
+FFFV·FFF·FFF
+  order=5
+  cycles={5: 24}
+FFF^-1·VFFSV
+  order=6
+  cycles={6: 20}
+FFF·FFF·FFFV
+  order=5
+  cycles={5: 24}
+FFF·SVFF·FFF
+  order=10
+  cycles={10: 12}
+SVFF^-1·FFFV
+  order=6
+  cycles={6: 20}
+SVFF·FFFV^-1
+  order=6
+  cycles={6: 20}
+SVFF·FFF·FFF
+  order=10
+  cycles={10: 12}
+VFFSV^-1·FFF
+  order=6
+  cycles={6: 20}
+VFFSV·FFF^-1
+  order=6
+  cycles={6: 20}
+FFFV·FFFV·FFF
+  order=5
+  cycles={5: 24}
+FFFV·SVFF·FFF
+  order=10
+  cycles={10: 12}
+FFFV·VFFSV^-1
+  order=10
+  cycles={10: 12}
+FFF·FFFV·FFFV
+  order=5
+  cycles={5: 24}
+FFF·FFFV·SVFF
+  order=10
+  cycles={10: 12}
+FFF·FFF·VFFSV
+  order=2
+  cycles={2: 60}
+FFF·SVFF·SVFF
+  order=2
+  cycles={2: 60}
+FFF·VFFSV·FFF
+  order=2
+  cycles={2: 60}
+SVFF^-1·VFFSV
+  order=2
+  cycles={2: 60}

@@ -1,0 +1,77 @@
+================================================================================
+MINUS-2 DECAGON RESONANCE TEST
+================================================================================
+graph vertices: 60
+graph edges: 120
+degree set: [4]
+minus2 multiplicity: 21
+
+DECOGON PROJECTOR DENSITY
+--------------------------------------------------------------------------------
+decagon 11: 3.500000
+decagon  6: 3.500000
+decagon  7: 3.500000
+decagon  1: 3.500000
+decagon  2: 3.500000
+decagon  9: 3.500000
+decagon  0: 3.500000
+decagon  3: 3.500000
+decagon  8: 3.500000
+decagon 10: 3.500000
+decagon  4: 3.500000
+decagon  5: 3.500000
+
+AVERAGE HARMONIC POWER ON C10
+--------------------------------------------------------------------------------
+k=0: 0.035486
+k=1: 0.106852
+k=2: 0.121328
+k=3: 0.176358
+k=4: 0.341335
+k=5: 0.218641
+
+DOMINANT HARMONIC PER MODE / DECAGON
+--------------------------------------------------------------------------------
+mode column 0  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:0, k=3:6, k=4:2, k=5:4
+mode column 1  eigenvalue=-2.000000
+  k=0:0, k=1:1, k=2:1, k=3:0, k=4:7, k=5:3
+mode column 2  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:0, k=3:1, k=4:8, k=5:3
+mode column 3  eigenvalue=-2.000000
+  k=0:0, k=1:1, k=2:1, k=3:1, k=4:5, k=5:4
+mode column 4  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:1, k=3:5, k=4:4, k=5:2
+mode column 5  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:1, k=3:2, k=4:6, k=5:3
+mode column 6  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:0, k=3:1, k=4:8, k=5:3
+mode column 7  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:2, k=3:1, k=4:6, k=5:3
+mode column 8  eigenvalue=-2.000000
+  k=0:0, k=1:1, k=2:2, k=3:2, k=4:5, k=5:2
+mode column 9  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:1, k=3:1, k=4:5, k=5:5
+mode column 10  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:2, k=3:1, k=4:9, k=5:0
+mode column 11  eigenvalue=-2.000000
+  k=0:0, k=1:2, k=2:1, k=3:0, k=4:5, k=5:4
+mode column 12  eigenvalue=-2.000000
+  k=0:2, k=1:0, k=2:0, k=3:2, k=4:6, k=5:2
+mode column 13  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:0, k=3:1, k=4:6, k=5:5
+mode column 14  eigenvalue=-2.000000
+  k=0:1, k=1:1, k=2:1, k=3:0, k=4:7, k=5:2
+mode column 15  eigenvalue=-2.000000
+  k=0:0, k=1:2, k=2:0, k=3:1, k=4:7, k=5:2
+mode column 16  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:0, k=3:2, k=4:6, k=5:4
+mode column 17  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:0, k=3:1, k=4:6, k=5:5
+mode column 18  eigenvalue=-2.000000
+  k=0:0, k=1:4, k=2:0, k=3:2, k=4:1, k=5:5
+mode column 19  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:1, k=3:3, k=4:6, k=5:2
+mode column 20  eigenvalue=-2.000000
+  k=0:0, k=1:0, k=2:0, k=3:4, k=4:5, k=5:3
+

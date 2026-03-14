@@ -1,0 +1,413 @@
+================================================================================
+UPSTAIRS ANALYSIS OF -I CANDIDATE WORDS
+================================================================================
+candidate words: ['FFF', 'SFFS', 'FFFSS', 'FFSSF', 'FSSFF', 'SSFFF', 'VSVVS', 'VFFSV', 'FFFV', 'FSVS', 'SFFSV', 'SVFF']
+
+--------------------------------------------------------------------------------
+WORD FFF
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[6, 5] dst_pairs=[3, 2] dst_dec_sets=[[4, 5], [6, 7]]
+  pair  1 decs=[2, 3] -> flags=[9, 7] dst_pairs=[4, 3] dst_dec_sets=[[6, 7], [8, 9]]
+  pair  2 decs=[4, 5] -> flags=[0, 8] dst_pairs=[0, 4] dst_dec_sets=[[0, 1], [8, 9]]
+  pair  3 decs=[6, 7] -> flags=[2, 1] dst_pairs=[1, 0] dst_dec_sets=[[0, 1], [2, 3]]
+  pair  4 decs=[8, 9] -> flags=[3, 4] dst_pairs=[1, 2] dst_dec_sets=[[2, 3], [4, 5]]
+  pair  5 decs=[0, 6] -> flags=[17, 14] dst_pairs=[8, 7] dst_dec_sets=[[1, 5], [2, 11]]
+  pair  6 decs=[8, 10] -> flags=[19, 16] dst_pairs=[9, 8] dst_dec_sets=[[1, 5], [3, 9]]
+  pair  7 decs=[2, 11] -> flags=[18, 10] dst_pairs=[9, 5] dst_dec_sets=[[0, 6], [3, 9]]
+  pair  8 decs=[1, 5] -> flags=[11, 12] dst_pairs=[5, 6] dst_dec_sets=[[0, 6], [8, 10]]
+  pair  9 decs=[3, 9] -> flags=[13, 15] dst_pairs=[6, 7] dst_dec_sets=[[2, 11], [8, 10]]
+  pair 10 decs=[2, 9] -> flags=[27, 24] dst_pairs=[13, 12] dst_dec_sets=[[3, 7], [4, 11]]
+  pair 11 decs=[1, 10] -> flags=[29, 26] dst_pairs=[14, 13] dst_dec_sets=[[0, 5], [3, 7]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(6, 5) target=(2, 3)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(9, 7) target=(3, 4)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(0, 8) target=(0, 4)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(2, 1) target=(0, 1)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(3, 4) target=(1, 2)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(17, 14) target=(7, 8)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(19, 16) target=(8, 9)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(18, 10) target=(5, 9)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(11, 12) target=(5, 6)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(13, 15) target=(6, 7)
+
+--------------------------------------------------------------------------------
+WORD SFFS
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[6, 5] dst_pairs=[3, 2] dst_dec_sets=[[4, 5], [6, 7]]
+  pair  1 decs=[2, 3] -> flags=[9, 7] dst_pairs=[4, 3] dst_dec_sets=[[6, 7], [8, 9]]
+  pair  2 decs=[4, 5] -> flags=[0, 8] dst_pairs=[0, 4] dst_dec_sets=[[0, 1], [8, 9]]
+  pair  3 decs=[6, 7] -> flags=[2, 1] dst_pairs=[1, 0] dst_dec_sets=[[0, 1], [2, 3]]
+  pair  4 decs=[8, 9] -> flags=[3, 4] dst_pairs=[1, 2] dst_dec_sets=[[2, 3], [4, 5]]
+  pair  5 decs=[0, 6] -> flags=[17, 14] dst_pairs=[8, 7] dst_dec_sets=[[1, 5], [2, 11]]
+  pair  6 decs=[8, 10] -> flags=[19, 16] dst_pairs=[9, 8] dst_dec_sets=[[1, 5], [3, 9]]
+  pair  7 decs=[2, 11] -> flags=[18, 10] dst_pairs=[9, 5] dst_dec_sets=[[0, 6], [3, 9]]
+  pair  8 decs=[1, 5] -> flags=[11, 12] dst_pairs=[5, 6] dst_dec_sets=[[0, 6], [8, 10]]
+  pair  9 decs=[3, 9] -> flags=[13, 15] dst_pairs=[6, 7] dst_dec_sets=[[2, 11], [8, 10]]
+  pair 10 decs=[2, 9] -> flags=[27, 24] dst_pairs=[13, 12] dst_dec_sets=[[3, 7], [4, 11]]
+  pair 11 decs=[1, 10] -> flags=[29, 26] dst_pairs=[14, 13] dst_dec_sets=[[0, 5], [3, 7]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(6, 5) target=(2, 3)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(9, 7) target=(3, 4)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(0, 8) target=(0, 4)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(2, 1) target=(0, 1)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(3, 4) target=(1, 2)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(17, 14) target=(7, 8)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(19, 16) target=(8, 9)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(18, 10) target=(5, 9)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(11, 12) target=(5, 6)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(13, 15) target=(6, 7)
+
+--------------------------------------------------------------------------------
+WORD FFFSS
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[6, 5] dst_pairs=[3, 2] dst_dec_sets=[[4, 5], [6, 7]]
+  pair  1 decs=[2, 3] -> flags=[9, 7] dst_pairs=[4, 3] dst_dec_sets=[[6, 7], [8, 9]]
+  pair  2 decs=[4, 5] -> flags=[0, 8] dst_pairs=[0, 4] dst_dec_sets=[[0, 1], [8, 9]]
+  pair  3 decs=[6, 7] -> flags=[2, 1] dst_pairs=[1, 0] dst_dec_sets=[[0, 1], [2, 3]]
+  pair  4 decs=[8, 9] -> flags=[3, 4] dst_pairs=[1, 2] dst_dec_sets=[[2, 3], [4, 5]]
+  pair  5 decs=[0, 6] -> flags=[17, 14] dst_pairs=[8, 7] dst_dec_sets=[[1, 5], [2, 11]]
+  pair  6 decs=[8, 10] -> flags=[19, 16] dst_pairs=[9, 8] dst_dec_sets=[[1, 5], [3, 9]]
+  pair  7 decs=[2, 11] -> flags=[18, 10] dst_pairs=[9, 5] dst_dec_sets=[[0, 6], [3, 9]]
+  pair  8 decs=[1, 5] -> flags=[11, 12] dst_pairs=[5, 6] dst_dec_sets=[[0, 6], [8, 10]]
+  pair  9 decs=[3, 9] -> flags=[13, 15] dst_pairs=[6, 7] dst_dec_sets=[[2, 11], [8, 10]]
+  pair 10 decs=[2, 9] -> flags=[27, 24] dst_pairs=[13, 12] dst_dec_sets=[[3, 7], [4, 11]]
+  pair 11 decs=[1, 10] -> flags=[29, 26] dst_pairs=[14, 13] dst_dec_sets=[[0, 5], [3, 7]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(6, 5) target=(2, 3)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(9, 7) target=(3, 4)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(0, 8) target=(0, 4)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(2, 1) target=(0, 1)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(3, 4) target=(1, 2)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(17, 14) target=(7, 8)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(19, 16) target=(8, 9)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(18, 10) target=(5, 9)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(11, 12) target=(5, 6)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(13, 15) target=(6, 7)
+
+--------------------------------------------------------------------------------
+WORD FFSSF
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[6, 5] dst_pairs=[3, 2] dst_dec_sets=[[4, 5], [6, 7]]
+  pair  1 decs=[2, 3] -> flags=[9, 7] dst_pairs=[4, 3] dst_dec_sets=[[6, 7], [8, 9]]
+  pair  2 decs=[4, 5] -> flags=[0, 8] dst_pairs=[0, 4] dst_dec_sets=[[0, 1], [8, 9]]
+  pair  3 decs=[6, 7] -> flags=[2, 1] dst_pairs=[1, 0] dst_dec_sets=[[0, 1], [2, 3]]
+  pair  4 decs=[8, 9] -> flags=[3, 4] dst_pairs=[1, 2] dst_dec_sets=[[2, 3], [4, 5]]
+  pair  5 decs=[0, 6] -> flags=[17, 14] dst_pairs=[8, 7] dst_dec_sets=[[1, 5], [2, 11]]
+  pair  6 decs=[8, 10] -> flags=[19, 16] dst_pairs=[9, 8] dst_dec_sets=[[1, 5], [3, 9]]
+  pair  7 decs=[2, 11] -> flags=[18, 10] dst_pairs=[9, 5] dst_dec_sets=[[0, 6], [3, 9]]
+  pair  8 decs=[1, 5] -> flags=[11, 12] dst_pairs=[5, 6] dst_dec_sets=[[0, 6], [8, 10]]
+  pair  9 decs=[3, 9] -> flags=[13, 15] dst_pairs=[6, 7] dst_dec_sets=[[2, 11], [8, 10]]
+  pair 10 decs=[2, 9] -> flags=[27, 24] dst_pairs=[13, 12] dst_dec_sets=[[3, 7], [4, 11]]
+  pair 11 decs=[1, 10] -> flags=[29, 26] dst_pairs=[14, 13] dst_dec_sets=[[0, 5], [3, 7]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(6, 5) target=(2, 3)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(9, 7) target=(3, 4)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(0, 8) target=(0, 4)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(2, 1) target=(0, 1)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(3, 4) target=(1, 2)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(17, 14) target=(7, 8)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(19, 16) target=(8, 9)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(18, 10) target=(5, 9)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(11, 12) target=(5, 6)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(13, 15) target=(6, 7)
+
+--------------------------------------------------------------------------------
+WORD FSSFF
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[6, 5] dst_pairs=[3, 2] dst_dec_sets=[[4, 5], [6, 7]]
+  pair  1 decs=[2, 3] -> flags=[9, 7] dst_pairs=[4, 3] dst_dec_sets=[[6, 7], [8, 9]]
+  pair  2 decs=[4, 5] -> flags=[0, 8] dst_pairs=[0, 4] dst_dec_sets=[[0, 1], [8, 9]]
+  pair  3 decs=[6, 7] -> flags=[2, 1] dst_pairs=[1, 0] dst_dec_sets=[[0, 1], [2, 3]]
+  pair  4 decs=[8, 9] -> flags=[3, 4] dst_pairs=[1, 2] dst_dec_sets=[[2, 3], [4, 5]]
+  pair  5 decs=[0, 6] -> flags=[17, 14] dst_pairs=[8, 7] dst_dec_sets=[[1, 5], [2, 11]]
+  pair  6 decs=[8, 10] -> flags=[19, 16] dst_pairs=[9, 8] dst_dec_sets=[[1, 5], [3, 9]]
+  pair  7 decs=[2, 11] -> flags=[18, 10] dst_pairs=[9, 5] dst_dec_sets=[[0, 6], [3, 9]]
+  pair  8 decs=[1, 5] -> flags=[11, 12] dst_pairs=[5, 6] dst_dec_sets=[[0, 6], [8, 10]]
+  pair  9 decs=[3, 9] -> flags=[13, 15] dst_pairs=[6, 7] dst_dec_sets=[[2, 11], [8, 10]]
+  pair 10 decs=[2, 9] -> flags=[27, 24] dst_pairs=[13, 12] dst_dec_sets=[[3, 7], [4, 11]]
+  pair 11 decs=[1, 10] -> flags=[29, 26] dst_pairs=[14, 13] dst_dec_sets=[[0, 5], [3, 7]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(6, 5) target=(2, 3)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(9, 7) target=(3, 4)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(0, 8) target=(0, 4)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(2, 1) target=(0, 1)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(3, 4) target=(1, 2)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(17, 14) target=(7, 8)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(19, 16) target=(8, 9)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(18, 10) target=(5, 9)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(11, 12) target=(5, 6)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(13, 15) target=(6, 7)
+
+--------------------------------------------------------------------------------
+WORD SSFFF
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[6, 5] dst_pairs=[3, 2] dst_dec_sets=[[4, 5], [6, 7]]
+  pair  1 decs=[2, 3] -> flags=[9, 7] dst_pairs=[4, 3] dst_dec_sets=[[6, 7], [8, 9]]
+  pair  2 decs=[4, 5] -> flags=[0, 8] dst_pairs=[0, 4] dst_dec_sets=[[0, 1], [8, 9]]
+  pair  3 decs=[6, 7] -> flags=[2, 1] dst_pairs=[1, 0] dst_dec_sets=[[0, 1], [2, 3]]
+  pair  4 decs=[8, 9] -> flags=[3, 4] dst_pairs=[1, 2] dst_dec_sets=[[2, 3], [4, 5]]
+  pair  5 decs=[0, 6] -> flags=[17, 14] dst_pairs=[8, 7] dst_dec_sets=[[1, 5], [2, 11]]
+  pair  6 decs=[8, 10] -> flags=[19, 16] dst_pairs=[9, 8] dst_dec_sets=[[1, 5], [3, 9]]
+  pair  7 decs=[2, 11] -> flags=[18, 10] dst_pairs=[9, 5] dst_dec_sets=[[0, 6], [3, 9]]
+  pair  8 decs=[1, 5] -> flags=[11, 12] dst_pairs=[5, 6] dst_dec_sets=[[0, 6], [8, 10]]
+  pair  9 decs=[3, 9] -> flags=[13, 15] dst_pairs=[6, 7] dst_dec_sets=[[2, 11], [8, 10]]
+  pair 10 decs=[2, 9] -> flags=[27, 24] dst_pairs=[13, 12] dst_dec_sets=[[3, 7], [4, 11]]
+  pair 11 decs=[1, 10] -> flags=[29, 26] dst_pairs=[14, 13] dst_dec_sets=[[0, 5], [3, 7]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(6, 5) target=(2, 3)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(9, 7) target=(3, 4)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(0, 8) target=(0, 4)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(2, 1) target=(0, 1)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(3, 4) target=(1, 2)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(17, 14) target=(7, 8)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(19, 16) target=(8, 9)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(18, 10) target=(5, 9)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(11, 12) target=(5, 6)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(13, 15) target=(6, 7)
+
+--------------------------------------------------------------------------------
+WORD VSVVS
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[6, 5] dst_pairs=[3, 2] dst_dec_sets=[[4, 5], [6, 7]]
+  pair  1 decs=[2, 3] -> flags=[9, 7] dst_pairs=[4, 3] dst_dec_sets=[[6, 7], [8, 9]]
+  pair  2 decs=[4, 5] -> flags=[0, 8] dst_pairs=[0, 4] dst_dec_sets=[[0, 1], [8, 9]]
+  pair  3 decs=[6, 7] -> flags=[2, 1] dst_pairs=[1, 0] dst_dec_sets=[[0, 1], [2, 3]]
+  pair  4 decs=[8, 9] -> flags=[3, 4] dst_pairs=[1, 2] dst_dec_sets=[[2, 3], [4, 5]]
+  pair  5 decs=[0, 6] -> flags=[17, 14] dst_pairs=[8, 7] dst_dec_sets=[[1, 5], [2, 11]]
+  pair  6 decs=[8, 10] -> flags=[19, 16] dst_pairs=[9, 8] dst_dec_sets=[[1, 5], [3, 9]]
+  pair  7 decs=[2, 11] -> flags=[18, 10] dst_pairs=[9, 5] dst_dec_sets=[[0, 6], [3, 9]]
+  pair  8 decs=[1, 5] -> flags=[11, 12] dst_pairs=[5, 6] dst_dec_sets=[[0, 6], [8, 10]]
+  pair  9 decs=[3, 9] -> flags=[13, 15] dst_pairs=[6, 7] dst_dec_sets=[[2, 11], [8, 10]]
+  pair 10 decs=[2, 9] -> flags=[27, 24] dst_pairs=[13, 12] dst_dec_sets=[[3, 7], [4, 11]]
+  pair 11 decs=[1, 10] -> flags=[29, 26] dst_pairs=[14, 13] dst_dec_sets=[[0, 5], [3, 7]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(6, 5) target=(2, 3)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(9, 7) target=(3, 4)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(0, 8) target=(0, 4)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(2, 1) target=(0, 1)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(3, 4) target=(1, 2)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(17, 14) target=(7, 8)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(19, 16) target=(8, 9)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(18, 10) target=(5, 9)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(11, 12) target=(5, 6)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(13, 15) target=(6, 7)
+
+--------------------------------------------------------------------------------
+WORD VFFSV
+--------------------------------------------------------------------------------
+flag cycle histogram: {6: 20}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[65, 73] dst_pairs=[32, 36] dst_dec_sets=[[3, 10], [9, 11]]
+  pair  1 decs=[2, 3] -> flags=[75, 83] dst_pairs=[37, 41] dst_dec_sets=[[0, 11], [5, 10]]
+  pair  2 decs=[4, 5] -> flags=[85, 93] dst_pairs=[42, 46] dst_dec_sets=[[2, 11], [7, 10]]
+  pair  3 decs=[6, 7] -> flags=[95, 103] dst_pairs=[47, 51] dst_dec_sets=[[4, 11], [8, 10]]
+  pair  4 decs=[8, 9] -> flags=[63, 105] dst_pairs=[31, 52] dst_dec_sets=[[1, 10], [6, 11]]
+  pair  5 decs=[0, 6] -> flags=[48, 101] dst_pairs=[24, 50] dst_dec_sets=[[3, 7], [4, 8]]
+  pair  6 decs=[8, 10] -> flags=[102, 111] dst_pairs=[51, 55] dst_dec_sets=[[4, 11], [6, 7]]
+  pair  7 decs=[2, 11] -> flags=[84, 119] dst_pairs=[42, 59] dst_dec_sets=[[4, 5], [7, 10]]
+  pair  8 decs=[1, 5] -> flags=[39, 87] dst_pairs=[19, 43] dst_dec_sets=[[2, 7], [4, 9]]
+  pair  9 decs=[3, 9] -> flags=[47, 31] dst_pairs=[23, 15] dst_dec_sets=[[0, 4], [1, 7]]
+  pair 10 decs=[2, 9] -> flags=[59, 61] dst_pairs=[29, 30] dst_dec_sets=[[1, 6], [5, 8]]
+  pair 11 decs=[1, 10] -> flags=[62, 113] dst_pairs=[31, 56] dst_dec_sets=[[6, 11], [8, 9]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(65, 73) target=(32, 36)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(75, 83) target=(37, 41)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(85, 93) target=(42, 46)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(95, 103) target=(47, 51)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(63, 105) target=(31, 52)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(48, 101) target=(24, 50)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(102, 111) target=(51, 55)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(84, 119) target=(42, 59)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(39, 87) target=(19, 43)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(47, 31) target=(15, 23)
+
+--------------------------------------------------------------------------------
+WORD FFFV
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[39, 48] dst_pairs=[19, 24] dst_dec_sets=[[2, 7], [4, 8]]
+  pair  1 decs=[2, 3] -> flags=[49, 59] dst_pairs=[24, 29] dst_dec_sets=[[1, 6], [4, 8]]
+  pair  2 decs=[4, 5] -> flags=[58, 18] dst_pairs=[29, 9] dst_dec_sets=[[1, 6], [3, 9]]
+  pair  3 decs=[6, 7] -> flags=[19, 28] dst_pairs=[9, 14] dst_dec_sets=[[0, 5], [3, 9]]
+  pair  4 decs=[8, 9] -> flags=[38, 29] dst_pairs=[19, 14] dst_dec_sets=[[0, 5], [2, 7]]
+  pair  5 decs=[0, 6] -> flags=[74, 21] dst_pairs=[37, 10] dst_dec_sets=[[2, 9], [5, 10]]
+  pair  6 decs=[8, 10] -> flags=[20, 1] dst_pairs=[10, 0] dst_dec_sets=[[0, 1], [2, 9]]
+  pair  7 decs=[2, 11] -> flags=[56, 0] dst_pairs=[28, 0] dst_dec_sets=[[0, 1], [3, 8]]
+  pair  8 decs=[1, 5] -> flags=[62, 57] dst_pairs=[31, 28] dst_dec_sets=[[3, 8], [6, 11]]
+  pair  9 decs=[3, 9] -> flags=[75, 63] dst_pairs=[37, 31] dst_dec_sets=[[5, 10], [6, 11]]
+  pair 10 decs=[2, 9] -> flags=[84, 31] dst_pairs=[42, 15] dst_dec_sets=[[0, 4], [7, 10]]
+  pair 11 decs=[1, 10] -> flags=[30, 3] dst_pairs=[15, 1] dst_dec_sets=[[0, 4], [2, 3]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(39, 48) target=(19, 24)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(49, 59) target=(24, 29)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(58, 18) target=(9, 29)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(19, 28) target=(9, 14)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(38, 29) target=(14, 19)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(74, 21) target=(10, 37)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(20, 1) target=(0, 10)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(56, 0) target=(0, 28)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(62, 57) target=(28, 31)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(75, 63) target=(31, 37)
+
+--------------------------------------------------------------------------------
+WORD FSVS
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[39, 48] dst_pairs=[19, 24] dst_dec_sets=[[2, 7], [4, 8]]
+  pair  1 decs=[2, 3] -> flags=[49, 59] dst_pairs=[24, 29] dst_dec_sets=[[1, 6], [4, 8]]
+  pair  2 decs=[4, 5] -> flags=[58, 18] dst_pairs=[29, 9] dst_dec_sets=[[1, 6], [3, 9]]
+  pair  3 decs=[6, 7] -> flags=[19, 28] dst_pairs=[9, 14] dst_dec_sets=[[0, 5], [3, 9]]
+  pair  4 decs=[8, 9] -> flags=[38, 29] dst_pairs=[19, 14] dst_dec_sets=[[0, 5], [2, 7]]
+  pair  5 decs=[0, 6] -> flags=[74, 21] dst_pairs=[37, 10] dst_dec_sets=[[2, 9], [5, 10]]
+  pair  6 decs=[8, 10] -> flags=[20, 1] dst_pairs=[10, 0] dst_dec_sets=[[0, 1], [2, 9]]
+  pair  7 decs=[2, 11] -> flags=[56, 0] dst_pairs=[28, 0] dst_dec_sets=[[0, 1], [3, 8]]
+  pair  8 decs=[1, 5] -> flags=[62, 57] dst_pairs=[31, 28] dst_dec_sets=[[3, 8], [6, 11]]
+  pair  9 decs=[3, 9] -> flags=[75, 63] dst_pairs=[37, 31] dst_dec_sets=[[5, 10], [6, 11]]
+  pair 10 decs=[2, 9] -> flags=[84, 31] dst_pairs=[42, 15] dst_dec_sets=[[0, 4], [7, 10]]
+  pair 11 decs=[1, 10] -> flags=[30, 3] dst_pairs=[15, 1] dst_dec_sets=[[0, 4], [2, 3]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(39, 48) target=(19, 24)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(49, 59) target=(24, 29)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(58, 18) target=(9, 29)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(19, 28) target=(9, 14)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(38, 29) target=(14, 19)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(74, 21) target=(10, 37)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(20, 1) target=(0, 10)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(56, 0) target=(0, 28)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(62, 57) target=(28, 31)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(75, 63) target=(31, 37)
+
+--------------------------------------------------------------------------------
+WORD SFFSV
+--------------------------------------------------------------------------------
+flag cycle histogram: {5: 24}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[39, 48] dst_pairs=[19, 24] dst_dec_sets=[[2, 7], [4, 8]]
+  pair  1 decs=[2, 3] -> flags=[49, 59] dst_pairs=[24, 29] dst_dec_sets=[[1, 6], [4, 8]]
+  pair  2 decs=[4, 5] -> flags=[58, 18] dst_pairs=[29, 9] dst_dec_sets=[[1, 6], [3, 9]]
+  pair  3 decs=[6, 7] -> flags=[19, 28] dst_pairs=[9, 14] dst_dec_sets=[[0, 5], [3, 9]]
+  pair  4 decs=[8, 9] -> flags=[38, 29] dst_pairs=[19, 14] dst_dec_sets=[[0, 5], [2, 7]]
+  pair  5 decs=[0, 6] -> flags=[74, 21] dst_pairs=[37, 10] dst_dec_sets=[[2, 9], [5, 10]]
+  pair  6 decs=[8, 10] -> flags=[20, 1] dst_pairs=[10, 0] dst_dec_sets=[[0, 1], [2, 9]]
+  pair  7 decs=[2, 11] -> flags=[56, 0] dst_pairs=[28, 0] dst_dec_sets=[[0, 1], [3, 8]]
+  pair  8 decs=[1, 5] -> flags=[62, 57] dst_pairs=[31, 28] dst_dec_sets=[[3, 8], [6, 11]]
+  pair  9 decs=[3, 9] -> flags=[75, 63] dst_pairs=[37, 31] dst_dec_sets=[[5, 10], [6, 11]]
+  pair 10 decs=[2, 9] -> flags=[84, 31] dst_pairs=[42, 15] dst_dec_sets=[[0, 4], [7, 10]]
+  pair 11 decs=[1, 10] -> flags=[30, 3] dst_pairs=[15, 1] dst_dec_sets=[[0, 4], [2, 3]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(39, 48) target=(19, 24)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(49, 59) target=(24, 29)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(58, 18) target=(9, 29)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(19, 28) target=(9, 14)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(38, 29) target=(14, 19)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(74, 21) target=(10, 37)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(20, 1) target=(0, 10)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(56, 0) target=(0, 28)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(62, 57) target=(28, 31)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(75, 63) target=(31, 37)
+
+--------------------------------------------------------------------------------
+WORD SVFF
+--------------------------------------------------------------------------------
+flag cycle histogram: {6: 20}
+pairs preserved setwise: 0 / 60
+pairs swapped internally by word: 0 / 60
+pairs split across distinct S-pairs: 60 / 60
+same decagon-membership set: 0 / 60
+changed decagon-membership set: 60 / 60
+first 12 membership moves:
+  pair  0 decs=[0, 1] -> flags=[24, 52] dst_pairs=[12, 26] dst_dec_sets=[[4, 11], [7, 10]]
+  pair  1 decs=[2, 3] -> flags=[34, 12] dst_pairs=[17, 6] dst_dec_sets=[[6, 11], [8, 10]]
+  pair  2 decs=[4, 5] -> flags=[44, 22] dst_pairs=[22, 11] dst_dec_sets=[[1, 10], [9, 11]]
+  pair  3 decs=[6, 7] -> flags=[54, 32] dst_pairs=[27, 16] dst_dec_sets=[[0, 11], [3, 10]]
+  pair  4 decs=[8, 9] -> flags=[42, 14] dst_pairs=[21, 7] dst_dec_sets=[[2, 11], [5, 10]]
+  pair  5 decs=[0, 6] -> flags=[68, 4] dst_pairs=[34, 2] dst_dec_sets=[[2, 7], [4, 5]]
+  pair  6 decs=[8, 10] -> flags=[70, 50] dst_pairs=[35, 25] dst_dec_sets=[[1, 7], [4, 9]]
+  pair  7 decs=[2, 11] -> flags=[66, 26] dst_pairs=[33, 13] dst_dec_sets=[[0, 4], [3, 7]]
+  pair  8 decs=[1, 5] -> flags=[78, 7] dst_pairs=[39, 3] dst_dec_sets=[[4, 8], [6, 7]]
+  pair  9 decs=[3, 9] -> flags=[25, 53] dst_pairs=[12, 26] dst_dec_sets=[[4, 11], [7, 10]]
+  pair 10 decs=[2, 9] -> flags=[79, 6] dst_pairs=[39, 3] dst_dec_sets=[[4, 8], [6, 7]]
+  pair 11 decs=[1, 10] -> flags=[80, 10] dst_pairs=[40, 5] dst_dec_sets=[[0, 6], [3, 8]]
+first 10 split-pair events:
+  src_pair=0 src_flags=(0, 1) -> flag_images=(24, 52) target=(12, 26)
+  src_pair=1 src_flags=(2, 3) -> flag_images=(34, 12) target=(6, 17)
+  src_pair=2 src_flags=(4, 5) -> flag_images=(44, 22) target=(11, 22)
+  src_pair=3 src_flags=(6, 7) -> flag_images=(54, 32) target=(16, 27)
+  src_pair=4 src_flags=(8, 9) -> flag_images=(42, 14) target=(7, 21)
+  src_pair=5 src_flags=(10, 11) -> flag_images=(68, 4) target=(2, 34)
+  src_pair=6 src_flags=(12, 13) -> flag_images=(70, 50) target=(25, 35)
+  src_pair=7 src_flags=(14, 15) -> flag_images=(66, 26) target=(13, 33)
+  src_pair=8 src_flags=(16, 17) -> flag_images=(78, 7) target=(3, 39)
+  src_pair=9 src_flags=(18, 19) -> flag_images=(25, 53) target=(12, 26)
+

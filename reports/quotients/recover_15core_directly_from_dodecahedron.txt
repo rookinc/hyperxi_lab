@@ -1,0 +1,62 @@
+================================================================================
+RECOVER 15-CORE DIRECTLY FROM DODECAHEDRON EDGE SYSTEM
+================================================================================
+30-LAYER SUMMARY
+--------------------------------------------------------------------------------
+vertices: 30
+edges: 60
+degree set: [4]
+
+DIRECT 15-CORE SUMMARY
+--------------------------------------------------------------------------------
+vertices: 15
+edges: 30
+degree set: [4]
+connected: True
+diameter: 3
+triangles: 10
+shell counts from 0: (1, 4, 8, 2)
+
+QUOTIENT 15-CORE SUMMARY
+--------------------------------------------------------------------------------
+vertices: 15
+edges: 30
+degree set: [4]
+connected: True
+diameter: 3
+triangles: 10
+shell counts from 0: (1, 4, 8, 2)
+
+ISOMORPHISM TEST
+--------------------------------------------------------------------------------
+direct reconstruction isomorphic to quotient core: True
+
+FIRST 15 DIRECT OPPOSITE-EDGE CLASSES
+--------------------------------------------------------------------------------
+ 0 -> (0, 9)
+ 1 -> (1, 19)
+ 2 -> (2, 5)
+ 3 -> (3, 8)
+ 4 -> (4, 17)
+ 5 -> (6, 13)
+ 6 -> (7, 10)
+ 7 -> (11, 15)
+ 8 -> (12, 14)
+ 9 -> (16, 18)
+10 -> (20, 22)
+11 -> (21, 23)
+12 -> (24, 25)
+13 -> (26, 27)
+14 -> (28, 29)
+
+GRAPH6
+--------------------------------------------------------------------------------
+direct  : Nto`GCJAIAAHPA@CaAg
+quotient: Nto`GCJAIAAHPA@CaAg
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+The 15-core can be recovered directly from the 30-layer edge system
+using opposite-edge classes and the exact-two-cross-adjacencies rule.
+This strongly supports the interpretation of the 15-core as a native
+geometric compatibility graph of the dodecahedral edge system.

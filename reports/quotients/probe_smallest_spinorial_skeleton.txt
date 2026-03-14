@@ -1,0 +1,112 @@
+================================================================================
+PROBE SMALLEST SPINORIAL SKELETON
+================================================================================
+candidate graphs: ['petersen', 'dodecahedral', 'desargues', 'heawood', 'cubical', 'tetrahedral', 'octahedral', 'icosahedral', 'line_K4', 'line_K5', 'line_petersen', 'line_cubical']
+
+--------------------------------------------------------------------------------
+petersen
+--------------------------------------------------------------------------------
+vertices: 10
+edges: 15
+degree set: [3]
+5-cycles: 12
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+dodecahedral
+--------------------------------------------------------------------------------
+vertices: 20
+edges: 30
+degree set: [3]
+5-cycles: 12
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+desargues
+--------------------------------------------------------------------------------
+vertices: 20
+edges: 30
+degree set: [3]
+5-cycles: 0
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+heawood
+--------------------------------------------------------------------------------
+vertices: 14
+edges: 21
+degree set: [3]
+5-cycles: 0
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+cubical
+--------------------------------------------------------------------------------
+vertices: 8
+edges: 12
+degree set: [3]
+5-cycles: 0
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+tetrahedral
+--------------------------------------------------------------------------------
+vertices: 4
+edges: 6
+degree set: [3]
+5-cycles: 0
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+octahedral
+--------------------------------------------------------------------------------
+vertices: 6
+edges: 12
+degree set: [4]
+5-cycles: 24
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+icosahedral
+--------------------------------------------------------------------------------
+vertices: 12
+edges: 30
+degree set: [5]
+5-cycles: 72
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+line_K4
+--------------------------------------------------------------------------------
+vertices: 6
+edges: 12
+degree set: [4]
+5-cycles: 24
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+line_K5
+--------------------------------------------------------------------------------
+vertices: 10
+edges: 30
+degree set: [6]
+5-cycles: 312
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+line_petersen
+--------------------------------------------------------------------------------
+vertices: 15
+edges: 30
+degree set: [4]
+5-cycles: 12
+spinorial-style odd/even pentagon split: not found
+
+--------------------------------------------------------------------------------
+line_cubical
+--------------------------------------------------------------------------------
+vertices: 12
+edges: 24
+degree set: [4]
+5-cycles: 24
+spinorial-style odd/even pentagon split: not found

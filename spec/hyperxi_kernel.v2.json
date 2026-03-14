@@ -1,0 +1,239 @@
+{
+  "spec_name": "hyperxi_kernel",
+  "version": "2.0.0",
+  "status": "canonical_draft",
+  "description": "Canonical simulation kernel for HyperXi Lab based on true dodecahedral flag incidence, lawful local transport operators, and the canonical quotient tower.",
+  "meta": {
+    "project": "hyperxi_lab",
+    "replaces": [
+      "transport_scaffold bootstrap as canonical foundation",
+      "scaffold chamber graph as canonical chamber object"
+    ],
+    "notes": [
+      "Kernel is primary.",
+      "Graphs are derived observables.",
+      "Spectra are diagnostics.",
+      "Physical interpretation is downstream of the combinatorial kernel."
+    ]
+  },
+  "kernel": {
+    "geometry_model": {
+      "name": "true_dodecahedral_flag_incidence",
+      "source": "src/hyperxi/geometry/flags.py",
+      "state_object": "Flag(vertex, edge, face)",
+      "state_count": 120,
+      "edge_count": 30,
+      "face_count": 12,
+      "vertex_count": 20
+    },
+    "state_space": {
+      "id": "flag_space",
+      "kind": "finite_discrete_state_space",
+      "cardinality": 120,
+      "element_schema": {
+        "fields": ["vertex", "edge", "face"],
+        "types": ["int", "int", "int"]
+      }
+    }
+  },
+  "operators": {
+    "source": "src/hyperxi/transport/coxeter_generators.py",
+    "primitive_generators": {
+      "S": {
+        "name": "edge_flip",
+        "domain": "flag_space",
+        "codomain": "flag_space",
+        "meaning": "Swap endpoint on the same edge while preserving edge and face.",
+        "lawful": true,
+        "involution": true
+      },
+      "F": {
+        "name": "face_rotation",
+        "domain": "flag_space",
+        "codomain": "flag_space",
+        "meaning": "Rotate one step along the current face boundary.",
+        "lawful": true,
+        "involution": false
+      },
+      "V": {
+        "name": "vertex_rotation",
+        "domain": "flag_space",
+        "codomain": "flag_space",
+        "meaning": "Rotate one step around the current vertex across adjacent faces.",
+        "lawful": true,
+        "involution": false
+      }
+    },
+    "word_semantics": {
+      "apply_word_order": "left_to_right",
+      "example": {
+        "word": "SVF",
+        "meaning": "Apply S, then V, then F."
+      }
+    }
+  },
+  "quotient_tower": {
+    "definitions": {
+      "G60": {
+        "name": "chamber_graph",
+        "domain": "flag_space",
+        "construction": {
+          "equivalence_relation": "generated_by_S",
+          "class_size": 2,
+          "class_count": 60,
+          "downstairs_adjacency": "induced_by_V"
+        },
+        "canonical": true
+      },
+      "G30": {
+        "name": "first_antipodal_quotient",
+        "domain": "G60",
+        "construction": {
+          "equivalence_relation": "canonical_antipodal_pairing_on_G60",
+          "class_size": 2,
+          "class_count": 30
+        },
+        "canonical": true
+      },
+      "G15": {
+        "name": "second_antipodal_quotient",
+        "domain": "G30",
+        "construction": {
+          "equivalence_relation": "canonical_antipodal_pairing_on_G30",
+          "class_size": 2,
+          "class_count": 15
+        },
+        "canonical": true
+      }
+    },
+    "maps": {
+      "pi_flags_to_G60": {
+        "type": "quotient_projection",
+        "domain": "flag_space",
+        "codomain": "G60",
+        "generated_by": "S"
+      },
+      "pi_G60_to_G30": {
+        "type": "regular_2_cover_projection",
+        "domain": "G60",
+        "codomain": "G30",
+        "generated_by": "canonical_antipodal_pairing_on_G60"
+      },
+      "pi_G30_to_G15": {
+        "type": "regular_2_cover_projection",
+        "domain": "G30",
+        "codomain": "G15",
+        "generated_by": "canonical_antipodal_pairing_on_G30"
+      }
+    }
+  },
+  "invariants": {
+    "G60": {
+      "vertex_count": 60,
+      "edge_count": 120,
+      "degree_set": [4],
+      "triangle_count": 40,
+      "diameter": 6,
+      "shell_profile_from_0": [1, 4, 8, 16, 24, 6, 1],
+      "automorphism_group_size": 120
+    },
+    "G30": {
+      "vertex_count": 30,
+      "edge_count": 60,
+      "degree_set": [4],
+      "triangle_count": 20,
+      "diameter": 5,
+      "shell_profile_from_0": [1, 4, 8, 12, 4, 1]
+    },
+    "G15": {
+      "vertex_count": 15,
+      "edge_count": 30,
+      "degree_set": [4]
+    }
+  },
+  "covering_structure": {
+    "G60_to_G30": {
+      "type": "regular_2_cover",
+      "verified": true,
+      "edge_multiplicity_histogram": {
+        "2": 60
+      },
+      "covering_test_passed": true
+    },
+    "G30_to_G15": {
+      "type": "regular_2_cover",
+      "verified": true
+    }
+  },
+  "external_identifications": {
+    "G15": [
+      {
+        "object": "line_graph_of_petersen",
+        "relation": "isomorphic",
+        "status": "verified_computationally"
+      }
+    ]
+  },
+  "transport_group": {
+    "acting_space": "flag_space",
+    "discovered_subgroup": {
+      "size": 120,
+      "center_size": 2,
+      "central_involution_cycle_type": {
+        "2": 60
+      }
+    },
+    "interpretation_notes": [
+      "A nontrivial central sign degree of freedom exists upstairs on the 120-flag space.",
+      "The chamber graph is the visible quotient observable of the upstairs transport layer."
+    ]
+  },
+  "derived_observables": {
+    "canonical_graph_observable": "G60",
+    "canonical_core_observable": "G15",
+    "spectral_analysis": {
+      "status": "derived_not_foundational"
+    },
+    "physical_interpretation": {
+      "status": "noncanonical_downstream_layer"
+    }
+  },
+  "verification": {
+    "status": "verified_computationally",
+    "scripts": [
+      "scripts/rebuild_true_thalion_quotient.py",
+      "scripts/search_true_quotient_move_sets.py",
+      "scripts/check_chamber_graph_as_4cover_of_15core.py",
+      "scripts/check_30_to_15_quotient.py",
+      "scripts/grow_minusI_transport_subgroup.py",
+      "scripts/analyze_transport_subgroup_structure.py"
+    ]
+  },
+  "implementation_sources": {
+    "flag_model": "src/hyperxi/geometry/flags.py",
+    "generator_model": "src/hyperxi/transport/coxeter_generators.py",
+    "legacy_scaffold": "src/hyperxi/combinatorics/transport_scaffold.py",
+    "legacy_bootstrap_chamber_graph": "src/hyperxi/combinatorics/chamber_graph.py"
+  },
+  "migration": {
+    "deprecated": {
+      "src/hyperxi/combinatorics/transport_scaffold.py": {
+        "status": "legacy_bootstrap_only",
+        "replacement": [
+          "src/hyperxi/geometry/flags.py",
+          "src/hyperxi/transport/coxeter_generators.py"
+        ]
+      },
+      "src/hyperxi/combinatorics/chamber_graph.py": {
+        "status": "legacy_bootstrap_only",
+        "replacement": "Canonical G60 construction from Flags / S with adjacency induced by V."
+      }
+    }
+  },
+  "proof_status": {
+    "flags_to_G60_construction": "verified_computationally",
+    "G60_to_G30_regular_2_cover": "verified_computationally",
+    "G30_to_G15_identification": "verified_computationally",
+    "transport_subgroup_center_Z2": "verified_computationally"
+  }
+}

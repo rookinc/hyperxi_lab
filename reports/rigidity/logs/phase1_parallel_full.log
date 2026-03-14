@@ -1,0 +1,140 @@
+================================================================================
+PHASE 1 PARALLEL — FULL ENUMERATION OF 14/16 SIGNINGS BY LIFT HASH
+================================================================================
+vertices:        15
+edges:           30
+negatives target:14
+total signings:  145422675
+cycle basis size:16
+workers:         8
+chunk size:      250000
+
+... samples=250000/145422675 ( 0.172%) chunks=1 cycle_sigs=16262 lift_hashes=1 rate=  5120.4/s elapsed=00:00:48 eta=07:52:31
+... samples=500000/145422675 ( 0.344%) chunks=2 cycle_sigs=16384 lift_hashes=1 rate= 10195.6/s elapsed=00:00:49 eta=03:56:54
+... samples=750000/145422675 ( 0.516%) chunks=3 cycle_sigs=16384 lift_hashes=1 rate= 15246.9/s elapsed=00:00:49 eta=02:38:08
+... samples=1000000/145422675 ( 0.688%) chunks=4 cycle_sigs=16384 lift_hashes=1 rate= 20302.7/s elapsed=00:00:49 eta=01:58:33
+... samples=1250000/145422675 ( 0.860%) chunks=5 cycle_sigs=16384 lift_hashes=1 rate= 25322.5/s elapsed=00:00:49 eta=01:34:53
+... samples=1500000/145422675 ( 1.031%) chunks=6 cycle_sigs=16384 lift_hashes=1 rate= 30067.1/s elapsed=00:00:49 eta=01:19:46
+... samples=1750000/145422675 ( 1.203%) chunks=7 cycle_sigs=16384 lift_hashes=1 rate= 34997.8/s elapsed=00:00:50 eta=01:08:25
+... samples=2000000/145422675 ( 1.375%) chunks=8 cycle_sigs=16384 lift_hashes=1 rate= 39725.6/s elapsed=00:00:50 eta=01:00:10
+... samples=2250000/145422675 ( 1.547%) chunks=9 cycle_sigs=32599 lift_hashes=1 rate= 22952.4/s elapsed=00:01:38 eta=01:43:57
+... samples=2500000/145422675 ( 1.719%) chunks=10 cycle_sigs=32768 lift_hashes=1 rate= 25416.7/s elapsed=00:01:38 eta=01:33:43
+... samples=2750000/145422675 ( 1.891%) chunks=11 cycle_sigs=32768 lift_hashes=1 rate= 27942.1/s elapsed=00:01:38 eta=01:25:06
+... samples=3000000/145422675 ( 2.063%) chunks=12 cycle_sigs=32768 lift_hashes=1 rate= 30357.0/s elapsed=00:01:38 eta=01:18:11
+... samples=3250000/145422675 ( 2.235%) chunks=13 cycle_sigs=32768 lift_hashes=1 rate= 32850.5/s elapsed=00:01:38 eta=01:12:07
+... samples=3500000/145422675 ( 2.407%) chunks=14 cycle_sigs=32768 lift_hashes=1 rate= 35131.1/s elapsed=00:01:39 eta=01:07:19
+... samples=3750000/145422675 ( 2.579%) chunks=15 cycle_sigs=32768 lift_hashes=1 rate= 37617.7/s elapsed=00:01:39 eta=01:02:46
+... samples=4000000/145422675 ( 2.751%) chunks=16 cycle_sigs=32768 lift_hashes=1 rate= 39784.1/s elapsed=00:01:40 eta=00:59:14
+... samples=4250000/145422675 ( 2.923%) chunks=17 cycle_sigs=32768 lift_hashes=1 rate= 28412.3/s elapsed=00:02:29 eta=01:22:48
+... samples=4500000/145422675 ( 3.094%) chunks=18 cycle_sigs=32768 lift_hashes=1 rate= 30069.9/s elapsed=00:02:29 eta=01:18:06
+... samples=4750000/145422675 ( 3.266%) chunks=19 cycle_sigs=32768 lift_hashes=1 rate= 31717.7/s elapsed=00:02:29 eta=01:13:55
+... samples=5000000/145422675 ( 3.438%) chunks=20 cycle_sigs=32768 lift_hashes=1 rate= 33348.9/s elapsed=00:02:29 eta=01:10:10
+... samples=5250000/145422675 ( 3.610%) chunks=21 cycle_sigs=32768 lift_hashes=1 rate= 34884.1/s elapsed=00:02:30 eta=01:06:58
+... samples=5500000/145422675 ( 3.782%) chunks=22 cycle_sigs=32768 lift_hashes=1 rate= 36262.7/s elapsed=00:02:31 eta=01:04:18
+... samples=5750000/145422675 ( 3.954%) chunks=23 cycle_sigs=32768 lift_hashes=1 rate= 37894.3/s elapsed=00:02:31 eta=01:01:25
+... samples=6000000/145422675 ( 4.126%) chunks=24 cycle_sigs=32768 lift_hashes=1 rate= 39372.4/s elapsed=00:02:32 eta=00:59:01
+... samples=6250000/145422675 ( 4.298%) chunks=25 cycle_sigs=32768 lift_hashes=1 rate= 31849.3/s elapsed=00:03:16 eta=01:12:49
+... samples=6500000/145422675 ( 4.470%) chunks=26 cycle_sigs=32768 lift_hashes=1 rate= 33090.5/s elapsed=00:03:16 eta=01:09:58
+... samples=6750000/145422675 ( 4.642%) chunks=27 cycle_sigs=32768 lift_hashes=1 rate= 34307.1/s elapsed=00:03:16 eta=01:07:22
+... samples=7000000/145422675 ( 4.814%) chunks=28 cycle_sigs=32768 lift_hashes=1 rate= 35542.1/s elapsed=00:03:16 eta=01:04:54
+... samples=7250000/145422675 ( 4.985%) chunks=29 cycle_sigs=32768 lift_hashes=1 rate= 36723.2/s elapsed=00:03:17 eta=01:02:42
+... samples=7500000/145422675 ( 5.157%) chunks=30 cycle_sigs=32768 lift_hashes=1 rate= 37675.5/s elapsed=00:03:19 eta=01:01:00
+... samples=7750000/145422675 ( 5.329%) chunks=31 cycle_sigs=32768 lift_hashes=1 rate= 38872.0/s elapsed=00:03:19 eta=00:59:01
+... samples=8000000/145422675 ( 5.501%) chunks=32 cycle_sigs=32768 lift_hashes=1 rate= 39998.5/s elapsed=00:03:20 eta=00:57:15
+... samples=8250000/145422675 ( 5.673%) chunks=33 cycle_sigs=32768 lift_hashes=1 rate= 33841.6/s elapsed=00:04:03 eta=01:07:33
+... samples=8500000/145422675 ( 5.845%) chunks=34 cycle_sigs=32768 lift_hashes=1 rate= 34837.0/s elapsed=00:04:03 eta=01:05:30
+... samples=8750000/145422675 ( 6.017%) chunks=35 cycle_sigs=32768 lift_hashes=1 rate= 35757.7/s elapsed=00:04:04 eta=01:03:42
+... samples=9000000/145422675 ( 6.189%) chunks=36 cycle_sigs=32768 lift_hashes=1 rate= 36758.7/s elapsed=00:04:04 eta=01:01:51
+... samples=9250000/145422675 ( 6.361%) chunks=37 cycle_sigs=32768 lift_hashes=1 rate= 37692.6/s elapsed=00:04:05 eta=01:00:12
+... samples=9500000/145422675 ( 6.533%) chunks=38 cycle_sigs=32768 lift_hashes=1 rate= 38452.9/s elapsed=00:04:07 eta=00:58:54
+... samples=9750000/145422675 ( 6.705%) chunks=39 cycle_sigs=32768 lift_hashes=1 rate= 39440.0/s elapsed=00:04:07 eta=00:57:19
+... samples=10000000/145422675 ( 6.877%) chunks=40 cycle_sigs=32768 lift_hashes=1 rate= 40297.7/s elapsed=00:04:08 eta=00:56:00
+... samples=10250000/145422675 ( 7.048%) chunks=41 cycle_sigs=32768 lift_hashes=1 rate= 35557.4/s elapsed=00:04:48 eta=01:03:21
+... samples=10500000/145422675 ( 7.220%) chunks=42 cycle_sigs=32768 lift_hashes=1 rate= 36363.3/s elapsed=00:04:48 eta=01:01:50
+... samples=10750000/145422675 ( 7.392%) chunks=43 cycle_sigs=32768 lift_hashes=1 rate= 37133.7/s elapsed=00:04:49 eta=01:00:26
+... samples=11000000/145422675 ( 7.564%) chunks=44 cycle_sigs=32768 lift_hashes=1 rate= 37989.9/s elapsed=00:04:49 eta=00:58:58
+... samples=11250000/145422675 ( 7.736%) chunks=45 cycle_sigs=32768 lift_hashes=1 rate= 38765.3/s elapsed=00:04:50 eta=00:57:41
+... samples=11500000/145422675 ( 7.908%) chunks=46 cycle_sigs=32768 lift_hashes=1 rate= 39390.9/s elapsed=00:04:51 eta=00:56:39
+... samples=11750000/145422675 ( 8.080%) chunks=47 cycle_sigs=32768 lift_hashes=1 rate= 40208.4/s elapsed=00:04:52 eta=00:55:24
+... samples=12000000/145422675 ( 8.252%) chunks=48 cycle_sigs=32768 lift_hashes=1 rate= 40946.9/s elapsed=00:04:53 eta=00:54:18
+... samples=12250000/145422675 ( 8.424%) chunks=49 cycle_sigs=32768 lift_hashes=1 rate= 36742.3/s elapsed=00:05:33 eta=01:00:24
+... samples=12500000/145422675 ( 8.596%) chunks=50 cycle_sigs=32768 lift_hashes=1 rate= 37419.1/s elapsed=00:05:34 eta=00:59:12
+... samples=12750000/145422675 ( 8.768%) chunks=51 cycle_sigs=32768 lift_hashes=1 rate= 38080.1/s elapsed=00:05:34 eta=00:58:04
+... samples=13000000/145422675 ( 8.939%) chunks=52 cycle_sigs=32768 lift_hashes=1 rate= 38814.5/s elapsed=00:05:34 eta=00:56:51
+... samples=13250000/145422675 ( 9.111%) chunks=53 cycle_sigs=32768 lift_hashes=1 rate= 39489.6/s elapsed=00:05:35 eta=00:55:47
+... samples=13500000/145422675 ( 9.283%) chunks=54 cycle_sigs=32768 lift_hashes=1 rate= 39991.4/s elapsed=00:05:37 eta=00:54:58
+... samples=13750000/145422675 ( 9.455%) chunks=55 cycle_sigs=32768 lift_hashes=1 rate= 40687.8/s elapsed=00:05:37 eta=00:53:56
+... samples=14000000/145422675 ( 9.627%) chunks=56 cycle_sigs=32768 lift_hashes=1 rate= 41321.7/s elapsed=00:05:38 eta=00:53:00
+... samples=14250000/145422675 ( 9.799%) chunks=57 cycle_sigs=32768 lift_hashes=1 rate= 37635.0/s elapsed=00:06:18 eta=00:58:05
+... samples=14500000/145422675 ( 9.971%) chunks=58 cycle_sigs=32768 lift_hashes=1 rate= 38172.7/s elapsed=00:06:19 eta=00:57:09
+... samples=14750000/145422675 (10.143%) chunks=59 cycle_sigs=32768 lift_hashes=1 rate= 38744.7/s elapsed=00:06:20 eta=00:56:12
+... samples=15000000/145422675 (10.315%) chunks=60 cycle_sigs=32768 lift_hashes=1 rate= 39390.0/s elapsed=00:06:20 eta=00:55:11
+... samples=15250000/145422675 (10.487%) chunks=61 cycle_sigs=32768 lift_hashes=1 rate= 39961.9/s elapsed=00:06:21 eta=00:54:17
+... samples=15500000/145422675 (10.659%) chunks=62 cycle_sigs=32768 lift_hashes=1 rate= 40359.9/s elapsed=00:06:24 eta=00:53:39
+... samples=15750000/145422675 (10.830%) chunks=63 cycle_sigs=32768 lift_hashes=1 rate= 40917.3/s elapsed=00:06:24 eta=00:52:49
+... samples=16000000/145422675 (11.002%) chunks=64 cycle_sigs=32768 lift_hashes=1 rate= 41487.1/s elapsed=00:06:25 eta=00:51:59
+... samples=16250000/145422675 (11.174%) chunks=65 cycle_sigs=32768 lift_hashes=1 rate= 38130.0/s elapsed=00:07:06 eta=00:56:27
+... samples=16500000/145422675 (11.346%) chunks=66 cycle_sigs=32768 lift_hashes=1 rate= 38609.3/s elapsed=00:07:07 eta=00:55:39
+... samples=16750000/145422675 (11.518%) chunks=67 cycle_sigs=32768 lift_hashes=1 rate= 39126.7/s elapsed=00:07:08 eta=00:54:48
+... samples=17000000/145422675 (11.690%) chunks=68 cycle_sigs=32768 lift_hashes=1 rate= 39701.0/s elapsed=00:07:08 eta=00:53:54
+... samples=17250000/145422675 (11.862%) chunks=69 cycle_sigs=32768 lift_hashes=1 rate= 40220.5/s elapsed=00:07:08 eta=00:53:06
+... samples=17500000/145422675 (12.034%) chunks=70 cycle_sigs=32768 lift_hashes=1 rate= 40549.5/s elapsed=00:07:11 eta=00:52:34
+... samples=17750000/145422675 (12.206%) chunks=71 cycle_sigs=32768 lift_hashes=1 rate= 41051.8/s elapsed=00:07:12 eta=00:51:50
+... samples=18000000/145422675 (12.378%) chunks=72 cycle_sigs=32768 lift_hashes=1 rate= 41565.9/s elapsed=00:07:13 eta=00:51:05
+... samples=18250000/145422675 (12.550%) chunks=73 cycle_sigs=32768 lift_hashes=1 rate= 38792.2/s elapsed=00:07:50 eta=00:54:38
+... samples=18500000/145422675 (12.722%) chunks=74 cycle_sigs=32768 lift_hashes=1 rate= 39194.2/s elapsed=00:07:52 eta=00:53:58
+... samples=18750000/145422675 (12.893%) chunks=75 cycle_sigs=32768 lift_hashes=1 rate= 39654.2/s elapsed=00:07:52 eta=00:53:14
+... samples=19000000/145422675 (13.065%) chunks=76 cycle_sigs=32768 lift_hashes=1 rate= 40173.1/s elapsed=00:07:52 eta=00:52:26
+... samples=19250000/145422675 (13.237%) chunks=77 cycle_sigs=32768 lift_hashes=1 rate= 40621.7/s elapsed=00:07:53 eta=00:51:46
+... samples=19500000/145422675 (13.409%) chunks=78 cycle_sigs=32768 lift_hashes=1 rate= 40856.9/s elapsed=00:07:57 eta=00:51:22
+... samples=19750000/145422675 (13.581%) chunks=79 cycle_sigs=32768 lift_hashes=1 rate= 41295.6/s elapsed=00:07:58 eta=00:50:43
+... samples=20000000/145422675 (13.753%) chunks=80 cycle_sigs=32768 lift_hashes=1 rate= 41757.3/s elapsed=00:07:58 eta=00:50:03
+... samples=20250000/145422675 (13.925%) chunks=81 cycle_sigs=32768 lift_hashes=1 rate= 38966.8/s elapsed=00:08:39 eta=00:53:32
+... samples=20500000/145422675 (14.097%) chunks=82 cycle_sigs=32768 lift_hashes=1 rate= 39320.6/s elapsed=00:08:41 eta=00:52:57
+... samples=20750000/145422675 (14.269%) chunks=83 cycle_sigs=32768 lift_hashes=1 rate= 39745.7/s elapsed=00:08:42 eta=00:52:16
+... samples=21000000/145422675 (14.441%) chunks=84 cycle_sigs=32768 lift_hashes=1 rate= 40208.7/s elapsed=00:08:42 eta=00:51:34
+... samples=21250000/145422675 (14.613%) chunks=85 cycle_sigs=32768 lift_hashes=1 rate= 40636.0/s elapsed=00:08:42 eta=00:50:55
+... samples=21500000/145422675 (14.784%) chunks=86 cycle_sigs=32768 lift_hashes=1 rate= 40845.2/s elapsed=00:08:46 eta=00:50:33
+... samples=21750000/145422675 (14.956%) chunks=87 cycle_sigs=32768 lift_hashes=1 rate= 41251.8/s elapsed=00:08:47 eta=00:49:57
+... samples=22000000/145422675 (15.128%) chunks=88 cycle_sigs=32768 lift_hashes=1 rate= 41675.0/s elapsed=00:08:47 eta=00:49:21
+... samples=22250000/145422675 (15.300%) chunks=89 cycle_sigs=32768 lift_hashes=1 rate= 39444.3/s elapsed=00:09:24 eta=00:52:02
+... samples=22500000/145422675 (15.472%) chunks=90 cycle_sigs=32768 lift_hashes=1 rate= 39768.4/s elapsed=00:09:25 eta=00:51:30
+... samples=22750000/145422675 (15.644%) chunks=91 cycle_sigs=32768 lift_hashes=1 rate= 40155.3/s elapsed=00:09:26 eta=00:50:54
+... samples=23000000/145422675 (15.816%) chunks=92 cycle_sigs=32768 lift_hashes=1 rate= 40582.3/s elapsed=00:09:26 eta=00:50:16
+... samples=23250000/145422675 (15.988%) chunks=93 cycle_sigs=32768 lift_hashes=1 rate= 40965.9/s elapsed=00:09:27 eta=00:49:42
+... samples=23500000/145422675 (16.160%) chunks=94 cycle_sigs=32768 lift_hashes=1 rate= 41139.0/s elapsed=00:09:31 eta=00:49:23
+... samples=23750000/145422675 (16.332%) chunks=95 cycle_sigs=32768 lift_hashes=1 rate= 41505.8/s elapsed=00:09:32 eta=00:48:51
+... samples=24000000/145422675 (16.504%) chunks=96 cycle_sigs=32768 lift_hashes=1 rate= 41897.2/s elapsed=00:09:32 eta=00:48:18
+... samples=24250000/145422675 (16.676%) chunks=97 cycle_sigs=32768 lift_hashes=1 rate= 39624.4/s elapsed=00:10:11 eta=00:50:58
+... samples=24500000/145422675 (16.847%) chunks=98 cycle_sigs=32768 lift_hashes=1 rate= 39907.5/s elapsed=00:10:13 eta=00:50:30
+... samples=24750000/145422675 (17.019%) chunks=99 cycle_sigs=32768 lift_hashes=1 rate= 40265.5/s elapsed=00:10:14 eta=00:49:56
+... samples=25000000/145422675 (17.191%) chunks=100 cycle_sigs=32768 lift_hashes=1 rate= 40665.3/s elapsed=00:10:14 eta=00:49:21
+... samples=25250000/145422675 (17.363%) chunks=101 cycle_sigs=32768 lift_hashes=1 rate= 40992.5/s elapsed=00:10:15 eta=00:48:51
+... samples=25500000/145422675 (17.535%) chunks=102 cycle_sigs=32768 lift_hashes=1 rate= 41147.2/s elapsed=00:10:19 eta=00:48:34
+... samples=25750000/145422675 (17.707%) chunks=103 cycle_sigs=32768 lift_hashes=1 rate= 41492.2/s elapsed=00:10:20 eta=00:48:04
+... samples=26000000/145422675 (17.879%) chunks=104 cycle_sigs=32768 lift_hashes=1 rate= 41849.9/s elapsed=00:10:21 eta=00:47:33
+... samples=26250000/145422675 (18.051%) chunks=105 cycle_sigs=32768 lift_hashes=1 rate= 39834.3/s elapsed=00:10:58 eta=00:49:51
+... samples=26500000/145422675 (18.223%) chunks=106 cycle_sigs=32768 lift_hashes=1 rate= 40059.8/s elapsed=00:11:01 eta=00:49:28
+... samples=26750000/145422675 (18.395%) chunks=107 cycle_sigs=32768 lift_hashes=1 rate= 40373.1/s elapsed=00:11:02 eta=00:48:59
+... samples=27000000/145422675 (18.567%) chunks=108 cycle_sigs=32768 lift_hashes=1 rate= 40747.0/s elapsed=00:11:02 eta=00:48:26
+... samples=27250000/145422675 (18.738%) chunks=109 cycle_sigs=32768 lift_hashes=1 rate= 41035.1/s elapsed=00:11:04 eta=00:47:59
+... samples=27500000/145422675 (18.910%) chunks=110 cycle_sigs=32768 lift_hashes=1 rate= 41160.9/s elapsed=00:11:08 eta=00:47:44
+... samples=27750000/145422675 (19.082%) chunks=111 cycle_sigs=32768 lift_hashes=1 rate= 41459.0/s elapsed=00:11:09 eta=00:47:18
+... samples=28000000/145422675 (19.254%) chunks=112 cycle_sigs=32768 lift_hashes=1 rate= 41787.8/s elapsed=00:11:10 eta=00:46:49
+... samples=28250000/145422675 (19.426%) chunks=113 cycle_sigs=32768 lift_hashes=1 rate= 40106.7/s elapsed=00:11:44 eta=00:48:41
+... samples=28500000/145422675 (19.598%) chunks=114 cycle_sigs=32768 lift_hashes=1 rate= 40318.2/s elapsed=00:11:46 eta=00:48:19
+... samples=28750000/145422675 (19.770%) chunks=115 cycle_sigs=32768 lift_hashes=1 rate= 40618.9/s elapsed=00:11:47 eta=00:47:52
+... samples=29000000/145422675 (19.942%) chunks=116 cycle_sigs=32768 lift_hashes=1 rate= 40961.3/s elapsed=00:11:47 eta=00:47:22
+... samples=29250000/145422675 (20.114%) chunks=117 cycle_sigs=32768 lift_hashes=1 rate= 41234.0/s elapsed=00:11:49 eta=00:46:57
+... samples=29500000/145422675 (20.286%) chunks=118 cycle_sigs=32768 lift_hashes=1 rate= 41356.5/s elapsed=00:11:53 eta=00:46:43
+... samples=29750000/145422675 (20.458%) chunks=119 cycle_sigs=32768 lift_hashes=1 rate= 41616.6/s elapsed=00:11:54 eta=00:46:19
+... samples=30000000/145422675 (20.630%) chunks=120 cycle_sigs=32768 lift_hashes=1 rate= 41918.0/s elapsed=00:11:55 eta=00:45:53
+... samples=30250000/145422675 (20.801%) chunks=121 cycle_sigs=32768 lift_hashes=1 rate= 40226.2/s elapsed=00:12:31 eta=00:47:43
+... samples=30500000/145422675 (20.973%) chunks=122 cycle_sigs=32768 lift_hashes=1 rate= 40434.8/s elapsed=00:12:34 eta=00:47:22
+... samples=30750000/145422675 (21.145%) chunks=123 cycle_sigs=32768 lift_hashes=1 rate= 40702.6/s elapsed=00:12:35 eta=00:46:57
+... samples=31000000/145422675 (21.317%) chunks=124 cycle_sigs=32768 lift_hashes=1 rate= 41022.7/s elapsed=00:12:35 eta=00:46:29
+... samples=31250000/145422675 (21.489%) chunks=125 cycle_sigs=32768 lift_hashes=1 rate= 41273.4/s elapsed=00:12:37 eta=00:46:06
+... samples=31500000/145422675 (21.661%) chunks=126 cycle_sigs=32768 lift_hashes=1 rate= 41379.2/s elapsed=00:12:41 eta=00:45:53
+... samples=31750000/145422675 (21.833%) chunks=127 cycle_sigs=32768 lift_hashes=1 rate= 41620.0/s elapsed=00:12:42 eta=00:45:31
+... samples=32000000/145422675 (22.005%) chunks=128 cycle_sigs=32768 lift_hashes=1 rate= 41909.8/s elapsed=00:12:43 eta=00:45:06
+... samples=32250000/145422675 (22.177%) chunks=129 cycle_sigs=32768 lift_hashes=1 rate= 40313.8/s elapsed=00:13:19 eta=00:46:47

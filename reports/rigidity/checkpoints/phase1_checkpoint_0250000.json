@@ -1,7 +1,5 @@
 {
-  "sample_limit": 250000,
-  "negatives_target": 14,
-  "samples_processed": 250000,
+  "sample_count": 250000,
   "distinct_cycle_parity_signatures": 16262,
   "distinct_lift_hashes": 1,
   "top_lift_hashes": [

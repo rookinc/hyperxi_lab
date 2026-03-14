@@ -1,7 +1,10 @@
 {
-  "sample_limit": 250000,
-  "negatives_target": 14,
-  "samples_processed": 250000,
+  "sample_count": 250000,
+  "total_signings": 145422675,
+  "percent_complete": 0.17191266767716934,
+  "elapsed_seconds": 32.81740295799682,
+  "rate_samples_per_second": 7617.909324512254,
+  "eta_seconds": 19056.760695861245,
   "distinct_cycle_parity_signatures": 16262,
   "distinct_lift_hashes": 1,
   "top_lift_hashes": [

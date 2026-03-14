@@ -4,12 +4,12 @@ PHASE 1 — SAMPLE SIGNINGS BY LIFT HASH
 vertices: 15
 edges:    30
 negatives target: 14
-sample limit:     50000
-samples processed: 50000
-distinct cycle parity signatures: 13078
+sample limit:     250000
+samples processed: 250000
+distinct cycle parity signatures: 16262
 distinct lift hashes: 1
 
 TOP LIFT HASHES
 --------------------------------------------------------------------------------
-3334d948f84184ec476349e5185b0ccf  count=50000
+3334d948f84184ec476349e5185b0ccf  count=250000
 

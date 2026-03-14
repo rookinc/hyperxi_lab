@@ -1,13 +1,16 @@
 {
-  "sample_limit": 250000,
-  "negatives_target": 14,
-  "samples_processed": 250000,
-  "distinct_cycle_parity_signatures": 16262,
+  "sample_count": 100000,
+  "total_signings": 145422675,
+  "percent_complete": 0.06876506707086773,
+  "elapsed_seconds": 12.89788987499196,
+  "rate_samples_per_second": 7753.206219716024,
+  "eta_seconds": 18743.558584892475,
+  "distinct_cycle_parity_signatures": 14793,
   "distinct_lift_hashes": 1,
   "top_lift_hashes": [
     [
       "3334d948f84184ec476349e5185b0ccf",
-      250000
+      100000
     ]
   ],
   "representative_masks": {

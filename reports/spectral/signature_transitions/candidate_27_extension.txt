@@ -1,0 +1,120 @@
+================================================================================
+CANDIDATE 27-EXTENSION FROM PETERSEN CORE
+================================================================================
+pair-like core node count   : 20
+decagon/face-like node count: 12
+total candidate object count: 32
+reported recovered core size: 15
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+The object count does not exactly match 15 + 12 = 27.
+
+PAIR → DECAGON INCIDENCE DEGREES
+--------------------------------------------------------------------------------
+pair  0  degree_to_decagons = 2
+pair  1  degree_to_decagons = 2
+pair  2  degree_to_decagons = 2
+pair  3  degree_to_decagons = 2
+pair  4  degree_to_decagons = 2
+pair  5  degree_to_decagons = 2
+pair  6  degree_to_decagons = 2
+pair  7  degree_to_decagons = 2
+pair  8  degree_to_decagons = 2
+pair  9  degree_to_decagons = 2
+pair 10  degree_to_decagons = 2
+pair 11  degree_to_decagons = 2
+pair 12  degree_to_decagons = 2
+pair 13  degree_to_decagons = 2
+pair 14  degree_to_decagons = 2
+pair 15  degree_to_decagons = 2
+pair 16  degree_to_decagons = 2
+pair 17  degree_to_decagons = 2
+pair 18  degree_to_decagons = 2
+pair 19  degree_to_decagons = 2
+
+DECAGON DEGREES FROM PAIRS
+--------------------------------------------------------------------------------
+decagon  0  degree_from_pairs = 4
+decagon  1  degree_from_pairs = 3
+decagon  2  degree_from_pairs = 4
+decagon  3  degree_from_pairs = 4
+decagon  4  degree_from_pairs = 3
+decagon  5  degree_from_pairs = 4
+decagon  6  degree_from_pairs = 3
+decagon  7  degree_from_pairs = 3
+decagon  8  degree_from_pairs = 3
+decagon  9  degree_from_pairs = 3
+decagon 10  degree_from_pairs = 3
+decagon 11  degree_from_pairs = 3
+
+PAIR–PAIR OVERLAPS VIA SHARED DECAGONS
+--------------------------------------------------------------------------------
+pairs 0-11  shared_decagons=[1]
+pairs 0-14  shared_decagons=[0]
+pairs 0-15  shared_decagons=[0]
+pairs 0-5  shared_decagons=[0]
+pairs 0-8  shared_decagons=[1]
+pairs 1-10  shared_decagons=[2]
+pairs 1-13  shared_decagons=[3]
+pairs 1-16  shared_decagons=[3]
+pairs 1-19  shared_decagons=[2]
+pairs 1-7  shared_decagons=[2]
+pairs 1-9  shared_decagons=[3]
+pairs 10-19  shared_decagons=[2]
+pairs 11-16  shared_decagons=[10]
+pairs 12-15  shared_decagons=[4]
+pairs 12-17  shared_decagons=[11]
+pairs 13-16  shared_decagons=[3]
+pairs 13-19  shared_decagons=[7]
+pairs 14-15  shared_decagons=[0]
+pairs 14-18  shared_decagons=[5]
+pairs 2-12  shared_decagons=[4]
+pairs 2-14  shared_decagons=[5]
+pairs 2-15  shared_decagons=[4]
+pairs 2-18  shared_decagons=[5]
+pairs 2-8  shared_decagons=[5]
+pairs 3-13  shared_decagons=[7]
+pairs 3-17  shared_decagons=[6]
+pairs 3-19  shared_decagons=[7]
+pairs 3-5  shared_decagons=[6]
+pairs 4-10  shared_decagons=[9]
+pairs 4-18  shared_decagons=[8]
+
+DECAGON–DECAGON ADJACENCY
+--------------------------------------------------------------------------------
+0 -- 1
+0 -- 2
+0 -- 3
+0 -- 4
+0 -- 5
+0 -- 6
+0 -- 7
+0 -- 8
+0 -- 9
+0 -- 10
+0 -- 11
+1 -- 2
+1 -- 3
+1 -- 4
+1 -- 5
+1 -- 6
+1 -- 7
+1 -- 8
+1 -- 9
+1 -- 10
+1 -- 11
+2 -- 3
+2 -- 4
+2 -- 5
+2 -- 6
+2 -- 7
+2 -- 8
+2 -- 9
+2 -- 10
+2 -- 11
+
+PROVISIONAL READ
+--------------------------------------------------------------------------------
+The current parse did not recover an exact 27-object system. The incidence files may need a more specific parser.
+

@@ -1,0 +1,284 @@
+================================================================================
+LOW BLOCK TRANSITION GRAPH
+================================================================================
+low block count: 32
+
+BLOCKS
+--------------------------------------------------------------------------------
+block  1  lambda=-3.604098602642  dim=5
+block  2  lambda=-3.503750202148  dim=3
+block  3  lambda=-3.465216171088  dim=5
+block  4  lambda=-3.041788781337  dim=4
+block  5  lambda=-2.048548180684  dim=3
+block  6  lambda=-1.872276212853  dim=4
+block  7  lambda=-1.611941594255  dim=5
+block  8  lambda=-1.585267861491  dim=5
+block  9  lambda=-1.370325945476  dim=4
+block 10  lambda=-1.190400513396  dim=3
+block 11  lambda=-1.131769504959  dim=3
+block 12  lambda=-1.108775539292  dim=4
+block 13  lambda=-1.000000000000  dim=5
+block 14  lambda=-0.717106616535  dim=5
+block 15  lambda=-0.407667082239  dim=3
+block 16  lambda=-0.126518469421  dim=3
+block 17  lambda=0.278637824610  dim=5
+block 18  lambda=0.498198463082  dim=3
+block 19  lambda=0.796815115870  dim=4
+block 20  lambda=0.901071116910  dim=3
+block 21  lambda=1.394200694069  dim=3
+block 22  lambda=1.402769809738  dim=4
+block 23  lambda=1.419392638732  dim=5
+block 24  lambda=2.220147285424  dim=3
+block 25  lambda=2.445787042459  dim=4
+block 26  lambda=2.627835256057  dim=5
+block 27  lambda=2.747794510892  dim=4
+block 28  lambda=2.869639019377  dim=3
+block 29  lambda=3.000000000000  dim=1
+block 30  lambda=3.657765126611  dim=5
+block 31  lambda=4.525397373986  dim=3
+block 32  lambda=5.000000000000  dim=1
+
+================================================================================
+OPERATOR F
+================================================================================
+Diagonal block signatures
+--------------------------------------------------------------------------------
+block  1  lambda=-3.604098602642  dim=5  diag=-I
+block  2  lambda=-3.503750202148  dim=3  diag=-I
+block  3  lambda=-3.465216171088  dim=5  diag=-I
+block  4  lambda=-3.041788781337  dim=4  diag=-I
+block  5  lambda=-2.048548180684  dim=3  diag=-I
+block  6  lambda=-1.872276212853  dim=4  diag=-I
+block  7  lambda=-1.611941594255  dim=5  diag=-I
+block  8  lambda=-1.585267861491  dim=5  diag=-I
+block  9  lambda=-1.370325945476  dim=4  diag=-I
+block 10  lambda=-1.190400513396  dim=3  diag=+I
+block 11  lambda=-1.131769504959  dim=3  diag=+I
+block 12  lambda=-1.108775539292  dim=4  diag=+I
+block 13  lambda=-1.000000000000  dim=5  diag=+I
+block 14  lambda=-0.717106616535  dim=5  diag=+I
+block 15  lambda=-0.407667082239  dim=3  diag=-I
+block 16  lambda=-0.126518469421  dim=3  diag=+I
+block 17  lambda=0.278637824610  dim=5  diag=+I
+block 18  lambda=0.498198463082  dim=3  diag=+I
+block 19  lambda=0.796815115870  dim=4  diag=-I
+block 20  lambda=0.901071116910  dim=3  diag=+I
+block 21  lambda=1.394200694069  dim=3  diag=-I
+block 22  lambda=1.402769809738  dim=4  diag=-I
+block 23  lambda=1.419392638732  dim=5  diag=+I
+block 24  lambda=2.220147285424  dim=3  diag=+I
+block 25  lambda=2.445787042459  dim=4  diag=+I
+block 26  lambda=2.627835256057  dim=5  diag=+I
+block 27  lambda=2.747794510892  dim=4  diag=+I
+block 28  lambda=2.869639019377  dim=3  diag=+I
+block 29  lambda=3.000000000000  dim=1  diag=+I
+block 30  lambda=3.657765126611  dim=5  diag=+I
+block 31  lambda=4.525397373986  dim=3  diag=+I
+block 32  lambda=5.000000000000  dim=1  diag=+I
+
+sum diagonal norms   : 35.150413
+sum offdiag norms    : 68.270873
+max offdiag norm     : 1.948812
+
+Top transition edges
+--------------------------------------------------------------------------------
+block 26 -> block 14   weight=1.948812   lambdas=(2.627835256057 -> -0.717106616535)
+block 12 -> block 27   weight=1.868436   lambdas=(-1.108775539292 -> 2.747794510892)
+block  9 -> block 25   weight=1.684306   lambdas=(-1.370325945476 -> 2.445787042459)
+block 27 -> block 12   weight=1.635648   lambdas=(2.747794510892 -> -1.108775539292)
+block 23 -> block 13   weight=1.635094   lambdas=(1.419392638732 -> -1.000000000000)
+block 14 -> block 17   weight=1.577270   lambdas=(-0.717106616535 -> 0.278637824610)
+block 20 -> block 10   weight=1.566194   lambdas=(0.901071116910 -> -1.190400513396)
+block 11 -> block 18   weight=1.533188   lambdas=(-1.131769504959 -> 0.498198463082)
+block 13 -> block 30   weight=1.532425   lambdas=(-1.000000000000 -> 3.657765126611)
+block 17 -> block 26   weight=1.453865   lambdas=(0.278637824610 -> 2.627835256057)
+block 13 -> block 23   weight=1.450326   lambdas=(-1.000000000000 -> 1.419392638732)
+block 10 -> block 20   weight=1.445825   lambdas=(-1.190400513396 -> 0.901071116910)
+block 19 -> block  9   weight=1.344482   lambdas=(0.796815115870 -> -1.370325945476)
+block  4 -> block 22   weight=1.340498   lambdas=(-3.041788781337 -> 1.402769809738)
+block  7 -> block  3   weight=1.313175   lambdas=(-1.611941594255 -> -3.465216171088)
+block 25 -> block  9   weight=1.289579   lambdas=(2.445787042459 -> -1.370325945476)
+block  1 -> block  8   weight=1.264037   lambdas=(-3.604098602642 -> -1.585267861491)
+block 25 -> block 19   weight=1.247257   lambdas=(2.445787042459 -> 0.796815115870)
+block  6 -> block 19   weight=1.246098   lambdas=(-1.872276212853 -> 0.796815115870)
+block  3 -> block  7   weight=1.226327   lambdas=(-3.465216171088 -> -1.611941594255)
+block 30 -> block 13   weight=1.207475   lambdas=(3.657765126611 -> -1.000000000000)
+block  8 -> block  1   weight=1.185672   lambdas=(-1.585267861491 -> -3.604098602642)
+block 18 -> block 11   weight=1.155450   lambdas=(0.498198463082 -> -1.131769504959)
+block 16 -> block 21   weight=1.149343   lambdas=(-0.126518469421 -> 1.394200694069)
+block 22 -> block 12   weight=1.136462   lambdas=(1.402769809738 -> -1.108775539292)
+
+================================================================================
+OPERATOR S
+================================================================================
+Diagonal block signatures
+--------------------------------------------------------------------------------
+block  1  lambda=-3.604098602642  dim=5  diag=-I
+block  2  lambda=-3.503750202148  dim=3  diag=-I
+block  3  lambda=-3.465216171088  dim=5  diag=-I
+block  4  lambda=-3.041788781337  dim=4  diag=-I
+block  5  lambda=-2.048548180684  dim=3  diag=+I
+block  6  lambda=-1.872276212853  dim=4  diag=-I
+block  7  lambda=-1.611941594255  dim=5  diag=+I
+block  8  lambda=-1.585267861491  dim=5  diag=+I
+block  9  lambda=-1.370325945476  dim=4  diag=-I
+block 10  lambda=-1.190400513396  dim=3  diag=-I
+block 11  lambda=-1.131769504959  dim=3  diag=-I
+block 12  lambda=-1.108775539292  dim=4  diag=-I
+block 13  lambda=-1.000000000000  dim=5  diag=-I
+block 14  lambda=-0.717106616535  dim=5  diag=-I
+block 15  lambda=-0.407667082239  dim=3  diag=-I
+block 16  lambda=-0.126518469421  dim=3  diag=-I
+block 17  lambda=0.278637824610  dim=5  diag=-I
+block 18  lambda=0.498198463082  dim=3  diag=+I
+block 19  lambda=0.796815115870  dim=4  diag=-I
+block 20  lambda=0.901071116910  dim=3  diag=+I
+block 21  lambda=1.394200694069  dim=3  diag=+I
+block 22  lambda=1.402769809738  dim=4  diag=+I
+block 23  lambda=1.419392638732  dim=5  diag=+I
+block 24  lambda=2.220147285424  dim=3  diag=+I
+block 25  lambda=2.445787042459  dim=4  diag=+I
+block 26  lambda=2.627835256057  dim=5  diag=+I
+block 27  lambda=2.747794510892  dim=4  diag=+I
+block 28  lambda=2.869639019377  dim=3  diag=-I
+block 29  lambda=3.000000000000  dim=1  diag=-I
+block 30  lambda=3.657765126611  dim=5  diag=+I
+block 31  lambda=4.525397373986  dim=3  diag=+I
+block 32  lambda=5.000000000000  dim=1  diag=+I
+
+sum diagonal norms   : 40.037205
+sum offdiag norms    : 54.521702
+max offdiag norm     : 1.983167
+
+Top transition edges
+--------------------------------------------------------------------------------
+block 26 -> block 17   weight=1.983167   lambdas=(2.627835256057 -> 0.278637824610)
+block 17 -> block 26   weight=1.983167   lambdas=(0.278637824610 -> 2.627835256057)
+block 15 -> block  5   weight=1.656868   lambdas=(-0.407667082239 -> -2.048548180684)
+block  5 -> block 15   weight=1.656868   lambdas=(-2.048548180684 -> -0.407667082239)
+block 19 -> block  6   weight=1.642703   lambdas=(0.796815115870 -> -1.872276212853)
+block  6 -> block 19   weight=1.642703   lambdas=(-1.872276212853 -> 0.796815115870)
+block 25 -> block  9   weight=1.449233   lambdas=(2.445787042459 -> -1.370325945476)
+block  9 -> block 25   weight=1.449233   lambdas=(-1.370325945476 -> 2.445787042459)
+block 28 -> block 18   weight=1.421862   lambdas=(2.869639019377 -> 0.498198463082)
+block 18 -> block 28   weight=1.421862   lambdas=(0.498198463082 -> 2.869639019377)
+block 22 -> block 12   weight=1.400555   lambdas=(1.402769809738 -> -1.108775539292)
+block 12 -> block 22   weight=1.400555   lambdas=(-1.108775539292 -> 1.402769809738)
+block 21 -> block 16   weight=1.215439   lambdas=(1.394200694069 -> -0.126518469421)
+block 16 -> block 21   weight=1.215439   lambdas=(-0.126518469421 -> 1.394200694069)
+block 30 -> block 13   weight=1.157600   lambdas=(3.657765126611 -> -1.000000000000)
+block 13 -> block 30   weight=1.157600   lambdas=(-1.000000000000 -> 3.657765126611)
+block  8 -> block 14   weight=1.124564   lambdas=(-1.585267861491 -> -0.717106616535)
+block 14 -> block  8   weight=1.124564   lambdas=(-0.717106616535 -> -1.585267861491)
+block 27 -> block 12   weight=1.108713   lambdas=(2.747794510892 -> -1.108775539292)
+block 12 -> block 27   weight=1.108713   lambdas=(-1.108775539292 -> 2.747794510892)
+block  9 -> block  6   weight=1.021711   lambdas=(-1.370325945476 -> -1.872276212853)
+block  6 -> block  9   weight=1.021711   lambdas=(-1.872276212853 -> -1.370325945476)
+block 17 -> block 14   weight=0.919313   lambdas=(0.278637824610 -> -0.717106616535)
+block 14 -> block 17   weight=0.919313   lambdas=(-0.717106616535 -> 0.278637824610)
+block 25 -> block 19   weight=0.798848   lambdas=(2.445787042459 -> 0.796815115870)
+
+================================================================================
+OPERATOR V
+================================================================================
+Diagonal block signatures
+--------------------------------------------------------------------------------
+block  1  lambda=-3.604098602642  dim=5  diag=-I
+block  2  lambda=-3.503750202148  dim=3  diag=-I
+block  3  lambda=-3.465216171088  dim=5  diag=-I
+block  4  lambda=-3.041788781337  dim=4  diag=-I
+block  5  lambda=-2.048548180684  dim=3  diag=-I
+block  6  lambda=-1.872276212853  dim=4  diag=-I
+block  7  lambda=-1.611941594255  dim=5  diag=-I
+block  8  lambda=-1.585267861491  dim=5  diag=-I
+block  9  lambda=-1.370325945476  dim=4  diag=-I
+block 10  lambda=-1.190400513396  dim=3  diag=-I
+block 11  lambda=-1.131769504959  dim=3  diag=-I
+block 12  lambda=-1.108775539292  dim=4  diag=-I
+block 13  lambda=-1.000000000000  dim=5  diag=-I
+block 14  lambda=-0.717106616535  dim=5  diag=-I
+block 15  lambda=-0.407667082239  dim=3  diag=+I
+block 16  lambda=-0.126518469421  dim=3  diag=-I
+block 17  lambda=0.278637824610  dim=5  diag=-I
+block 18  lambda=0.498198463082  dim=3  diag=-I
+block 19  lambda=0.796815115870  dim=4  diag=+I
+block 20  lambda=0.901071116910  dim=3  diag=-I
+block 21  lambda=1.394200694069  dim=3  diag=+I
+block 22  lambda=1.402769809738  dim=4  diag=+I
+block 23  lambda=1.419392638732  dim=5  diag=-I
+block 24  lambda=2.220147285424  dim=3  diag=-I
+block 25  lambda=2.445787042459  dim=4  diag=+I
+block 26  lambda=2.627835256057  dim=5  diag=+I
+block 27  lambda=2.747794510892  dim=4  diag=+I
+block 28  lambda=2.869639019377  dim=3  diag=+I
+block 29  lambda=3.000000000000  dim=1  diag=+I
+block 30  lambda=3.657765126611  dim=5  diag=+I
+block 31  lambda=4.525397373986  dim=3  diag=+I
+block 32  lambda=5.000000000000  dim=1  diag=+I
+
+sum diagonal norms   : 33.920088
+sum offdiag norms    : 69.523883
+max offdiag norm     : 1.914037
+
+Top transition edges
+--------------------------------------------------------------------------------
+block  9 -> block  6   weight=1.914037   lambdas=(-1.370325945476 -> -1.872276212853)
+block  4 -> block 12   weight=1.823631   lambdas=(-3.041788781337 -> -1.108775539292)
+block 17 -> block  1   weight=1.659682   lambdas=(0.278637824610 -> -3.604098602642)
+block  5 -> block 24   weight=1.634547   lambdas=(-2.048548180684 -> 2.220147285424)
+block 14 -> block  8   weight=1.620903   lambdas=(-0.717106616535 -> -1.585267861491)
+block  3 -> block 13   weight=1.613888   lambdas=(-3.465216171088 -> -1.000000000000)
+block  1 -> block 17   weight=1.611987   lambdas=(-3.604098602642 -> 0.278637824610)
+block  8 -> block 14   weight=1.562386   lambdas=(-1.585267861491 -> -0.717106616535)
+block 20 -> block 10   weight=1.533318   lambdas=(0.901071116910 -> -1.190400513396)
+block  2 -> block 16   weight=1.522139   lambdas=(-3.503750202148 -> -0.126518469421)
+block 18 -> block 11   weight=1.514191   lambdas=(0.498198463082 -> -1.131769504959)
+block  7 -> block 23   weight=1.462829   lambdas=(-1.611941594255 -> 1.419392638732)
+block 11 -> block 18   weight=1.432837   lambdas=(-1.131769504959 -> 0.498198463082)
+block 23 -> block  7   weight=1.423408   lambdas=(1.419392638732 -> -1.611941594255)
+block  6 -> block 19   weight=1.400830   lambdas=(-1.872276212853 -> 0.796815115870)
+block 16 -> block  2   weight=1.389594   lambdas=(-0.126518469421 -> -3.503750202148)
+block 24 -> block 15   weight=1.387156   lambdas=(2.220147285424 -> -0.407667082239)
+block 10 -> block 20   weight=1.372123   lambdas=(-1.190400513396 -> 0.901071116910)
+block 15 -> block  5   weight=1.371502   lambdas=(-0.407667082239 -> -2.048548180684)
+block 19 -> block  9   weight=1.364656   lambdas=(0.796815115870 -> -1.370325945476)
+block 13 -> block  3   weight=1.343992   lambdas=(-1.000000000000 -> -3.465216171088)
+block 12 -> block  4   weight=1.342664   lambdas=(-1.108775539292 -> -3.041788781337)
+block 27 -> block  4   weight=1.273725   lambdas=(2.747794510892 -> -3.041788781337)
+block 12 -> block 27   weight=1.207021   lambdas=(-1.108775539292 -> 2.747794510892)
+block 13 -> block 30   weight=1.188589   lambdas=(-1.000000000000 -> 3.657765126611)
+
+================================================================================
+COMBINED TRANSITION GRAPH (F + S + V norm weights)
+================================================================================
+block  6 -> block 19   weight=4.289631   lambdas=(-1.872276212853 -> 0.796815115870)
+block 12 -> block 27   weight=4.184170   lambdas=(-1.108775539292 -> 2.747794510892)
+block 15 -> block  5   weight=4.056059   lambdas=(-0.407667082239 -> -2.048548180684)
+block 13 -> block 30   weight=3.878614   lambdas=(-1.000000000000 -> 3.657765126611)
+block 25 -> block  9   weight=3.829667   lambdas=(2.445787042459 -> -1.370325945476)
+block 17 -> block 26   weight=3.611600   lambdas=(0.278637824610 -> 2.627835256057)
+block 14 -> block  8   weight=3.548237   lambdas=(-0.717106616535 -> -1.585267861491)
+block 19 -> block  9   weight=3.503233   lambdas=(0.796815115870 -> -1.370325945476)
+block 20 -> block 10   weight=3.381076   lambdas=(0.901071116910 -> -1.190400513396)
+block 26 -> block 14   weight=3.327089   lambdas=(2.627835256057 -> -0.717106616535)
+block  9 -> block  6   weight=3.297103   lambdas=(-1.370325945476 -> -1.872276212853)
+block 11 -> block 18   weight=3.262409   lambdas=(-1.131769504959 -> 0.498198463082)
+block 26 -> block 17   weight=3.211266   lambdas=(2.627835256057 -> 0.278637824610)
+block  9 -> block 25   weight=3.169888   lambdas=(-1.370325945476 -> 2.445787042459)
+block 14 -> block 17   weight=3.135170   lambdas=(-0.717106616535 -> 0.278637824610)
+block 19 -> block  6   weight=3.130674   lambdas=(0.796815115870 -> -1.872276212853)
+block 10 -> block 20   weight=3.099512   lambdas=(-1.190400513396 -> 0.901071116910)
+block 16 -> block 21   weight=3.071264   lambdas=(-0.126518469421 -> 1.394200694069)
+block  8 -> block 14   weight=3.067262   lambdas=(-1.585267861491 -> -0.717106616535)
+block 23 -> block 13   weight=3.019027   lambdas=(1.419392638732 -> -1.000000000000)
+block 18 -> block 11   weight=2.966025   lambdas=(0.498198463082 -> -1.131769504959)
+block 27 -> block 12   weight=2.878841   lambdas=(2.747794510892 -> -1.108775539292)
+block  5 -> block 15   weight=2.844968   lambdas=(-2.048548180684 -> -0.407667082239)
+block 27 -> block  4   weight=2.772609   lambdas=(2.747794510892 -> -3.041788781337)
+block 21 -> block 16   weight=2.660863   lambdas=(1.394200694069 -> -0.126518469421)
+block 30 -> block 13   weight=2.659037   lambdas=(3.657765126611 -> -1.000000000000)
+block 25 -> block 19   weight=2.642328   lambdas=(2.445787042459 -> 0.796815115870)
+block 22 -> block 12   weight=2.596357   lambdas=(1.402769809738 -> -1.108775539292)
+block 14 -> block 26   weight=2.521251   lambdas=(-0.717106616535 -> 2.627835256057)
+block 24 -> block 15   weight=2.520490   lambdas=(2.220147285424 -> -0.407667082239)
+

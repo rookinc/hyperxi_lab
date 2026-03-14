@@ -1,0 +1,206 @@
+{
+  "signatures": [
+    "(+I,+I,-I)",
+    "(+I,-I,-I)",
+    "(-I,+I,-I)",
+    "(-I,-I,+I)",
+    "(-I,-I,-I)"
+  ],
+  "probability_threshold": 1e-12,
+  "top_cycles": {
+    "2": [
+      {
+        "indices": [
+          0,
+          1
+        ],
+        "states": [
+          "(+I,+I,-I)",
+          "(+I,-I,-I)"
+        ],
+        "probability": 0.23467763628508645,
+        "mean_edge_probability": 0.4844353788536573
+      },
+      {
+        "indices": [
+          3,
+          4
+        ],
+        "states": [
+          "(-I,-I,+I)",
+          "(-I,-I,-I)"
+        ],
+        "probability": 0.18233028099212237,
+        "mean_edge_probability": 0.42700149998814096
+      },
+      {
+        "indices": [
+          1,
+          4
+        ],
+        "states": [
+          "(+I,-I,-I)",
+          "(-I,-I,-I)"
+        ],
+        "probability": 0.11544720785660952,
+        "mean_edge_probability": 0.3397752313759929
+      },
+      {
+        "indices": [
+          1,
+          2
+        ],
+        "states": [
+          "(+I,-I,-I)",
+          "(-I,+I,-I)"
+        ],
+        "probability": 0.10192806495287014,
+        "mean_edge_probability": 0.319261749905732
+      },
+      {
+        "indices": [
+          2,
+          3
+        ],
+        "states": [
+          "(-I,+I,-I)",
+          "(-I,-I,+I)"
+        ],
+        "probability": 0.08649438780247466,
+        "mean_edge_probability": 0.29409928222026427
+      },
+      {
+        "indices": [
+          2,
+          4
+        ],
+        "states": [
+          "(-I,+I,-I)",
+          "(-I,-I,-I)"
+        ],
+        "probability": 0.046633250541117555,
+        "mean_edge_probability": 0.21594733279463665
+      }
+    ],
+    "3": [
+      {
+        "indices": [
+          2,
+          3,
+          4
+        ],
+        "states": [
+          "(-I,+I,-I)",
+          "(-I,-I,+I)",
+          "(-I,-I,-I)"
+        ],
+        "probability": 0.0307082544590716,
+        "mean_edge_probability": 0.3131494910681057
+      },
+      {
+        "indices": [
+          1,
+          4,
+          2
+        ],
+        "states": [
+          "(+I,-I,-I)",
+          "(-I,-I,-I)",
+          "(-I,+I,-I)"
+        ],
+        "probability": 0.02655407917993683,
+        "mean_edge_probability": 0.29833926490130075
+      },
+      {
+        "indices": [
+          2,
+          4,
+          3
+        ],
+        "states": [
+          "(-I,+I,-I)",
+          "(-I,-I,-I)",
+          "(-I,-I,+I)"
+        ],
+        "probability": 0.023948994732771907,
+        "mean_edge_probability": 0.28824542934374237
+      },
+      {
+        "indices": [
+          1,
+          2,
+          4
+        ],
+        "states": [
+          "(+I,-I,-I)",
+          "(-I,+I,-I)",
+          "(-I,-I,-I)"
+        ],
+        "probability": 0.020665297225013413,
+        "mean_edge_probability": 0.27441881545589863
+      }
+    ],
+    "4": [
+      {
+        "indices": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "states": [
+          "(+I,-I,-I)",
+          "(-I,-I,-I)",
+          "(-I,-I,+I)",
+          "(-I,+I,-I)"
+        ],
+        "probability": 0.013637125764012315,
+        "mean_edge_probability": 0.34172811534064423
+      },
+      {
+        "indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "states": [
+          "(+I,-I,-I)",
+          "(-I,+I,-I)",
+          "(-I,-I,+I)",
+          "(-I,-I,-I)"
+        ],
+        "probability": 0.013608212987394517,
+        "mean_edge_probability": 0.34154684228554505
+      }
+    ],
+    "5": []
+  },
+  "strongest_outgoing": [
+    {
+      "src": "(+I,+I,-I)",
+      "dst": "(+I,-I,-I)",
+      "probability": 0.9999999999999805
+    },
+    {
+      "src": "(+I,-I,-I)",
+      "dst": "(-I,-I,-I)",
+      "probability": 0.34407512583640937
+    },
+    {
+      "src": "(-I,+I,-I)",
+      "dst": "(+I,-I,-I)",
+      "probability": 0.4562613147335085
+    },
+    {
+      "src": "(-I,-I,+I)",
+      "dst": "(-I,-I,-I)",
+      "probability": 0.6773104528863103
+    },
+    {
+      "src": "(-I,-I,-I)",
+      "dst": "(+I,-I,-I)",
+      "probability": 0.3355290725418464
+    }
+  ]
+}

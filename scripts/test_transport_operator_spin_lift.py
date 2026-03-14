@@ -25,10 +25,6 @@ import numpy as np
 from hyperxi.spectral.operators import LocalOperatorFactory
 
 
-# ------------------------------------------------------------
-# helpers
-# ------------------------------------------------------------
-
 def eigenspace_blocks(vals: np.ndarray, tol: float = 1e-8):
     blocks = []
     used = np.zeros(len(vals), dtype=bool)
@@ -93,7 +89,6 @@ def generate_words(max_len: int = 5) -> list[str]:
         for tup in itertools.product(alphabet, repeat=L):
             out.append("".join(tup))
 
-    # helpful hand-picked words up front
     preferred = [
         "F", "S", "V",
         "FS", "SF", "FV", "VF", "SV", "VS",
@@ -110,10 +105,6 @@ def generate_words(max_len: int = 5) -> list[str]:
             final.append(w)
     return final
 
-
-# ------------------------------------------------------------
-# main
-# ------------------------------------------------------------
 
 def main():
     print("=" * 80)
@@ -140,7 +131,6 @@ def main():
 
     results = []
 
-    # ignore the uniform / trivial extremes; scan first ~12 blocks
     for block_id, (lam, idx) in enumerate(blocks[:12], start=1):
         mult = len(idx)
         basis = np.array(vecs[:, idx], dtype=float)
@@ -186,7 +176,6 @@ def main():
             if best is None or score < best[0]:
                 best = (score, row)
 
-        assert best is not None
         row = best[1]
         print("best word:", row["word"])
         print("class:", row["class"])

@@ -1,0 +1,81 @@
+================================================================================
+PROBE: THALEAN GRAPH AS 4-LIFT OF 15-VERTEX CORE
+================================================================================
+GRAPH SIZES
+--------------------------------------------------------------------------------
+60-layer: 60 vertices, 120 edges
+30-layer: 30 vertices, 60 edges
+15-layer: 15 vertices, 30 edges
+
+FIBER SIZES OVER 15-LAYER
+--------------------------------------------------------------------------------
+fiber size histogram: Counter({4: 15})
+ 0 : size=4 members=[0, 9, 33, 34]
+ 1 : size=4 members=[1, 19, 31, 36]
+ 2 : size=4 members=[2, 5, 23, 37]
+ 3 : size=4 members=[3, 8, 35, 39]
+ 4 : size=4 members=[4, 17, 29, 30]
+ 5 : size=4 members=[6, 13, 22, 38]
+ 6 : size=4 members=[7, 10, 20, 27]
+ 7 : size=4 members=[11, 15, 24, 26]
+ 8 : size=4 members=[12, 14, 21, 25]
+ 9 : size=4 members=[16, 18, 28, 32]
+10 : size=4 members=[40, 42, 54, 55]
+11 : size=4 members=[41, 43, 56, 57]
+12 : size=4 members=[44, 45, 52, 53]
+13 : size=4 members=[46, 47, 50, 51]
+14 : size=4 members=[48, 49, 58, 59]
+
+EDGE COUNTS BETWEEN 15-FIBERS
+--------------------------------------------------------------------------------
+intra-fiber edges: 0
+
+FIRST 30 INTER-FIBER EDGE MULTIPLICITIES
+--------------------------------------------------------------------------------
+(0, 1) -> 4
+(0, 2) -> 4
+(0, 3) -> 4
+(0, 4) -> 4
+(1, 4) -> 4
+(1, 10) -> 4
+(1, 12) -> 4
+(2, 3) -> 4
+(2, 5) -> 4
+(2, 6) -> 4
+(3, 11) -> 4
+(3, 14) -> 4
+(4, 8) -> 4
+(4, 9) -> 4
+(5, 6) -> 4
+(5, 12) -> 4
+(5, 13) -> 4
+(6, 7) -> 4
+(6, 8) -> 4
+(7, 8) -> 4
+(7, 10) -> 4
+(7, 11) -> 4
+(8, 9) -> 4
+(9, 13) -> 4
+(9, 14) -> 4
+(10, 11) -> 4
+(10, 12) -> 4
+(11, 14) -> 4
+(12, 13) -> 4
+(13, 14) -> 4
+
+UNIFORMITY CHECK OVER 15-GRAPH EDGES
+--------------------------------------------------------------------------------
+edge multiplicity histogram: Counter({4: 30})
+missing base edges in lift: 0
+extra inter-fiber adjacencies not in 15-core: 0
+
+LOCAL FIBER-DEGREE CHECK
+--------------------------------------------------------------------------------
+neighbor-to-fiber pattern histogram:
+  (1, 1, 1, 1) : 60 vertices (sample 0)
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+All 15-core fibers have the same size.
+No edges lie entirely within a 15-core fiber.
+Each base edge lifts with uniform multiplicity; strong evidence for a regular lift.

@@ -1,0 +1,102 @@
+================================================================================
+CLASSIFY 30-LAYER ADJACENCY RULE
+================================================================================
+Recovered 15-core matches canonical dodecahedral 15-core: True
+
+30-LAYER SUMMARY
+--------------------------------------------------------------------------------
+vertices: 30
+edges: 60
+degree set: [4]
+
+EDGE-RELATION HISTOGRAM IN G30
+--------------------------------------------------------------------------------
+('none',) : 28
+('shares_vertex', 'same_face') : 32
+
+FIRST 40 G30 EDGES WITH CANONICAL EDGE LABELS
+--------------------------------------------------------------------------------
+ 0- 1  (0, 1) -- (0, 10)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 0- 2  (0, 1) -- (1, 2)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 0- 3  (0, 1) -- (1, 8)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 0- 4  (0, 1) -- (0, 19)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 1- 4  (0, 10) -- (0, 19)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 1-22  (0, 10) -- (9, 10)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 1-24  (0, 10) -- (5, 6)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 2- 3  (1, 2) -- (1, 8)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 2-10  (1, 2) -- (12, 13)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 2-13  (1, 2) -- (11, 12)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 3-21  (1, 8) -- (4, 17)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 3-29  (1, 8) -- (17, 18)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 4-14  (0, 19) -- (13, 14)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 4-16  (0, 19) -- (7, 14)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 5- 6  (12, 16) -- (2, 6)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 5- 7  (12, 16) -- (2, 3)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 5- 8  (12, 16) -- (16, 17)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 5- 9  (12, 16) -- (15, 16)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 6- 7  (2, 6) -- (2, 3)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 6-24  (2, 6) -- (5, 6)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 6-27  (2, 6) -- (11, 18)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 7-14  (2, 3) -- (13, 14)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 7-15  (2, 3) -- (9, 13)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 8- 9  (16, 17) -- (15, 16)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 8-23  (16, 17) -- (8, 9)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 8-28  (16, 17) -- (7, 8)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 9-17  (15, 16) -- (14, 15)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+ 9-19  (15, 16) -- (5, 15)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+10-11  (12, 13) -- (3, 4)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+10-12  (12, 13) -- (3, 19)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+10-13  (12, 13) -- (11, 12)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+11-12  (3, 4) -- (3, 19)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+11-22  (3, 4) -- (9, 10)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+11-23  (3, 4) -- (8, 9)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+12-17  (3, 19) -- (14, 15)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+12-18  (3, 19) -- (18, 19)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+13-25  (11, 12) -- (10, 11)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+13-26  (11, 12) -- (6, 7)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+14-15  (13, 14) -- (9, 13)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+14-16  (13, 14) -- (7, 14)  {'shares_vertex': True, 'same_face': True, 'opposite': False, 'petrie_neighbor': False}
+
+CHECK NONEDGES TOO
+--------------------------------------------------------------------------------
+ 0- 5  (0, 1) -- (12, 16)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0- 6  (0, 1) -- (2, 6)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0- 7  (0, 1) -- (2, 3)  {'shares_vertex': False, 'same_face': True, 'opposite': False, 'petrie_neighbor': True}
+ 0- 8  (0, 1) -- (16, 17)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0- 9  (0, 1) -- (15, 16)  {'shares_vertex': False, 'same_face': False, 'opposite': True, 'petrie_neighbor': False}
+ 0-10  (0, 1) -- (12, 13)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-11  (0, 1) -- (3, 4)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-12  (0, 1) -- (3, 19)  {'shares_vertex': False, 'same_face': True, 'opposite': False, 'petrie_neighbor': True}
+ 0-13  (0, 1) -- (11, 12)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-14  (0, 1) -- (13, 14)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-15  (0, 1) -- (9, 13)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-16  (0, 1) -- (7, 14)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-17  (0, 1) -- (14, 15)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-18  (0, 1) -- (18, 19)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-19  (0, 1) -- (5, 15)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-20  (0, 1) -- (4, 5)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-21  (0, 1) -- (4, 17)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-22  (0, 1) -- (9, 10)  {'shares_vertex': False, 'same_face': True, 'opposite': False, 'petrie_neighbor': True}
+ 0-23  (0, 1) -- (8, 9)  {'shares_vertex': False, 'same_face': True, 'opposite': False, 'petrie_neighbor': True}
+ 0-24  (0, 1) -- (5, 6)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-25  (0, 1) -- (10, 11)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-26  (0, 1) -- (6, 7)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-27  (0, 1) -- (11, 18)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-28  (0, 1) -- (7, 8)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 0-29  (0, 1) -- (17, 18)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 1- 2  (0, 10) -- (1, 2)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 1- 3  (0, 10) -- (1, 8)  {'shares_vertex': False, 'same_face': True, 'opposite': False, 'petrie_neighbor': True}
+ 1- 5  (0, 10) -- (12, 16)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 1- 6  (0, 10) -- (2, 6)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+ 1- 7  (0, 10) -- (2, 3)  {'shares_vertex': False, 'same_face': False, 'opposite': False, 'petrie_neighbor': False}
+nonedge relation histogram:
+('none',) : 272
+('opposite',) : 15
+('same_face', 'petrie_neighbor') : 60
+('shares_vertex', 'same_face') : 28
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+This probe classifies recovered 30-layer adjacency using canonical
+dodecahedral edge labels inherited through the 15-core identification.
+A clean dominant relation would reveal the true geometric adjacency law.

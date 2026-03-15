@@ -9,7 +9,7 @@
 \usepackage{url}
 \usepackage{enumitem}
 \usepackage{geometry}
-\usepackage[draft]{graphicx}
+\usepackage{graphicx}
 
 \geometry{margin=1in}
 
@@ -22,9 +22,8 @@
 \newtheorem{corollary}{Corollary}
 
 \title{
-A Dodecahedral Transport Construction of the
-Arc-Transitive Graph AT4val[60,6]
-and its Petersen Line-Graph Quotient
+A Dodecahedral Transport Construction of
+AT4val[60,6] and its Petersen Line-Graph Quotient
 }
 
 \author{
@@ -47,7 +46,8 @@ Starting from the $120$ flags of the polyhedron, we identify opposite
 configurations along edges to obtain $60$ chamber states. Two transport
 moves derived from vertex and face operations induce adjacency
 relations between these states, producing a connected $4$-regular graph
-$G_{60}$.
+$G_{60}$. The graph contains $40$ triangles, has diameter $6$, and has
+shell profile $(1,4,8,16,24,6,1)$.
 
 The graph admits a free action of the Klein four group
 $V_4 \cong \mathbb{Z}_2 \times \mathbb{Z}_2$. The quotient graph
@@ -64,6 +64,7 @@ arising from transport on the dodecahedral flag complex.
 \end{abstract}
 
 \input{sections/introduction}
+\input{sections/pipeline_figure}
 \input{sections/dodecahedron_combinatorics}
 \input{sections/chamber_states}
 \input{sections/transport_construction}

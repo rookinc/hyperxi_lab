@@ -1,42 +1,33 @@
 \section{Basic Graph Properties}
 
-We now record several structural properties of the graph $G_{60}$.
-
-\begin{proposition}
-The graph $G_{60}$ has
+The chamber transport construction produces a connected tetravalent graph
 \[
-|V(G_{60})| = 60, \qquad |E(G_{60})| = 120 .
+G_{60}
 \]
-\end{proposition}
+with the following parameters:
 
-\begin{proof}
-The vertex set is the set $C(D)$ of chamber states, which has size
-$60$ by Proposition~3.1.  Since $G_{60}$ is $4$-regular, the number of
-edges is
 \[
-|E(G_{60})| = \frac{1}{2}\cdot 60\cdot 4 = 120 .
+|V| = 60, \qquad |E| = 120, \qquad \deg = 4 .
 \]
-\end{proof}
 
-Computational analysis of the graph reveals the following invariants.
+Computational analysis yields:
 
-\begin{proposition}
-The graph $G_{60}$ contains $40$ triangles and has diameter $6$.
-\end{proposition}
+\[
+\text{diameter} = 6
+\]
 
-The metric structure of the graph may be described by its shell
-profile.
+and shell profile from a base vertex
 
-\begin{proposition}
-The shell profile of $G_{60}$ is
 \[
 (1,4,8,16,24,6,1).
 \]
-\end{proposition}
 
-These parameters indicate that $G_{60}$ has a highly structured
-combinatorial organization rather than the behavior typical of a
-random tetravalent graph.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\linewidth]{figures/g60_graph.png}
+\caption{The Thalean graph $G_{60}$ obtained from chamber transport on the dodecahedron.}
+\label{fig:g60_graph}
+\end{figure}
 
-Further structural insight will arise from the symmetries of the graph
-described in the next section.
+The graph contains $40$ triangles and exhibits a large automorphism group,
+computed to have order $480$.

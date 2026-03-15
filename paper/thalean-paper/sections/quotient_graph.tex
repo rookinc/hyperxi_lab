@@ -1,39 +1,35 @@
 \section{The Quotient Graph}
 
-Let
+Collapsing the $V_4$ orbits produces a quotient graph
+
 \[
-Q_{15} = G_{60}/V_4
+Q_{15}.
 \]
-denote the quotient graph obtained from the action described in the
-previous section.
 
-The vertices of $Q_{15}$ correspond to the $15$ orbits of the
-$V_4$-action on $V(G_{60})$.
+This graph has parameters
 
-\begin{proposition}
-The quotient graph $Q_{15}$ has
 \[
-|V(Q_{15})| = 15, \qquad |E(Q_{15})| = 30 .
+|V| = 15, \qquad |E| = 30, \qquad \deg = 4 .
 \]
-\end{proposition}
 
-\begin{proof}
-Each orbit contains four vertices of $G_{60}$, so the quotient graph
-has $60/4=15$ vertices.
+Computationally we obtain
 
-Since the action preserves adjacency and $G_{60}$ is $4$-regular, the
-quotient graph remains $4$-regular.  Thus the number of edges is
 \[
-|E(Q_{15})| = \frac{1}{2}\cdot 15\cdot 4 = 30 .
+\text{diameter} = 3,
 \]
-\end{proof}
 
-\begin{proposition}
-The shell profile of $Q_{15}$ is
+with shell profile
+
 \[
 (1,4,8,2).
 \]
-\end{proposition}
 
-In the next section we identify this graph with a natural graph
-arising from the geometry of the dodecahedron.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.65\linewidth]{figures/q15_graph.png}
+\caption{The quotient graph $Q_{15}$ obtained by collapsing $V_4$ orbits of $G_{60}$.}
+\label{fig:q15_graph}
+\end{figure}
+
+The quotient graph plays a central role in identifying the deeper
+combinatorial structure of the construction.

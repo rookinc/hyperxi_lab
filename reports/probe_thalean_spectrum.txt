@@ -1,0 +1,45 @@
+loading: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+|V|=60 |E|=90
+degree set = [3]
+connected = True
+bipartite = False
+
+adjacency spectrum (rounded to 12 dp):
+-2.842235679324  x3
+-2.302775637732  x4
+-2.000000000000  x6
+-1.561552812809  x5
+-1.506941916150  x3
+-0.618033988750  x4
+-0.000000000000  x10
+ 0.506941916150  x3
+ 1.302775637732  x4
+ 1.618033988750  x4
+ 1.842235679324  x3
+ 2.000000000000  x5
+ 2.561552812809  x5
+ 3.000000000000  x1
+
+largest eigenvalue: 2.9999999999999987
+smallest eigenvalue: -2.8422356793243058
+spectral gap: 0.4384471871911644
+
+trace moments:
+tr(A^2) = 180.0
+tr(A^3) = 0.0
+tr(A^4) = 900.0
+tr(A^5) = 0.0
+tr(A^6) = 5340.0
+
+closest matches to common algebraic values:
+target  3.000000000000 -> closest  3.000000000000  delta=1.332e-15
+target  2.000000000000 -> closest  2.000000000000  delta=8.882e-16
+target  1.000000000000 -> closest  1.302775637732  delta=3.028e-01
+target  0.000000000000 -> closest -0.000000000000  delta=2.381e-16
+target -1.000000000000 -> closest -0.618033988750  delta=3.820e-01
+target -2.000000000000 -> closest -2.000000000000  delta=0.000e+00
+target -3.000000000000 -> closest -2.842235679324  delta=1.578e-01
+target  1.618033988750 -> closest  1.618033988750  delta=0.000e+00
+target -0.618033988750 -> closest -0.618033988750  delta=1.110e-16
+target  0.618033988750 -> closest  0.506941916150  delta=1.111e-01
+target -1.618033988750 -> closest -1.561552812809  delta=5.648e-02

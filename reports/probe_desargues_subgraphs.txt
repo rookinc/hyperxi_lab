@@ -1,0 +1,17 @@
+============================================================
+PROBE DESARGUES SUBSTRUCTURES
+============================================================
+loading: reports/true_quotients/true_chamber_graph.g6
+|V| = 60
+|E| = 90
+
+loading Desargues reference graph
+Desargues:
+vertices = 20
+edges    = 30
+
+searching neighborhoods for candidate sets...
+
+============================================================
+TOTAL DESARGUES COPIES FOUND: 0
+============================================================

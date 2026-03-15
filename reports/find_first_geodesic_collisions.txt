@@ -1,0 +1,66 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+
+================================================================================
+ROOT 0
+================================================================================
+first collision layer = 3
+number of collided vertices in that layer = 1
+
+vertex 57 at layer 3
+  geodesic parents: [43, 50]
+  number of geodesic words: 2
+    word 1: 0 -> 13 -> 43 -> 57
+    word 2: 0 -> 25 -> 50 -> 57
+
+collision summary by layer:
+  layer 3: 1 collided vertices, multiplicities=[2]
+  layer 4: 5 collided vertices, multiplicities=[4, 2, 2, 2, 2]
+
+================================================================================
+ROOT 1
+================================================================================
+first collision layer = 3
+number of collided vertices in that layer = 1
+
+vertex 58 at layer 3
+  geodesic parents: [30, 48]
+  number of geodesic words: 2
+    word 1: 1 -> 5 -> 30 -> 58
+    word 2: 1 -> 18 -> 48 -> 58
+
+collision summary by layer:
+  layer 3: 1 collided vertices, multiplicities=[2]
+  layer 4: 5 collided vertices, multiplicities=[2, 2, 2, 2, 4]
+
+================================================================================
+ROOT 4
+================================================================================
+first collision layer = 3
+number of collided vertices in that layer = 1
+
+vertex 56 at layer 3
+  geodesic parents: [38, 45]
+  number of geodesic words: 2
+    word 1: 4 -> 8 -> 38 -> 56
+    word 2: 4 -> 20 -> 45 -> 56
+
+collision summary by layer:
+  layer 3: 1 collided vertices, multiplicities=[2]
+  layer 4: 5 collided vertices, multiplicities=[2, 2, 2, 2, 4]
+
+================================================================================
+ROOT 38
+================================================================================
+first collision layer = 3
+number of collided vertices in that layer = 1
+
+vertex 20 at layer 3
+  geodesic parents: [4, 45]
+  number of geodesic words: 2
+    word 1: 38 -> 8 -> 4 -> 20
+    word 2: 38 -> 56 -> 45 -> 20
+
+collision summary by layer:
+  layer 3: 1 collided vertices, multiplicities=[2]
+  layer 4: 5 collided vertices, multiplicities=[4, 2, 2, 2, 2]

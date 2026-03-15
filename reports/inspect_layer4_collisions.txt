@@ -1,0 +1,350 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+
+================================================================================
+ROOT 0
+================================================================================
+collided vertices at layer 4: 5
+multiplicities: [4, 2, 2, 2, 2]
+
+--------------------------------------------------------------------------------
+vertex 49 at layer 4
+geodesic parents: [41, 52, 57]
+number of geodesic words: 4
+grouped by immediate parent:
+  parent 41: 1 words
+    0 -> 9 -> 11 -> 41 -> 49
+  parent 52: 1 words
+    0 -> 9 -> 27 -> 52 -> 49
+  parent 57: 2 words
+    0 -> 13 -> 43 -> 57 -> 49
+    0 -> 25 -> 50 -> 57 -> 49
+grouped by first step from root:
+  first-step 9: 2 words
+    0 -> 9 -> 11 -> 41 -> 49
+    0 -> 9 -> 27 -> 52 -> 49
+  first-step 13: 1 words
+    0 -> 13 -> 43 -> 57 -> 49
+  first-step 25: 1 words
+    0 -> 25 -> 50 -> 57 -> 49
+
+--------------------------------------------------------------------------------
+vertex 10 at layer 4
+geodesic parents: [2, 35]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 2: 1 words
+    0 -> 25 -> 23 -> 2 -> 10
+  parent 35: 1 words
+    0 -> 13 -> 43 -> 35 -> 10
+grouped by first step from root:
+  first-step 13: 1 words
+    0 -> 13 -> 43 -> 35 -> 10
+  first-step 25: 1 words
+    0 -> 25 -> 23 -> 2 -> 10
+
+--------------------------------------------------------------------------------
+vertex 28 at layer 4
+geodesic parents: [3, 33]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 3: 1 words
+    0 -> 13 -> 15 -> 3 -> 28
+  parent 33: 1 words
+    0 -> 25 -> 50 -> 33 -> 28
+grouped by first step from root:
+  first-step 13: 1 words
+    0 -> 13 -> 15 -> 3 -> 28
+  first-step 25: 1 words
+    0 -> 25 -> 50 -> 33 -> 28
+
+--------------------------------------------------------------------------------
+vertex 55 at layer 4
+geodesic parents: [33, 40]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 33: 1 words
+    0 -> 25 -> 50 -> 33 -> 55
+  parent 40: 1 words
+    0 -> 13 -> 15 -> 40 -> 55
+grouped by first step from root:
+  first-step 13: 1 words
+    0 -> 13 -> 15 -> 40 -> 55
+  first-step 25: 1 words
+    0 -> 25 -> 50 -> 33 -> 55
+
+--------------------------------------------------------------------------------
+vertex 59 at layer 4
+geodesic parents: [35, 53]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 35: 1 words
+    0 -> 13 -> 43 -> 35 -> 59
+  parent 53: 1 words
+    0 -> 25 -> 23 -> 53 -> 59
+grouped by first step from root:
+  first-step 13: 1 words
+    0 -> 13 -> 43 -> 35 -> 59
+  first-step 25: 1 words
+    0 -> 25 -> 23 -> 53 -> 59
+
+================================================================================
+ROOT 1
+================================================================================
+collided vertices at layer 4: 5
+multiplicities: [4, 2, 2, 2, 2]
+
+--------------------------------------------------------------------------------
+vertex 54 at layer 4
+geodesic parents: [32, 46, 58]
+number of geodesic words: 4
+grouped by immediate parent:
+  parent 32: 1 words
+    1 -> 14 -> 7 -> 32 -> 54
+  parent 46: 1 words
+    1 -> 14 -> 16 -> 46 -> 54
+  parent 58: 2 words
+    1 -> 5 -> 30 -> 58 -> 54
+    1 -> 18 -> 48 -> 58 -> 54
+grouped by first step from root:
+  first-step 5: 1 words
+    1 -> 5 -> 30 -> 58 -> 54
+  first-step 14: 2 words
+    1 -> 14 -> 7 -> 32 -> 54
+    1 -> 14 -> 16 -> 46 -> 54
+  first-step 18: 1 words
+    1 -> 18 -> 48 -> 58 -> 54
+
+--------------------------------------------------------------------------------
+vertex 8 at layer 4
+geodesic parents: [4, 38]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 4: 1 words
+    1 -> 18 -> 20 -> 4 -> 8
+  parent 38: 1 words
+    1 -> 5 -> 30 -> 38 -> 8
+grouped by first step from root:
+  first-step 5: 1 words
+    1 -> 5 -> 30 -> 38 -> 8
+  first-step 18: 1 words
+    1 -> 18 -> 20 -> 4 -> 8
+
+--------------------------------------------------------------------------------
+vertex 15 at layer 4
+geodesic parents: [3, 40]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 3: 1 words
+    1 -> 5 -> 28 -> 3 -> 15
+  parent 40: 1 words
+    1 -> 18 -> 48 -> 40 -> 15
+grouped by first step from root:
+  first-step 5: 1 words
+    1 -> 5 -> 28 -> 3 -> 15
+  first-step 18: 1 words
+    1 -> 18 -> 48 -> 40 -> 15
+
+--------------------------------------------------------------------------------
+vertex 55 at layer 4
+geodesic parents: [33, 40]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 33: 1 words
+    1 -> 5 -> 28 -> 33 -> 55
+  parent 40: 1 words
+    1 -> 18 -> 48 -> 40 -> 55
+grouped by first step from root:
+  first-step 5: 1 words
+    1 -> 5 -> 28 -> 33 -> 55
+  first-step 18: 1 words
+    1 -> 18 -> 48 -> 40 -> 55
+
+--------------------------------------------------------------------------------
+vertex 56 at layer 4
+geodesic parents: [38, 45]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 38: 1 words
+    1 -> 5 -> 30 -> 38 -> 56
+  parent 45: 1 words
+    1 -> 18 -> 20 -> 45 -> 56
+grouped by first step from root:
+  first-step 5: 1 words
+    1 -> 5 -> 30 -> 38 -> 56
+  first-step 18: 1 words
+    1 -> 18 -> 20 -> 45 -> 56
+
+================================================================================
+ROOT 4
+================================================================================
+collided vertices at layer 4: 5
+multiplicities: [4, 2, 2, 2, 2]
+
+--------------------------------------------------------------------------------
+vertex 44 at layer 4
+geodesic parents: [36, 47, 56]
+number of geodesic words: 4
+grouped by immediate parent:
+  parent 36: 1 words
+    4 -> 29 -> 6 -> 36 -> 44
+  parent 47: 1 words
+    4 -> 29 -> 22 -> 47 -> 44
+  parent 56: 2 words
+    4 -> 8 -> 38 -> 56 -> 44
+    4 -> 20 -> 45 -> 56 -> 44
+grouped by first step from root:
+  first-step 8: 1 words
+    4 -> 8 -> 38 -> 56 -> 44
+  first-step 20: 1 words
+    4 -> 20 -> 45 -> 56 -> 44
+  first-step 29: 2 words
+    4 -> 29 -> 6 -> 36 -> 44
+    4 -> 29 -> 22 -> 47 -> 44
+
+--------------------------------------------------------------------------------
+vertex 5 at layer 4
+geodesic parents: [1, 30]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 1: 1 words
+    4 -> 20 -> 18 -> 1 -> 5
+  parent 30: 1 words
+    4 -> 8 -> 38 -> 30 -> 5
+grouped by first step from root:
+  first-step 8: 1 words
+    4 -> 8 -> 38 -> 30 -> 5
+  first-step 20: 1 words
+    4 -> 20 -> 18 -> 1 -> 5
+
+--------------------------------------------------------------------------------
+vertex 23 at layer 4
+geodesic parents: [2, 53]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 2: 1 words
+    4 -> 8 -> 10 -> 2 -> 23
+  parent 53: 1 words
+    4 -> 20 -> 45 -> 53 -> 23
+grouped by first step from root:
+  first-step 8: 1 words
+    4 -> 8 -> 10 -> 2 -> 23
+  first-step 20: 1 words
+    4 -> 20 -> 45 -> 53 -> 23
+
+--------------------------------------------------------------------------------
+vertex 58 at layer 4
+geodesic parents: [30, 48]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 30: 1 words
+    4 -> 8 -> 38 -> 30 -> 58
+  parent 48: 1 words
+    4 -> 20 -> 18 -> 48 -> 58
+grouped by first step from root:
+  first-step 8: 1 words
+    4 -> 8 -> 38 -> 30 -> 58
+  first-step 20: 1 words
+    4 -> 20 -> 18 -> 48 -> 58
+
+--------------------------------------------------------------------------------
+vertex 59 at layer 4
+geodesic parents: [35, 53]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 35: 1 words
+    4 -> 8 -> 10 -> 35 -> 59
+  parent 53: 1 words
+    4 -> 20 -> 45 -> 53 -> 59
+grouped by first step from root:
+  first-step 8: 1 words
+    4 -> 8 -> 10 -> 35 -> 59
+  first-step 20: 1 words
+    4 -> 20 -> 45 -> 53 -> 59
+
+================================================================================
+ROOT 38
+================================================================================
+collided vertices at layer 4: 5
+multiplicities: [4, 2, 2, 2, 2]
+
+--------------------------------------------------------------------------------
+vertex 18 at layer 4
+geodesic parents: [1, 20, 48]
+number of geodesic words: 4
+grouped by immediate parent:
+  parent 1: 1 words
+    38 -> 30 -> 5 -> 1 -> 18
+  parent 20: 2 words
+    38 -> 8 -> 4 -> 20 -> 18
+    38 -> 56 -> 45 -> 20 -> 18
+  parent 48: 1 words
+    38 -> 30 -> 58 -> 48 -> 18
+grouped by first step from root:
+  first-step 8: 1 words
+    38 -> 8 -> 4 -> 20 -> 18
+  first-step 30: 2 words
+    38 -> 30 -> 5 -> 1 -> 18
+    38 -> 30 -> 58 -> 48 -> 18
+  first-step 56: 1 words
+    38 -> 56 -> 45 -> 20 -> 18
+
+--------------------------------------------------------------------------------
+vertex 6 at layer 4
+geodesic parents: [29, 36]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 29: 1 words
+    38 -> 8 -> 4 -> 29 -> 6
+  parent 36: 1 words
+    38 -> 56 -> 44 -> 36 -> 6
+grouped by first step from root:
+  first-step 8: 1 words
+    38 -> 8 -> 4 -> 29 -> 6
+  first-step 56: 1 words
+    38 -> 56 -> 44 -> 36 -> 6
+
+--------------------------------------------------------------------------------
+vertex 22 at layer 4
+geodesic parents: [29, 47]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 29: 1 words
+    38 -> 8 -> 4 -> 29 -> 22
+  parent 47: 1 words
+    38 -> 56 -> 44 -> 47 -> 22
+grouped by first step from root:
+  first-step 8: 1 words
+    38 -> 8 -> 4 -> 29 -> 22
+  first-step 56: 1 words
+    38 -> 56 -> 44 -> 47 -> 22
+
+--------------------------------------------------------------------------------
+vertex 23 at layer 4
+geodesic parents: [2, 53]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 2: 1 words
+    38 -> 8 -> 10 -> 2 -> 23
+  parent 53: 1 words
+    38 -> 56 -> 45 -> 53 -> 23
+grouped by first step from root:
+  first-step 8: 1 words
+    38 -> 8 -> 10 -> 2 -> 23
+  first-step 56: 1 words
+    38 -> 56 -> 45 -> 53 -> 23
+
+--------------------------------------------------------------------------------
+vertex 59 at layer 4
+geodesic parents: [35, 53]
+number of geodesic words: 2
+grouped by immediate parent:
+  parent 35: 1 words
+    38 -> 8 -> 10 -> 35 -> 59
+  parent 53: 1 words
+    38 -> 56 -> 45 -> 53 -> 59
+grouped by first step from root:
+  first-step 8: 1 words
+    38 -> 8 -> 10 -> 35 -> 59
+  first-step 56: 1 words
+    38 -> 56 -> 45 -> 53 -> 59

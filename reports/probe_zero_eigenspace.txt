@@ -1,0 +1,56 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+loading partition from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/compare_v4_quotient_to_canonical_dodecahedral_15core.json
+
+zero eigenspace dimension = 10
+
+Basis summaries
+----------------
+basis  0: pos=28 neg=30 zeroish= 2
+          fiber_sum_l2=0.911165 core_support=15 zero_on_each_fiber=False
+          top support: [(41, 0.24387710607398802), (32, 0.24387710607398785), (23, -0.2411562572751401), (50, 0.24115625727514), (15, 0.24115625727513978), (43, -0.24115625727513976)]
+basis  1: pos=30 neg=28 zeroish= 2
+          fiber_sum_l2=1.06956 core_support=15 zero_on_each_fiber=False
+          top support: [(56, 0.31364733756695473), (29, 0.31364733756695456), (25, 0.25443185888596814), (35, 0.25443185888596814), (13, -0.21861520018869562), (33, -0.2186152001886954)]
+basis  2: pos=26 neg=32 zeroish= 2
+          fiber_sum_l2=0.958056 core_support=15 zero_on_each_fiber=False
+          top support: [(3, 0.3400151913114937), (39, 0.34001519131149366), (26, -0.3126900812578935), (12, -0.3126900812578931), (21, 0.22715148175981933), (7, 0.22715148175981908)]
+basis  3: pos=24 neg=34 zeroish= 2
+          fiber_sum_l2=0.905436 core_support=15 zero_on_each_fiber=False
+          top support: [(57, 0.24282210968106602), (9, 0.24282210968106596), (52, -0.2368549035673438), (36, -0.2368549035673437), (10, 0.23061735617742413), (45, 0.23061735617742402)]
+basis  4: pos=28 neg=30 zeroish= 2
+          fiber_sum_l2=0.985651 core_support=15 zero_on_each_fiber=False
+          top support: [(28, 0.33016392615922124), (48, 0.3301639261592212), (8, 0.2164276440080688), (53, 0.21642764400806858), (24, -0.21055321884091072), (55, -0.21055321884091063)]
+basis  5: pos=26 neg=24 zeroish=10
+          fiber_sum_l2=1.07529 core_support=15 zero_on_each_fiber=False
+          top support: [(49, 0.40824829046386313), (0, 0.4082482904638628), (16, -0.20412414523193215), (22, -0.20412414523193198), (11, -0.20412414523193165), (27, -0.20412414523193156)]
+basis  6: pos=32 neg=26 zeroish= 2
+          fiber_sum_l2=1.16021 core_support=15 zero_on_each_fiber=False
+          top support: [(44, 0.28531720664450755), (4, 0.2853172066445075), (6, -0.2783676827027196), (17, -0.27836768270271955), (18, -0.26955726643614725), (38, -0.2695572664361468)]
+basis  7: pos=26 neg=32 zeroish= 2
+          fiber_sum_l2=0.785797 core_support=15 zero_on_each_fiber=False
+          top support: [(58, 0.23602871343855988), (14, 0.23602871343855988), (1, 0.2333659509045899), (54, 0.2333659509045898), (34, 0.2188595155957013), (2, 0.2188595155957012)]
+basis  8: pos=26 neg=32 zeroish= 2
+          fiber_sum_l2=0.878523 core_support=15 zero_on_each_fiber=False
+          top support: [(37, 0.2487104880554651), (46, 0.24871048805546458), (53, 0.2146707862075135), (8, 0.21467078620751287), (20, -0.207216559946878), (30, -0.20721655994687735)]
+basis  9: pos=22 neg=36 zeroish= 2
+          fiber_sum_l2=1.0247 core_support=15 zero_on_each_fiber=False
+          top support: [(51, 0.24635083122939488), (42, 0.2463508312293945), (10, 0.2348956924577151), (45, 0.23489569245771466), (21, 0.21359723017803808), (7, 0.2135972301780376)]
+
+zero modes with exact zero sum on every fiber: 0 / 10
+
+most fiber-internal basis vectors:
+  basis 7: fiber_sum_l2=0.785797, core_support=15
+  basis 8: fiber_sum_l2=0.878523, core_support=15
+  basis 3: fiber_sum_l2=0.905436, core_support=15
+  basis 0: fiber_sum_l2=0.911165, core_support=15
+  basis 2: fiber_sum_l2=0.958056, core_support=15
+
+most core-visible basis vectors:
+  basis 6: fiber_sum_l2=1.16021, core_support=15
+  basis 5: fiber_sum_l2=1.07529, core_support=15
+  basis 1: fiber_sum_l2=1.06956, core_support=15
+  basis 9: fiber_sum_l2=1.0247, core_support=15
+  basis 4: fiber_sum_l2=0.985651, core_support=15
+
+saved /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/probe_zero_eigenspace.json

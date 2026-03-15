@@ -1,0 +1,7 @@
+loading: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+|V|=60 |E|=90
+bipartite = False
+girth = 6
+number of 4-cycles = 0
+
+No 4-cycles found.

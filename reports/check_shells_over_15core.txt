@@ -1,0 +1,49 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+loading partition from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/compare_v4_quotient_to_canonical_dodecahedral_15core.json
+fiber multigraph: |V|=15 |E|=82
+intra-fiber edges: 8
+distinct unordered fiber pairs with edges: 59
+collapsed simple core: |V|=15 |E|=59
+
+edge multiplicity distribution on the collapsed 15-core:
+  multiplicity 1: 40 edges
+  multiplicity 2: 15 edges
+  multiplicity 3: 4 edges
+
+15-core distance profile:
+  (1, 9, 5)
+
+G60 shell profiles:
+  (1, 3, 6, 11, 15, 18, 6) x60
+
+distinct projection signatures: 60
+
+projection signature #1 multiplicity 1
+  layer 0: ((0, 1),)
+  layer 1: ((0, 1), (1, 2))
+  layer 2: ((1, 5), (2, 1))
+  layer 3: ((0, 1), (1, 3), (2, 7))
+  layer 4: ((1, 12), (2, 3))
+  layer 5: ((0, 1), (1, 11), (2, 6))
+  layer 6: ((1, 3), (2, 3))
+
+projection signature #2 multiplicity 1
+  layer 0: ((0, 1),)
+  layer 1: ((1, 3),)
+  layer 2: ((1, 2), (2, 4))
+  layer 3: ((1, 5), (2, 6))
+  layer 4: ((1, 7), (2, 8))
+  layer 5: ((0, 2), (1, 9), (2, 7))
+  layer 6: ((0, 1), (1, 2), (2, 3))
+
+projection signature #3 multiplicity 1
+  layer 0: ((0, 1),)
+  layer 1: ((0, 1), (1, 2))
+  layer 2: ((1, 4), (2, 2))
+  layer 3: ((0, 1), (1, 3), (2, 7))
+  layer 4: ((1, 9), (2, 6))
+  layer 5: ((0, 1), (1, 7), (2, 10))
+  layer 6: ((1, 3), (2, 3))
+
+saved /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/check_shells_over_15core.json

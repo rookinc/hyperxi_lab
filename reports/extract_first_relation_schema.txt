@@ -1,0 +1,66 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+
+================================================================================
+ROOT 0
+================================================================================
+depth-3 collided vertices: 1
+
+vertex 57 at depth 3
+parents = [43, 50]
+collision multiplicity = 2
+abstract relation candidates:
+  B11
+  C11
+relation: B11 == C11
+full paths:
+   B11 : 0 -> 13 -> 43 -> 57
+   C11 : 0 -> 25 -> 50 -> 57
+
+================================================================================
+ROOT 1
+================================================================================
+depth-3 collided vertices: 1
+
+vertex 58 at depth 3
+parents = [30, 48]
+collision multiplicity = 2
+abstract relation candidates:
+  A11
+  C11
+relation: A11 == C11
+full paths:
+   A11 : 1 -> 5 -> 30 -> 58
+   C11 : 1 -> 18 -> 48 -> 58
+
+================================================================================
+ROOT 4
+================================================================================
+depth-3 collided vertices: 1
+
+vertex 56 at depth 3
+parents = [38, 45]
+collision multiplicity = 2
+abstract relation candidates:
+  A11
+  B11
+relation: A11 == B11
+full paths:
+   A11 : 4 -> 8 -> 38 -> 56
+   B11 : 4 -> 20 -> 45 -> 56
+
+================================================================================
+ROOT 38
+================================================================================
+depth-3 collided vertices: 1
+
+vertex 20 at depth 3
+parents = [4, 45]
+collision multiplicity = 2
+abstract relation candidates:
+  A00
+  C10
+relation: A00 == C10
+full paths:
+   A00 : 38 -> 8 -> 4 -> 20
+   C10 : 38 -> 56 -> 45 -> 20

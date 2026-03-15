@@ -1,0 +1,476 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+
+================================================================================
+ROOT 0
+================================================================================
+layer type counts:
+  layer 0:
+    (0, 0, 3)  x1
+  layer 1:
+    (1, 0, 2)  x3
+  layer 2:
+    (1, 0, 2)  x6
+  layer 3:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x1
+  layer 4:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x4
+    (3, 0, 0)  x1
+  layer 5:
+    (1, 0, 2)  x2
+    (1, 1, 1)  x8
+    (1, 2, 0)  x2
+    (2, 0, 1)  x4
+    (2, 1, 0)  x2
+  layer 6:
+    (2, 1, 0)  x2
+    (3, 0, 0)  x4
+
+transition rules (aggregated):
+
+  source layer 0, source type (0, 0, 3):
+    source vertices of this type: 1
+    --out--> layer 1, type (1, 0, 2): total 3, per-vertex 3.000
+
+  source layer 1, source type (1, 0, 2):
+    source vertices of this type: 3
+    --in--> layer 0, type (0, 0, 3): total 3, per-vertex 1.000
+    --out--> layer 2, type (1, 0, 2): total 6, per-vertex 2.000
+
+  source layer 2, source type (1, 0, 2):
+    source vertices of this type: 6
+    --in--> layer 1, type (1, 0, 2): total 6, per-vertex 1.000
+    --out--> layer 3, type (1, 0, 2): total 10, per-vertex 1.667
+    --out--> layer 3, type (2, 0, 1): total 2, per-vertex 0.333
+
+  source layer 3, source type (1, 0, 2):
+    source vertices of this type: 10
+    --in--> layer 2, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 4, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 4, type (2, 0, 1): total 8, per-vertex 0.800
+    --out--> layer 4, type (3, 0, 0): total 2, per-vertex 0.200
+
+  source layer 3, source type (2, 0, 1):
+    source vertices of this type: 1
+    --in--> layer 2, type (1, 0, 2): total 2, per-vertex 2.000
+    --out--> layer 4, type (3, 0, 0): total 1, per-vertex 1.000
+
+  source layer 4, source type (1, 0, 2):
+    source vertices of this type: 10
+    --in--> layer 3, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 5, type (1, 1, 1): total 6, per-vertex 0.600
+    --out--> layer 5, type (1, 2, 0): total 2, per-vertex 0.200
+    --out--> layer 5, type (2, 0, 1): total 8, per-vertex 0.800
+    --out--> layer 5, type (2, 1, 0): total 4, per-vertex 0.400
+
+  source layer 4, source type (2, 0, 1):
+    source vertices of this type: 4
+    --in--> layer 3, type (1, 0, 2): total 8, per-vertex 2.000
+    --out--> layer 5, type (1, 0, 2): total 2, per-vertex 0.500
+    --out--> layer 5, type (1, 1, 1): total 2, per-vertex 0.500
+
+  source layer 4, source type (3, 0, 0):
+    source vertices of this type: 1
+    --in--> layer 3, type (1, 0, 2): total 2, per-vertex 2.000
+    --in--> layer 3, type (2, 0, 1): total 1, per-vertex 1.000
+
+  source layer 5, source type (1, 0, 2):
+    source vertices of this type: 2
+    --in--> layer 4, type (2, 0, 1): total 2, per-vertex 1.000
+    --out--> layer 6, type (2, 1, 0): total 2, per-vertex 1.000
+    --out--> layer 6, type (3, 0, 0): total 2, per-vertex 1.000
+
+  source layer 5, source type (1, 1, 1):
+    source vertices of this type: 8
+    --in--> layer 4, type (1, 0, 2): total 6, per-vertex 0.750
+    --in--> layer 4, type (2, 0, 1): total 2, per-vertex 0.250
+    --same--> layer 5, type (1, 1, 1): total 2, per-vertex 0.250
+    --same--> layer 5, type (1, 2, 0): total 4, per-vertex 0.500
+    --same--> layer 5, type (2, 1, 0): total 2, per-vertex 0.250
+    --out--> layer 6, type (3, 0, 0): total 8, per-vertex 1.000
+
+  source layer 5, source type (1, 2, 0):
+    source vertices of this type: 2
+    --in--> layer 4, type (1, 0, 2): total 2, per-vertex 1.000
+    --same--> layer 5, type (1, 1, 1): total 4, per-vertex 2.000
+
+  source layer 5, source type (2, 0, 1):
+    source vertices of this type: 4
+    --in--> layer 4, type (1, 0, 2): total 8, per-vertex 2.000
+    --out--> layer 6, type (2, 1, 0): total 2, per-vertex 0.500
+    --out--> layer 6, type (3, 0, 0): total 2, per-vertex 0.500
+
+  source layer 5, source type (2, 1, 0):
+    source vertices of this type: 2
+    --in--> layer 4, type (1, 0, 2): total 4, per-vertex 2.000
+    --same--> layer 5, type (1, 1, 1): total 2, per-vertex 1.000
+
+  source layer 6, source type (2, 1, 0):
+    source vertices of this type: 2
+    --in--> layer 5, type (1, 0, 2): total 2, per-vertex 1.000
+    --in--> layer 5, type (2, 0, 1): total 2, per-vertex 1.000
+    --same--> layer 6, type (2, 1, 0): total 2, per-vertex 1.000
+
+  source layer 6, source type (3, 0, 0):
+    source vertices of this type: 4
+    --in--> layer 5, type (1, 0, 2): total 2, per-vertex 0.500
+    --in--> layer 5, type (1, 1, 1): total 8, per-vertex 2.000
+    --in--> layer 5, type (2, 0, 1): total 2, per-vertex 0.500
+
+================================================================================
+ROOT 1
+================================================================================
+layer type counts:
+  layer 0:
+    (0, 0, 3)  x1
+  layer 1:
+    (1, 0, 2)  x3
+  layer 2:
+    (1, 0, 2)  x6
+  layer 3:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x1
+  layer 4:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x4
+    (3, 0, 0)  x1
+  layer 5:
+    (1, 0, 2)  x2
+    (1, 1, 1)  x8
+    (1, 2, 0)  x2
+    (2, 0, 1)  x4
+    (2, 1, 0)  x2
+  layer 6:
+    (2, 1, 0)  x2
+    (3, 0, 0)  x4
+
+transition rules (aggregated):
+
+  source layer 0, source type (0, 0, 3):
+    source vertices of this type: 1
+    --out--> layer 1, type (1, 0, 2): total 3, per-vertex 3.000
+
+  source layer 1, source type (1, 0, 2):
+    source vertices of this type: 3
+    --in--> layer 0, type (0, 0, 3): total 3, per-vertex 1.000
+    --out--> layer 2, type (1, 0, 2): total 6, per-vertex 2.000
+
+  source layer 2, source type (1, 0, 2):
+    source vertices of this type: 6
+    --in--> layer 1, type (1, 0, 2): total 6, per-vertex 1.000
+    --out--> layer 3, type (1, 0, 2): total 10, per-vertex 1.667
+    --out--> layer 3, type (2, 0, 1): total 2, per-vertex 0.333
+
+  source layer 3, source type (1, 0, 2):
+    source vertices of this type: 10
+    --in--> layer 2, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 4, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 4, type (2, 0, 1): total 8, per-vertex 0.800
+    --out--> layer 4, type (3, 0, 0): total 2, per-vertex 0.200
+
+  source layer 3, source type (2, 0, 1):
+    source vertices of this type: 1
+    --in--> layer 2, type (1, 0, 2): total 2, per-vertex 2.000
+    --out--> layer 4, type (3, 0, 0): total 1, per-vertex 1.000
+
+  source layer 4, source type (1, 0, 2):
+    source vertices of this type: 10
+    --in--> layer 3, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 5, type (1, 1, 1): total 6, per-vertex 0.600
+    --out--> layer 5, type (1, 2, 0): total 2, per-vertex 0.200
+    --out--> layer 5, type (2, 0, 1): total 8, per-vertex 0.800
+    --out--> layer 5, type (2, 1, 0): total 4, per-vertex 0.400
+
+  source layer 4, source type (2, 0, 1):
+    source vertices of this type: 4
+    --in--> layer 3, type (1, 0, 2): total 8, per-vertex 2.000
+    --out--> layer 5, type (1, 0, 2): total 2, per-vertex 0.500
+    --out--> layer 5, type (1, 1, 1): total 2, per-vertex 0.500
+
+  source layer 4, source type (3, 0, 0):
+    source vertices of this type: 1
+    --in--> layer 3, type (1, 0, 2): total 2, per-vertex 2.000
+    --in--> layer 3, type (2, 0, 1): total 1, per-vertex 1.000
+
+  source layer 5, source type (1, 0, 2):
+    source vertices of this type: 2
+    --in--> layer 4, type (2, 0, 1): total 2, per-vertex 1.000
+    --out--> layer 6, type (2, 1, 0): total 2, per-vertex 1.000
+    --out--> layer 6, type (3, 0, 0): total 2, per-vertex 1.000
+
+  source layer 5, source type (1, 1, 1):
+    source vertices of this type: 8
+    --in--> layer 4, type (1, 0, 2): total 6, per-vertex 0.750
+    --in--> layer 4, type (2, 0, 1): total 2, per-vertex 0.250
+    --same--> layer 5, type (1, 1, 1): total 2, per-vertex 0.250
+    --same--> layer 5, type (1, 2, 0): total 4, per-vertex 0.500
+    --same--> layer 5, type (2, 1, 0): total 2, per-vertex 0.250
+    --out--> layer 6, type (3, 0, 0): total 8, per-vertex 1.000
+
+  source layer 5, source type (1, 2, 0):
+    source vertices of this type: 2
+    --in--> layer 4, type (1, 0, 2): total 2, per-vertex 1.000
+    --same--> layer 5, type (1, 1, 1): total 4, per-vertex 2.000
+
+  source layer 5, source type (2, 0, 1):
+    source vertices of this type: 4
+    --in--> layer 4, type (1, 0, 2): total 8, per-vertex 2.000
+    --out--> layer 6, type (2, 1, 0): total 2, per-vertex 0.500
+    --out--> layer 6, type (3, 0, 0): total 2, per-vertex 0.500
+
+  source layer 5, source type (2, 1, 0):
+    source vertices of this type: 2
+    --in--> layer 4, type (1, 0, 2): total 4, per-vertex 2.000
+    --same--> layer 5, type (1, 1, 1): total 2, per-vertex 1.000
+
+  source layer 6, source type (2, 1, 0):
+    source vertices of this type: 2
+    --in--> layer 5, type (1, 0, 2): total 2, per-vertex 1.000
+    --in--> layer 5, type (2, 0, 1): total 2, per-vertex 1.000
+    --same--> layer 6, type (2, 1, 0): total 2, per-vertex 1.000
+
+  source layer 6, source type (3, 0, 0):
+    source vertices of this type: 4
+    --in--> layer 5, type (1, 0, 2): total 2, per-vertex 0.500
+    --in--> layer 5, type (1, 1, 1): total 8, per-vertex 2.000
+    --in--> layer 5, type (2, 0, 1): total 2, per-vertex 0.500
+
+================================================================================
+ROOT 4
+================================================================================
+layer type counts:
+  layer 0:
+    (0, 0, 3)  x1
+  layer 1:
+    (1, 0, 2)  x3
+  layer 2:
+    (1, 0, 2)  x6
+  layer 3:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x1
+  layer 4:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x4
+    (3, 0, 0)  x1
+  layer 5:
+    (1, 0, 2)  x2
+    (1, 1, 1)  x8
+    (1, 2, 0)  x2
+    (2, 0, 1)  x4
+    (2, 1, 0)  x2
+  layer 6:
+    (2, 1, 0)  x2
+    (3, 0, 0)  x4
+
+transition rules (aggregated):
+
+  source layer 0, source type (0, 0, 3):
+    source vertices of this type: 1
+    --out--> layer 1, type (1, 0, 2): total 3, per-vertex 3.000
+
+  source layer 1, source type (1, 0, 2):
+    source vertices of this type: 3
+    --in--> layer 0, type (0, 0, 3): total 3, per-vertex 1.000
+    --out--> layer 2, type (1, 0, 2): total 6, per-vertex 2.000
+
+  source layer 2, source type (1, 0, 2):
+    source vertices of this type: 6
+    --in--> layer 1, type (1, 0, 2): total 6, per-vertex 1.000
+    --out--> layer 3, type (1, 0, 2): total 10, per-vertex 1.667
+    --out--> layer 3, type (2, 0, 1): total 2, per-vertex 0.333
+
+  source layer 3, source type (1, 0, 2):
+    source vertices of this type: 10
+    --in--> layer 2, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 4, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 4, type (2, 0, 1): total 8, per-vertex 0.800
+    --out--> layer 4, type (3, 0, 0): total 2, per-vertex 0.200
+
+  source layer 3, source type (2, 0, 1):
+    source vertices of this type: 1
+    --in--> layer 2, type (1, 0, 2): total 2, per-vertex 2.000
+    --out--> layer 4, type (3, 0, 0): total 1, per-vertex 1.000
+
+  source layer 4, source type (1, 0, 2):
+    source vertices of this type: 10
+    --in--> layer 3, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 5, type (1, 1, 1): total 6, per-vertex 0.600
+    --out--> layer 5, type (1, 2, 0): total 2, per-vertex 0.200
+    --out--> layer 5, type (2, 0, 1): total 8, per-vertex 0.800
+    --out--> layer 5, type (2, 1, 0): total 4, per-vertex 0.400
+
+  source layer 4, source type (2, 0, 1):
+    source vertices of this type: 4
+    --in--> layer 3, type (1, 0, 2): total 8, per-vertex 2.000
+    --out--> layer 5, type (1, 0, 2): total 2, per-vertex 0.500
+    --out--> layer 5, type (1, 1, 1): total 2, per-vertex 0.500
+
+  source layer 4, source type (3, 0, 0):
+    source vertices of this type: 1
+    --in--> layer 3, type (1, 0, 2): total 2, per-vertex 2.000
+    --in--> layer 3, type (2, 0, 1): total 1, per-vertex 1.000
+
+  source layer 5, source type (1, 0, 2):
+    source vertices of this type: 2
+    --in--> layer 4, type (2, 0, 1): total 2, per-vertex 1.000
+    --out--> layer 6, type (2, 1, 0): total 2, per-vertex 1.000
+    --out--> layer 6, type (3, 0, 0): total 2, per-vertex 1.000
+
+  source layer 5, source type (1, 1, 1):
+    source vertices of this type: 8
+    --in--> layer 4, type (1, 0, 2): total 6, per-vertex 0.750
+    --in--> layer 4, type (2, 0, 1): total 2, per-vertex 0.250
+    --same--> layer 5, type (1, 1, 1): total 2, per-vertex 0.250
+    --same--> layer 5, type (1, 2, 0): total 4, per-vertex 0.500
+    --same--> layer 5, type (2, 1, 0): total 2, per-vertex 0.250
+    --out--> layer 6, type (3, 0, 0): total 8, per-vertex 1.000
+
+  source layer 5, source type (1, 2, 0):
+    source vertices of this type: 2
+    --in--> layer 4, type (1, 0, 2): total 2, per-vertex 1.000
+    --same--> layer 5, type (1, 1, 1): total 4, per-vertex 2.000
+
+  source layer 5, source type (2, 0, 1):
+    source vertices of this type: 4
+    --in--> layer 4, type (1, 0, 2): total 8, per-vertex 2.000
+    --out--> layer 6, type (2, 1, 0): total 2, per-vertex 0.500
+    --out--> layer 6, type (3, 0, 0): total 2, per-vertex 0.500
+
+  source layer 5, source type (2, 1, 0):
+    source vertices of this type: 2
+    --in--> layer 4, type (1, 0, 2): total 4, per-vertex 2.000
+    --same--> layer 5, type (1, 1, 1): total 2, per-vertex 1.000
+
+  source layer 6, source type (2, 1, 0):
+    source vertices of this type: 2
+    --in--> layer 5, type (1, 0, 2): total 2, per-vertex 1.000
+    --in--> layer 5, type (2, 0, 1): total 2, per-vertex 1.000
+    --same--> layer 6, type (2, 1, 0): total 2, per-vertex 1.000
+
+  source layer 6, source type (3, 0, 0):
+    source vertices of this type: 4
+    --in--> layer 5, type (1, 0, 2): total 2, per-vertex 0.500
+    --in--> layer 5, type (1, 1, 1): total 8, per-vertex 2.000
+    --in--> layer 5, type (2, 0, 1): total 2, per-vertex 0.500
+
+================================================================================
+ROOT 38
+================================================================================
+layer type counts:
+  layer 0:
+    (0, 0, 3)  x1
+  layer 1:
+    (1, 0, 2)  x3
+  layer 2:
+    (1, 0, 2)  x6
+  layer 3:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x1
+  layer 4:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x4
+    (3, 0, 0)  x1
+  layer 5:
+    (1, 0, 2)  x2
+    (1, 1, 1)  x8
+    (1, 2, 0)  x2
+    (2, 0, 1)  x4
+    (2, 1, 0)  x2
+  layer 6:
+    (2, 1, 0)  x2
+    (3, 0, 0)  x4
+
+transition rules (aggregated):
+
+  source layer 0, source type (0, 0, 3):
+    source vertices of this type: 1
+    --out--> layer 1, type (1, 0, 2): total 3, per-vertex 3.000
+
+  source layer 1, source type (1, 0, 2):
+    source vertices of this type: 3
+    --in--> layer 0, type (0, 0, 3): total 3, per-vertex 1.000
+    --out--> layer 2, type (1, 0, 2): total 6, per-vertex 2.000
+
+  source layer 2, source type (1, 0, 2):
+    source vertices of this type: 6
+    --in--> layer 1, type (1, 0, 2): total 6, per-vertex 1.000
+    --out--> layer 3, type (1, 0, 2): total 10, per-vertex 1.667
+    --out--> layer 3, type (2, 0, 1): total 2, per-vertex 0.333
+
+  source layer 3, source type (1, 0, 2):
+    source vertices of this type: 10
+    --in--> layer 2, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 4, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 4, type (2, 0, 1): total 8, per-vertex 0.800
+    --out--> layer 4, type (3, 0, 0): total 2, per-vertex 0.200
+
+  source layer 3, source type (2, 0, 1):
+    source vertices of this type: 1
+    --in--> layer 2, type (1, 0, 2): total 2, per-vertex 2.000
+    --out--> layer 4, type (3, 0, 0): total 1, per-vertex 1.000
+
+  source layer 4, source type (1, 0, 2):
+    source vertices of this type: 10
+    --in--> layer 3, type (1, 0, 2): total 10, per-vertex 1.000
+    --out--> layer 5, type (1, 1, 1): total 6, per-vertex 0.600
+    --out--> layer 5, type (1, 2, 0): total 2, per-vertex 0.200
+    --out--> layer 5, type (2, 0, 1): total 8, per-vertex 0.800
+    --out--> layer 5, type (2, 1, 0): total 4, per-vertex 0.400
+
+  source layer 4, source type (2, 0, 1):
+    source vertices of this type: 4
+    --in--> layer 3, type (1, 0, 2): total 8, per-vertex 2.000
+    --out--> layer 5, type (1, 0, 2): total 2, per-vertex 0.500
+    --out--> layer 5, type (1, 1, 1): total 2, per-vertex 0.500
+
+  source layer 4, source type (3, 0, 0):
+    source vertices of this type: 1
+    --in--> layer 3, type (1, 0, 2): total 2, per-vertex 2.000
+    --in--> layer 3, type (2, 0, 1): total 1, per-vertex 1.000
+
+  source layer 5, source type (1, 0, 2):
+    source vertices of this type: 2
+    --in--> layer 4, type (2, 0, 1): total 2, per-vertex 1.000
+    --out--> layer 6, type (2, 1, 0): total 2, per-vertex 1.000
+    --out--> layer 6, type (3, 0, 0): total 2, per-vertex 1.000
+
+  source layer 5, source type (1, 1, 1):
+    source vertices of this type: 8
+    --in--> layer 4, type (1, 0, 2): total 6, per-vertex 0.750
+    --in--> layer 4, type (2, 0, 1): total 2, per-vertex 0.250
+    --same--> layer 5, type (1, 1, 1): total 2, per-vertex 0.250
+    --same--> layer 5, type (1, 2, 0): total 4, per-vertex 0.500
+    --same--> layer 5, type (2, 1, 0): total 2, per-vertex 0.250
+    --out--> layer 6, type (3, 0, 0): total 8, per-vertex 1.000
+
+  source layer 5, source type (1, 2, 0):
+    source vertices of this type: 2
+    --in--> layer 4, type (1, 0, 2): total 2, per-vertex 1.000
+    --same--> layer 5, type (1, 1, 1): total 4, per-vertex 2.000
+
+  source layer 5, source type (2, 0, 1):
+    source vertices of this type: 4
+    --in--> layer 4, type (1, 0, 2): total 8, per-vertex 2.000
+    --out--> layer 6, type (2, 1, 0): total 2, per-vertex 0.500
+    --out--> layer 6, type (3, 0, 0): total 2, per-vertex 0.500
+
+  source layer 5, source type (2, 1, 0):
+    source vertices of this type: 2
+    --in--> layer 4, type (1, 0, 2): total 4, per-vertex 2.000
+    --same--> layer 5, type (1, 1, 1): total 2, per-vertex 1.000
+
+  source layer 6, source type (2, 1, 0):
+    source vertices of this type: 2
+    --in--> layer 5, type (1, 0, 2): total 2, per-vertex 1.000
+    --in--> layer 5, type (2, 0, 1): total 2, per-vertex 1.000
+    --same--> layer 6, type (2, 1, 0): total 2, per-vertex 1.000
+
+  source layer 6, source type (3, 0, 0):
+    source vertices of this type: 4
+    --in--> layer 5, type (1, 0, 2): total 2, per-vertex 0.500
+    --in--> layer 5, type (1, 1, 1): total 8, per-vertex 2.000
+    --in--> layer 5, type (2, 0, 1): total 2, per-vertex 0.500
+
+saved /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/build_radial_type_automaton.json

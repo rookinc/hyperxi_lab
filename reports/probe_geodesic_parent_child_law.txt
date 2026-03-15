@@ -1,0 +1,600 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+
+================================================================================
+ROOT 0
+================================================================================
+
+layer 0  size=1
+  type counts:
+    (0, 0, 3)  x1
+  geodesic parent counts:
+    0  x1
+  geodesic child counts:
+    3  x1
+  same-shell degree counts:
+    0  x1
+
+layer 1  size=3
+  type counts:
+    (1, 0, 2)  x3
+  geodesic parent counts:
+    1  x3
+  geodesic child counts:
+    2  x3
+  same-shell degree counts:
+    0  x3
+
+layer 2  size=6
+  type counts:
+    (1, 0, 2)  x6
+  geodesic parent counts:
+    1  x6
+  geodesic child counts:
+    2  x6
+  same-shell degree counts:
+    0  x6
+
+layer 3  size=11
+  type counts:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x1
+  geodesic parent counts:
+    1  x10
+    2  x1
+  geodesic child counts:
+    1  x1
+    2  x10
+  same-shell degree counts:
+    0  x11
+  detailed rows:
+    v= 2 type=(1, 0, 2) parents=1 children=2 same=0 in=[23] sameN=[] out=[10, 19]
+    v= 3 type=(1, 0, 2) parents=1 children=2 same=0 in=[15] sameN=[] out=[24, 28]
+    v=32 type=(1, 0, 2) parents=1 children=2 same=0 in=[27] sameN=[] out=[7, 54]
+    v=33 type=(1, 0, 2) parents=1 children=2 same=0 in=[50] sameN=[] out=[28, 55]
+    v=35 type=(1, 0, 2) parents=1 children=2 same=0 in=[43] sameN=[] out=[10, 59]
+    v=36 type=(1, 0, 2) parents=1 children=2 same=0 in=[11] sameN=[] out=[6, 44]
+    v=40 type=(1, 0, 2) parents=1 children=2 same=0 in=[15] sameN=[] out=[48, 55]
+    v=41 type=(1, 0, 2) parents=1 children=2 same=0 in=[11] sameN=[] out=[16, 49]
+    v=52 type=(1, 0, 2) parents=1 children=2 same=0 in=[27] sameN=[] out=[22, 49]
+    v=53 type=(1, 0, 2) parents=1 children=2 same=0 in=[23] sameN=[] out=[45, 59]
+    v=57 type=(2, 0, 1) parents=2 children=1 same=0 in=[43, 50] sameN=[] out=[49]
+
+layer 4  size=15
+  type counts:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x4
+    (3, 0, 0)  x1
+  geodesic parent counts:
+    1  x10
+    2  x4
+    3  x1
+  geodesic child counts:
+    0  x1
+    1  x4
+    2  x10
+  same-shell degree counts:
+    0  x15
+  detailed rows:
+    v= 6 type=(1, 0, 2) parents=1 children=2 same=0 in=[36] sameN=[] out=[29, 31]
+    v= 7 type=(1, 0, 2) parents=1 children=2 same=0 in=[32] sameN=[] out=[14, 37]
+    v=16 type=(1, 0, 2) parents=1 children=2 same=0 in=[41] sameN=[] out=[14, 46]
+    v=19 type=(1, 0, 2) parents=1 children=2 same=0 in=[2] sameN=[] out=[12, 21]
+    v=22 type=(1, 0, 2) parents=1 children=2 same=0 in=[52] sameN=[] out=[29, 47]
+    v=24 type=(1, 0, 2) parents=1 children=2 same=0 in=[3] sameN=[] out=[17, 26]
+    v=44 type=(1, 0, 2) parents=1 children=2 same=0 in=[36] sameN=[] out=[47, 56]
+    v=45 type=(1, 0, 2) parents=1 children=2 same=0 in=[53] sameN=[] out=[20, 56]
+    v=48 type=(1, 0, 2) parents=1 children=2 same=0 in=[40] sameN=[] out=[18, 58]
+    v=54 type=(1, 0, 2) parents=1 children=2 same=0 in=[32] sameN=[] out=[46, 58]
+    v=10 type=(2, 0, 1) parents=2 children=1 same=0 in=[2, 35] sameN=[] out=[8]
+    v=28 type=(2, 0, 1) parents=2 children=1 same=0 in=[3, 33] sameN=[] out=[5]
+    v=55 type=(2, 0, 1) parents=2 children=1 same=0 in=[33, 40] sameN=[] out=[39]
+    v=59 type=(2, 0, 1) parents=2 children=1 same=0 in=[35, 53] sameN=[] out=[34]
+    v=49 type=(3, 0, 0) parents=3 children=0 same=0 in=[41, 52, 57] sameN=[] out=[]
+
+layer 5  size=18
+  type counts:
+    (1, 0, 2)  x2
+    (1, 1, 1)  x8
+    (1, 2, 0)  x2
+    (2, 0, 1)  x4
+    (2, 1, 0)  x2
+  geodesic parent counts:
+    1  x12
+    2  x6
+  geodesic child counts:
+    0  x4
+    1  x12
+    2  x2
+  same-shell degree counts:
+    0  x6
+    1  x10
+    2  x2
+  detailed rows:
+    v= 5 type=(1, 0, 2) parents=1 children=2 same=0 in=[28] sameN=[] out=[1, 30]
+    v= 8 type=(1, 0, 2) parents=1 children=2 same=0 in=[10] sameN=[] out=[4, 38]
+    v=12 type=(1, 1, 1) parents=1 children=1 same=1 in=[19] sameN=[37] out=[42]
+    v=17 type=(1, 1, 1) parents=1 children=1 same=1 in=[24] sameN=[47] out=[42]
+    v=18 type=(1, 1, 1) parents=1 children=1 same=1 in=[48] sameN=[20] out=[1]
+    v=20 type=(1, 1, 1) parents=1 children=1 same=1 in=[45] sameN=[18] out=[4]
+    v=21 type=(1, 1, 1) parents=1 children=1 same=1 in=[19] sameN=[46] out=[51]
+    v=26 type=(1, 1, 1) parents=1 children=1 same=1 in=[24] sameN=[31] out=[51]
+    v=34 type=(1, 1, 1) parents=1 children=1 same=1 in=[59] sameN=[37] out=[51]
+    v=39 type=(1, 1, 1) parents=1 children=1 same=1 in=[55] sameN=[31] out=[42]
+    v=31 type=(1, 2, 0) parents=1 children=0 same=2 in=[6] sameN=[26, 39] out=[]
+    v=37 type=(1, 2, 0) parents=1 children=0 same=2 in=[7] sameN=[12, 34] out=[]
+    v=14 type=(2, 0, 1) parents=2 children=1 same=0 in=[7, 16] sameN=[] out=[1]
+    v=29 type=(2, 0, 1) parents=2 children=1 same=0 in=[6, 22] sameN=[] out=[4]
+    v=56 type=(2, 0, 1) parents=2 children=1 same=0 in=[44, 45] sameN=[] out=[38]
+    v=58 type=(2, 0, 1) parents=2 children=1 same=0 in=[48, 54] sameN=[] out=[30]
+    v=46 type=(2, 1, 0) parents=2 children=0 same=1 in=[16, 54] sameN=[21] out=[]
+    v=47 type=(2, 1, 0) parents=2 children=0 same=1 in=[22, 44] sameN=[17] out=[]
+
+layer 6  size=6
+  type counts:
+    (2, 1, 0)  x2
+    (3, 0, 0)  x4
+  geodesic parent counts:
+    2  x2
+    3  x4
+  geodesic child counts:
+    0  x6
+  same-shell degree counts:
+    0  x4
+    1  x2
+  detailed rows:
+    v=30 type=(2, 1, 0) parents=2 children=0 same=1 in=[5, 58] sameN=[38] out=[]
+    v=38 type=(2, 1, 0) parents=2 children=0 same=1 in=[8, 56] sameN=[30] out=[]
+    v= 1 type=(3, 0, 0) parents=3 children=0 same=0 in=[5, 14, 18] sameN=[] out=[]
+    v= 4 type=(3, 0, 0) parents=3 children=0 same=0 in=[8, 20, 29] sameN=[] out=[]
+    v=42 type=(3, 0, 0) parents=3 children=0 same=0 in=[12, 17, 39] sameN=[] out=[]
+    v=51 type=(3, 0, 0) parents=3 children=0 same=0 in=[21, 26, 34] sameN=[] out=[]
+
+================================================================================
+ROOT 1
+================================================================================
+
+layer 0  size=1
+  type counts:
+    (0, 0, 3)  x1
+  geodesic parent counts:
+    0  x1
+  geodesic child counts:
+    3  x1
+  same-shell degree counts:
+    0  x1
+
+layer 1  size=3
+  type counts:
+    (1, 0, 2)  x3
+  geodesic parent counts:
+    1  x3
+  geodesic child counts:
+    2  x3
+  same-shell degree counts:
+    0  x3
+
+layer 2  size=6
+  type counts:
+    (1, 0, 2)  x6
+  geodesic parent counts:
+    1  x6
+  geodesic child counts:
+    2  x6
+  same-shell degree counts:
+    0  x6
+
+layer 3  size=11
+  type counts:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x1
+  geodesic parent counts:
+    1  x10
+    2  x1
+  geodesic child counts:
+    1  x1
+    2  x10
+  same-shell degree counts:
+    0  x11
+  detailed rows:
+    v= 3 type=(1, 0, 2) parents=1 children=2 same=0 in=[28] sameN=[] out=[15, 24]
+    v= 4 type=(1, 0, 2) parents=1 children=2 same=0 in=[20] sameN=[] out=[8, 29]
+    v=32 type=(1, 0, 2) parents=1 children=2 same=0 in=[7] sameN=[] out=[27, 54]
+    v=33 type=(1, 0, 2) parents=1 children=2 same=0 in=[28] sameN=[] out=[50, 55]
+    v=37 type=(1, 0, 2) parents=1 children=2 same=0 in=[7] sameN=[] out=[12, 34]
+    v=38 type=(1, 0, 2) parents=1 children=2 same=0 in=[30] sameN=[] out=[8, 56]
+    v=40 type=(1, 0, 2) parents=1 children=2 same=0 in=[48] sameN=[] out=[15, 55]
+    v=41 type=(1, 0, 2) parents=1 children=2 same=0 in=[16] sameN=[] out=[11, 49]
+    v=45 type=(1, 0, 2) parents=1 children=2 same=0 in=[20] sameN=[] out=[53, 56]
+    v=46 type=(1, 0, 2) parents=1 children=2 same=0 in=[16] sameN=[] out=[21, 54]
+    v=58 type=(2, 0, 1) parents=2 children=1 same=0 in=[30, 48] sameN=[] out=[54]
+
+layer 4  size=15
+  type counts:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x4
+    (3, 0, 0)  x1
+  geodesic parent counts:
+    1  x10
+    2  x4
+    3  x1
+  geodesic child counts:
+    0  x1
+    1  x4
+    2  x10
+  same-shell degree counts:
+    0  x15
+  detailed rows:
+    v=11 type=(1, 0, 2) parents=1 children=2 same=0 in=[41] sameN=[] out=[9, 36]
+    v=12 type=(1, 0, 2) parents=1 children=2 same=0 in=[37] sameN=[] out=[19, 42]
+    v=21 type=(1, 0, 2) parents=1 children=2 same=0 in=[46] sameN=[] out=[19, 51]
+    v=24 type=(1, 0, 2) parents=1 children=2 same=0 in=[3] sameN=[] out=[17, 26]
+    v=27 type=(1, 0, 2) parents=1 children=2 same=0 in=[32] sameN=[] out=[9, 52]
+    v=29 type=(1, 0, 2) parents=1 children=2 same=0 in=[4] sameN=[] out=[6, 22]
+    v=34 type=(1, 0, 2) parents=1 children=2 same=0 in=[37] sameN=[] out=[51, 59]
+    v=49 type=(1, 0, 2) parents=1 children=2 same=0 in=[41] sameN=[] out=[52, 57]
+    v=50 type=(1, 0, 2) parents=1 children=2 same=0 in=[33] sameN=[] out=[25, 57]
+    v=53 type=(1, 0, 2) parents=1 children=2 same=0 in=[45] sameN=[] out=[23, 59]
+    v= 8 type=(2, 0, 1) parents=2 children=1 same=0 in=[4, 38] sameN=[] out=[10]
+    v=15 type=(2, 0, 1) parents=2 children=1 same=0 in=[3, 40] sameN=[] out=[13]
+    v=55 type=(2, 0, 1) parents=2 children=1 same=0 in=[33, 40] sameN=[] out=[39]
+    v=56 type=(2, 0, 1) parents=2 children=1 same=0 in=[38, 45] sameN=[] out=[44]
+    v=54 type=(3, 0, 0) parents=3 children=0 same=0 in=[32, 46, 58] sameN=[] out=[]
+
+layer 5  size=18
+  type counts:
+    (1, 0, 2)  x2
+    (1, 1, 1)  x8
+    (1, 2, 0)  x2
+    (2, 0, 1)  x4
+    (2, 1, 0)  x2
+  geodesic parent counts:
+    1  x12
+    2  x6
+  geodesic child counts:
+    0  x4
+    1  x12
+    2  x2
+  same-shell degree counts:
+    0  x6
+    1  x10
+    2  x2
+  detailed rows:
+    v=10 type=(1, 0, 2) parents=1 children=2 same=0 in=[8] sameN=[] out=[2, 35]
+    v=13 type=(1, 0, 2) parents=1 children=2 same=0 in=[15] sameN=[] out=[0, 43]
+    v= 6 type=(1, 1, 1) parents=1 children=1 same=1 in=[29] sameN=[36] out=[31]
+    v=17 type=(1, 1, 1) parents=1 children=1 same=1 in=[24] sameN=[42] out=[47]
+    v=22 type=(1, 1, 1) parents=1 children=1 same=1 in=[29] sameN=[52] out=[47]
+    v=23 type=(1, 1, 1) parents=1 children=1 same=1 in=[53] sameN=[25] out=[2]
+    v=25 type=(1, 1, 1) parents=1 children=1 same=1 in=[50] sameN=[23] out=[0]
+    v=26 type=(1, 1, 1) parents=1 children=1 same=1 in=[24] sameN=[51] out=[31]
+    v=39 type=(1, 1, 1) parents=1 children=1 same=1 in=[55] sameN=[42] out=[31]
+    v=44 type=(1, 1, 1) parents=1 children=1 same=1 in=[56] sameN=[36] out=[47]
+    v=36 type=(1, 2, 0) parents=1 children=0 same=2 in=[11] sameN=[6, 44] out=[]
+    v=42 type=(1, 2, 0) parents=1 children=0 same=2 in=[12] sameN=[17, 39] out=[]
+    v= 9 type=(2, 0, 1) parents=2 children=1 same=0 in=[11, 27] sameN=[] out=[0]
+    v=19 type=(2, 0, 1) parents=2 children=1 same=0 in=[12, 21] sameN=[] out=[2]
+    v=57 type=(2, 0, 1) parents=2 children=1 same=0 in=[49, 50] sameN=[] out=[43]
+    v=59 type=(2, 0, 1) parents=2 children=1 same=0 in=[34, 53] sameN=[] out=[35]
+    v=51 type=(2, 1, 0) parents=2 children=0 same=1 in=[21, 34] sameN=[26] out=[]
+    v=52 type=(2, 1, 0) parents=2 children=0 same=1 in=[27, 49] sameN=[22] out=[]
+
+layer 6  size=6
+  type counts:
+    (2, 1, 0)  x2
+    (3, 0, 0)  x4
+  geodesic parent counts:
+    2  x2
+    3  x4
+  geodesic child counts:
+    0  x6
+  same-shell degree counts:
+    0  x4
+    1  x2
+  detailed rows:
+    v=35 type=(2, 1, 0) parents=2 children=0 same=1 in=[10, 59] sameN=[43] out=[]
+    v=43 type=(2, 1, 0) parents=2 children=0 same=1 in=[13, 57] sameN=[35] out=[]
+    v= 0 type=(3, 0, 0) parents=3 children=0 same=0 in=[9, 13, 25] sameN=[] out=[]
+    v= 2 type=(3, 0, 0) parents=3 children=0 same=0 in=[10, 19, 23] sameN=[] out=[]
+    v=31 type=(3, 0, 0) parents=3 children=0 same=0 in=[6, 26, 39] sameN=[] out=[]
+    v=47 type=(3, 0, 0) parents=3 children=0 same=0 in=[17, 22, 44] sameN=[] out=[]
+
+================================================================================
+ROOT 4
+================================================================================
+
+layer 0  size=1
+  type counts:
+    (0, 0, 3)  x1
+  geodesic parent counts:
+    0  x1
+  geodesic child counts:
+    3  x1
+  same-shell degree counts:
+    0  x1
+
+layer 1  size=3
+  type counts:
+    (1, 0, 2)  x3
+  geodesic parent counts:
+    1  x3
+  geodesic child counts:
+    2  x3
+  same-shell degree counts:
+    0  x3
+
+layer 2  size=6
+  type counts:
+    (1, 0, 2)  x6
+  geodesic parent counts:
+    1  x6
+  geodesic child counts:
+    2  x6
+  same-shell degree counts:
+    0  x6
+
+layer 3  size=11
+  type counts:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x1
+  geodesic parent counts:
+    1  x10
+    2  x1
+  geodesic child counts:
+    1  x1
+    2  x10
+  same-shell degree counts:
+    0  x11
+  detailed rows:
+    v= 1 type=(1, 0, 2) parents=1 children=2 same=0 in=[18] sameN=[] out=[5, 14]
+    v= 2 type=(1, 0, 2) parents=1 children=2 same=0 in=[10] sameN=[] out=[19, 23]
+    v=30 type=(1, 0, 2) parents=1 children=2 same=0 in=[38] sameN=[] out=[5, 58]
+    v=31 type=(1, 0, 2) parents=1 children=2 same=0 in=[6] sameN=[] out=[26, 39]
+    v=35 type=(1, 0, 2) parents=1 children=2 same=0 in=[10] sameN=[] out=[43, 59]
+    v=36 type=(1, 0, 2) parents=1 children=2 same=0 in=[6] sameN=[] out=[11, 44]
+    v=47 type=(1, 0, 2) parents=1 children=2 same=0 in=[22] sameN=[] out=[17, 44]
+    v=48 type=(1, 0, 2) parents=1 children=2 same=0 in=[18] sameN=[] out=[40, 58]
+    v=52 type=(1, 0, 2) parents=1 children=2 same=0 in=[22] sameN=[] out=[27, 49]
+    v=53 type=(1, 0, 2) parents=1 children=2 same=0 in=[45] sameN=[] out=[23, 59]
+    v=56 type=(2, 0, 1) parents=2 children=1 same=0 in=[38, 45] sameN=[] out=[44]
+
+layer 4  size=15
+  type counts:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x4
+    (3, 0, 0)  x1
+  geodesic parent counts:
+    1  x10
+    2  x4
+    3  x1
+  geodesic child counts:
+    0  x1
+    1  x4
+    2  x10
+  same-shell degree counts:
+    0  x15
+  detailed rows:
+    v=11 type=(1, 0, 2) parents=1 children=2 same=0 in=[36] sameN=[] out=[9, 41]
+    v=14 type=(1, 0, 2) parents=1 children=2 same=0 in=[1] sameN=[] out=[7, 16]
+    v=17 type=(1, 0, 2) parents=1 children=2 same=0 in=[47] sameN=[] out=[24, 42]
+    v=19 type=(1, 0, 2) parents=1 children=2 same=0 in=[2] sameN=[] out=[12, 21]
+    v=26 type=(1, 0, 2) parents=1 children=2 same=0 in=[31] sameN=[] out=[24, 51]
+    v=27 type=(1, 0, 2) parents=1 children=2 same=0 in=[52] sameN=[] out=[9, 32]
+    v=39 type=(1, 0, 2) parents=1 children=2 same=0 in=[31] sameN=[] out=[42, 55]
+    v=40 type=(1, 0, 2) parents=1 children=2 same=0 in=[48] sameN=[] out=[15, 55]
+    v=43 type=(1, 0, 2) parents=1 children=2 same=0 in=[35] sameN=[] out=[13, 57]
+    v=49 type=(1, 0, 2) parents=1 children=2 same=0 in=[52] sameN=[] out=[41, 57]
+    v= 5 type=(2, 0, 1) parents=2 children=1 same=0 in=[1, 30] sameN=[] out=[28]
+    v=23 type=(2, 0, 1) parents=2 children=1 same=0 in=[2, 53] sameN=[] out=[25]
+    v=58 type=(2, 0, 1) parents=2 children=1 same=0 in=[30, 48] sameN=[] out=[54]
+    v=59 type=(2, 0, 1) parents=2 children=1 same=0 in=[35, 53] sameN=[] out=[34]
+    v=44 type=(3, 0, 0) parents=3 children=0 same=0 in=[36, 47, 56] sameN=[] out=[]
+
+layer 5  size=18
+  type counts:
+    (1, 0, 2)  x2
+    (1, 1, 1)  x8
+    (1, 2, 0)  x2
+    (2, 0, 1)  x4
+    (2, 1, 0)  x2
+  geodesic parent counts:
+    1  x12
+    2  x6
+  geodesic child counts:
+    0  x4
+    1  x12
+    2  x2
+  same-shell degree counts:
+    0  x6
+    1  x10
+    2  x2
+  detailed rows:
+    v=25 type=(1, 0, 2) parents=1 children=2 same=0 in=[23] sameN=[] out=[0, 50]
+    v=28 type=(1, 0, 2) parents=1 children=2 same=0 in=[5] sameN=[] out=[3, 33]
+    v= 7 type=(1, 1, 1) parents=1 children=1 same=1 in=[14] sameN=[32] out=[37]
+    v=12 type=(1, 1, 1) parents=1 children=1 same=1 in=[19] sameN=[42] out=[37]
+    v=13 type=(1, 1, 1) parents=1 children=1 same=1 in=[43] sameN=[15] out=[0]
+    v=15 type=(1, 1, 1) parents=1 children=1 same=1 in=[40] sameN=[13] out=[3]
+    v=16 type=(1, 1, 1) parents=1 children=1 same=1 in=[14] sameN=[41] out=[46]
+    v=21 type=(1, 1, 1) parents=1 children=1 same=1 in=[19] sameN=[51] out=[46]
+    v=34 type=(1, 1, 1) parents=1 children=1 same=1 in=[59] sameN=[51] out=[37]
+    v=54 type=(1, 1, 1) parents=1 children=1 same=1 in=[58] sameN=[32] out=[46]
+    v=32 type=(1, 2, 0) parents=1 children=0 same=2 in=[27] sameN=[7, 54] out=[]
+    v=51 type=(1, 2, 0) parents=1 children=0 same=2 in=[26] sameN=[21, 34] out=[]
+    v= 9 type=(2, 0, 1) parents=2 children=1 same=0 in=[11, 27] sameN=[] out=[0]
+    v=24 type=(2, 0, 1) parents=2 children=1 same=0 in=[17, 26] sameN=[] out=[3]
+    v=55 type=(2, 0, 1) parents=2 children=1 same=0 in=[39, 40] sameN=[] out=[33]
+    v=57 type=(2, 0, 1) parents=2 children=1 same=0 in=[43, 49] sameN=[] out=[50]
+    v=41 type=(2, 1, 0) parents=2 children=0 same=1 in=[11, 49] sameN=[16] out=[]
+    v=42 type=(2, 1, 0) parents=2 children=0 same=1 in=[17, 39] sameN=[12] out=[]
+
+layer 6  size=6
+  type counts:
+    (2, 1, 0)  x2
+    (3, 0, 0)  x4
+  geodesic parent counts:
+    2  x2
+    3  x4
+  geodesic child counts:
+    0  x6
+  same-shell degree counts:
+    0  x4
+    1  x2
+  detailed rows:
+    v=33 type=(2, 1, 0) parents=2 children=0 same=1 in=[28, 55] sameN=[50] out=[]
+    v=50 type=(2, 1, 0) parents=2 children=0 same=1 in=[25, 57] sameN=[33] out=[]
+    v= 0 type=(3, 0, 0) parents=3 children=0 same=0 in=[9, 13, 25] sameN=[] out=[]
+    v= 3 type=(3, 0, 0) parents=3 children=0 same=0 in=[15, 24, 28] sameN=[] out=[]
+    v=37 type=(3, 0, 0) parents=3 children=0 same=0 in=[7, 12, 34] sameN=[] out=[]
+    v=46 type=(3, 0, 0) parents=3 children=0 same=0 in=[16, 21, 54] sameN=[] out=[]
+
+================================================================================
+ROOT 38
+================================================================================
+
+layer 0  size=1
+  type counts:
+    (0, 0, 3)  x1
+  geodesic parent counts:
+    0  x1
+  geodesic child counts:
+    3  x1
+  same-shell degree counts:
+    0  x1
+
+layer 1  size=3
+  type counts:
+    (1, 0, 2)  x3
+  geodesic parent counts:
+    1  x3
+  geodesic child counts:
+    2  x3
+  same-shell degree counts:
+    0  x3
+
+layer 2  size=6
+  type counts:
+    (1, 0, 2)  x6
+  geodesic parent counts:
+    1  x6
+  geodesic child counts:
+    2  x6
+  same-shell degree counts:
+    0  x6
+
+layer 3  size=11
+  type counts:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x1
+  geodesic parent counts:
+    1  x10
+    2  x1
+  geodesic child counts:
+    1  x1
+    2  x10
+  same-shell degree counts:
+    0  x11
+  detailed rows:
+    v= 1 type=(1, 0, 2) parents=1 children=2 same=0 in=[5] sameN=[] out=[14, 18]
+    v= 2 type=(1, 0, 2) parents=1 children=2 same=0 in=[10] sameN=[] out=[19, 23]
+    v=28 type=(1, 0, 2) parents=1 children=2 same=0 in=[5] sameN=[] out=[3, 33]
+    v=29 type=(1, 0, 2) parents=1 children=2 same=0 in=[4] sameN=[] out=[6, 22]
+    v=35 type=(1, 0, 2) parents=1 children=2 same=0 in=[10] sameN=[] out=[43, 59]
+    v=36 type=(1, 0, 2) parents=1 children=2 same=0 in=[44] sameN=[] out=[6, 11]
+    v=47 type=(1, 0, 2) parents=1 children=2 same=0 in=[44] sameN=[] out=[17, 22]
+    v=48 type=(1, 0, 2) parents=1 children=2 same=0 in=[58] sameN=[] out=[18, 40]
+    v=53 type=(1, 0, 2) parents=1 children=2 same=0 in=[45] sameN=[] out=[23, 59]
+    v=54 type=(1, 0, 2) parents=1 children=2 same=0 in=[58] sameN=[] out=[32, 46]
+    v=20 type=(2, 0, 1) parents=2 children=1 same=0 in=[4, 45] sameN=[] out=[18]
+
+layer 4  size=15
+  type counts:
+    (1, 0, 2)  x10
+    (2, 0, 1)  x4
+    (3, 0, 0)  x1
+  geodesic parent counts:
+    1  x10
+    2  x4
+    3  x1
+  geodesic child counts:
+    0  x1
+    1  x4
+    2  x10
+  same-shell degree counts:
+    0  x15
+  detailed rows:
+    v= 3 type=(1, 0, 2) parents=1 children=2 same=0 in=[28] sameN=[] out=[15, 24]
+    v=11 type=(1, 0, 2) parents=1 children=2 same=0 in=[36] sameN=[] out=[9, 41]
+    v=14 type=(1, 0, 2) parents=1 children=2 same=0 in=[1] sameN=[] out=[7, 16]
+    v=17 type=(1, 0, 2) parents=1 children=2 same=0 in=[47] sameN=[] out=[24, 42]
+    v=19 type=(1, 0, 2) parents=1 children=2 same=0 in=[2] sameN=[] out=[12, 21]
+    v=32 type=(1, 0, 2) parents=1 children=2 same=0 in=[54] sameN=[] out=[7, 27]
+    v=33 type=(1, 0, 2) parents=1 children=2 same=0 in=[28] sameN=[] out=[50, 55]
+    v=40 type=(1, 0, 2) parents=1 children=2 same=0 in=[48] sameN=[] out=[15, 55]
+    v=43 type=(1, 0, 2) parents=1 children=2 same=0 in=[35] sameN=[] out=[13, 57]
+    v=46 type=(1, 0, 2) parents=1 children=2 same=0 in=[54] sameN=[] out=[16, 21]
+    v= 6 type=(2, 0, 1) parents=2 children=1 same=0 in=[29, 36] sameN=[] out=[31]
+    v=22 type=(2, 0, 1) parents=2 children=1 same=0 in=[29, 47] sameN=[] out=[52]
+    v=23 type=(2, 0, 1) parents=2 children=1 same=0 in=[2, 53] sameN=[] out=[25]
+    v=59 type=(2, 0, 1) parents=2 children=1 same=0 in=[35, 53] sameN=[] out=[34]
+    v=18 type=(3, 0, 0) parents=3 children=0 same=0 in=[1, 20, 48] sameN=[] out=[]
+
+layer 5  size=18
+  type counts:
+    (1, 0, 2)  x2
+    (1, 1, 1)  x8
+    (1, 2, 0)  x2
+    (2, 0, 1)  x4
+    (2, 1, 0)  x2
+  geodesic parent counts:
+    1  x12
+    2  x6
+  geodesic child counts:
+    0  x4
+    1  x12
+    2  x2
+  same-shell degree counts:
+    0  x6
+    1  x10
+    2  x2
+  detailed rows:
+    v=31 type=(1, 0, 2) parents=1 children=2 same=0 in=[6] sameN=[] out=[26, 39]
+    v=34 type=(1, 0, 2) parents=1 children=2 same=0 in=[59] sameN=[] out=[37, 51]
+    v= 9 type=(1, 1, 1) parents=1 children=1 same=1 in=[11] sameN=[27] out=[0]
+    v=12 type=(1, 1, 1) parents=1 children=1 same=1 in=[19] sameN=[42] out=[37]
+    v=13 type=(1, 1, 1) parents=1 children=1 same=1 in=[43] sameN=[15] out=[0]
+    v=25 type=(1, 1, 1) parents=1 children=1 same=1 in=[23] sameN=[50] out=[0]
+    v=41 type=(1, 1, 1) parents=1 children=1 same=1 in=[11] sameN=[16] out=[49]
+    v=42 type=(1, 1, 1) parents=1 children=1 same=1 in=[17] sameN=[12] out=[39]
+    v=52 type=(1, 1, 1) parents=1 children=1 same=1 in=[22] sameN=[27] out=[49]
+    v=57 type=(1, 1, 1) parents=1 children=1 same=1 in=[43] sameN=[50] out=[49]
+    v=27 type=(1, 2, 0) parents=1 children=0 same=2 in=[32] sameN=[9, 52] out=[]
+    v=50 type=(1, 2, 0) parents=1 children=0 same=2 in=[33] sameN=[25, 57] out=[]
+    v= 7 type=(2, 0, 1) parents=2 children=1 same=0 in=[14, 32] sameN=[] out=[37]
+    v=21 type=(2, 0, 1) parents=2 children=1 same=0 in=[19, 46] sameN=[] out=[51]
+    v=24 type=(2, 0, 1) parents=2 children=1 same=0 in=[3, 17] sameN=[] out=[26]
+    v=55 type=(2, 0, 1) parents=2 children=1 same=0 in=[33, 40] sameN=[] out=[39]
+    v=15 type=(2, 1, 0) parents=2 children=0 same=1 in=[3, 40] sameN=[13] out=[]
+    v=16 type=(2, 1, 0) parents=2 children=0 same=1 in=[14, 46] sameN=[41] out=[]
+
+layer 6  size=6
+  type counts:
+    (2, 1, 0)  x2
+    (3, 0, 0)  x4
+  geodesic parent counts:
+    2  x2
+    3  x4
+  geodesic child counts:
+    0  x6
+  same-shell degree counts:
+    0  x4
+    1  x2
+  detailed rows:
+    v=26 type=(2, 1, 0) parents=2 children=0 same=1 in=[24, 31] sameN=[51] out=[]
+    v=51 type=(2, 1, 0) parents=2 children=0 same=1 in=[21, 34] sameN=[26] out=[]
+    v= 0 type=(3, 0, 0) parents=3 children=0 same=0 in=[9, 13, 25] sameN=[] out=[]
+    v=37 type=(3, 0, 0) parents=3 children=0 same=0 in=[7, 12, 34] sameN=[] out=[]
+    v=39 type=(3, 0, 0) parents=3 children=0 same=0 in=[31, 42, 55] sameN=[] out=[]
+    v=49 type=(3, 0, 0) parents=3 children=0 same=0 in=[41, 52, 57] sameN=[] out=[]
+
+saved /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/probe_geodesic_parent_child_law.json

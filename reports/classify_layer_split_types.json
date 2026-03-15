@@ -1,0 +1,3880 @@
+{
+  "roots": [
+    {
+      "root": 0,
+      "layers": {
+        "0": {
+          "size": 1,
+          "type_counts": {
+            "(0, 0, 3)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 0,
+              "type": [
+                0,
+                0,
+                3
+              ],
+              "neighbor_dists": [
+                1,
+                1,
+                1
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4082482904638628
+            }
+          ]
+        },
+        "1": {
+          "size": 3,
+          "type_counts": {
+            "(1, 0, 2)": 3
+          },
+          "vertices": [
+            {
+              "vertex": 9,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 0,
+              "zero_mass": 0.42303464147649095
+            },
+            {
+              "vertex": 13,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 5,
+              "zero_mass": 0.4717260843972682
+            },
+            {
+              "vertex": 25,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 8,
+              "zero_mass": 0.4531559013674159
+            }
+          ]
+        },
+        "2": {
+          "size": 6,
+          "type_counts": {
+            "(1, 0, 2)": 6
+          },
+          "vertices": [
+            {
+              "vertex": 11,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 7,
+              "zero_mass": 0.5805769638884171
+            },
+            {
+              "vertex": 27,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 6,
+              "zero_mass": 0.5805769638884174
+            },
+            {
+              "vertex": 15,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 7,
+              "zero_mass": 0.4452804025070711
+            },
+            {
+              "vertex": 43,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 11,
+              "zero_mass": 0.44528040250707124
+            },
+            {
+              "vertex": 23,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 2,
+              "zero_mass": 0.44528040250707124
+            },
+            {
+              "vertex": 50,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 13,
+              "zero_mass": 0.44528040250707157
+            }
+          ]
+        },
+        "3": {
+          "size": 11,
+          "type_counts": {
+            "(1, 0, 2)": 10,
+            "(2, 0, 1)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 36,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 1,
+              "zero_mass": 0.42850955380193895
+            },
+            {
+              "vertex": 41,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 11,
+              "zero_mass": 0.43138971497774825
+            },
+            {
+              "vertex": 32,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 9,
+              "zero_mass": 0.43138971497774803
+            },
+            {
+              "vertex": 52,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 12,
+              "zero_mass": 0.42850955380193856
+            },
+            {
+              "vertex": 3,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 3,
+              "zero_mass": 0.3400151913114937
+            },
+            {
+              "vertex": 40,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 10,
+              "zero_mass": 0.4124413035910396
+            },
+            {
+              "vertex": 35,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 3,
+              "zero_mass": 0.45315590136741596
+            },
+            {
+              "vertex": 57,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                2,
+                2,
+                4
+              ],
+              "fiber": 11,
+              "zero_mass": 0.42303464147649084
+            },
+            {
+              "vertex": 2,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 2,
+              "zero_mass": 0.41455049073747335
+            },
+            {
+              "vertex": 53,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 12,
+              "zero_mass": 0.6220689119440284
+            },
+            {
+              "vertex": 33,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4717260843972677
+            }
+          ]
+        },
+        "4": {
+          "size": 15,
+          "type_counts": {
+            "(1, 0, 2)": 10,
+            "(3, 0, 0)": 1,
+            "(2, 0, 1)": 4
+          },
+          "vertices": [
+            {
+              "vertex": 6,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 5,
+              "zero_mass": 0.45952701833155696
+            },
+            {
+              "vertex": 44,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 12,
+              "zero_mass": 0.4401872982420949
+            },
+            {
+              "vertex": 16,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 9,
+              "zero_mass": 0.4039314415387547
+            },
+            {
+              "vertex": 49,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                3
+              ],
+              "fiber": 14,
+              "zero_mass": 0.40824829046386313
+            },
+            {
+              "vertex": 7,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 6,
+              "zero_mass": 0.4407487119378567
+            },
+            {
+              "vertex": 54,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 10,
+              "zero_mass": 0.5951730366555252
+            },
+            {
+              "vertex": 22,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 5,
+              "zero_mass": 0.4039314415387541
+            },
+            {
+              "vertex": 24,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 7,
+              "zero_mass": 0.4222978565633343
+            },
+            {
+              "vertex": 28,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 9,
+              "zero_mass": 0.33016392615922124
+            },
+            {
+              "vertex": 48,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 14,
+              "zero_mass": 0.3301639261592212
+            },
+            {
+              "vertex": 55,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 10,
+              "zero_mass": 0.42229785656333396
+            },
+            {
+              "vertex": 10,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 6,
+              "zero_mass": 0.6610496234504957
+            },
+            {
+              "vertex": 59,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 14,
+              "zero_mass": 0.5562067426275918
+            },
+            {
+              "vertex": 19,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 1,
+              "zero_mass": 0.4031136337036436
+            },
+            {
+              "vertex": 45,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 12,
+              "zero_mass": 0.661049623450495
+            }
+          ]
+        },
+        "5": {
+          "size": 18,
+          "type_counts": {
+            "(2, 0, 1)": 4,
+            "(1, 2, 0)": 2,
+            "(2, 1, 0)": 2,
+            "(1, 1, 1)": 8,
+            "(1, 0, 2)": 2
+          },
+          "vertices": [
+            {
+              "vertex": 29,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 4,
+              "zero_mass": 0.5188619740835699
+            },
+            {
+              "vertex": 31,
+              "type": [
+                1,
+                2,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                5
+              ],
+              "fiber": 1,
+              "zero_mass": 0.3586685509747654
+            },
+            {
+              "vertex": 47,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.3586685509747649
+            },
+            {
+              "vertex": 56,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 11,
+              "zero_mass": 0.5188619740835698
+            },
+            {
+              "vertex": 14,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.23602871343855988
+            },
+            {
+              "vertex": 46,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.4571971868550413
+            },
+            {
+              "vertex": 37,
+              "type": [
+                1,
+                2,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                5
+              ],
+              "fiber": 2,
+              "zero_mass": 0.4571971868550416
+            },
+            {
+              "vertex": 58,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 14,
+              "zero_mass": 0.23602871343855988
+            },
+            {
+              "vertex": 17,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 4,
+              "zero_mass": 0.6126201272555054
+            },
+            {
+              "vertex": 26,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 7,
+              "zero_mass": 0.48756829678610597
+            },
+            {
+              "vertex": 5,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                4,
+                6,
+                6
+              ],
+              "fiber": 2,
+              "zero_mass": 0.4124413035910396
+            },
+            {
+              "vertex": 18,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 9,
+              "zero_mass": 0.26955726643614725
+            },
+            {
+              "vertex": 39,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 3,
+              "zero_mass": 0.34001519131149366
+            },
+            {
+              "vertex": 8,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                4,
+                6,
+                6
+              ],
+              "fiber": 3,
+              "zero_mass": 0.622068911944028
+            },
+            {
+              "vertex": 34,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4145504907374734
+            },
+            {
+              "vertex": 12,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.48756829678610575
+            },
+            {
+              "vertex": 21,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.4407487119378574
+            },
+            {
+              "vertex": 20,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 6,
+              "zero_mass": 0.5399817674856183
+            }
+          ]
+        },
+        "6": {
+          "size": 6,
+          "type_counts": {
+            "(3, 0, 0)": 4,
+            "(2, 1, 0)": 2
+          },
+          "vertices": [
+            {
+              "vertex": 4,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 4,
+              "zero_mass": 0.4401872982420948
+            },
+            {
+              "vertex": 38,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                6
+              ],
+              "fiber": 5,
+              "zero_mass": 0.2695572664361468
+            },
+            {
+              "vertex": 1,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 1,
+              "zero_mass": 0.5951730366555248
+            },
+            {
+              "vertex": 30,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                6
+              ],
+              "fiber": 4,
+              "zero_mass": 0.5399817674856175
+            },
+            {
+              "vertex": 42,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 10,
+              "zero_mass": 0.2463508312293945
+            },
+            {
+              "vertex": 51,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.24635083122939488
+            }
+          ]
+        }
+      }
+    },
+    {
+      "root": 4,
+      "layers": {
+        "0": {
+          "size": 1,
+          "type_counts": {
+            "(0, 0, 3)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 4,
+              "type": [
+                0,
+                0,
+                3
+              ],
+              "neighbor_dists": [
+                1,
+                1,
+                1
+              ],
+              "fiber": 4,
+              "zero_mass": 0.4401872982420948
+            }
+          ]
+        },
+        "1": {
+          "size": 3,
+          "type_counts": {
+            "(1, 0, 2)": 3
+          },
+          "vertices": [
+            {
+              "vertex": 8,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 3,
+              "zero_mass": 0.622068911944028
+            },
+            {
+              "vertex": 20,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 6,
+              "zero_mass": 0.5399817674856183
+            },
+            {
+              "vertex": 29,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 4,
+              "zero_mass": 0.5188619740835699
+            }
+          ]
+        },
+        "2": {
+          "size": 6,
+          "type_counts": {
+            "(1, 0, 2)": 6
+          },
+          "vertices": [
+            {
+              "vertex": 10,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 6,
+              "zero_mass": 0.6610496234504957
+            },
+            {
+              "vertex": 38,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 5,
+              "zero_mass": 0.2695572664361468
+            },
+            {
+              "vertex": 18,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 9,
+              "zero_mass": 0.26955726643614725
+            },
+            {
+              "vertex": 45,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 12,
+              "zero_mass": 0.661049623450495
+            },
+            {
+              "vertex": 6,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 5,
+              "zero_mass": 0.45952701833155696
+            },
+            {
+              "vertex": 22,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 5,
+              "zero_mass": 0.4039314415387541
+            }
+          ]
+        },
+        "3": {
+          "size": 11,
+          "type_counts": {
+            "(1, 0, 2)": 10,
+            "(2, 0, 1)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 2,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 2,
+              "zero_mass": 0.41455049073747335
+            },
+            {
+              "vertex": 35,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 3,
+              "zero_mass": 0.45315590136741596
+            },
+            {
+              "vertex": 30,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 4,
+              "zero_mass": 0.5399817674856175
+            },
+            {
+              "vertex": 56,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                2,
+                2,
+                4
+              ],
+              "fiber": 11,
+              "zero_mass": 0.5188619740835698
+            },
+            {
+              "vertex": 1,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 1,
+              "zero_mass": 0.5951730366555248
+            },
+            {
+              "vertex": 48,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 14,
+              "zero_mass": 0.3301639261592212
+            },
+            {
+              "vertex": 53,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 12,
+              "zero_mass": 0.6220689119440284
+            },
+            {
+              "vertex": 31,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 1,
+              "zero_mass": 0.3586685509747654
+            },
+            {
+              "vertex": 36,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 1,
+              "zero_mass": 0.42850955380193895
+            },
+            {
+              "vertex": 47,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 13,
+              "zero_mass": 0.3586685509747649
+            },
+            {
+              "vertex": 52,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 12,
+              "zero_mass": 0.42850955380193856
+            }
+          ]
+        },
+        "4": {
+          "size": 15,
+          "type_counts": {
+            "(1, 0, 2)": 10,
+            "(2, 0, 1)": 4,
+            "(3, 0, 0)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 19,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 1,
+              "zero_mass": 0.4031136337036436
+            },
+            {
+              "vertex": 23,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 2,
+              "zero_mass": 0.44528040250707124
+            },
+            {
+              "vertex": 43,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 11,
+              "zero_mass": 0.44528040250707124
+            },
+            {
+              "vertex": 59,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 14,
+              "zero_mass": 0.5562067426275918
+            },
+            {
+              "vertex": 5,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 2,
+              "zero_mass": 0.4124413035910396
+            },
+            {
+              "vertex": 58,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 14,
+              "zero_mass": 0.23602871343855988
+            },
+            {
+              "vertex": 44,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                3
+              ],
+              "fiber": 12,
+              "zero_mass": 0.4401872982420949
+            },
+            {
+              "vertex": 14,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 8,
+              "zero_mass": 0.23602871343855988
+            },
+            {
+              "vertex": 40,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 10,
+              "zero_mass": 0.4124413035910396
+            },
+            {
+              "vertex": 26,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 7,
+              "zero_mass": 0.48756829678610597
+            },
+            {
+              "vertex": 39,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 3,
+              "zero_mass": 0.34001519131149366
+            },
+            {
+              "vertex": 11,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 7,
+              "zero_mass": 0.5805769638884171
+            },
+            {
+              "vertex": 17,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 4,
+              "zero_mass": 0.6126201272555054
+            },
+            {
+              "vertex": 27,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 6,
+              "zero_mass": 0.5805769638884174
+            },
+            {
+              "vertex": 49,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 14,
+              "zero_mass": 0.40824829046386313
+            }
+          ]
+        },
+        "5": {
+          "size": 18,
+          "type_counts": {
+            "(1, 1, 1)": 8,
+            "(1, 0, 2)": 2,
+            "(2, 0, 1)": 4,
+            "(1, 2, 0)": 2,
+            "(2, 1, 0)": 2
+          },
+          "vertices": [
+            {
+              "vertex": 12,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.48756829678610575
+            },
+            {
+              "vertex": 21,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.4407487119378574
+            },
+            {
+              "vertex": 25,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                4,
+                6,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.4531559013674159
+            },
+            {
+              "vertex": 13,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 5,
+              "zero_mass": 0.4717260843972682
+            },
+            {
+              "vertex": 57,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 11,
+              "zero_mass": 0.42303464147649084
+            },
+            {
+              "vertex": 34,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4145504907374734
+            },
+            {
+              "vertex": 28,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                4,
+                6,
+                6
+              ],
+              "fiber": 9,
+              "zero_mass": 0.33016392615922124
+            },
+            {
+              "vertex": 54,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 10,
+              "zero_mass": 0.5951730366555252
+            },
+            {
+              "vertex": 7,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 6,
+              "zero_mass": 0.4407487119378567
+            },
+            {
+              "vertex": 16,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 9,
+              "zero_mass": 0.4039314415387547
+            },
+            {
+              "vertex": 15,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 7,
+              "zero_mass": 0.4452804025070711
+            },
+            {
+              "vertex": 55,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 10,
+              "zero_mass": 0.42229785656333396
+            },
+            {
+              "vertex": 24,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 7,
+              "zero_mass": 0.4222978565633343
+            },
+            {
+              "vertex": 51,
+              "type": [
+                1,
+                2,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.24635083122939488
+            },
+            {
+              "vertex": 42,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                5
+              ],
+              "fiber": 10,
+              "zero_mass": 0.2463508312293945
+            },
+            {
+              "vertex": 9,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 0,
+              "zero_mass": 0.42303464147649095
+            },
+            {
+              "vertex": 41,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                5
+              ],
+              "fiber": 11,
+              "zero_mass": 0.43138971497774825
+            },
+            {
+              "vertex": 32,
+              "type": [
+                1,
+                2,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                5
+              ],
+              "fiber": 9,
+              "zero_mass": 0.43138971497774803
+            }
+          ]
+        },
+        "6": {
+          "size": 6,
+          "type_counts": {
+            "(3, 0, 0)": 4,
+            "(2, 1, 0)": 2
+          },
+          "vertices": [
+            {
+              "vertex": 37,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 2,
+              "zero_mass": 0.4571971868550416
+            },
+            {
+              "vertex": 46,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.4571971868550413
+            },
+            {
+              "vertex": 0,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4082482904638628
+            },
+            {
+              "vertex": 50,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                6
+              ],
+              "fiber": 13,
+              "zero_mass": 0.44528040250707157
+            },
+            {
+              "vertex": 3,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 3,
+              "zero_mass": 0.3400151913114937
+            },
+            {
+              "vertex": 33,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                6
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4717260843972677
+            }
+          ]
+        }
+      }
+    },
+    {
+      "root": 38,
+      "layers": {
+        "0": {
+          "size": 1,
+          "type_counts": {
+            "(0, 0, 3)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 38,
+              "type": [
+                0,
+                0,
+                3
+              ],
+              "neighbor_dists": [
+                1,
+                1,
+                1
+              ],
+              "fiber": 5,
+              "zero_mass": 0.2695572664361468
+            }
+          ]
+        },
+        "1": {
+          "size": 3,
+          "type_counts": {
+            "(1, 0, 2)": 3
+          },
+          "vertices": [
+            {
+              "vertex": 8,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 3,
+              "zero_mass": 0.622068911944028
+            },
+            {
+              "vertex": 30,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 4,
+              "zero_mass": 0.5399817674856175
+            },
+            {
+              "vertex": 56,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 11,
+              "zero_mass": 0.5188619740835698
+            }
+          ]
+        },
+        "2": {
+          "size": 6,
+          "type_counts": {
+            "(1, 0, 2)": 6
+          },
+          "vertices": [
+            {
+              "vertex": 4,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 4,
+              "zero_mass": 0.4401872982420948
+            },
+            {
+              "vertex": 10,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 6,
+              "zero_mass": 0.6610496234504957
+            },
+            {
+              "vertex": 5,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 2,
+              "zero_mass": 0.4124413035910396
+            },
+            {
+              "vertex": 58,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 14,
+              "zero_mass": 0.23602871343855988
+            },
+            {
+              "vertex": 44,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 12,
+              "zero_mass": 0.4401872982420949
+            },
+            {
+              "vertex": 45,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 12,
+              "zero_mass": 0.661049623450495
+            }
+          ]
+        },
+        "3": {
+          "size": 11,
+          "type_counts": {
+            "(2, 0, 1)": 1,
+            "(1, 0, 2)": 10
+          },
+          "vertices": [
+            {
+              "vertex": 20,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                2,
+                2,
+                4
+              ],
+              "fiber": 6,
+              "zero_mass": 0.5399817674856183
+            },
+            {
+              "vertex": 29,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 4,
+              "zero_mass": 0.5188619740835699
+            },
+            {
+              "vertex": 2,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 2,
+              "zero_mass": 0.41455049073747335
+            },
+            {
+              "vertex": 35,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 3,
+              "zero_mass": 0.45315590136741596
+            },
+            {
+              "vertex": 1,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 1,
+              "zero_mass": 0.5951730366555248
+            },
+            {
+              "vertex": 28,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 9,
+              "zero_mass": 0.33016392615922124
+            },
+            {
+              "vertex": 48,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 14,
+              "zero_mass": 0.3301639261592212
+            },
+            {
+              "vertex": 54,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 10,
+              "zero_mass": 0.5951730366555252
+            },
+            {
+              "vertex": 36,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 1,
+              "zero_mass": 0.42850955380193895
+            },
+            {
+              "vertex": 47,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 13,
+              "zero_mass": 0.3586685509747649
+            },
+            {
+              "vertex": 53,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 12,
+              "zero_mass": 0.6220689119440284
+            }
+          ]
+        },
+        "4": {
+          "size": 15,
+          "type_counts": {
+            "(3, 0, 0)": 1,
+            "(2, 0, 1)": 4,
+            "(1, 0, 2)": 10
+          },
+          "vertices": [
+            {
+              "vertex": 18,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                3
+              ],
+              "fiber": 9,
+              "zero_mass": 0.26955726643614725
+            },
+            {
+              "vertex": 6,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 5,
+              "zero_mass": 0.45952701833155696
+            },
+            {
+              "vertex": 22,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 5,
+              "zero_mass": 0.4039314415387541
+            },
+            {
+              "vertex": 19,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 1,
+              "zero_mass": 0.4031136337036436
+            },
+            {
+              "vertex": 23,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 2,
+              "zero_mass": 0.44528040250707124
+            },
+            {
+              "vertex": 43,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 11,
+              "zero_mass": 0.44528040250707124
+            },
+            {
+              "vertex": 59,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 14,
+              "zero_mass": 0.5562067426275918
+            },
+            {
+              "vertex": 14,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 8,
+              "zero_mass": 0.23602871343855988
+            },
+            {
+              "vertex": 3,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 3,
+              "zero_mass": 0.3400151913114937
+            },
+            {
+              "vertex": 33,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4717260843972677
+            },
+            {
+              "vertex": 40,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 10,
+              "zero_mass": 0.4124413035910396
+            },
+            {
+              "vertex": 32,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 9,
+              "zero_mass": 0.43138971497774803
+            },
+            {
+              "vertex": 46,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.4571971868550413
+            },
+            {
+              "vertex": 11,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 7,
+              "zero_mass": 0.5805769638884171
+            },
+            {
+              "vertex": 17,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 4,
+              "zero_mass": 0.6126201272555054
+            }
+          ]
+        },
+        "5": {
+          "size": 18,
+          "type_counts": {
+            "(1, 0, 2)": 2,
+            "(1, 1, 1)": 8,
+            "(2, 0, 1)": 4,
+            "(2, 1, 0)": 2,
+            "(1, 2, 0)": 2
+          },
+          "vertices": [
+            {
+              "vertex": 31,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                4,
+                6,
+                6
+              ],
+              "fiber": 1,
+              "zero_mass": 0.3586685509747654
+            },
+            {
+              "vertex": 52,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 12,
+              "zero_mass": 0.42850955380193856
+            },
+            {
+              "vertex": 12,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.48756829678610575
+            },
+            {
+              "vertex": 21,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.4407487119378574
+            },
+            {
+              "vertex": 25,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.4531559013674159
+            },
+            {
+              "vertex": 13,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 5,
+              "zero_mass": 0.4717260843972682
+            },
+            {
+              "vertex": 57,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 11,
+              "zero_mass": 0.42303464147649084
+            },
+            {
+              "vertex": 34,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                4,
+                6,
+                6
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4145504907374734
+            },
+            {
+              "vertex": 7,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 6,
+              "zero_mass": 0.4407487119378567
+            },
+            {
+              "vertex": 16,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                5
+              ],
+              "fiber": 9,
+              "zero_mass": 0.4039314415387547
+            },
+            {
+              "vertex": 15,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                5
+              ],
+              "fiber": 7,
+              "zero_mass": 0.4452804025070711
+            },
+            {
+              "vertex": 24,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 7,
+              "zero_mass": 0.4222978565633343
+            },
+            {
+              "vertex": 50,
+              "type": [
+                1,
+                2,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.44528040250707157
+            },
+            {
+              "vertex": 55,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 10,
+              "zero_mass": 0.42229785656333396
+            },
+            {
+              "vertex": 27,
+              "type": [
+                1,
+                2,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                5
+              ],
+              "fiber": 6,
+              "zero_mass": 0.5805769638884174
+            },
+            {
+              "vertex": 9,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 0,
+              "zero_mass": 0.42303464147649095
+            },
+            {
+              "vertex": 41,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 11,
+              "zero_mass": 0.43138971497774825
+            },
+            {
+              "vertex": 42,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 10,
+              "zero_mass": 0.2463508312293945
+            }
+          ]
+        },
+        "6": {
+          "size": 6,
+          "type_counts": {
+            "(2, 1, 0)": 2,
+            "(3, 0, 0)": 4
+          },
+          "vertices": [
+            {
+              "vertex": 26,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                6
+              ],
+              "fiber": 7,
+              "zero_mass": 0.48756829678610597
+            },
+            {
+              "vertex": 39,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 3,
+              "zero_mass": 0.34001519131149366
+            },
+            {
+              "vertex": 49,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 14,
+              "zero_mass": 0.40824829046386313
+            },
+            {
+              "vertex": 37,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 2,
+              "zero_mass": 0.4571971868550416
+            },
+            {
+              "vertex": 51,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                6
+              ],
+              "fiber": 13,
+              "zero_mass": 0.24635083122939488
+            },
+            {
+              "vertex": 0,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4082482904638628
+            }
+          ]
+        }
+      }
+    },
+    {
+      "root": 1,
+      "layers": {
+        "0": {
+          "size": 1,
+          "type_counts": {
+            "(0, 0, 3)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 1,
+              "type": [
+                0,
+                0,
+                3
+              ],
+              "neighbor_dists": [
+                1,
+                1,
+                1
+              ],
+              "fiber": 1,
+              "zero_mass": 0.5951730366555248
+            }
+          ]
+        },
+        "1": {
+          "size": 3,
+          "type_counts": {
+            "(1, 0, 2)": 3
+          },
+          "vertices": [
+            {
+              "vertex": 5,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 2,
+              "zero_mass": 0.4124413035910396
+            },
+            {
+              "vertex": 14,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 8,
+              "zero_mass": 0.23602871343855988
+            },
+            {
+              "vertex": 18,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                0,
+                2,
+                2
+              ],
+              "fiber": 9,
+              "zero_mass": 0.26955726643614725
+            }
+          ]
+        },
+        "2": {
+          "size": 6,
+          "type_counts": {
+            "(1, 0, 2)": 6
+          },
+          "vertices": [
+            {
+              "vertex": 28,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 9,
+              "zero_mass": 0.33016392615922124
+            },
+            {
+              "vertex": 30,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 4,
+              "zero_mass": 0.5399817674856175
+            },
+            {
+              "vertex": 7,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 6,
+              "zero_mass": 0.4407487119378567
+            },
+            {
+              "vertex": 16,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 9,
+              "zero_mass": 0.4039314415387547
+            },
+            {
+              "vertex": 20,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 6,
+              "zero_mass": 0.5399817674856183
+            },
+            {
+              "vertex": 48,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                1,
+                3,
+                3
+              ],
+              "fiber": 14,
+              "zero_mass": 0.3301639261592212
+            }
+          ]
+        },
+        "3": {
+          "size": 11,
+          "type_counts": {
+            "(1, 0, 2)": 10,
+            "(2, 0, 1)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 3,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 3,
+              "zero_mass": 0.3400151913114937
+            },
+            {
+              "vertex": 33,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4717260843972677
+            },
+            {
+              "vertex": 38,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 5,
+              "zero_mass": 0.2695572664361468
+            },
+            {
+              "vertex": 58,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                2,
+                2,
+                4
+              ],
+              "fiber": 14,
+              "zero_mass": 0.23602871343855988
+            },
+            {
+              "vertex": 32,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 9,
+              "zero_mass": 0.43138971497774803
+            },
+            {
+              "vertex": 37,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 2,
+              "zero_mass": 0.4571971868550416
+            },
+            {
+              "vertex": 41,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 11,
+              "zero_mass": 0.43138971497774825
+            },
+            {
+              "vertex": 46,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 13,
+              "zero_mass": 0.4571971868550413
+            },
+            {
+              "vertex": 4,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 4,
+              "zero_mass": 0.4401872982420948
+            },
+            {
+              "vertex": 45,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 12,
+              "zero_mass": 0.661049623450495
+            },
+            {
+              "vertex": 40,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                2,
+                4,
+                4
+              ],
+              "fiber": 10,
+              "zero_mass": 0.4124413035910396
+            }
+          ]
+        },
+        "4": {
+          "size": 15,
+          "type_counts": {
+            "(2, 0, 1)": 4,
+            "(1, 0, 2)": 10,
+            "(3, 0, 0)": 1
+          },
+          "vertices": [
+            {
+              "vertex": 15,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 7,
+              "zero_mass": 0.4452804025070711
+            },
+            {
+              "vertex": 24,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 7,
+              "zero_mass": 0.4222978565633343
+            },
+            {
+              "vertex": 50,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.44528040250707157
+            },
+            {
+              "vertex": 55,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 10,
+              "zero_mass": 0.42229785656333396
+            },
+            {
+              "vertex": 8,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 3,
+              "zero_mass": 0.622068911944028
+            },
+            {
+              "vertex": 56,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                5
+              ],
+              "fiber": 11,
+              "zero_mass": 0.5188619740835698
+            },
+            {
+              "vertex": 54,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                3,
+                3,
+                3
+              ],
+              "fiber": 10,
+              "zero_mass": 0.5951730366555252
+            },
+            {
+              "vertex": 27,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 6,
+              "zero_mass": 0.5805769638884174
+            },
+            {
+              "vertex": 12,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 8,
+              "zero_mass": 0.48756829678610575
+            },
+            {
+              "vertex": 34,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4145504907374734
+            },
+            {
+              "vertex": 11,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 7,
+              "zero_mass": 0.5805769638884171
+            },
+            {
+              "vertex": 49,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 14,
+              "zero_mass": 0.40824829046386313
+            },
+            {
+              "vertex": 21,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 8,
+              "zero_mass": 0.4407487119378574
+            },
+            {
+              "vertex": 29,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 4,
+              "zero_mass": 0.5188619740835699
+            },
+            {
+              "vertex": 53,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                3,
+                5,
+                5
+              ],
+              "fiber": 12,
+              "zero_mass": 0.6220689119440284
+            }
+          ]
+        },
+        "5": {
+          "size": 18,
+          "type_counts": {
+            "(1, 0, 2)": 2,
+            "(1, 1, 1)": 8,
+            "(2, 0, 1)": 4,
+            "(2, 1, 0)": 2,
+            "(1, 2, 0)": 2
+          },
+          "vertices": [
+            {
+              "vertex": 13,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                4,
+                6,
+                6
+              ],
+              "fiber": 5,
+              "zero_mass": 0.4717260843972682
+            },
+            {
+              "vertex": 17,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 4,
+              "zero_mass": 0.6126201272555054
+            },
+            {
+              "vertex": 26,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 7,
+              "zero_mass": 0.48756829678610597
+            },
+            {
+              "vertex": 25,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 8,
+              "zero_mass": 0.4531559013674159
+            },
+            {
+              "vertex": 57,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 11,
+              "zero_mass": 0.42303464147649084
+            },
+            {
+              "vertex": 39,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 3,
+              "zero_mass": 0.34001519131149366
+            },
+            {
+              "vertex": 10,
+              "type": [
+                1,
+                0,
+                2
+              ],
+              "neighbor_dists": [
+                4,
+                6,
+                6
+              ],
+              "fiber": 6,
+              "zero_mass": 0.6610496234504957
+            },
+            {
+              "vertex": 44,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 12,
+              "zero_mass": 0.4401872982420949
+            },
+            {
+              "vertex": 9,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 0,
+              "zero_mass": 0.42303464147649095
+            },
+            {
+              "vertex": 52,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                5
+              ],
+              "fiber": 12,
+              "zero_mass": 0.42850955380193856
+            },
+            {
+              "vertex": 19,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 1,
+              "zero_mass": 0.4031136337036436
+            },
+            {
+              "vertex": 42,
+              "type": [
+                1,
+                2,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                5
+              ],
+              "fiber": 10,
+              "zero_mass": 0.2463508312293945
+            },
+            {
+              "vertex": 51,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.24635083122939488
+            },
+            {
+              "vertex": 59,
+              "type": [
+                2,
+                0,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                4,
+                6
+              ],
+              "fiber": 14,
+              "zero_mass": 0.5562067426275918
+            },
+            {
+              "vertex": 36,
+              "type": [
+                1,
+                2,
+                0
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                5
+              ],
+              "fiber": 1,
+              "zero_mass": 0.42850955380193895
+            },
+            {
+              "vertex": 6,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 5,
+              "zero_mass": 0.45952701833155696
+            },
+            {
+              "vertex": 22,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 5,
+              "zero_mass": 0.4039314415387541
+            },
+            {
+              "vertex": 23,
+              "type": [
+                1,
+                1,
+                1
+              ],
+              "neighbor_dists": [
+                4,
+                5,
+                6
+              ],
+              "fiber": 2,
+              "zero_mass": 0.44528040250707124
+            }
+          ]
+        },
+        "6": {
+          "size": 6,
+          "type_counts": {
+            "(3, 0, 0)": 4,
+            "(2, 1, 0)": 2
+          },
+          "vertices": [
+            {
+              "vertex": 0,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 0,
+              "zero_mass": 0.4082482904638628
+            },
+            {
+              "vertex": 43,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                6
+              ],
+              "fiber": 11,
+              "zero_mass": 0.44528040250707124
+            },
+            {
+              "vertex": 47,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 13,
+              "zero_mass": 0.3586685509747649
+            },
+            {
+              "vertex": 31,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 1,
+              "zero_mass": 0.3586685509747654
+            },
+            {
+              "vertex": 2,
+              "type": [
+                3,
+                0,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                5
+              ],
+              "fiber": 2,
+              "zero_mass": 0.41455049073747335
+            },
+            {
+              "vertex": 35,
+              "type": [
+                2,
+                1,
+                0
+              ],
+              "neighbor_dists": [
+                5,
+                5,
+                6
+              ],
+              "fiber": 3,
+              "zero_mass": 0.45315590136741596
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

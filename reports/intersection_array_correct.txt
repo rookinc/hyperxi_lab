@@ -1,0 +1,38 @@
+root = 0
+diameter = 6
+shells = [1, 3, 6, 11, 15, 18, 6]
+
+layer-wise neighbor counts:
+layer 0:
+  a counts: Counter({0: 1})
+  b counts: Counter({3: 1})
+  c counts: Counter({0: 1})
+layer 1:
+  a counts: Counter({0: 3})
+  b counts: Counter({2: 3})
+  c counts: Counter({1: 3})
+layer 2:
+  a counts: Counter({0: 6})
+  b counts: Counter({2: 6})
+  c counts: Counter({1: 6})
+layer 3:
+  a counts: Counter({0: 11})
+  b counts: Counter({2: 10, 1: 1})
+  c counts: Counter({1: 10, 2: 1})
+layer 4:
+  a counts: Counter({0: 15})
+  b counts: Counter({2: 10, 1: 4, 0: 1})
+  c counts: Counter({1: 10, 2: 4, 3: 1})
+layer 5:
+  a counts: Counter({1: 10, 0: 6, 2: 2})
+  b counts: Counter({1: 12, 0: 4, 2: 2})
+  c counts: Counter({1: 12, 2: 6})
+layer 6:
+  a counts: Counter({0: 4, 1: 2})
+  b counts: Counter({0: 6})
+  c counts: Counter({3: 4, 2: 2})
+
+intersection array candidate:
+b = [3, 2, 2, 2, 2, 1]
+c = [1, 1, 1, 1, 2, 3]
+a = [0, 0, 0, 0, 0, 0, 0]

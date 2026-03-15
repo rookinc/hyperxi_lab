@@ -1,0 +1,8 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+loading partition from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/compare_v4_quotient_to_canonical_dodecahedral_15core.json
+zero eigenspace dimension = 10
+
+found 0 candidate involutions
+
+saved /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/probe_zero_modes_vs_involutions.json

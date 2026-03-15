@@ -1,0 +1,318 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+
+================================================================================
+ROOT 0
+================================================================================
+layer-5 counts by radial type:
+Counter({(1, 1, 1): 8, (2, 0, 1): 4, (1, 0, 2): 2, (1, 2, 0): 2, (2, 1, 0): 2})
+
+layer-5 counts by geodesic multiplicity:
+Counter({2: 10, 1: 8})
+
+(type, geodesic multiplicity) table:
+  ((1, 0, 2), 2)  x2
+  ((1, 1, 1), 1)  x6
+  ((1, 1, 1), 2)  x2
+  ((1, 2, 0), 1)  x2
+  ((2, 0, 1), 2)  x4
+  ((2, 1, 0), 2)  x2
+
+detailed layer-5 rows:
+v= 5 type=(1, 0, 2) paths=2 parents=[28] same=[] children=[1, 30]
+v= 8 type=(1, 0, 2) paths=2 parents=[10] same=[] children=[4, 38]
+v=12 type=(1, 1, 1) paths=1 parents=[19] same=[37] children=[42]
+v=14 type=(2, 0, 1) paths=2 parents=[7, 16] same=[] children=[1]
+v=17 type=(1, 1, 1) paths=1 parents=[24] same=[47] children=[42]
+v=18 type=(1, 1, 1) paths=1 parents=[48] same=[20] children=[1]
+v=20 type=(1, 1, 1) paths=1 parents=[45] same=[18] children=[4]
+v=21 type=(1, 1, 1) paths=1 parents=[19] same=[46] children=[51]
+v=26 type=(1, 1, 1) paths=1 parents=[24] same=[31] children=[51]
+v=29 type=(2, 0, 1) paths=2 parents=[6, 22] same=[] children=[4]
+v=31 type=(1, 2, 0) paths=1 parents=[6] same=[26, 39] children=[]
+v=34 type=(1, 1, 1) paths=2 parents=[59] same=[37] children=[51]
+v=37 type=(1, 2, 0) paths=1 parents=[7] same=[12, 34] children=[]
+v=39 type=(1, 1, 1) paths=2 parents=[55] same=[31] children=[42]
+v=46 type=(2, 1, 0) paths=2 parents=[16, 54] same=[21] children=[]
+v=47 type=(2, 1, 0) paths=2 parents=[22, 44] same=[17] children=[]
+v=56 type=(2, 0, 1) paths=2 parents=[44, 45] same=[] children=[38]
+v=58 type=(2, 0, 1) paths=2 parents=[48, 54] same=[] children=[30]
+
+layer-5 vertices with multiple geodesic words:
+
+vertex 5 type=(1, 0, 2) paths=2
+  word 1: 0 -> 13 -> 15 -> 3 -> 28 -> 5
+  word 2: 0 -> 25 -> 50 -> 33 -> 28 -> 5
+
+vertex 8 type=(1, 0, 2) paths=2
+  word 1: 0 -> 13 -> 43 -> 35 -> 10 -> 8
+  word 2: 0 -> 25 -> 23 -> 2 -> 10 -> 8
+
+vertex 14 type=(2, 0, 1) paths=2
+  word 1: 0 -> 9 -> 11 -> 41 -> 16 -> 14
+  word 2: 0 -> 9 -> 27 -> 32 -> 7 -> 14
+
+vertex 29 type=(2, 0, 1) paths=2
+  word 1: 0 -> 9 -> 11 -> 36 -> 6 -> 29
+  word 2: 0 -> 9 -> 27 -> 52 -> 22 -> 29
+
+vertex 34 type=(1, 1, 1) paths=2
+  word 1: 0 -> 13 -> 43 -> 35 -> 59 -> 34
+  word 2: 0 -> 25 -> 23 -> 53 -> 59 -> 34
+
+vertex 39 type=(1, 1, 1) paths=2
+  word 1: 0 -> 13 -> 15 -> 40 -> 55 -> 39
+  word 2: 0 -> 25 -> 50 -> 33 -> 55 -> 39
+
+vertex 46 type=(2, 1, 0) paths=2
+  word 1: 0 -> 9 -> 11 -> 41 -> 16 -> 46
+  word 2: 0 -> 9 -> 27 -> 32 -> 54 -> 46
+
+vertex 47 type=(2, 1, 0) paths=2
+  word 1: 0 -> 9 -> 11 -> 36 -> 44 -> 47
+  word 2: 0 -> 9 -> 27 -> 52 -> 22 -> 47
+
+vertex 56 type=(2, 0, 1) paths=2
+  word 1: 0 -> 9 -> 11 -> 36 -> 44 -> 56
+  word 2: 0 -> 25 -> 23 -> 53 -> 45 -> 56
+
+vertex 58 type=(2, 0, 1) paths=2
+  word 1: 0 -> 9 -> 27 -> 32 -> 54 -> 58
+  word 2: 0 -> 13 -> 15 -> 40 -> 48 -> 58
+
+================================================================================
+ROOT 1
+================================================================================
+layer-5 counts by radial type:
+Counter({(1, 1, 1): 8, (2, 0, 1): 4, (1, 0, 2): 2, (1, 2, 0): 2, (2, 1, 0): 2})
+
+layer-5 counts by geodesic multiplicity:
+Counter({2: 10, 1: 8})
+
+(type, geodesic multiplicity) table:
+  ((1, 0, 2), 2)  x2
+  ((1, 1, 1), 1)  x6
+  ((1, 1, 1), 2)  x2
+  ((1, 2, 0), 1)  x2
+  ((2, 0, 1), 2)  x4
+  ((2, 1, 0), 2)  x2
+
+detailed layer-5 rows:
+v= 6 type=(1, 1, 1) paths=1 parents=[29] same=[36] children=[31]
+v= 9 type=(2, 0, 1) paths=2 parents=[11, 27] same=[] children=[0]
+v=10 type=(1, 0, 2) paths=2 parents=[8] same=[] children=[2, 35]
+v=13 type=(1, 0, 2) paths=2 parents=[15] same=[] children=[0, 43]
+v=17 type=(1, 1, 1) paths=1 parents=[24] same=[42] children=[47]
+v=19 type=(2, 0, 1) paths=2 parents=[12, 21] same=[] children=[2]
+v=22 type=(1, 1, 1) paths=1 parents=[29] same=[52] children=[47]
+v=23 type=(1, 1, 1) paths=1 parents=[53] same=[25] children=[2]
+v=25 type=(1, 1, 1) paths=1 parents=[50] same=[23] children=[0]
+v=26 type=(1, 1, 1) paths=1 parents=[24] same=[51] children=[31]
+v=36 type=(1, 2, 0) paths=1 parents=[11] same=[6, 44] children=[]
+v=39 type=(1, 1, 1) paths=2 parents=[55] same=[42] children=[31]
+v=42 type=(1, 2, 0) paths=1 parents=[12] same=[17, 39] children=[]
+v=44 type=(1, 1, 1) paths=2 parents=[56] same=[36] children=[47]
+v=51 type=(2, 1, 0) paths=2 parents=[21, 34] same=[26] children=[]
+v=52 type=(2, 1, 0) paths=2 parents=[27, 49] same=[22] children=[]
+v=57 type=(2, 0, 1) paths=2 parents=[49, 50] same=[] children=[43]
+v=59 type=(2, 0, 1) paths=2 parents=[34, 53] same=[] children=[35]
+
+layer-5 vertices with multiple geodesic words:
+
+vertex 9 type=(2, 0, 1) paths=2
+  word 1: 1 -> 14 -> 7 -> 32 -> 27 -> 9
+  word 2: 1 -> 14 -> 16 -> 41 -> 11 -> 9
+
+vertex 10 type=(1, 0, 2) paths=2
+  word 1: 1 -> 5 -> 30 -> 38 -> 8 -> 10
+  word 2: 1 -> 18 -> 20 -> 4 -> 8 -> 10
+
+vertex 13 type=(1, 0, 2) paths=2
+  word 1: 1 -> 5 -> 28 -> 3 -> 15 -> 13
+  word 2: 1 -> 18 -> 48 -> 40 -> 15 -> 13
+
+vertex 19 type=(2, 0, 1) paths=2
+  word 1: 1 -> 14 -> 7 -> 37 -> 12 -> 19
+  word 2: 1 -> 14 -> 16 -> 46 -> 21 -> 19
+
+vertex 39 type=(1, 1, 1) paths=2
+  word 1: 1 -> 5 -> 28 -> 33 -> 55 -> 39
+  word 2: 1 -> 18 -> 48 -> 40 -> 55 -> 39
+
+vertex 44 type=(1, 1, 1) paths=2
+  word 1: 1 -> 5 -> 30 -> 38 -> 56 -> 44
+  word 2: 1 -> 18 -> 20 -> 45 -> 56 -> 44
+
+vertex 51 type=(2, 1, 0) paths=2
+  word 1: 1 -> 14 -> 7 -> 37 -> 34 -> 51
+  word 2: 1 -> 14 -> 16 -> 46 -> 21 -> 51
+
+vertex 52 type=(2, 1, 0) paths=2
+  word 1: 1 -> 14 -> 7 -> 32 -> 27 -> 52
+  word 2: 1 -> 14 -> 16 -> 41 -> 49 -> 52
+
+vertex 57 type=(2, 0, 1) paths=2
+  word 1: 1 -> 5 -> 28 -> 33 -> 50 -> 57
+  word 2: 1 -> 14 -> 16 -> 41 -> 49 -> 57
+
+vertex 59 type=(2, 0, 1) paths=2
+  word 1: 1 -> 14 -> 7 -> 37 -> 34 -> 59
+  word 2: 1 -> 18 -> 20 -> 45 -> 53 -> 59
+
+================================================================================
+ROOT 4
+================================================================================
+layer-5 counts by radial type:
+Counter({(1, 1, 1): 8, (2, 0, 1): 4, (1, 0, 2): 2, (1, 2, 0): 2, (2, 1, 0): 2})
+
+layer-5 counts by geodesic multiplicity:
+Counter({2: 10, 1: 8})
+
+(type, geodesic multiplicity) table:
+  ((1, 0, 2), 2)  x2
+  ((1, 1, 1), 1)  x6
+  ((1, 1, 1), 2)  x2
+  ((1, 2, 0), 1)  x2
+  ((2, 0, 1), 2)  x4
+  ((2, 1, 0), 2)  x2
+
+detailed layer-5 rows:
+v= 7 type=(1, 1, 1) paths=1 parents=[14] same=[32] children=[37]
+v= 9 type=(2, 0, 1) paths=2 parents=[11, 27] same=[] children=[0]
+v=12 type=(1, 1, 1) paths=1 parents=[19] same=[42] children=[37]
+v=13 type=(1, 1, 1) paths=1 parents=[43] same=[15] children=[0]
+v=15 type=(1, 1, 1) paths=1 parents=[40] same=[13] children=[3]
+v=16 type=(1, 1, 1) paths=1 parents=[14] same=[41] children=[46]
+v=21 type=(1, 1, 1) paths=1 parents=[19] same=[51] children=[46]
+v=24 type=(2, 0, 1) paths=2 parents=[17, 26] same=[] children=[3]
+v=25 type=(1, 0, 2) paths=2 parents=[23] same=[] children=[0, 50]
+v=28 type=(1, 0, 2) paths=2 parents=[5] same=[] children=[3, 33]
+v=32 type=(1, 2, 0) paths=1 parents=[27] same=[7, 54] children=[]
+v=34 type=(1, 1, 1) paths=2 parents=[59] same=[51] children=[37]
+v=41 type=(2, 1, 0) paths=2 parents=[11, 49] same=[16] children=[]
+v=42 type=(2, 1, 0) paths=2 parents=[17, 39] same=[12] children=[]
+v=51 type=(1, 2, 0) paths=1 parents=[26] same=[21, 34] children=[]
+v=54 type=(1, 1, 1) paths=2 parents=[58] same=[32] children=[46]
+v=55 type=(2, 0, 1) paths=2 parents=[39, 40] same=[] children=[33]
+v=57 type=(2, 0, 1) paths=2 parents=[43, 49] same=[] children=[50]
+
+layer-5 vertices with multiple geodesic words:
+
+vertex 9 type=(2, 0, 1) paths=2
+  word 1: 4 -> 29 -> 6 -> 36 -> 11 -> 9
+  word 2: 4 -> 29 -> 22 -> 52 -> 27 -> 9
+
+vertex 24 type=(2, 0, 1) paths=2
+  word 1: 4 -> 29 -> 6 -> 31 -> 26 -> 24
+  word 2: 4 -> 29 -> 22 -> 47 -> 17 -> 24
+
+vertex 25 type=(1, 0, 2) paths=2
+  word 1: 4 -> 8 -> 10 -> 2 -> 23 -> 25
+  word 2: 4 -> 20 -> 45 -> 53 -> 23 -> 25
+
+vertex 28 type=(1, 0, 2) paths=2
+  word 1: 4 -> 8 -> 38 -> 30 -> 5 -> 28
+  word 2: 4 -> 20 -> 18 -> 1 -> 5 -> 28
+
+vertex 34 type=(1, 1, 1) paths=2
+  word 1: 4 -> 8 -> 10 -> 35 -> 59 -> 34
+  word 2: 4 -> 20 -> 45 -> 53 -> 59 -> 34
+
+vertex 41 type=(2, 1, 0) paths=2
+  word 1: 4 -> 29 -> 6 -> 36 -> 11 -> 41
+  word 2: 4 -> 29 -> 22 -> 52 -> 49 -> 41
+
+vertex 42 type=(2, 1, 0) paths=2
+  word 1: 4 -> 29 -> 6 -> 31 -> 39 -> 42
+  word 2: 4 -> 29 -> 22 -> 47 -> 17 -> 42
+
+vertex 54 type=(1, 1, 1) paths=2
+  word 1: 4 -> 8 -> 38 -> 30 -> 58 -> 54
+  word 2: 4 -> 20 -> 18 -> 48 -> 58 -> 54
+
+vertex 55 type=(2, 0, 1) paths=2
+  word 1: 4 -> 20 -> 18 -> 48 -> 40 -> 55
+  word 2: 4 -> 29 -> 6 -> 31 -> 39 -> 55
+
+vertex 57 type=(2, 0, 1) paths=2
+  word 1: 4 -> 8 -> 10 -> 35 -> 43 -> 57
+  word 2: 4 -> 29 -> 22 -> 52 -> 49 -> 57
+
+================================================================================
+ROOT 38
+================================================================================
+layer-5 counts by radial type:
+Counter({(1, 1, 1): 8, (2, 0, 1): 4, (2, 1, 0): 2, (1, 2, 0): 2, (1, 0, 2): 2})
+
+layer-5 counts by geodesic multiplicity:
+Counter({2: 10, 1: 8})
+
+(type, geodesic multiplicity) table:
+  ((1, 0, 2), 2)  x2
+  ((1, 1, 1), 1)  x6
+  ((1, 1, 1), 2)  x2
+  ((1, 2, 0), 1)  x2
+  ((2, 0, 1), 2)  x4
+  ((2, 1, 0), 2)  x2
+
+detailed layer-5 rows:
+v= 7 type=(2, 0, 1) paths=2 parents=[14, 32] same=[] children=[37]
+v= 9 type=(1, 1, 1) paths=1 parents=[11] same=[27] children=[0]
+v=12 type=(1, 1, 1) paths=1 parents=[19] same=[42] children=[37]
+v=13 type=(1, 1, 1) paths=1 parents=[43] same=[15] children=[0]
+v=15 type=(2, 1, 0) paths=2 parents=[3, 40] same=[13] children=[]
+v=16 type=(2, 1, 0) paths=2 parents=[14, 46] same=[41] children=[]
+v=21 type=(2, 0, 1) paths=2 parents=[19, 46] same=[] children=[51]
+v=24 type=(2, 0, 1) paths=2 parents=[3, 17] same=[] children=[26]
+v=25 type=(1, 1, 1) paths=2 parents=[23] same=[50] children=[0]
+v=27 type=(1, 2, 0) paths=1 parents=[32] same=[9, 52] children=[]
+v=31 type=(1, 0, 2) paths=2 parents=[6] same=[] children=[26, 39]
+v=34 type=(1, 0, 2) paths=2 parents=[59] same=[] children=[37, 51]
+v=41 type=(1, 1, 1) paths=1 parents=[11] same=[16] children=[49]
+v=42 type=(1, 1, 1) paths=1 parents=[17] same=[12] children=[39]
+v=50 type=(1, 2, 0) paths=1 parents=[33] same=[25, 57] children=[]
+v=52 type=(1, 1, 1) paths=2 parents=[22] same=[27] children=[49]
+v=55 type=(2, 0, 1) paths=2 parents=[33, 40] same=[] children=[39]
+v=57 type=(1, 1, 1) paths=1 parents=[43] same=[50] children=[49]
+
+layer-5 vertices with multiple geodesic words:
+
+vertex 7 type=(2, 0, 1) paths=2
+  word 1: 38 -> 30 -> 5 -> 1 -> 14 -> 7
+  word 2: 38 -> 30 -> 58 -> 54 -> 32 -> 7
+
+vertex 15 type=(2, 1, 0) paths=2
+  word 1: 38 -> 30 -> 5 -> 28 -> 3 -> 15
+  word 2: 38 -> 30 -> 58 -> 48 -> 40 -> 15
+
+vertex 16 type=(2, 1, 0) paths=2
+  word 1: 38 -> 30 -> 5 -> 1 -> 14 -> 16
+  word 2: 38 -> 30 -> 58 -> 54 -> 46 -> 16
+
+vertex 21 type=(2, 0, 1) paths=2
+  word 1: 38 -> 8 -> 10 -> 2 -> 19 -> 21
+  word 2: 38 -> 30 -> 58 -> 54 -> 46 -> 21
+
+vertex 24 type=(2, 0, 1) paths=2
+  word 1: 38 -> 30 -> 5 -> 28 -> 3 -> 24
+  word 2: 38 -> 56 -> 44 -> 47 -> 17 -> 24
+
+vertex 25 type=(1, 1, 1) paths=2
+  word 1: 38 -> 8 -> 10 -> 2 -> 23 -> 25
+  word 2: 38 -> 56 -> 45 -> 53 -> 23 -> 25
+
+vertex 31 type=(1, 0, 2) paths=2
+  word 1: 38 -> 8 -> 4 -> 29 -> 6 -> 31
+  word 2: 38 -> 56 -> 44 -> 36 -> 6 -> 31
+
+vertex 34 type=(1, 0, 2) paths=2
+  word 1: 38 -> 8 -> 10 -> 35 -> 59 -> 34
+  word 2: 38 -> 56 -> 45 -> 53 -> 59 -> 34
+
+vertex 52 type=(1, 1, 1) paths=2
+  word 1: 38 -> 8 -> 4 -> 29 -> 22 -> 52
+  word 2: 38 -> 56 -> 44 -> 47 -> 22 -> 52
+
+vertex 55 type=(2, 0, 1) paths=2
+  word 1: 38 -> 30 -> 5 -> 28 -> 33 -> 55
+  word 2: 38 -> 30 -> 58 -> 48 -> 40 -> 55

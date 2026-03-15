@@ -1,0 +1,382 @@
+loading G60 from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/true_chamber_graph.g6
+G60: |V|=60 |E|=90
+loading partition from: /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/true_quotients/compare_v4_quotient_to_canonical_dodecahedral_15core.json
+chosen roots: [0, 4, 38, 1]
+
+================================================================================
+ROOT 0
+================================================================================
+
+layer 0  size=1
+type counts:
+  (0, 0, 3)  x1
+
+layer 1  size=3
+type counts:
+  (1, 0, 2)  x3
+
+layer 2  size=6
+type counts:
+  (1, 0, 2)  x6
+
+layer 3  size=11
+type counts:
+  (1, 0, 2)  x10
+  (2, 0, 1)  x1
+detailed split:
+  v= 2  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=2  zero_mass=0.414550
+  v= 3  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=3  zero_mass=0.340015
+  v=32  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=9  zero_mass=0.431390
+  v=33  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=0  zero_mass=0.471726
+  v=35  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=3  zero_mass=0.453156
+  v=36  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=1  zero_mass=0.428510
+  v=40  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=10  zero_mass=0.412441
+  v=41  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=11  zero_mass=0.431390
+  v=52  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=12  zero_mass=0.428510
+  v=53  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=12  zero_mass=0.622069
+  v=57  type=(2, 0, 1)  neigh_dists=(2, 2, 4)  fiber=11  zero_mass=0.423035
+
+layer 4  size=15
+type counts:
+  (1, 0, 2)  x10
+  (2, 0, 1)  x4
+  (3, 0, 0)  x1
+detailed split:
+  v= 6  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=5  zero_mass=0.459527
+  v= 7  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=6  zero_mass=0.440749
+  v=16  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=9  zero_mass=0.403931
+  v=19  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=1  zero_mass=0.403114
+  v=22  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=5  zero_mass=0.403931
+  v=24  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=7  zero_mass=0.422298
+  v=44  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=12  zero_mass=0.440187
+  v=45  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=12  zero_mass=0.661050
+  v=48  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=14  zero_mass=0.330164
+  v=54  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=10  zero_mass=0.595173
+  v=10  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=6  zero_mass=0.661050
+  v=28  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=9  zero_mass=0.330164
+  v=55  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=10  zero_mass=0.422298
+  v=59  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=14  zero_mass=0.556207
+  v=49  type=(3, 0, 0)  neigh_dists=(3, 3, 3)  fiber=14  zero_mass=0.408248
+
+layer 5  size=18
+type counts:
+  (1, 0, 2)  x2
+  (1, 1, 1)  x8
+  (1, 2, 0)  x2
+  (2, 0, 1)  x4
+  (2, 1, 0)  x2
+detailed split:
+  v= 5  type=(1, 0, 2)  neigh_dists=(4, 6, 6)  fiber=2  zero_mass=0.412441
+  v= 8  type=(1, 0, 2)  neigh_dists=(4, 6, 6)  fiber=3  zero_mass=0.622069
+  v=12  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=8  zero_mass=0.487568
+  v=17  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=4  zero_mass=0.612620
+  v=18  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=9  zero_mass=0.269557
+  v=20  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=6  zero_mass=0.539982
+  v=21  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=8  zero_mass=0.440749
+  v=26  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=7  zero_mass=0.487568
+  v=34  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=0  zero_mass=0.414550
+  v=39  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=3  zero_mass=0.340015
+  v=31  type=(1, 2, 0)  neigh_dists=(4, 5, 5)  fiber=1  zero_mass=0.358669
+  v=37  type=(1, 2, 0)  neigh_dists=(4, 5, 5)  fiber=2  zero_mass=0.457197
+  v=14  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=8  zero_mass=0.236029
+  v=29  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=4  zero_mass=0.518862
+  v=56  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=11  zero_mass=0.518862
+  v=58  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=14  zero_mass=0.236029
+  v=46  type=(2, 1, 0)  neigh_dists=(4, 4, 5)  fiber=13  zero_mass=0.457197
+  v=47  type=(2, 1, 0)  neigh_dists=(4, 4, 5)  fiber=13  zero_mass=0.358669
+
+layer 6  size=6
+type counts:
+  (2, 1, 0)  x2
+  (3, 0, 0)  x4
+detailed split:
+  v=30  type=(2, 1, 0)  neigh_dists=(5, 5, 6)  fiber=4  zero_mass=0.539982
+  v=38  type=(2, 1, 0)  neigh_dists=(5, 5, 6)  fiber=5  zero_mass=0.269557
+  v= 1  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=1  zero_mass=0.595173
+  v= 4  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=4  zero_mass=0.440187
+  v=42  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=10  zero_mass=0.246351
+  v=51  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=13  zero_mass=0.246351
+
+================================================================================
+ROOT 4
+================================================================================
+
+layer 0  size=1
+type counts:
+  (0, 0, 3)  x1
+
+layer 1  size=3
+type counts:
+  (1, 0, 2)  x3
+
+layer 2  size=6
+type counts:
+  (1, 0, 2)  x6
+
+layer 3  size=11
+type counts:
+  (1, 0, 2)  x10
+  (2, 0, 1)  x1
+detailed split:
+  v= 1  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=1  zero_mass=0.595173
+  v= 2  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=2  zero_mass=0.414550
+  v=30  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=4  zero_mass=0.539982
+  v=31  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=1  zero_mass=0.358669
+  v=35  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=3  zero_mass=0.453156
+  v=36  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=1  zero_mass=0.428510
+  v=47  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=13  zero_mass=0.358669
+  v=48  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=14  zero_mass=0.330164
+  v=52  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=12  zero_mass=0.428510
+  v=53  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=12  zero_mass=0.622069
+  v=56  type=(2, 0, 1)  neigh_dists=(2, 2, 4)  fiber=11  zero_mass=0.518862
+
+layer 4  size=15
+type counts:
+  (1, 0, 2)  x10
+  (2, 0, 1)  x4
+  (3, 0, 0)  x1
+detailed split:
+  v=11  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=7  zero_mass=0.580577
+  v=14  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=8  zero_mass=0.236029
+  v=17  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=4  zero_mass=0.612620
+  v=19  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=1  zero_mass=0.403114
+  v=26  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=7  zero_mass=0.487568
+  v=27  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=6  zero_mass=0.580577
+  v=39  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=3  zero_mass=0.340015
+  v=40  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=10  zero_mass=0.412441
+  v=43  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=11  zero_mass=0.445280
+  v=49  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=14  zero_mass=0.408248
+  v= 5  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=2  zero_mass=0.412441
+  v=23  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=2  zero_mass=0.445280
+  v=58  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=14  zero_mass=0.236029
+  v=59  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=14  zero_mass=0.556207
+  v=44  type=(3, 0, 0)  neigh_dists=(3, 3, 3)  fiber=12  zero_mass=0.440187
+
+layer 5  size=18
+type counts:
+  (1, 0, 2)  x2
+  (1, 1, 1)  x8
+  (1, 2, 0)  x2
+  (2, 0, 1)  x4
+  (2, 1, 0)  x2
+detailed split:
+  v=25  type=(1, 0, 2)  neigh_dists=(4, 6, 6)  fiber=8  zero_mass=0.453156
+  v=28  type=(1, 0, 2)  neigh_dists=(4, 6, 6)  fiber=9  zero_mass=0.330164
+  v= 7  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=6  zero_mass=0.440749
+  v=12  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=8  zero_mass=0.487568
+  v=13  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=5  zero_mass=0.471726
+  v=15  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=7  zero_mass=0.445280
+  v=16  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=9  zero_mass=0.403931
+  v=21  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=8  zero_mass=0.440749
+  v=34  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=0  zero_mass=0.414550
+  v=54  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=10  zero_mass=0.595173
+  v=32  type=(1, 2, 0)  neigh_dists=(4, 5, 5)  fiber=9  zero_mass=0.431390
+  v=51  type=(1, 2, 0)  neigh_dists=(4, 5, 5)  fiber=13  zero_mass=0.246351
+  v= 9  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=0  zero_mass=0.423035
+  v=24  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=7  zero_mass=0.422298
+  v=55  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=10  zero_mass=0.422298
+  v=57  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=11  zero_mass=0.423035
+  v=41  type=(2, 1, 0)  neigh_dists=(4, 4, 5)  fiber=11  zero_mass=0.431390
+  v=42  type=(2, 1, 0)  neigh_dists=(4, 4, 5)  fiber=10  zero_mass=0.246351
+
+layer 6  size=6
+type counts:
+  (2, 1, 0)  x2
+  (3, 0, 0)  x4
+detailed split:
+  v=33  type=(2, 1, 0)  neigh_dists=(5, 5, 6)  fiber=0  zero_mass=0.471726
+  v=50  type=(2, 1, 0)  neigh_dists=(5, 5, 6)  fiber=13  zero_mass=0.445280
+  v= 0  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=0  zero_mass=0.408248
+  v= 3  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=3  zero_mass=0.340015
+  v=37  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=2  zero_mass=0.457197
+  v=46  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=13  zero_mass=0.457197
+
+================================================================================
+ROOT 38
+================================================================================
+
+layer 0  size=1
+type counts:
+  (0, 0, 3)  x1
+
+layer 1  size=3
+type counts:
+  (1, 0, 2)  x3
+
+layer 2  size=6
+type counts:
+  (1, 0, 2)  x6
+
+layer 3  size=11
+type counts:
+  (1, 0, 2)  x10
+  (2, 0, 1)  x1
+detailed split:
+  v= 1  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=1  zero_mass=0.595173
+  v= 2  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=2  zero_mass=0.414550
+  v=28  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=9  zero_mass=0.330164
+  v=29  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=4  zero_mass=0.518862
+  v=35  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=3  zero_mass=0.453156
+  v=36  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=1  zero_mass=0.428510
+  v=47  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=13  zero_mass=0.358669
+  v=48  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=14  zero_mass=0.330164
+  v=53  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=12  zero_mass=0.622069
+  v=54  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=10  zero_mass=0.595173
+  v=20  type=(2, 0, 1)  neigh_dists=(2, 2, 4)  fiber=6  zero_mass=0.539982
+
+layer 4  size=15
+type counts:
+  (1, 0, 2)  x10
+  (2, 0, 1)  x4
+  (3, 0, 0)  x1
+detailed split:
+  v= 3  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=3  zero_mass=0.340015
+  v=11  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=7  zero_mass=0.580577
+  v=14  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=8  zero_mass=0.236029
+  v=17  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=4  zero_mass=0.612620
+  v=19  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=1  zero_mass=0.403114
+  v=32  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=9  zero_mass=0.431390
+  v=33  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=0  zero_mass=0.471726
+  v=40  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=10  zero_mass=0.412441
+  v=43  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=11  zero_mass=0.445280
+  v=46  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=13  zero_mass=0.457197
+  v= 6  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=5  zero_mass=0.459527
+  v=22  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=5  zero_mass=0.403931
+  v=23  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=2  zero_mass=0.445280
+  v=59  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=14  zero_mass=0.556207
+  v=18  type=(3, 0, 0)  neigh_dists=(3, 3, 3)  fiber=9  zero_mass=0.269557
+
+layer 5  size=18
+type counts:
+  (1, 0, 2)  x2
+  (1, 1, 1)  x8
+  (1, 2, 0)  x2
+  (2, 0, 1)  x4
+  (2, 1, 0)  x2
+detailed split:
+  v=31  type=(1, 0, 2)  neigh_dists=(4, 6, 6)  fiber=1  zero_mass=0.358669
+  v=34  type=(1, 0, 2)  neigh_dists=(4, 6, 6)  fiber=0  zero_mass=0.414550
+  v= 9  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=0  zero_mass=0.423035
+  v=12  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=8  zero_mass=0.487568
+  v=13  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=5  zero_mass=0.471726
+  v=25  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=8  zero_mass=0.453156
+  v=41  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=11  zero_mass=0.431390
+  v=42  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=10  zero_mass=0.246351
+  v=52  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=12  zero_mass=0.428510
+  v=57  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=11  zero_mass=0.423035
+  v=27  type=(1, 2, 0)  neigh_dists=(4, 5, 5)  fiber=6  zero_mass=0.580577
+  v=50  type=(1, 2, 0)  neigh_dists=(4, 5, 5)  fiber=13  zero_mass=0.445280
+  v= 7  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=6  zero_mass=0.440749
+  v=21  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=8  zero_mass=0.440749
+  v=24  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=7  zero_mass=0.422298
+  v=55  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=10  zero_mass=0.422298
+  v=15  type=(2, 1, 0)  neigh_dists=(4, 4, 5)  fiber=7  zero_mass=0.445280
+  v=16  type=(2, 1, 0)  neigh_dists=(4, 4, 5)  fiber=9  zero_mass=0.403931
+
+layer 6  size=6
+type counts:
+  (2, 1, 0)  x2
+  (3, 0, 0)  x4
+detailed split:
+  v=26  type=(2, 1, 0)  neigh_dists=(5, 5, 6)  fiber=7  zero_mass=0.487568
+  v=51  type=(2, 1, 0)  neigh_dists=(5, 5, 6)  fiber=13  zero_mass=0.246351
+  v= 0  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=0  zero_mass=0.408248
+  v=37  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=2  zero_mass=0.457197
+  v=39  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=3  zero_mass=0.340015
+  v=49  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=14  zero_mass=0.408248
+
+================================================================================
+ROOT 1
+================================================================================
+
+layer 0  size=1
+type counts:
+  (0, 0, 3)  x1
+
+layer 1  size=3
+type counts:
+  (1, 0, 2)  x3
+
+layer 2  size=6
+type counts:
+  (1, 0, 2)  x6
+
+layer 3  size=11
+type counts:
+  (1, 0, 2)  x10
+  (2, 0, 1)  x1
+detailed split:
+  v= 3  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=3  zero_mass=0.340015
+  v= 4  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=4  zero_mass=0.440187
+  v=32  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=9  zero_mass=0.431390
+  v=33  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=0  zero_mass=0.471726
+  v=37  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=2  zero_mass=0.457197
+  v=38  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=5  zero_mass=0.269557
+  v=40  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=10  zero_mass=0.412441
+  v=41  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=11  zero_mass=0.431390
+  v=45  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=12  zero_mass=0.661050
+  v=46  type=(1, 0, 2)  neigh_dists=(2, 4, 4)  fiber=13  zero_mass=0.457197
+  v=58  type=(2, 0, 1)  neigh_dists=(2, 2, 4)  fiber=14  zero_mass=0.236029
+
+layer 4  size=15
+type counts:
+  (1, 0, 2)  x10
+  (2, 0, 1)  x4
+  (3, 0, 0)  x1
+detailed split:
+  v=11  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=7  zero_mass=0.580577
+  v=12  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=8  zero_mass=0.487568
+  v=21  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=8  zero_mass=0.440749
+  v=24  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=7  zero_mass=0.422298
+  v=27  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=6  zero_mass=0.580577
+  v=29  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=4  zero_mass=0.518862
+  v=34  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=0  zero_mass=0.414550
+  v=49  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=14  zero_mass=0.408248
+  v=50  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=13  zero_mass=0.445280
+  v=53  type=(1, 0, 2)  neigh_dists=(3, 5, 5)  fiber=12  zero_mass=0.622069
+  v= 8  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=3  zero_mass=0.622069
+  v=15  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=7  zero_mass=0.445280
+  v=55  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=10  zero_mass=0.422298
+  v=56  type=(2, 0, 1)  neigh_dists=(3, 3, 5)  fiber=11  zero_mass=0.518862
+  v=54  type=(3, 0, 0)  neigh_dists=(3, 3, 3)  fiber=10  zero_mass=0.595173
+
+layer 5  size=18
+type counts:
+  (1, 0, 2)  x2
+  (1, 1, 1)  x8
+  (1, 2, 0)  x2
+  (2, 0, 1)  x4
+  (2, 1, 0)  x2
+detailed split:
+  v=10  type=(1, 0, 2)  neigh_dists=(4, 6, 6)  fiber=6  zero_mass=0.661050
+  v=13  type=(1, 0, 2)  neigh_dists=(4, 6, 6)  fiber=5  zero_mass=0.471726
+  v= 6  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=5  zero_mass=0.459527
+  v=17  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=4  zero_mass=0.612620
+  v=22  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=5  zero_mass=0.403931
+  v=23  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=2  zero_mass=0.445280
+  v=25  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=8  zero_mass=0.453156
+  v=26  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=7  zero_mass=0.487568
+  v=39  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=3  zero_mass=0.340015
+  v=44  type=(1, 1, 1)  neigh_dists=(4, 5, 6)  fiber=12  zero_mass=0.440187
+  v=36  type=(1, 2, 0)  neigh_dists=(4, 5, 5)  fiber=1  zero_mass=0.428510
+  v=42  type=(1, 2, 0)  neigh_dists=(4, 5, 5)  fiber=10  zero_mass=0.246351
+  v= 9  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=0  zero_mass=0.423035
+  v=19  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=1  zero_mass=0.403114
+  v=57  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=11  zero_mass=0.423035
+  v=59  type=(2, 0, 1)  neigh_dists=(4, 4, 6)  fiber=14  zero_mass=0.556207
+  v=51  type=(2, 1, 0)  neigh_dists=(4, 4, 5)  fiber=13  zero_mass=0.246351
+  v=52  type=(2, 1, 0)  neigh_dists=(4, 4, 5)  fiber=12  zero_mass=0.428510
+
+layer 6  size=6
+type counts:
+  (2, 1, 0)  x2
+  (3, 0, 0)  x4
+detailed split:
+  v=35  type=(2, 1, 0)  neigh_dists=(5, 5, 6)  fiber=3  zero_mass=0.453156
+  v=43  type=(2, 1, 0)  neigh_dists=(5, 5, 6)  fiber=11  zero_mass=0.445280
+  v= 0  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=0  zero_mass=0.408248
+  v= 2  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=2  zero_mass=0.414550
+  v=31  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=1  zero_mass=0.358669
+  v=47  type=(3, 0, 0)  neigh_dists=(5, 5, 5)  fiber=13  zero_mass=0.358669
+
+saved /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/classify_layer_split_types.json

@@ -1,4 +1,75 @@
 \section{Introduction}
 
-Draft introduction text.
+Regular polyhedra provide natural combinatorial structures whose
+incidence relations often give rise to interesting finite graphs.
+In this paper we study a graph obtained from local transport operations
+on the flag structure of the combinatorial dodecahedron.
 
+A \emph{flag} of the dodecahedron is an incident triple
+\[
+(v,e,f)
+\]
+consisting of a vertex $v$, an edge $e$ incident to $v$, and a face
+$f$ containing $e$.  The dodecahedron contains $120$ such flags.
+Natural operations on flags arise by moving across the local incidence
+structure of the polyhedron.  In particular, vertex and face moves
+act on the flag set and generate local transport transformations.
+
+From these flags we construct a reduced set of \emph{chamber states}
+by identifying opposite configurations along each edge of the
+polyhedron.  This reduction produces $60$ states.  Two transport
+moves obtained from compositions of the vertex and face operations
+then induce adjacency relations between chamber states.  The resulting
+graph will be denoted $G_{60}$.
+
+Computational analysis shows that $G_{60}$ is a connected
+$4$-regular graph with
+\[
+|V(G_{60})| = 60, \qquad |E(G_{60})| = 120.
+\]
+
+A key structural feature of the graph is the presence of two commuting
+involutions acting on the chamber states.  These involutions generate a
+free action of the Klein four group
+\[
+V_4 \cong \mathbb{Z}_2^2
+\]
+on the vertex set of $G_{60}$.
+
+The quotient graph
+\[
+Q_{15} = G_{60}/V_4
+\]
+therefore has $15$ vertices.  We show that this graph coincides with
+the graph whose vertices correspond to opposite-edge classes of the
+dodecahedron.  Two such classes are adjacent whenever the corresponding
+edge pairs share a vertex of the polyhedron.
+
+It is a classical observation (see, for example,
+\cite{godsil_royle}) that the graph of opposite-edge classes of the
+dodecahedron is isomorphic to the line graph of the Petersen graph.
+Consequently
+\[
+Q_{15} \cong L(\mathrm{Petersen}).
+\]
+
+Thus the graph $G_{60}$ may be viewed as a regular $V_4$-cover of the
+Petersen line graph.
+
+The graph also appears in the census of tetravalent arc-transitive
+graphs as the graph AT4val[60,6] \cite{potocnik_census}.  The
+construction presented here therefore provides a direct geometric
+realization of this graph arising from transport on the
+dodecahedral flag complex.
+
+The remainder of the paper establishes this structure.
+Section~2 describes the combinatorics of the dodecahedron and its
+flag operations.  Section~3 introduces the chamber states used as
+vertices of the graph.  Section~4 defines the transport moves that
+generate $G_{60}$.  Section~5 records basic graph invariants.
+Section~6 studies the $V_4$ symmetry.  Section~7 introduces the
+quotient graph.  Section~8 defines the opposite-edge graph of the
+dodecahedron.  Section~9 identifies this graph with the line graph
+of the Petersen graph, and Section~10 describes the automorphism
+group of $G_{60}$.  The appendices provide explicit labeling
+conventions and computational verification of the results.

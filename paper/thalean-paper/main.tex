@@ -1,33 +1,90 @@
 \documentclass[11pt]{article}
 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage[draft]{graphicx}
+
+\geometry{margin=1in}
+
 \input{macros}
 \input{notation}
 
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{corollary}{Corollary}
+
+\title{
+A Dodecahedral Transport Construction of the
+Arc-Transitive Graph AT4val[60,6]
+and its Petersen Line-Graph Quotient
+}
+
+\author{
+Scott Allen Cave \\
+Matsqui Territory --- Abbotsford, BC, Canada \\
+\texttt{scott@rook.ca}
+}
+
+\date{March 2026}
+
 \begin{document}
 
-\input{frontmatter/title}
-\input{frontmatter/abstract}
+\maketitle
 
-\tableofcontents
+\begin{abstract}
+
+We construct a $60$-vertex tetravalent graph from local transport
+operations on the flag structure of the combinatorial dodecahedron.
+Starting from the $120$ flags of the polyhedron, we identify opposite
+configurations along edges to obtain $60$ chamber states. Two transport
+moves derived from vertex and face operations induce adjacency
+relations between these states, producing a connected $4$-regular graph
+$G_{60}$.
+
+The graph admits a free action of the Klein four group
+$V_4 \cong \mathbb{Z}_2 \times \mathbb{Z}_2$. The quotient graph
+$Q_{15}=G_{60}/V_4$ has $15$ vertices and is naturally identified with
+the graph of opposite-edge classes of the dodecahedron. This graph is
+isomorphic to the line graph of the Petersen graph.
+
+Consequently $G_{60}$ is a regular $V_4$-cover of
+$L(\mathrm{Petersen})$. The graph coincides with the arc-transitive
+graph $\mathrm{AT4val}[60,6]$ in the census of tetravalent graphs.
+The construction provides a direct geometric realization of this graph
+arising from transport on the dodecahedral flag complex.
+
+\end{abstract}
 
 \input{sections/introduction}
-\input{sections/dodecahedron_flags}
-\input{sections/transport_generators}
-\input{sections/petrie_transport}
-\input{sections/chamber_reduction}
-\input{sections/structural_properties}
-\input{sections/spectral_structure}
-\input{sections/antipodal_structure}
-\input{sections/graph_identification}
-\input{sections/conclusion}
+\input{sections/dodecahedron_combinatorics}
+\input{sections/chamber_states}
+\input{sections/transport_construction}
+\input{sections/graph_properties}
+\input{sections/v4_symmetry}
+\input{sections/quotient_graph}
+\input{sections/opposite_edge_graph}
+\input{sections/petersen_identification}
+\input{sections/automorphisms}
+
+\section*{Acknowledgments}
+
+The author thanks Primož Potočnik for identifying the graph
+$G_{60}$ with the census graph AT4val[60,6].
 
 \appendix
 
+\input{appendices/dodecahedron_labeling}
 \input{appendices/computational_verification}
-\input{appendices/proof_pipeline}
-\input{appendices/additional_invariants}
 
-\bibliographystyle{alpha}
+\bibliographystyle{plain}
 \bibliography{bibliography/references}
 
 \end{document}

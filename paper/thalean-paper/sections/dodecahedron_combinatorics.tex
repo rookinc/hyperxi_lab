@@ -1,0 +1,53 @@
+\section{Combinatorics of the Dodecahedron}
+\label{sec:dodec}
+
+Let $D$ denote the combinatorial dodecahedron.
+
+The dodecahedron has
+\[
+|V(D)| = 20, \qquad |E(D)| = 30, \qquad |F(D)| = 12.
+\]
+
+\subsection{Flags}
+
+A \emph{flag} is an incident triple
+\[
+(v,e,f)
+\]
+such that
+\[
+v \in e \subset f.
+\]
+
+Since every edge has two endpoints and two incident faces, the number
+of flags is
+\[
+|\mathcal{F}(D)| = 4|E(D)| = 120.
+\]
+
+\subsection{Flag Operations}
+
+Let $(v,e,f)$ be a flag.
+
+\begin{definition}
+
+\textbf{Vertex move $V$.}
+
+Let $v'$ be the other endpoint of $e$.
+
+\[
+V(v,e,f) = (v',e,f).
+\]
+
+\textbf{Face move $F$.}
+
+Let $f'$ be the other face incident to $e$.
+
+\[
+F(v,e,f) = (v,e,f').
+\]
+
+\end{definition}
+
+These operations generate the transport moves used to construct the
+graph $G_{60}$.

@@ -1,0 +1,631 @@
+Good. Then we should stop thinking like authors and start thinking like formalists.
+
+At this point there are only two acceptable standards:
+
+1. every object is explicitly defined from finite combinatorial data, and
+2. every theorem is reduced to a finite sequence of exact deductions.
+
+So let us forget “paper flow,” “motivation,” and “story,” and isolate the proof problem itself.
+
+---
+
+# The actual proof target
+
+We want a rigorous proof of the following statement.
+
+## Main theorem
+
+There exists a graph (T), defined purely from the combinatorics of the dodecahedron by explicit local transport rules on chambers, such that:
+
+* (T) has 60 vertices,
+* (T) is 4-regular,
+* (T) admits two commuting fixed-point-free involutions (a,b),
+* the quotient
+  [
+  G_{15}=T/\langle a,b\rangle
+  ]
+  is isomorphic to (L(\mathrm{Petersen})).
+
+Everything else is subordinate to this.
+
+---
+
+# What “rigorous” means here
+
+A proof is rigorous only if we can answer these questions without hand-waving:
+
+* What is the dodecahedron as a finite combinatorial object?
+* What exactly is a flag?
+* What exactly is a chamber?
+* What exactly are the maps (S,F,V)?
+* What exactly are the four neighbors of a chamber?
+* Why are they distinct?
+* Why is adjacency symmetric?
+* What exactly are the involutions (a,b)?
+* Why do they commute?
+* What exactly is the quotient set?
+* What exactly is the bijection to the 15 edges of the Petersen graph?
+* Why does adjacency match?
+
+If any one of those answers uses words like “natural,” “geometric,” “one sees,” or “computed,” then the proof is not finished.
+
+---
+
+# Phase I. Define the dodecahedron as finite data
+
+Do not start with prose. Start with a concrete finite incidence model.
+
+You need a fixed combinatorial dodecahedron
+[
+D=(V,E,F,\partial)
+]
+with:
+
+* a set (V) of 20 vertices,
+* a set (E) of 30 edges,
+* a set (F) of 12 faces,
+* for each face (f\in F), an ordered 5-cycle of boundary vertices
+  [
+  (v_0(f),v_1(f),v_2(f),v_3(f),v_4(f)),
+  ]
+* hence boundary edges
+  [
+  e_k(f)={v_k(f),v_{k+1}(f)},\qquad k\in \mathbb Z_5.
+  ]
+
+This must satisfy:
+
+* each (e\in E) lies on exactly two faces,
+* each (v\in V) lies on exactly three faces,
+* each face boundary is a 5-cycle,
+* the incidence structure is that of the dodecahedron.
+
+You may define this either:
+
+* by a literal table of faces and vertices, or
+* by a known presentation and derived incidence lists.
+
+For full rigor, a table is simplest.
+
+---
+
+# Phase II. Define flags and chambers
+
+## Definition 1. Flags
+
+A flag is a triple
+[
+(v,e,f)
+]
+with
+[
+v\in e \subset f.
+]
+
+Equivalently, in face coordinates:
+
+[
+(f,k,\epsilon),\qquad f\in F,; k\in \mathbb Z_5,; \epsilon\in{0,1},
+]
+where
+[
+e=e_k(f),\qquad
+v=
+\begin{cases}
+v_k(f) & \epsilon=0,\
+v_{k+1}(f) & \epsilon=1.
+\end{cases}
+]
+
+## Proposition 1
+
+There are exactly 120 flags.
+
+## Proof
+
+Each face contributes 5 boundary edges, and each face-edge incidence has 2 endpoint choices, so
+[
+|{\rm Flags}|=12\cdot 5\cdot 2=120.
+]
+Done.
+
+---
+
+## Definition 2. Edge-flip involution
+
+Define
+[
+S(f,k,\epsilon)=(f,k,1-\epsilon).
+]
+
+## Proposition 2
+
+(S) is a fixed-point-free involution.
+
+## Proof
+
+Immediate:
+[
+S^2(f,k,\epsilon)=(f,k,\epsilon),
+]
+and (S(f,k,\epsilon)\neq (f,k,\epsilon)) because (1-\epsilon\neq \epsilon) in ({0,1}).
+
+---
+
+## Definition 3. Chambers
+
+A chamber is an (S)-orbit:
+[
+[(f,k,\epsilon)]_S={(f,k,0),(f,k,1)}.
+]
+
+So chambers are canonically identified with pairs
+[
+(f,k)\in F\times \mathbb Z_5.
+]
+
+## Proposition 3
+
+The chamber set (C) has size 60.
+
+## Proof
+
+[
+|C|=120/2=60.
+]
+
+This part is done.
+
+---
+
+# Phase III. Define the transport maps with absolute precision
+
+This is the real heart. Until this part is perfect, there is no proof.
+
+You need exact definitions of (F) and (V).
+
+---
+
+## Definition 4. Face-step map
+
+This one is easy if we keep coordinates consistent.
+
+Given a flag ((f,k,\epsilon)), define
+[
+F(f,k,\epsilon)=(f,k',\epsilon')
+]
+to be the unique flag on the same face obtained by moving one step forward around the boundary while preserving the shared endpoint.
+
+If we use the convention
+[
+(f,k,0)=(v_k,e_k,f),\qquad (f,k,1)=(v_{k+1},e_k,f),
+]
+then the explicit formula is:
+
+[
+F(f,k,0)=(f,k-1,1),\qquad
+F(f,k,1)=(f,k+1,0),
+]
+with indices mod 5.
+
+Check:
+
+* ((f,k,0)) uses vertex (v_k) on edge (e_k),
+* the other boundary edge of (f) incident to (v_k) is (e_{k-1}),
+* in edge (e_{k-1}={v_{k-1},v_k}), the vertex (v_k) is endpoint label (1),
+  so indeed
+  [
+  F(f,k,0)=(f,k-1,1).
+  ]
+  Likewise for ((f,k,1)).
+
+This is precise and rigorous.
+
+---
+
+## Definition 5. Vertex-pivot map
+
+Now define (V).
+
+Take a flag ((f,k,\epsilon)). It specifies a vertex (v) and an edge (e=e_k(f)) incident to (v), lying in face (f).
+
+There is exactly one other face (f'\neq f) containing the edge (e).
+
+In the face (f'), the same edge appears as some boundary edge (e_{k'}(f')). Because the edge is the same, the same chosen vertex (v) is one of the endpoints of (e_{k'}(f')). Let that endpoint label be (\epsilon').
+
+Define
+[
+V(f,k,\epsilon)=(f',k',\epsilon').
+]
+
+This is rigorous provided you first prove existence and uniqueness of ((f',k',\epsilon')).
+
+## Lemma 4
+
+For every flag ((f,k,\epsilon)), there exists a unique triple ((f',k',\epsilon')) such that:
+
+* (f'\neq f),
+* (e_{k'}(f')=e_k(f)),
+* the chosen vertex in ((f',k',\epsilon')) is the same vertex as in ((f,k,\epsilon)).
+
+## Proof
+
+Each edge lies on exactly two faces, so there is a unique (f'\neq f) containing (e_k(f)). In the cyclic boundary of (f'), that edge occurs exactly once, so (k') is unique. Since the chosen vertex lies on that edge, it is one of the two endpoints, giving a unique (\epsilon').
+
+That defines (V) rigorously.
+
+---
+
+# Phase IV. Define the transport words and the chamber graph
+
+Now all words are well-defined maps on flags.
+
+Define
+[
+w_-:=FV,\qquad w_+:=VF.
+]
+
+Be careful: this means
+[
+w_-(x)=F(V(x)),\qquad w_+(x)=V(F(x)).
+]
+
+---
+
+## Definition 6. Chamber projection
+
+Define
+[
+\operatorname{ch}(f,k,\epsilon)=(f,k).
+]
+
+---
+
+## Definition 7. Chamber image sets
+
+For a chamber (c=(f,k)), define
+[
+M_-(c)=
+\left{
+\operatorname{ch}(w_-(f,k,0)),
+\operatorname{ch}(w_-(f,k,1))
+\right},
+]
+and similarly
+[
+M_+(c)=
+\left{
+\operatorname{ch}(w_+(f,k,0)),
+\operatorname{ch}(w_+(f,k,1))
+\right}.
+]
+
+---
+
+## Critical local theorem
+
+For every chamber (c),
+
+* (M_-(c)) has exactly 2 elements,
+* (M_+(c)) has exactly 2 elements,
+* (M_-(c)\cap M_+(c)=\varnothing).
+
+This is the theorem that must replace all vague discussion.
+
+And there is only one rigorous way to prove it:
+
+### Method
+
+Take an arbitrary chamber ((f,k)), compute:
+
+[
+F(V(f,k,0)),\quad F(V(f,k,1)),\quad
+V(F(f,k,0)),\quad V(F(f,k,1)),
+]
+then project to chambers and compare.
+
+Because the dodecahedron is finite, you can do this uniformly if you derive symbolic formulas, or case-by-case from the incidence table. Either is rigorous.
+
+If symbolic formulas are messy, a complete finite case analysis is completely acceptable.
+
+---
+
+# Phase V. Define the graph (T)
+
+## Definition 8. Thalean graph
+
+Let (T) be the simple graph with vertex set (C), where (c\sim d) iff
+[
+d\in M_-(c)\cup M_+(c).
+]
+
+To prove this is a well-defined simple 4-regular graph, you must show:
+
+1. each vertex has exactly 4 distinct neighbors,
+2. adjacency is symmetric,
+3. no loops occur.
+
+---
+
+## Proposition 5
+
+(T) has 60 vertices and degree 4.
+
+## Proof
+
+The vertex count is already established. Degree 4 follows from the critical local theorem above.
+
+---
+
+## Proposition 6
+
+Adjacency is symmetric.
+
+## Proof strategy
+
+You must show:
+[
+d\in M_-(c)\cup M_+(c)\implies c\in M_-(d)\cup M_+(d).
+]
+
+There are two clean routes.
+
+### Route A: explicit inverse words
+
+If you can identify the inverses of (FV) and (VF) at the chamber level, prove symmetry directly.
+
+### Route B: use the explicit computed neighbor formula
+
+If you compute a closed chamber-neighbor formula
+[
+(f,k)\mapsto {N_1(f,k),N_2(f,k),N_3(f,k),N_4(f,k)},
+]
+then symmetry becomes a finite verification.
+
+That is perfectly rigorous.
+
+---
+
+## Proposition 7
+
+(T) has 120 edges.
+
+## Proof
+
+Handshake lemma:
+[
+|E(T)|=\frac{60\cdot 4}{2}=120.
+]
+
+---
+
+# Phase VI. Build the involutions (a) and (b)
+
+Here we need to be careful.
+
+If you do not yet have explicit coordinate formulas for these maps, then you do **not** yet have a purely internal proof. You only have a computational fact.
+
+That is fine for now, but then we must be honest:
+
+* the chamber graph construction can be made fully rigorous now,
+* the automorphism structure still depends on either explicit formulas or exhaustive finite verification.
+
+There are two legitimate options.
+
+---
+
+## Option 1. Purely internal proof
+
+Derive (a) and (b) from the chamber coordinates.
+
+For example, if there is a coordinate operation on ((f,k)) corresponding to antipodal face or Petrie complement, write it down and prove it preserves adjacency.
+
+This is the best-case scenario.
+
+---
+
+## Option 2. Finite certified proof
+
+Because (T) is finite, you may define (a) and (b) by explicit lookup tables on the 60 chambers.
+
+That is still mathematically rigorous.
+
+A 60-line table is ugly, but it is proof.
+
+Then prove:
+
+* (a(c)\neq c), (a^2(c)=c),
+* (b(c)\neq c), (b^2(c)=c),
+* (a(b(c))=b(a(c))),
+* if (c\sim d), then (a(c)\sim a(d)) and (b(c)\sim b(d)).
+
+That is exact, finite, checkable mathematics.
+
+If elegance is temporarily irrelevant, this is a valid route.
+
+---
+
+# Phase VII. Form the quotient (G_{15})
+
+Once (a) and (b) are defined, let
+[
+H=\langle a,b\rangle.
+]
+
+If both are commuting involutions and neither is identity, then
+[
+H\cong \mathbb Z_2^2.
+]
+
+To get the quotient rigorously, define:
+
+## Definition 9
+
+[
+G_{15}:=T/H,
+]
+the graph whose vertices are (H)-orbits in (V(T)), with orbit adjacency induced from (T).
+
+You must prove:
+
+* the action is free,
+* every orbit has size 4,
+* therefore there are (60/4=15) quotient vertices.
+
+If the action is free, this is immediate.
+
+---
+
+# Phase VIII. Prove (G_{15}\cong L(\mathrm{Petersen}))
+
+This is where the proof must become explicit.
+
+There are two rigorous routes.
+
+---
+
+## Route A. Explicit isomorphism
+
+Best route.
+
+Construct the Petersen graph (P) explicitly, for example as the Kneser graph (KG(5,2)), or via its usual 10-vertex model.
+
+Then define a bijection
+[
+\phi:V(G_{15})\to E(P).
+]
+
+This means:
+
+* list the 15 quotient vertices,
+* assign each one to one of the 15 edges of (P),
+* prove
+  [
+  x\sim y \text{ in } G_{15}
+  \iff
+  \phi(x),\phi(y)\text{ share an endpoint in }P.
+  ]
+
+That is a complete proof.
+
+If needed, this can again be done as a finite table.
+
+Since there are only 15 vertices, this is very manageable.
+
+---
+
+## Route B. Characterization theorem
+
+Show (G_{15}) is isomorphic to the unique graph with certain invariants known to characterize (L(\mathrm{Petersen})).
+
+I do **not** recommend relying on this unless you have a clean citation and a genuine uniqueness statement. Otherwise it is weaker than an explicit bijection.
+
+So use Route A.
+
+---
+
+# What we can prove now, and what still needs real work
+
+## Already straightforward
+
+These are easy to make fully rigorous now:
+
+* flag definition,
+* chamber definition,
+* exact formula for (S),
+* exact formula for (F),
+* exact definition of (V) from incidence data,
+* definition of (w_\pm),
+* definition of chamber image sets,
+* definition of (T),
+* vertex count and edge count once local distinctness is proved.
+
+## Needs serious explicit work
+
+These are the real proof tasks:
+
+1. compute and prove the local four-neighbor structure,
+2. derive or tabulate the involutions (a,b),
+3. construct the explicit isomorphism (G_{15}\to L(\mathrm{Petersen})).
+
+That is the actual mathematical labor.
+
+---
+
+# The cleanest rigorous strategy from here
+
+If you truly do not care about elegance, the fastest path to full rigor is this:
+
+## Step 1
+
+Fix a concrete labeled dodecahedron by a face-vertex incidence table.
+
+## Step 2
+
+Define flags and chambers exactly.
+
+## Step 3
+
+Define (S,F,V) exactly from the table.
+
+## Step 4
+
+Compute all 60 chamber neighborhoods explicitly.
+
+That gives a complete definition of (T).
+
+## Step 5
+
+Write (a) and (b) as explicit permutations of the 60 chambers.
+
+## Step 6
+
+Write the 15 quotient orbits explicitly.
+
+## Step 7
+
+Write an explicit bijection from the 15 quotient orbits to the 15 edges of the Petersen graph.
+
+## Step 8
+
+Check adjacency explicitly.
+
+At that point the theorem is proved, with no prose-dependent ambiguity anywhere.
+
+It may be ugly, but it is watertight.
+
+---
+
+# The key philosophical shift
+
+Do not try to prove the theorem from “geometric meaning.”
+
+Prove it from **finite combinatorial data**.
+
+The geometry can be rediscovered afterward.
+
+Right now the correct object is not:
+
+> a beautiful transport intuition
+
+but:
+
+> a fully specified finite structure with exact maps and exact quotient relations.
+
+---
+
+# My recommendation for the immediate next move
+
+The next task is not another theorem statement.
+
+It is to produce the **foundational definition block** in exact form:
+
+* a concrete labeled dodecahedron,
+* explicit formulas for (F),
+* explicit definition of (V),
+* explicit computation of (M_-(f,k)) and (M_+(f,k)).
+
+Once that exists, everything downstream becomes a finite proof problem.
+
+If you want, I’ll do the next step as a formal math document: a fully explicit “Definition–Lemma–Proof” development starting from a labeled dodecahedron and carrying the construction through to the complete chamber adjacency rule.
+

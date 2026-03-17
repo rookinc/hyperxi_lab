@@ -1,131 +1,106 @@
 \section{Geometric Interpretation}
 
-We interpret the transport construction geometrically, with particular
-attention to the relationship between the cocycle, the lifted transport,
-and the sector configuration on $\Gfifteen$.
+We now interpret the transport construction geometrically, with
+particular attention to the relation between the lifted transport, the
+cocycle, and the induced sector system on $\Gfifteen$.
 
 \subsection{Two kinds of structure on the core}
 
 The quotient graph $\Gfifteen \cong L(\mathrm{Petersen})$ carries two
 distinct structures arising from transport:
+
 \begin{itemize}
-\item a $\mathbb{Z}_2$-valued cocycle $\varepsilon$ on edges,
-\item a family of $15$ transport sectors, one associated to each vertex.
+\item a $\ZZtwo$-valued cocycle $\varepsilon$ on edges;
+\item a family of transport sectors, one associated to each vertex.
 \end{itemize}
 
-The cocycle is sparse after switching reduction, while the sector system
-is highly distributed.
+These arise from the same transport system but encode different kinds of
+information.
 
 \subsection{Geometric origin of the cocycle}
 
 Via the identification of $\Gfifteen$ with the graph of opposite-edge
 classes of the dodecahedron, each vertex corresponds to a pair of
-antipodal edges, and each vertex of $G_{30}$ selects one of the two.
+opposite edges, and each vertex of $\Gthirty$ selects one of the two
+actual dodecahedral edges in that pair.
 
 An edge of $\Gfifteen$ lifts to two relations between such edges. Each
 relation is either:
+
 \begin{itemize}
-\item \emph{local}: the two edges share a vertex and lie on a common face,
-\item \emph{nonlocal}: the two edges are neither incident nor cofacial and
-are not opposite.
+\item \emph{local}: the two edges share a vertex and lie on a common face;
+\item \emph{nonlocal}: the two edges are neither incident nor cofacial,
+and are not opposite.
 \end{itemize}
 
-Empirically, each edge of $\Gfifteen$ yields either $(LL)$ or $(NN)$, and
-the cocycle records this dichotomy.
+For each edge of $\Gfifteen$, the two lifted relations are uniformly of
+type $(LL)$ or $(NN)$, and the cocycle $\varepsilon$ records this
+dichotomy.
 
 Thus the cocycle measures whether transport across an edge is
 geometrically local or nonlocal in the dodecahedral model. Equivalently,
 it records whether the lifted transport preserves or swaps sheet.
 
-\subsection{The cocycle support}
+\subsection{Loop holonomy}
 
-Let
+The natural geometric observable for the cocycle is loop holonomy. For a
+cycle $C\subset \Gfifteen$,
 \[
-S = \{ e \in E(\Gfifteen) : \varepsilon(e) = 1 \}.
+\omega(C)=\sum_{e\in C}\varepsilon(e)\pmod 2
+\]
+records whether lifted transport around $C$ returns to the original
+sheet or to the opposite sheet.
+
+In particular, the cocycle is detected at the level of loops rather than
+by purely local edge data. This is consistent with its cohomological
+interpretation as an obstruction to trivializing the double cover
+$\Gthirty\to\Gfifteen$.
+
+\subsection{The sector system}
+
+Independently of the cocycle, the transport construction also produces a
+family of sectors on $\Gfifteen$, and hence a sector--edge incidence
+matrix
+\[
+M.
 \]
 
-Before switching reduction, the cocycle support occupies a connected
-$14$-edge subgraph. Its vertex-incidence profile is nonuniform: five
-vertices have incidence count $4$, eight vertices have incidence count
-$1$, and two vertices do not occur at all.
+This sector system gives rise to a rigid overlap geometry whose
+quadratic structure is governed by the adjacency algebra of
+$\Gfifteen$. After centering and normalization, one obtains a spherical
+configuration whose inner products depend only on graph distance.
 
-This shows that the cocycle selects a distinguished global region of the
-core which is invisible at the level of local graph structure.
+Thus the transport system yields not only a loop-level obstruction, but
+also a global incidence geometry on the Petersen line-graph core.
 
-\subsection{The sector geometry}
+\subsection{Separation of roles}
 
-Independently, the transport sectors define a $15\times 30$ incidence
-matrix $M$, whose centered row vectors produce a spherical
-configuration.
-
-The centered inner products depend only on graph distance in
-$\Gfifteen$ and take exactly three values:
-\[
-2.4666666667,\qquad -1.5333333333,\qquad -2.5333333333,
-\]
-corresponding to distances
-\[
-1,\qquad 2,\qquad 3.
-\]
-
-After normalization, the corresponding cosines are
-\[
-0.3303571429,\qquad -0.2053571429,\qquad -0.3392857143.
-\]
-
-Thus the sector system realizes a rigid three-angle spherical
-configuration in the nontrivial adjacency module.
-
-\subsection{Relation between cocycle and sectors}
-
-The cocycle and the sector geometry arise from the same transport system
-but capture different aspects of it.
+The cocycle and the sector system arise from the same transport
+construction, but they play different roles.
 
 \begin{itemize}
-\item The cocycle records a binary obstruction: whether transport across
-an edge is local or nonlocal, equivalently whether it preserves or flips
-sheet in the lift.
+\item The cocycle is a $\ZZtwo$-valued holonomy invariant, detected by
+cycles and interpreted cohomologically.
 
-\item The sector system records higher-order overlap structure: how
-transport neighborhoods intersect globally across the core.
+\item The sector system encodes a global overlap geometry whose
+quadratic observables depend only on the induced incidence structure.
 \end{itemize}
 
-The sector identity
-\[
-MM^{\mathsf T} = A^3 + 2A^2 + 2I
-\]
-shows that the spherical configuration depends only on graph distance,
-while the cocycle distinguishes edges which are otherwise identical at
-the level of $\Gfifteen$.
+Accordingly, the cocycle should be understood as a loop-level transport
+obstruction, while the sector system captures the large-scale geometry of
+transport neighborhoods.
 
-\subsection{Nonlocality and emergence}
+\subsection{Interpretive consequence}
 
-The cocycle is not a function of the intrinsic graph structure of
-$\Gfifteen$ alone. It arises only after lifting to $G_{30}$ and resolving
-the lifted transport in the dodecahedral geometry.
+The dodecahedral transport system therefore exhibits two complementary
+layers of structure on $\Gfifteen$:
 
-By contrast, the sector configuration is already visible in the induced
-incidence algebra on $\Gfifteen$.
-
-Thus the transport system exhibits two layers of structure:
 \begin{itemize}
-\item a hidden $\mathbb{Z}_2$-valued obstruction detected only through
-the lift,
-\item a continuous spherical geometry emerging from global incidence.
+\item a hidden $\ZZtwo$-valued obstruction visible through lifted loop
+holonomy;
+\item a rigid global geometry emerging from sector incidence.
 \end{itemize}
 
-\subsection{Relation to known graphs}
-
-The graph $\Gsixty$ is a connected tetravalent graph on $60$ vertices
-with diameter $6$, matching the standard identifier
-\[
-\mathrm{AT4val}[60,6].
-\]
-
-The significance of the present construction is not merely that it
-recovers this graph, but that it equips it with:
-\begin{itemize}
-\item a canonical signed-lift structure over the Petersen core,
-\item a geometrically defined transport cocycle,
-\item and a rigid spherical sector geometry.
-\end{itemize}
+The first is topological in character, while the second is metric and
+algebraic. Their coexistence is one of the distinguishing features of
+the transport construction.

@@ -7,7 +7,7 @@ verified by deterministic computation.
 
 A computational pipeline was implemented to construct the graphs
 $\Gsixty$, $\Gthirty$, and $\Gfifteen$, compute transport invariants,
-and verify all structural and algebraic claims stated in this paper.
+and verify the structural and algebraic claims stated in this paper.
 
 All computations are based on explicit combinatorial data derived from
 the dodecahedral flag structure and are reproducible from the provided
@@ -21,33 +21,33 @@ $\Gthirty$ and $\Gfifteen$.
 
 The following properties are verified:
 \begin{itemize}
-\item $\Gsixty$: $60$ vertices, $120$ edges, $4$-regular,
-\item $\Gthirty$: $30$ vertices, $60$ edges, $4$-regular,
-\item $\Gfifteen$: $15$ vertices, $30$ edges, $4$-regular,
-\item all graphs are connected,
-\item each quotient map is a $2$-fold covering.
+\item $\Gsixty$: $60$ vertices, $120$ edges, $4$-regular;
+\item $\Gthirty$: $30$ vertices, $60$ edges, $4$-regular;
+\item $\Gfifteen$: $15$ vertices, $30$ edges, $4$-regular;
+\item all three graphs are connected;
+\item each quotient map is a regular $2$-fold covering.
 \end{itemize}
 
 \subsection{Identification of $\Gfifteen$}
 
 The graph $\Gfifteen$ is verified to be isomorphic to the line graph of
 the Petersen graph by explicit graph isomorphism testing against a
-canonical construction derived from opposite edge-pairs of the
+canonical construction derived from opposite-edge pairs of the
 dodecahedron.
 
 \subsection{Extraction of the transport cocycle}
 
 The Thalean cocycle is computed directly from the lifted adjacency in
-the covering $G_{30} \to G_{15}$.
+the covering $\Gthirty \to \Gfifteen$.
 
-For each edge $e=\{x,y\}\in E(G_{15})$, the two lifted edges between the
-fibers $\pi^{-1}(x)$ and $\pi^{-1}(y)$ are identified. These lifted edges
-are pushed to the canonical dodecahedral opposite-edge model, where each
-pair is classified as either:
+For each edge $e=\{x,y\}\in E(\Gfifteen)$, the two lifted edges between
+the fibers $\pi^{-1}(x)$ and $\pi^{-1}(y)$ are identified. These lifted
+edges are pushed to the canonical dodecahedral opposite-edge model,
+where each pair is classified as either
 
 \begin{itemize}
-\item local (sharing a vertex and face), or
-\item nonlocal (neither incident nor cofacial and not opposite).
+\item local, meaning that the corresponding edges share a vertex and a face; or
+\item nonlocal, meaning that they are neither incident nor cofacial and are not opposite.
 \end{itemize}
 
 It is verified that only the patterns $(LL)$ and $(NN)$ occur, and the
@@ -62,8 +62,8 @@ cocycle value is assigned accordingly:
 
 \subsection{Edge sign distribution}
 
-The induced signed edge function on $\Gfifteen$ is computed explicitly.
-In the representative gauge used for tabulation, the distribution is:
+The induced cocycle on $\Gfifteen$ is computed explicitly. In the
+representative gauge used for tabulation, the distribution is
 \[
 10 \text{ edges with } \varepsilon=0,\qquad
 20 \text{ edges with } \varepsilon=1.
@@ -73,56 +73,56 @@ In the representative gauge used for tabulation, the distribution is:
 
 Cycle holonomy is verified directly.
 
-For cycles $C \subset \Gfifteen$, the parity
+For cycles $C\subset \Gfifteen$, the parity
 \[
 \omega(C)=\sum_{e\in C}\varepsilon(e)\pmod 2
 \]
-is computed and compared against lifted transport in $G_{30}$.
+is computed and compared against lifted transport in $\Gthirty$.
 
-It is verified that:
+It is verified that
 \begin{itemize}
-\item $\omega(C)=0$ if and only if the lifted walk closes on the same sheet,
+\item $\omega(C)=0$ if and only if the lifted walk closes on the same sheet;
 \item $\omega(C)=1$ if and only if the lifted walk returns on the opposite sheet.
 \end{itemize}
 
-In particular, pentagonal cycles split into trivial and nontrivial
-holonomy classes.
+In particular, Petrie cycles occur with both trivial and nontrivial
+holonomy, providing a direct computational witness of the nontriviality
+of the cocycle.
 
 \subsection{Cohomological classification}
 
-All vertex switchings (with one vertex fixed to remove global symmetry)
+All vertex switchings, with one vertex fixed to remove global symmetry,
 are enumerated. The following are verified:
 \begin{itemize}
-\item the cocycle is not cohomologous to the trivial cocycle,
-\item no switching eliminates all nontrivial edges,
-\item the minimal support size is $6$,
+\item the cocycle is not cohomologous to the trivial cocycle;
+\item no switching eliminates all nontrivial edges;
+\item the minimal support size is $6$;
 \item exactly $40$ distinct minimal supports of size $6$ occur in the
 gauge-fixed search.
 \end{itemize}
 
 \subsection{Sector incidence identity}
 
-The sector--edge incidence matrix $M$ is constructed explicitly.
-The identity
+The sector--edge incidence matrix $M$ is constructed explicitly. The identity
 \[
-MM^{\mathsf T} = A^3 + 2A^2 + 2I
+M M^{\mathsf T} = A^3 + 2A^2 + 2I
 \]
 is verified by direct matrix computation.
 
 \subsection{Implementation notes}
 
-The transport cocycle and holonomy verification are implemented via
+The transport cocycle and holonomy verification are implemented through
 explicit scripts operating on the graph data, including:
 
 \begin{itemize}
-\item construction of the antipodal quotients,
-\item identification with the canonical dodecahedral model,
-\item classification of lifted edge relations as local or nonlocal,
+\item construction of the antipodal quotients;
+\item identification with the canonical dodecahedral model;
+\item classification of lifted edge relations as local or nonlocal;
 \item cycle enumeration and holonomy testing.
 \end{itemize}
 
 \subsection{Reproducibility}
 
 All data files, scripts, and outputs required to reproduce these
-computations are included in the repository. Details of the computational
-pipeline are provided in Appendices~D and~E.
+computations are included in the repository. Details of the
+computational pipeline are provided in Appendices~D and~E.

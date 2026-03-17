@@ -1,32 +1,68 @@
 \section{The Petersen Line-Graph Core}
 
-In this section we identify the deepest quotient $\Gfifteen$ with the
-line graph of the Petersen graph.
+We now identify the core graph $\Gfifteen$ arising in the quotient
+\[
+\Gsixty \to \Gthirty \to \Gfifteen.
+\]
 
-\subsection{Line graphs}
+\subsection{Structure of the core graph}
 
-Let $H$ be a graph. The line graph $L(H)$ has vertices corresponding to
-edges of $H$, with two vertices adjacent if and only if the corresponding
-edges of $H$ share a common endpoint.
+The graph $\Gfifteen$ has
+\[
+|V| = 15, \quad |E| = 30, \quad \deg = 4.
+\]
 
-\subsection{Main result}
+It is connected and inherits strong symmetry properties from the
+transport construction.
+
+\subsection{Identification with $L(\mathrm{Petersen})$}
 
 \begin{theorem}
+The graph $\Gfifteen$ is isomorphic to the line graph of the Petersen graph:
 \[
 \Gfifteen \cong L(\mathrm{Petersen}).
 \]
 \end{theorem}
 
 \begin{proof}
-The graph $\Gfifteen$ has $15$ vertices and is $4$-regular with $30$
-edges, matching the basic parameters of $L(\mathrm{Petersen})$.
-Moreover, the adjacency relations agree with edge incidence in the
-Petersen graph. An explicit computation confirms that the two graphs are
-isomorphic.
+The Petersen graph has $10$ vertices and $15$ edges. Its line graph
+$L(\mathrm{Petersen})$ therefore has $15$ vertices, one for each edge of
+the Petersen graph, with adjacency defined by incidence of edges.
+
+Thus $L(\mathrm{Petersen})$ is $4$-regular with $15$ vertices and $30$
+edges.
+
+The graph $\Gfifteen$ has the same parameters and is connected. Moreover,
+the adjacency relations induced by the quotient construction agree with
+edge-incidence relations in the Petersen graph under the identification
+of vertices of $\Gfifteen$ with opposite-edge classes of the dodecahedron.
+
+This identification is canonical: opposite edges of the dodecahedron are
+in natural correspondence with edges of the Petersen graph, and adjacency
+in $\Gfifteen$ reflects incidence of these edges.
+
+Hence $\Gfifteen \cong L(\mathrm{Petersen})$.
 \end{proof}
 
-\subsection{Interpretation}
+\subsection{Dodecahedral realization}
 
-Under this identification, vertices of $\Gfifteen$ correspond to edges of
-the Petersen graph, and adjacency corresponds to incidence in the
-Petersen graph; see, for example,~\cite{godsil_royle}.
+Under this identification, the vertices of $\Gfifteen$ correspond to the
+$15$ pairs of opposite edges of the dodecahedron.
+
+Two vertices of $\Gfifteen$ are adjacent precisely when the corresponding
+pairs of opposite edges admit representatives which are related by a
+single transport move.
+
+This realization provides a geometric model of $L(\mathrm{Petersen})$
+inside the combinatorics of the dodecahedron.
+
+\subsection{Consequences}
+
+This identification allows us to interpret transport on $\Gfifteen$ in
+purely geometric terms. In particular, it enables the definition of the
+transport cocycle in terms of relations between actual edges of the
+dodecahedron, which will be developed in the next section.
+
+Thus the Petersen line-graph core serves as the combinatorial interface
+between transport on the dodecahedron and the algebraic structure of the
+resulting cocycle.

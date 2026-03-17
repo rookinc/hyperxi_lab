@@ -1,19 +1,19 @@
 \section{Spherical Sector Geometry}
 
-\subsection{Centering and Normalization}
+\subsection{Centering and normalization}
 
 Let $\mathbf{1}$ denote the all-ones vector and define
 \[
-M_c = M - \frac{14}{30}\,\mathbf{1}\mathbf{1}^T.
+M_c = M - \frac{14}{30}\,\mathbf{1}\mathbf{1}^{\mathsf T}.
 \]
 
 Then the rows of $M_c$ lie in the $14$-dimensional subspace orthogonal to
-$\mathbf{1}$. Normalize:
+$\mathbf{1}$. Normalize by setting
 \[
 \widetilde{M}_v = \frac{(M_c)_v}{\|(M_c)_v\|}.
 \]
 
-\subsection{Three-Angle Structure}
+\subsection{Three-angle structure}
 
 \begin{theorem}[Exact three-angle structure]
 The vectors $\{\widetilde{M}_v\}$ form a spherical configuration in
@@ -23,12 +23,12 @@ More precisely, if $u \neq v$, then
 \langle \widetilde{M}_u, \widetilde{M}_v \rangle
 =
 \begin{cases}
-\frac{37}{112} & \text{if } d(u,v)=1, \\
--\frac{23}{112} & \text{if } d(u,v)=2, \\
+\frac{37}{112} & \text{if } d(u,v)=1, \\[4pt]
+-\frac{23}{112} & \text{if } d(u,v)=2, \\[4pt]
 -\frac{38}{112} & \text{if } d(u,v)=3,
 \end{cases}
 \]
-where $d(u,v)$ denotes graph distance in $G_{15}$.
+where $d(u,v)$ denotes graph distance in $\Gfifteen$.
 \end{theorem}
 
 \begin{proof}
@@ -36,10 +36,16 @@ Let
 \[
 B := M M^{\mathsf T} = A^3 + 2A^2 + 2I,
 \]
-where $A$ is the adjacency matrix of $G_{15}\cong L(\mathrm{Petersen})$.
+where $A$ is the adjacency matrix of
+\[
+\Gfifteen \cong L(\mathrm{Petersen}).
+\]
 
-Since $G_{15}$ is distance-regular with intersection array
-$\{4,2,1;1,1,4\}$, its distance matrices $D_0,D_1,D_2,D_3$ satisfy
+Since $\Gfifteen$ is distance-regular with intersection array
+\[
+\{4,2,1;1,1,4\},
+\]
+its distance matrices $D_0,D_1,D_2,D_3$ satisfy
 \[
 A^2 = 4D_0 + D_1 + D_2,
 \qquad
@@ -66,7 +72,11 @@ Then the centered Gram matrix is
 \[
 HBH = B - \frac{98}{15}J.
 \]
-Using $J = D_0 + D_1 + D_2 + D_3$, we obtain
+Using
+\[
+J = D_0 + D_1 + D_2 + D_3,
+\]
+we obtain
 \[
 HBH
 =
@@ -89,16 +99,20 @@ D_0
 which yields the stated inner products.
 \end{proof}
 
-\subsection{Geometric Interpretation}
+\subsection{Geometric interpretation}
 
-The embedding $v \mapsto \widetilde{M}_v$ realizes $G_{15}$ as a rigid
-spherical three-angle configuration in $\mathbb{R}^{14}$.
+The embedding
+\[
+v \longmapsto \widetilde{M}_v
+\]
+realizes $\Gfifteen$ as a rigid spherical three-angle configuration in
+$\mathbb{R}^{14}$.
 
 The three inner products correspond exactly to graph distances
-$1,2,3$, showing that the geometry is completely determined by the
-adjacency structure.
+$1,2,3$, showing that this geometry is completely determined by the
+quadratic overlap structure of the transport sectors.
 
-\subsection{Geometric Realization of the Representation}
+\subsection{Geometric realization of the cubic representation}
 
 This embedding is the geometric realization of the cubic Thalean
 representation. The polynomial identity
@@ -106,4 +120,7 @@ representation. The polynomial identity
 M M^{\mathsf T} = p(A)
 \]
 translates directly into metric relations in the embedding, making the
-geometry canonical.
+sector geometry canonical at the quadratic level.
+
+As discussed in Section~11, this spherical geometry depends only on the
+sector incidence structure and does not by itself detect the cocycle.

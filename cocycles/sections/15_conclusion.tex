@@ -1,42 +1,48 @@
 \section{Conclusion}
 
 We have constructed a transport system on the flag space of the
-dodecahedron, producing a $60$-vertex chamber graph $G_{60}$ with
+dodecahedron, producing a $60$-vertex chamber graph $\Gsixty$ with
 successive quotients
 \[
-G_{60} \to G_{30} \to G_{15},
+\Gsixty \to \Gthirty \to \Gfifteen,
 \]
-where $G_{15} \cong L(\mathrm{Petersen})$.
+where
+\[
+\Gfifteen \cong L(\mathrm{Petersen}).
+\]
 
-The lifted transport induces a canonical $\mathbb{Z}_2$-valued cocycle on
-$G_{15}$, realized as a signed $2$-lift, whose minimal support has size $6$
-and which cannot be recovered from local combinatorial data. This cocycle
-records the holonomy of transport and represents a nontrivial class in
-$H^1(G_{15},\mathbb{Z}_2)$.
+The lifted transport induces a canonical $\ZZtwo$-valued cocycle on
+$\Gfifteen$, realized through the double cover
+\[
+\Gthirty \to \Gfifteen.
+\]
+This cocycle has minimal support size $6$, cannot be recovered from local
+combinatorial data on the core graph, and represents a nontrivial class in
+\[
+H^1(\Gfifteen,\ZZtwo).
+\]
+Its natural observable is loop holonomy: nontrivial cycles detect the
+failure of lifted transport to close on the same sheet.
 
-From the same transport mechanism we derive an algebraic identity
+From the same transport mechanism we also derive the sector identity
 \[
 M M^{\mathsf T} = A^3 + 2A^2 + 2I,
 \]
-relating the sector--edge incidence operator to the adjacency algebra.
-After centering and normalization, this yields a spherical embedding of
-$G_{15}$ in $\mathbb{R}^{14}$ with exactly three distinct inner products.
+relating the sector--edge incidence operator to the adjacency algebra of
+$\Gfifteen$. After centering and normalization, this yields a spherical
+embedding of $\Gfifteen$ in $\mathbb{R}^{14}$ with exactly three distinct
+inner products.
 
-These two structures are not independent: they arise from the same lifted
-transport and reflect two aspects of a single phenomenon. The cocycle
-captures the discrete holonomy of transport, while the sector system
-encodes its global incidence geometry and spectral footprint.
+These two structures arise from the same transport system but play
+different roles. The cocycle captures a cohomological obstruction visible
+through lifted loop holonomy, while the sector system encodes a rigid
+quadratic incidence geometry on the core graph.
 
-Taken together, they show that local transport rules on a combinatorial
-polyhedron can force both nontrivial cohomology and rigid geometric
-realizations on associated quotient graphs.
+Taken together, these results show that local transport rules on a
+combinatorial polyhedron can produce both nontrivial topological
+structure and rigid metric geometry on a canonical quotient graph.
 
 More broadly, this construction exhibits a mechanism by which transport on
 flag spaces induces canonical algebraic and geometric structures on core
-quotients, linking discrete holonomy, adjacency algebras, and spherical
-configurations in a unified and highly constrained framework.
-
-In particular, the simultaneous emergence of a nontrivial cohomology class
-and a rigid three-angle spherical configuration from a single transport
-system suggests a deep structural compatibility between discrete
-transport, cohomology, and spectral geometry in combinatorial settings.
+quotients, linking double covers, holonomy, adjacency algebras, and
+spherical configurations in a unified framework.

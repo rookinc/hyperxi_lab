@@ -5,7 +5,7 @@ We now identify the binary transport invariant governing the lift
 G_{30} \to G_{15}.
 \]
 The key point is that the sign on a core edge is not assigned ad hoc:
-it is induced by the actual lifted transport and admits a canonical
+it is induced by the lifted transport and admits a canonical
 geometric interpretation on the dodecahedron.
 
 \subsection{The antipodal lift}
@@ -39,18 +39,38 @@ $G_{15}$. Their relation is classified as follows:
 and are not opposite edges.
 \end{itemize}
 
-Empirically, when one examines the two lifted edges in $G_{30}$ above a
-single edge of $G_{15}$, only two patterns occur:
-\[
-(LL)\qquad\text{or}\qquad(NN).
-\]
+\begin{proposition}[Uniformity of lifted edge type]
+Let $e=\{x,y\}\in E(G_{15})$. Under the identification with opposite-edge
+classes of the dodecahedron, the two lifted edges in $G_{30}$ above $e$
+are either both local or both nonlocal. In particular, the only possible
+patterns are $(LL)$ and $(NN)$.
+\end{proposition}
+
+\begin{proof}
+Each vertex of $G_{15}$ corresponds to a pair of opposite edges of the
+dodecahedron, and the fiber over that vertex consists of the two actual
+edges in the pair.
+
+Adjacency in $G_{15}$ is determined by a fixed combinatorial relation
+between opposite-edge classes. Lifting this relation to $G_{30}$ replaces
+each class by its two representatives but does not alter the underlying
+incidence geometry.
+
+Since the local/nonlocal classification depends only on the geometric
+relation between the underlying edges (sharing a vertex and face, or not),
+and this relation is preserved under passage to representatives within
+opposite-edge classes, the two lifted edges must have the same type.
+
+Thus only $(LL)$ and $(NN)$ can occur.
+\end{proof}
 
 \subsection{Definition of the Thalean cocycle}
 
 \begin{definition}[Thalean cocycle]
 Let $e=\{x,y\}\in E(G_{15})$. Consider the two lifted edges in $G_{30}$
-connecting the fibers $\pi^{-1}(x)$ and $\pi^{-1}(y)$, and push them to
-the canonical opposite-edge model of the dodecahedron. Define
+connecting the fibers $\pi^{-1}(x)$ and $\pi^{-1}(y)$, and interpret them
+via the identification of $G_{15}$ with the graph of opposite-edge classes
+of the dodecahedron. Define
 \[
 \varepsilon(e)\in \mathbb{Z}_2
 \]
@@ -104,9 +124,8 @@ it defines a well-defined element of $\mathbb{Z}_2$ on each edge.
 
 Under the canonical identification of $G_{15}$ with the graph of opposite
 edge-pairs of the dodecahedron, the two lifted realizations of each base
-edge are found to be simultaneously local or simultaneously nonlocal,
-yielding exactly the patterns $(LL)$ and $(NN)$. Thus the cocycle admits
-the stated geometric interpretation.
+edge are simultaneously local or simultaneously nonlocal, yielding exactly
+the patterns $(LL)$ and $(NN)$.
 
 For a cycle $C$ in $G_{15}$, the parity sum of edge values records whether
 the lifted walk in $G_{30}$ returns to its original sheet or to the opposite

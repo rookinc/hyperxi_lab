@@ -21,7 +21,12 @@
 \newtheorem{definition}{Definition}
 \newtheorem{corollary}{Corollary}
 
-\input{frontmatter/title}
+\title{
+A Dodecahedral Transport Construction of the
+Arc-Transitive Graph AT4val[60,6],
+its Petersen Line-Graph Quotient,
+and the Thalean Structure Theorem
+}
 
 \date{March 2026}
 
@@ -35,7 +40,40 @@ Zenodo Preprint DOI: \\
 \url{https://doi.org/10.5281/zenodo.19043356}
 \end{center}
 
-\input{frontmatter/abstract}
+\begin{abstract}
+We prove that local transport on the flag space of the combinatorial
+dodecahedron determines a connected $60$-vertex tetravalent graph
+$G_{60}$, canonically identified with the arc-transitive graph
+$\mathrm{AT4val}[60,6]$ (House of Graphs: Graph52002).
+
+The construction admits natural $2$-fold quotients
+\[
+G_{60} \to G_{30} \to G_{15},
+\]
+where $G_{15} \cong L(\mathrm{Petersen})$.
+
+We show that the lifted transport induces a canonical
+$\mathbb{Z}_2$-valued cocycle on $G_{15}$, called the
+\emph{Thalean cocycle}, which governs the signed $2$-lift
+$G_{30} \to G_{15}$ and represents a nontrivial cohomology class.
+
+From the transport system we construct a sector--edge incidence operator
+$M \in \mathbb{R}^{15 \times 30}$ satisfying the polynomial identity
+\[
+M M^{\mathsf T} = A^3 + 2A^2 + 2I,
+\]
+where $A$ is the adjacency matrix of $G_{15}$.
+
+After centering and normalization, this yields a spherical embedding of
+$G_{15}$ in $\mathbb{R}^{14}$ with exactly three distinct inner products,
+determined by graph distance.
+
+Thus the transport system decomposes into two complementary structures:
+a discrete $\mathbb{Z}_2$-valued cocycle capturing sheet holonomy, and a
+rigid spherical sector geometry arising from global incidence. Together
+these encode both the obstruction and the metric structure of the
+Petersen line-graph core.
+\end{abstract}
 
 \input{sections/00_notation_summary}
 \input{sections/01_introduction}

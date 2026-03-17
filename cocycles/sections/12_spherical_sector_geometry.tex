@@ -15,32 +15,84 @@ $\mathbf{1}$. Normalize:
 
 \subsection{Three-Angle Structure}
 
-\begin{theorem}
+\begin{theorem}[Exact three-angle structure]
 The vectors $\{\widetilde{M}_v\}$ form a spherical configuration in
-$\mathbb{R}^{14}$ with exactly three distinct inner products:
+$\mathbb{R}^{14}$ with exactly three distinct inner products.
+More precisely, if $u \neq v$, then
 \[
-\langle \widetilde{M}_u, \widetilde{M}_v \rangle \in \{\alpha,\beta,\gamma\},
-\quad u \neq v,
+\langle \widetilde{M}_u, \widetilde{M}_v \rangle
+=
+\begin{cases}
+\frac{37}{112} & \text{if } d(u,v)=1, \\
+-\frac{23}{112} & \text{if } d(u,v)=2, \\
+-\frac{38}{112} & \text{if } d(u,v)=3,
+\end{cases}
 \]
-where numerically
-\[
-\alpha \approx -0.339286,\quad
-\beta \approx -0.205357,\quad
-\gamma \approx 0.330357.
-\]
+where $d(u,v)$ denotes graph distance in $G_{15}$.
 \end{theorem}
 
 \begin{proof}
-The Gram matrix is obtained from $M M^{\mathsf T}$ after centering and
-normalization. Since $M M^{\mathsf T} = p(A)$ lies in the adjacency
-algebra and $G$ has diameter $3$, inner products depend only on graph
-distance. Direct computation yields exactly three values.
+Let
+\[
+B := M M^{\mathsf T} = A^3 + 2A^2 + 2I,
+\]
+where $A$ is the adjacency matrix of $G_{15}\cong L(\mathrm{Petersen})$.
+
+Since $G_{15}$ is distance-regular with intersection array
+$\{4,2,1;1,1,4\}$, its distance matrices $D_0,D_1,D_2,D_3$ satisfy
+\[
+A^2 = 4D_0 + D_1 + D_2,
+\qquad
+A D_2 = 2D_1 + 2D_2 + 4D_3.
+\]
+It follows that
+\[
+A^3 = 4D_0 + 7D_1 + 3D_2 + 4D_3.
+\]
+Substituting into $B$ gives
+\[
+B = 14D_0 + 9D_1 + 5D_2 + 4D_3.
+\]
+
+Since $A\mathbf{1}=4\mathbf{1}$, we have
+\[
+B\mathbf{1} = (4^3 + 2\cdot4^2 + 2)\mathbf{1} = 98\,\mathbf{1},
+\]
+so every row sum of $B$ equals $98$. Let
+\[
+H = I - \frac{1}{15}J.
+\]
+Then the centered Gram matrix is
+\[
+HBH = B - \frac{98}{15}J.
+\]
+Using $J = D_0 + D_1 + D_2 + D_3$, we obtain
+\[
+HBH
+=
+\frac{112}{15}D_0
++\frac{37}{15}D_1
+-\frac{23}{15}D_2
+-\frac{38}{15}D_3.
+\]
+
+The common squared norm is $\frac{112}{15}$, so after normalization the
+Gram matrix becomes
+\[
+G
+=
+D_0
++\frac{37}{112}D_1
+-\frac{23}{112}D_2
+-\frac{38}{112}D_3,
+\]
+which yields the stated inner products.
 \end{proof}
 
 \subsection{Geometric Interpretation}
 
-The embedding $v \mapsto \widetilde{M}_v$ realizes $G$ as a spherical
-three-angle configuration in $\mathbb{R}^{14}$.
+The embedding $v \mapsto \widetilde{M}_v$ realizes $G_{15}$ as a rigid
+spherical three-angle configuration in $\mathbb{R}^{14}$.
 
 The three inner products correspond exactly to graph distances
 $1,2,3$, showing that the geometry is completely determined by the

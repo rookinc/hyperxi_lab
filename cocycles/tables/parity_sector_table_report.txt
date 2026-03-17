@@ -1,0 +1,6 @@
+PARITY SECTOR EXPORT
+============================================================
+vertices: 15
+sector size: 14
+even incidences: 111
+odd incidences: 99

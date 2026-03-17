@@ -1,0 +1,5 @@
+PETRIE HOLONOMY REPORT
+============================================================
+num cycles: 732
+holonomy +1: 540
+holonomy -1: 192

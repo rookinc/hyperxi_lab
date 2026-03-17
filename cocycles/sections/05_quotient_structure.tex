@@ -11,15 +11,53 @@ with
 |V| = 60, \quad |E| = 120, \quad \deg = 4.
 \]
 
-Two natural involutive identifications yield quotient graphs
+\subsection{Two-fold quotients and covering structure}
+
+The transport construction admits natural involutive identifications,
+yielding successive $2$-fold quotients
 \[
 G_{60} \longrightarrow G_{30} \longrightarrow G_{15}.
 \]
 
+\begin{proposition}
+Each map
+\[
+G_{60} \to G_{30}, \qquad G_{30} \to G_{15}
+\]
+is a regular $2$-fold covering of graphs. In particular,
+$G_{30} \to G_{15}$ is a $\mathbb{Z}_2$-cover (equivalently, a signed
+$2$-lift).
+\end{proposition}
+
+\begin{proof}
+Each quotient is defined by a fixed-point-free involution, so every fiber
+has size $2$.
+
+It remains to verify that adjacency is locally preserved. Each vertex of
+$G_{60}$ (and hence of $G_{30}$) has exactly four neighbors, corresponding
+to the four transport moves on chamber states. The involutions exchange
+the two representatives in a fiber without identifying distinct transport
+directions. Thus the four neighbors of a vertex project to four distinct
+neighbors of its image.
+
+Since both graphs are $4$-regular, the induced map on neighborhoods is
+bijective, and hence each quotient map is a covering. Regularity follows
+because the involution acts transitively on each fiber, giving deck group
+$\mathbb{Z}_2$.
+\end{proof}
+
+In particular, the cover $G_{30} \to G_{15}$ fits into the standard framework
+of voltage graphs and signed graph lifts (see \cite{gross_tucker,zaslavsky}),
+and will be described explicitly by a $\mathbb{Z}_2$-valued cocycle in
+Section~7.
+
+\subsection{Identification of $G_{60}$}
+
 \begin{proposition}[Identification with the arc-transitive census]
-The graph $G_{60}$ constructed via dodecahedral flag transport is isomorphic
-to the arc-transitive graph $\mathrm{AT4val}[60,6]$. In the House of Graphs
-database, this graph appears as Graph52002.
+The graph $G_{60}$ constructed via dodecahedral flag transport is
+isomorphic to the arc-transitive graph $\mathrm{AT4val}[60,6]$,
+with identifier Graph52002 in the House of Graphs database
+(\cite{potocnik_graphsym,house_of_graphs,potocnik_private}).
 \end{proposition}
 
 \begin{proof}
@@ -31,6 +69,6 @@ with distance distribution $(1,4,8,16,24,6,1)$.
 These invariants uniquely identify $G_{60}$ within the census of tetravalent
 arc-transitive graphs, where it is recorded as $\mathrm{AT4val}[60,6]$.
 Cross-referencing with the House of Graphs database confirms the canonical
-identifier Graph52002.
-
+identifier Graph52002, and the identification is confirmed in
+\cite{potocnik_private}.
 \end{proof}

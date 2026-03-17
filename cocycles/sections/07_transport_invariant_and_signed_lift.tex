@@ -6,7 +6,9 @@ G_{30} \to G_{15}.
 \]
 The key point is that the sign on a core edge is not assigned ad hoc:
 it is induced by the lifted transport and admits a canonical
-geometric interpretation on the dodecahedron.
+geometric interpretation on the dodecahedron. The resulting structure
+fits naturally into the theory of signed graphs and $2$-lifts
+(see \cite{zaslavsky}).
 
 \subsection{The antipodal lift}
 
@@ -27,7 +29,10 @@ By the identification
 G_{15}\cong L(\mathrm{Petersen}),
 \]
 we may regard the vertices of $G_{15}$ as the $15$ opposite-edge classes
-of the dodecahedron. Each vertex of $G_{30}$ then corresponds to one of
+of the dodecahedron. This identification is classical (see
+\cite{godsil_royle}).
+
+Each vertex of $G_{30}$ then corresponds to one of
 the two actual dodecahedral edges in the corresponding opposite-edge class.
 
 Let $e,f$ be two dodecahedral edges arising from adjacent vertices of
@@ -129,8 +134,12 @@ the patterns $(LL)$ and $(NN)$.
 
 For a cycle $C$ in $G_{15}$, the parity sum of edge values records whether
 the lifted walk in $G_{30}$ returns to its original sheet or to the opposite
-sheet. Hence the cocycle parity computes the sheet holonomy of the loop.
-Computational verification shows that this class is nontrivial.
+sheet. In particular, the cocycle is nontrivial if and only if there exists
+a cycle with $\omega(C)=1$.
+
+Explicit computation of Petrie cycles shows that both values occur:
+there exist cycles with trivial and nontrivial holonomy. Hence the cocycle
+represents a nontrivial class in $H^1(G_{15},\mathbb{Z}_2)$.
 \end{proof}
 
 \subsection{Holonomy classes of pentagons}
@@ -142,7 +151,9 @@ particular, the parity sum
 \omega(C)=\sum_{e\in C}\varepsilon(e)\pmod 2
 \]
 distinguishes pentagons whose lifted transport closes trivially from
-those carrying nontrivial sheet-flip holonomy.
+those carrying nontrivial sheet-flip holonomy. In particular, the existence
+of both trivial and nontrivial holonomy classes provides a direct witness
+of the nontriviality of the cocycle.
 
 \subsection{Signed-lift interpretation}
 
@@ -153,8 +164,10 @@ If one passes from $\mathbb{Z}_2=\{0,1\}$ to $\{\pm1\}$ by the rule
 then $\sigma(e)=+1$ corresponds to trivial holonomy and
 $\sigma(e)=-1$ to nontrivial holonomy. Thus the Thalean cocycle may be
 viewed equivalently as a signed edge function on $G_{15}$ or as the
-$\mathbb{Z}_2$-voltage defining the double cover $G_{30}\to G_{15}$.
+$\mathbb{Z}_2$-voltage defining the double cover $G_{30}\to G_{15}$,
+in the sense of signed graph theory \cite{zaslavsky}.
 
 This cocycle is the fundamental transport invariant of the Petersen
-core and serves as the algebraic input for the sector incidence
-construction developed in the following sections.
+core. While it does not appear in quadratic sector observables,
+it is detected by loop holonomy and governs the topology of lifted
+transport.

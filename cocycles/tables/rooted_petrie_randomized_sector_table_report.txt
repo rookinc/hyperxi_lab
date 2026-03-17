@@ -1,0 +1,9 @@
+ROOTED LOCAL PETRIE RANDOMIZED-COCYCLE SECTOR EXPORT
+============================================================
+seed: 1729
+canonical petrie cycles available: 732
+vertices: 15
+chosen cycle counts per root: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+sector sizes: [22, 21, 24, 24, 18, 19, 19, 19, 19, 20, 22, 20, 21, 20, 17]
+even incidences: 98
+odd incidences: 207

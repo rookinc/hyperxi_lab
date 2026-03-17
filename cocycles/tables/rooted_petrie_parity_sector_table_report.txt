@@ -1,0 +1,10 @@
+ROOTED LOCAL PETRIE PARITY SECTOR EXPORT
+============================================================
+canonical petrie cycles available: 732
+vertices: 15
+chosen cycle counts per root: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+sector sizes: [22, 21, 24, 24, 18, 19, 19, 19, 19, 20, 22, 20, 21, 20, 17]
+min sector size: 17
+max sector size: 24
+even incidences: 83
+odd incidences: 222

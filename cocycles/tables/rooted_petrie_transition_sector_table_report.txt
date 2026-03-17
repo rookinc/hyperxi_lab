@@ -1,0 +1,5 @@
+ROOTED PETRIE TRANSITION SECTOR EXPORT
+============================================================
+vertices: 15
+distinct transitions: 158
+avg transitions per sector: 40.0000

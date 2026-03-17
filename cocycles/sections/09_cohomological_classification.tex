@@ -1,7 +1,8 @@
 \section{Cohomological Classification}
 
 We interpret the transport cocycle as a cohomological object on
-$\Gfifteen$.
+$\Gfifteen$. Cohomology of graphs with $\mathbb{Z}_2$ coefficients is
+standard (see \cite{hatcher,godsil_royle}).
 
 \subsection{Cochains}
 
@@ -14,9 +15,10 @@ on vertices. The coboundary map
 \[
 \delta : C^0(\Gfifteen,\ZZtwo)\to C^1(\Gfifteen,\ZZtwo)
 \]
-encodes vertex switching.
+encodes vertex switching, corresponding to the standard notion of switching
+equivalence in signed graphs \cite{zaslavsky}.
 
-\subsection{Cocycle from transport}
+\subsection{Classifying cocycle of the transport cover}
 
 The lifted transport $G_{30}\to G_{15}$ defines a function
 \[
@@ -25,14 +27,31 @@ The lifted transport $G_{30}\to G_{15}$ defines a function
 where $\varepsilon(e)$ records whether transport across $e$ preserves or
 swaps sheet.
 
+\begin{proposition}
+The function $\varepsilon$ is the classifying cocycle of the regular
+$\mathbb{Z}_2$-cover
+\[
+G_{30}\to G_{15}.
+\]
+\end{proposition}
+
+\begin{proof}
+A regular $\mathbb{Z}_2$-cover of a connected graph is determined, up to
+equivalence, by a $\mathbb{Z}_2$-valued $1$-cocycle recording whether
+each base edge lifts sheet-preservingly or sheet-swappingly.
+
+By construction, $\varepsilon(e)$ records exactly this dichotomy for the
+cover $G_{30}\to G_{15}$. Hence $\varepsilon$ is the classifying cocycle
+of the cover.
+\end{proof}
+
 For any cycle $C\subset \Gfifteen$, define the holonomy
 \[
 \omega(C)=\sum_{e\in C}\varepsilon(e)\pmod 2.
 \]
 
-By construction, $\omega(C)$ depends only on the cycle and computes the
-sheet parity of the lifted transport around that loop. Thus
-$\varepsilon$ is naturally interpreted as a $1$-cocycle.
+Then $\omega(C)$ computes the sheet parity of the lifted transport around
+$C$. In particular, $\varepsilon$ is a $1$-cocycle.
 
 \subsection{Gauge equivalence}
 
@@ -74,11 +93,11 @@ $H^1(\Gfifteen,\ZZtwo)$.
 \end{theorem}
 
 \begin{proof}
-A cocycle is trivial if and only if it is a coboundary, equivalently if
-all cycle holonomies vanish.
+A cocycle is trivial if and only if all cycle holonomies vanish.
 
-Explicit computation shows that there exist cycles in $\Gfifteen$ with
-nontrivial holonomy. Therefore $\varepsilon$ is not a coboundary and so
+By the transport construction, there exist cycles in $\Gfifteen$ with
+both trivial and nontrivial holonomy. In particular, there exists a cycle
+$C$ with $\omega(C)=1$. Hence $\varepsilon$ is not a coboundary and so
 defines a nontrivial cohomology class.
 \end{proof}
 
@@ -109,8 +128,8 @@ class, not the dimension of the ambient cohomology group.
 
 \subsection{Interpretation}
 
-The cohomology class $[\varepsilon]$ measures the obstruction to
-trivializing the double cover $G_{30}\to G_{15}$.
+The cohomology class $[\varepsilon]$ is the obstruction to trivializing
+the $\mathbb{Z}_2$-cover $G_{30}\to G_{15}$.
 
 Equivalently, it records the existence of cycles whose lifted transport
 returns on the opposite sheet. Its minimal support gives a quantitative

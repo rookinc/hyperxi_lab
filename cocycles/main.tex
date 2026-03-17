@@ -9,7 +9,14 @@
 \usepackage{enumitem}
 \usepackage{geometry}
 \usepackage{graphicx}
-\usepackage{url}
+
+\hypersetup{
+  hidelinks,
+  pdftitle={Dodecahedral Transport, the Petersen Line-Graph Core, and the Thalean Structure Theorem},
+  pdfauthor={Scott Allen Cave},
+  pdfsubject={Graph theory, signed lifts, cohomology, Petersen line graph},
+  pdfcreator={LaTeX with hyperref}
+}
 
 \geometry{margin=1in}
 
@@ -47,43 +54,42 @@ Zenodo Preprint DOI: \\
 
 \begin{abstract}
 Local transport on the flag space of the combinatorial dodecahedron
-determines a connected $60$-vertex tetravalent graph
-$G_{60}$, canonically identified with the arc-transitive graph
-$\mathrm{AT4val}[60,6]$ (House of Graphs: Graph52002).
+produces a connected $60$-vertex tetravalent graph $G_{60}$, canonically
+identified with the arc-transitive graph $\mathrm{AT4val}[60,6]$
+(\cite{potocnik_graphsym,house_of_graphs,potocnik_private}).
 
-The construction admits natural $2$-fold quotients
+This construction admits successive $2$-fold quotients
 \[
 G_{60} \to G_{30} \to G_{15},
 \]
-where $G_{15} \cong L(\mathrm{Petersen})$.
+where $G_{15} \cong L(\mathrm{Petersen})$, a classical object in algebraic
+graph theory (\cite{godsil_royle}).
 
-The lifted transport induces a canonical
-$\mathbb{Z}_2$-valued cocycle on $G_{15}$, called the
-\emph{Thalean cocycle}, which governs the signed $2$-lift
-$G_{30} \to G_{15}$ and represents a nontrivial cohomology class.
+The lifted transport induces a canonical $\mathbb{Z}_2$-valued cocycle on
+$G_{15}$, called the \emph{Thalean cocycle}, which governs the signed
+$2$-lift $G_{30} \to G_{15}$ and represents a nontrivial class in
+$H^1(G_{15},\mathbb{Z}_2)$. This cocycle captures the holonomy of transport
+and cannot be recovered from local combinatorial data.
 
-The transport system determines a sector--edge incidence operator
-$M \in \mathbb{R}^{15 \times 30}$ satisfying the polynomial identity
+From the same transport system we construct a sector--edge incidence
+operator $M \in \mathbb{R}^{15 \times 30}$ satisfying
 \[
 M M^{\mathsf T} = A^3 + 2A^2 + 2I,
 \]
 where $A$ is the adjacency matrix of $G_{15}$.
+After centering and normalization, this yields a spherical embedding of
+$G_{15}$ in $\mathbb{R}^{14}$ with exactly three distinct inner products.
 
-After centering and normalization, this defines a spherical embedding of
-$G_{15}$ in $\mathbb{R}^{14}$ with exactly three distinct inner products,
-determined by graph distance.
-
-Thus the transport system decomposes into two complementary structures:
-a discrete $\mathbb{Z}_2$-valued cocycle capturing sheet holonomy, and a
-rigid spherical sector geometry arising from global incidence. Together
-these encode both the obstruction and the metric structure of the
-Petersen line-graph core.
+Thus a single combinatorial transport mechanism simultaneously produces
+a nontrivial cohomological invariant and a rigid geometric realization on
+the Petersen line-graph core, linking discrete holonomy, adjacency
+algebras, and spherical configurations in a unified framework.
 \end{abstract}
 
 \input{sections/00_notation_summary}
 \input{sections/01_introduction}
-\input{sections/03_main_results}
 \input{sections/02_combinatorial_preliminaries}
+\input{sections/03_main_results}
 \input{sections/05_quotient_structure}
 \input{sections/06_petersen_line_graph_core}
 \input{sections/07_transport_invariant_and_signed_lift}

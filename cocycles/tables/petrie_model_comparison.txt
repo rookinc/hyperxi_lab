@@ -1,0 +1,49 @@
+saved cocycles/tables/rooted_petrie_parity_sector_table.json
+saved cocycles/tables/rooted_petrie_parity_sector_table_report.txt
+canonical petrie cycles available: 732
+vertices: 15
+chosen cycle counts per root: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+sector sizes: [22, 21, 24, 24, 18, 19, 19, 19, 19, 20, 22, 20, 21, 20, 17]
+saved cocycles/tables/rooted_petrie_allplus_sector_table.json
+saved cocycles/tables/rooted_petrie_allplus_sector_table_report.txt
+saved cocycles/tables/rooted_petrie_randomized_sector_table.json
+saved cocycles/tables/rooted_petrie_randomized_sector_table_report.txt
+
+=== ACTUAL COCYCLE / NORMALIZED ===
+sectors: 15
+edges  : 30
+normalize: True
+M shape: (15, 30)
+row norms:
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+eigenvalues:
+[4.76007000e-03 2.21406200e-02 3.67783300e-02 5.81947400e-02
+ 7.27348200e-02 8.23171200e-02 1.42561330e-01 1.76838950e-01
+ 2.37638840e-01 2.61779650e-01 3.19911610e-01 4.40606110e-01
+ 6.70799480e-01 1.01228877e+00 1.14606495e+01]
+
+=== ALL-PLUS / NORMALIZED ===
+sectors: 15
+edges  : 30
+normalize: True
+M shape: (15, 30)
+row norms:
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+eigenvalues:
+[4.76007000e-03 2.21406200e-02 3.67783300e-02 5.81947400e-02
+ 7.27348200e-02 8.23171200e-02 1.42561330e-01 1.76838950e-01
+ 2.37638840e-01 2.61779650e-01 3.19911610e-01 4.40606110e-01
+ 6.70799480e-01 1.01228877e+00 1.14606495e+01]
+
+=== RANDOMIZED COCYCLE / NORMALIZED ===
+sectors: 15
+edges  : 30
+normalize: True
+M shape: (15, 30)
+row norms:
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+eigenvalues:
+[4.76007000e-03 2.21406200e-02 3.67783300e-02 5.81947400e-02
+ 7.27348200e-02 8.23171200e-02 1.42561330e-01 1.76838950e-01
+ 2.37638840e-01 2.61779650e-01 3.19911610e-01 4.40606110e-01
+ 6.70799480e-01 1.01228877e+00 1.14606495e+01]

@@ -1,0 +1,212 @@
+[
+  {
+    "edge": [
+      0,
+      1
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      0,
+      4
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      0,
+      5
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      0,
+      8
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      1,
+      2
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      1,
+      8
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      1,
+      11
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      2,
+      3
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      2,
+      11
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      2,
+      13
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      3,
+      4
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      3,
+      13
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      3,
+      14
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      4,
+      5
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      4,
+      14
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      5,
+      6
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      5,
+      12
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      6,
+      7
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      6,
+      12
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      6,
+      13
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      7,
+      8
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      7,
+      9
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      7,
+      13
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      8,
+      9
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      9,
+      10
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      9,
+      14
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      10,
+      11
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      10,
+      12
+    ],
+    "epsilon": 1
+  },
+  {
+    "edge": [
+      10,
+      14
+    ],
+    "epsilon": 0
+  },
+  {
+    "edge": [
+      11,
+      12
+    ],
+    "epsilon": 0
+  }
+]

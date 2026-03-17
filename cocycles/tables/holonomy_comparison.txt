@@ -1,0 +1,49 @@
+saved cocycles/tables/petrie_holonomy.json
+saved cocycles/tables/petrie_holonomy_report.txt
+holonomy +1: 540
+holonomy -1: 192
+saved cocycles/tables/rooted_petrie_holonomy.json
+saved cocycles/tables/rooted_petrie_holonomy_report.txt
+total holonomy +1: 42
+total holonomy -1: 18
+saved cocycles/tables/rooted_petrie_holonomy_allplus.json
+saved cocycles/tables/rooted_petrie_holonomy_allplus_report.txt
+
+=== PETRIE HOLONOMY REPORT ===
+PETRIE HOLONOMY REPORT
+============================================================
+num cycles: 732
+holonomy +1: 540
+holonomy -1: 192
+
+=== ROOTED PETRIE HOLONOMY REPORT ===
+ROOTED PETRIE HOLONOMY REPORT
+============================================================
+vertices: 15
+total holonomy +1: 42
+total holonomy -1: 18
+
+PER VERTEX
+------------------------------------------------------------
+v=0: +1=4  -1=0
+v=1: +1=4  -1=0
+v=2: +1=3  -1=1
+v=3: +1=2  -1=2
+v=4: +1=3  -1=1
+v=5: +1=3  -1=1
+v=6: +1=2  -1=2
+v=7: +1=3  -1=1
+v=8: +1=3  -1=1
+v=9: +1=1  -1=3
+v=10: +1=3  -1=1
+v=11: +1=3  -1=1
+v=12: +1=4  -1=0
+v=13: +1=3  -1=1
+v=14: +1=1  -1=3
+
+=== ROOTED PETRIE HOLONOMY ALL-PLUS REPORT ===
+ROOTED PETRIE HOLONOMY ALL-PLUS REPORT
+============================================================
+vertices: 15
+total holonomy +1: 60
+total holonomy -1: 0

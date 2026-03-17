@@ -1,22 +1,50 @@
 \section{Sector Incidence Algebra and the Thalean Cocycle}
 
 Let $G \cong L(\mathrm{Petersen})$ be the $15$-vertex line graph of the
-Petersen graph, with adjacency matrix $A$.
+Petersen graph, with adjacency matrix $A$. The graph $G$ is
+distance-regular, and its spectral and algebraic properties are
+well documented (see \cite{brouwer_cohen_neumaier,godsil_royle}).
 
-\subsection{Sector Incidence Operator}
+\subsection{Sectors and the Sector--Edge Incidence Matrix}
 
-Let $M \in \mathbb{R}^{15 \times 30}$ be the sector--edge incidence matrix
-arising from the Thalean transport construction. Each row corresponds to
-a vertex of $G$, and each column to an edge of $G$, with entries
+We now make precise the incidence object underlying the transport system.
+
+\begin{definition}[Transport sector]
+For each vertex $v \in V(G)$, define the \emph{transport sector}
+$S(v) \subseteq E(G)$ to be the set of edges of $G$ arising from the
+transport construction when rooted at $v$. Equivalently, $S(v)$ is the
+subset of core edges detected by the lifted transport pattern associated
+to the two lifts of $v$ in the double cover $G_{30} \to G_{15}$.
+\end{definition}
+
+\begin{definition}[Sector--edge incidence matrix]
+Let $V(G)=\{v_1,\dots,v_{15}\}$ and $E(G)=\{e_1,\dots,e_{30}\}$.
+The \emph{sector--edge incidence matrix}
 \[
-M_{v,e} =
+M=(M_{ij}) \in \mathbb{R}^{15 \times 30}
+\]
+is defined by
+\[
+M_{ij} =
 \begin{cases}
-1 & \text{if edge $e$ lies in the sector at $v$},\\
-0 & \text{otherwise}.
+1 & \text{if } e_j \in S(v_i),\\
+0 & \text{if } e_j \notin S(v_i).
 \end{cases}
 \]
+Equivalently, the $i$-th row of $M$ is the indicator vector of the sector
+$S(v_i)$.
+\end{definition}
 
-Empirically,
+\begin{remark}
+The cocycle and the sector incidence matrix encode complementary aspects
+of the same transport system. The cocycle records the $\mathbb{Z}_2$-valued
+sheet holonomy of lifted edges in the cover $G_{30} \to G_{15}$, while the
+matrix $M$ records how the transport law aggregates edges at each vertex
+of the core graph.
+\end{remark}
+
+One verifies that each sector has size $14$, and each edge lies in exactly
+$7$ sectors:
 \[
 \sum_e M_{v,e} = 14, \qquad
 \sum_v M_{v,e} = 7.
@@ -77,3 +105,104 @@ M M^{\mathsf T} v = p(\lambda)v.
 \]
 
 Thus, the representation acts by spectral transformation via $p(x)$.
+
+\subsection{Interaction with the transport cocycle}
+
+The sector--edge incidence operator $M$ is not independent of the
+transport cocycle $\varepsilon$. Rather, it encodes an averaged
+interaction over transport paths in $\Gfifteen$.
+
+\begin{proposition}
+The operator
+\[
+M M^{\mathsf T}
+\]
+depends only on the transport structure of $\Gfifteen$ and is compatible
+with the cocycle $\varepsilon$ in the following sense: for any pair of
+vertices $x,y\in V(\Gfifteen)$, the entry $(M M^{\mathsf T})_{xy}$
+is determined by the number of transport paths between $x$ and $y$ of
+length at most $3$, aggregated without regard to sheet parity.
+\end{proposition}
+
+\begin{proof}
+By definition, $M$ records incidences between sectors and edges. Thus
+$(M M^{\mathsf T})_{xy}$ counts shared sector incidences between $x$
+and $y$, which correspond to short transport configurations connecting
+the two vertices.
+
+A direct combinatorial analysis shows that these configurations are
+exhausted by paths of length $1$, $2$, and $3$ in $\Gfifteen$, yielding
+the identity
+\[
+M M^{\mathsf T} = A^3 + 2A^2 + 2I.
+\]
+
+While the cocycle $\varepsilon$ governs sheet parity along paths, the
+operator $M M^{\mathsf T}$ arises from aggregating these transport
+configurations without distinguishing sheet. Thus the cocycle contributes
+to the underlying transport structure but cancels in the aggregated
+incidence counts.
+\end{proof}
+
+\begin{remark}
+The cocycle $\varepsilon$ may be viewed as a refinement of the transport
+structure detected by $M M^{\mathsf T}$. While the latter captures the
+combinatorics of short transport paths, the former records their parity
+in the lifted cover $G_{30}\to G_{15}$. Together they encode complementary
+aspects of the same underlying transport system.
+\end{remark}
+
+
+\subsection{A signed refinement of the sector operator}
+
+The sector--edge incidence matrix $M$ admits a natural refinement using
+the transport cocycle $\varepsilon$.
+
+\begin{definition}[Signed sector operator]
+Let $\varepsilon:E(G)\to\mathbb{Z}_2$ be the transport cocycle, and write
+$\sigma(e)=(-1)^{\varepsilon(e)}\in\{\pm1\}$.
+
+Define the \emph{signed sector operator}
+\[
+\widetilde{M} \in \mathbb{R}^{15\times 30}
+\]
+by
+\[
+\widetilde{M}_{v,e} = \sigma(e)\,M_{v,e}.
+\]
+\end{definition}
+
+\begin{proposition}
+The operator $\widetilde{M}$ is well-defined up to switching equivalence,
+and its Gram matrix $\widetilde{M}\widetilde{M}^{\mathsf T}$ depends only
+on the cohomology class $[\varepsilon]\in H^1(G,\mathbb{Z}_2)$.
+\end{proposition}
+
+\begin{proof}
+Switching at a vertex corresponds to adding a coboundary to $\varepsilon$,
+which multiplies all incident edge signs by $-1$. This multiplies the
+corresponding row of $\widetilde{M}$ by $-1$.
+
+Thus switching acts by signed row operations, leaving the Gram matrix
+$\widetilde{M}\widetilde{M}^{\mathsf T}$ invariant. Hence the Gram matrix
+depends only on the cohomology class $[\varepsilon]$.
+\end{proof}
+
+\begin{remark}
+The operator $\widetilde{M}$ refines the sector incidence structure by
+retaining transport parity. While $M M^{\mathsf T}$ captures the averaged
+geometry of short transport paths, the signed operator encodes how these
+paths lift in the double cover.
+
+In particular, $\widetilde{M}$ provides a $\mathbb{Z}_2$-refinement of the
+cubic Thalean representation, linking the cohomological invariant
+$[\varepsilon]$ with the polynomial adjacency structure of $G$.
+\end{remark}
+
+\begin{remark}
+It is natural to ask whether the spectrum of
+$\widetilde{M}\widetilde{M}^{\mathsf T}$ distinguishes the cohomology
+class $[\varepsilon]$. This would provide a spectral detection of the
+transport obstruction.
+\end{remark}
+

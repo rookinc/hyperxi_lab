@@ -1,0 +1,5 @@
+ROOTED PETRIE HOLONOMY ALL-PLUS REPORT
+============================================================
+vertices: 15
+total holonomy +1: 60
+total holonomy -1: 0

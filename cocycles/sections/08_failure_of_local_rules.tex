@@ -25,21 +25,23 @@ indistinguishable.
 \subsection{Failure of local determination}
 
 \begin{theorem}
-The Thalean cocycle is not determined by any rule depending only on
-finite-radius neighborhoods in $\Gfifteen$ and invariant under graph
-automorphisms.
+There is no function
+\[
+f : E(\Gfifteen) \to \mathbb{Z}_2
+\]
+which depends only on finite-radius neighborhoods and is invariant under
+graph automorphisms such that $f = \varepsilon$.
 \end{theorem}
 
 \begin{proof}
-Any such rule assigns values to edges based only on their
+Any such function assigns values to edges based only on their
 $r$-neighborhoods up to isomorphism and is invariant under automorphisms.
 
 Since $\Gfifteen$ is edge-transitive, all edges have isomorphic
-$r$-neighborhoods. Hence any such rule must assign a constant value to
-all edges.
+$r$-neighborhoods. Hence any such function must be constant on edges.
 
-However, the cocycle $\varepsilon$ takes both values $0$ and $1$ (see
-Section~13). Therefore it cannot arise from any such local rule.
+However, the cocycle $\varepsilon$ takes both values $0$ and $1$
+(see Section~7). Therefore it cannot arise from any such local rule.
 \end{proof}
 
 \subsection{Geometric origin of nonlocality}
@@ -48,21 +50,22 @@ The failure of locality is not accidental. The cocycle is defined by
 lifting edges to the double cover $G_{30}\to G_{15}$ and then resolving
 those lifted edges in the canonical dodecahedral model.
 
-In that model, each edge of $\Gfifteen$ corresponds to a pair of
-relations between dodecahedral edges, and the cocycle records whether
-these relations are both local or both nonlocal.
+In that model, each edge of $\Gfifteen$ corresponds to relations between
+pairs of dodecahedral edges, and the cocycle records whether these
+relations are simultaneously local or simultaneously nonlocal.
 
-This information is invisible in $\Gfifteen$ itself and only becomes
+This information is not visible in $\Gfifteen$ itself and only becomes
 accessible after passing to the lifted structure and its geometric
 realization.
 
 \subsection{Cohomological interpretation}
 
 The obstruction to locality is cohomological. The cocycle $\varepsilon$
-represents a nontrivial class in $H^1(\Gfifteen,\ZZtwo)$ and cannot be
-expressed as the coboundary of a vertex potential.
+represents a nontrivial class in $H^1(\Gfifteen,\ZZtwo)$ and is not a
+coboundary.
 
-Equivalently, no vertex switching can trivialize the transport invariant.
+Equivalently, there is no vertex function whose coboundary recovers the
+transport invariant.
 
 \subsection{Consequences}
 

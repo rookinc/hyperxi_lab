@@ -1,0 +1,1181 @@
+{
+  "summary": {
+    "vertices": 15,
+    "total_holonomy_plus": 60,
+    "total_holonomy_minus": 0
+  },
+  "per_vertex": [
+    {
+      "vertex": 0,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 1,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 2,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 3,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 4,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 5,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 6,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 7,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 8,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 9,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 10,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 11,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 12,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 13,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    },
+    {
+      "vertex": 14,
+      "holonomy_plus": 4,
+      "holonomy_minus": 0
+    }
+  ],
+  "vertices_data": [
+    {
+      "vertex": 0,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            8
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            0,
+            4,
+            3,
+            2,
+            1,
+            8,
+            7,
+            6,
+            12,
+            5
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            0,
+            5,
+            4,
+            3,
+            2,
+            1,
+            11,
+            10,
+            9,
+            8
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            0,
+            8,
+            1,
+            2,
+            3,
+            4,
+            14,
+            10,
+            12,
+            5
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 1,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            1,
+            0,
+            4,
+            3,
+            2,
+            11,
+            10,
+            9,
+            7,
+            8
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            1,
+            2,
+            3,
+            4,
+            0,
+            5,
+            6,
+            7,
+            9,
+            8
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            1,
+            8,
+            0,
+            4,
+            3,
+            2,
+            13,
+            6,
+            12,
+            11
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            1,
+            11,
+            2,
+            3,
+            4,
+            0,
+            5,
+            6,
+            7,
+            8
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 2,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            13,
+            6,
+            5,
+            12,
+            11
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            2,
+            3,
+            4,
+            0,
+            1,
+            8,
+            7,
+            6,
+            12,
+            11
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            2,
+            11,
+            1,
+            0,
+            4,
+            3,
+            14,
+            9,
+            7,
+            13
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            2,
+            13,
+            3,
+            4,
+            0,
+            1,
+            8,
+            9,
+            10,
+            11
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 3,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            3,
+            2,
+            1,
+            0,
+            4,
+            5,
+            6,
+            7,
+            9,
+            14
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            3,
+            4,
+            0,
+            1,
+            2,
+            11,
+            10,
+            9,
+            7,
+            13
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            3,
+            13,
+            2,
+            1,
+            0,
+            4,
+            5,
+            12,
+            10,
+            14
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            3,
+            14,
+            4,
+            0,
+            1,
+            2,
+            11,
+            12,
+            6,
+            13
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 4,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            4,
+            0,
+            1,
+            2,
+            3,
+            13,
+            6,
+            7,
+            9,
+            14
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            5,
+            6,
+            7,
+            9,
+            14
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            4,
+            5,
+            0,
+            1,
+            2,
+            3,
+            13,
+            7,
+            9,
+            14
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            4,
+            14,
+            3,
+            2,
+            1,
+            0,
+            8,
+            7,
+            6,
+            5
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 5,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            14,
+            9,
+            7,
+            6
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            5,
+            4,
+            0,
+            1,
+            2,
+            3,
+            13,
+            7,
+            6,
+            12
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            5,
+            6,
+            7,
+            8,
+            0,
+            1,
+            2,
+            3,
+            14,
+            4
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            5,
+            12,
+            6,
+            7,
+            8,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 6,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            14,
+            9,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            6,
+            7,
+            8,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            12
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            6,
+            12,
+            5,
+            0,
+            1,
+            2,
+            3,
+            14,
+            9,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            6,
+            13,
+            2,
+            1,
+            0,
+            4,
+            3,
+            14,
+            9,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 7,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            7,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            14,
+            9
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            7,
+            8,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            13
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            7,
+            9,
+            8,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            7,
+            13,
+            2,
+            1,
+            0,
+            4,
+            3,
+            14,
+            9,
+            8
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 8,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            8,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            8,
+            1,
+            0,
+            4,
+            3,
+            2,
+            11,
+            10,
+            9,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            8,
+            7,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            14,
+            9
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            8,
+            9,
+            7,
+            6,
+            5,
+            0,
+            4,
+            3,
+            2,
+            1
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 9,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            9,
+            7,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            14
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            9,
+            8,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            9,
+            10,
+            11,
+            1,
+            0,
+            4,
+            3,
+            2,
+            13,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            9,
+            14,
+            3,
+            2,
+            1,
+            0,
+            4,
+            5,
+            6,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 10,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            10,
+            9,
+            7,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            14
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            10,
+            11,
+            1,
+            0,
+            4,
+            3,
+            2,
+            13,
+            6,
+            12
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            10,
+            12,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            14,
+            9
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            10,
+            14,
+            3,
+            2,
+            1,
+            0,
+            4,
+            5,
+            6,
+            12
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 11,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            11,
+            1,
+            0,
+            4,
+            3,
+            2,
+            13,
+            6,
+            5,
+            12
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            11,
+            2,
+            1,
+            0,
+            4,
+            3,
+            13,
+            6,
+            5,
+            12
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            11,
+            10,
+            9,
+            7,
+            6,
+            5,
+            0,
+            4,
+            3,
+            2
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            11,
+            12,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            14,
+            10
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 12,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            12,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            14,
+            9,
+            10
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            12,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            14,
+            10
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            12,
+            10,
+            9,
+            7,
+            6,
+            5,
+            0,
+            1,
+            2,
+            11
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            12,
+            11,
+            1,
+            0,
+            4,
+            3,
+            2,
+            13,
+            6,
+            5
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 13,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            13,
+            2,
+            1,
+            0,
+            4,
+            3,
+            14,
+            9,
+            7,
+            6
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            13,
+            3,
+            2,
+            1,
+            0,
+            4,
+            5,
+            12,
+            6,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            13,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            14,
+            9,
+            7
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            13,
+            7,
+            6,
+            5,
+            0,
+            1,
+            8,
+            9,
+            14,
+            3
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    },
+    {
+      "vertex": 14,
+      "cycles": [
+        {
+          "local_cycle_id": 0,
+          "cycle": [
+            14,
+            3,
+            2,
+            1,
+            0,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 1,
+          "cycle": [
+            14,
+            4,
+            0,
+            1,
+            2,
+            3,
+            13,
+            6,
+            7,
+            9
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 2,
+          "cycle": [
+            14,
+            9,
+            7,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        },
+        {
+          "local_cycle_id": 3,
+          "cycle": [
+            14,
+            10,
+            9,
+            7,
+            6,
+            5,
+            0,
+            1,
+            2,
+            3
+          ],
+          "parity_mod_2": 0,
+          "holonomy_sign": 1
+        }
+      ]
+    }
+  ]
+}

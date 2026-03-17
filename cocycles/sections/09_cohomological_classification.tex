@@ -1,65 +1,118 @@
 \section{Cohomological Classification}
 
-We interpret the sign function $\sigfun$ as a cohomological object on
+We interpret the transport cocycle as a cohomological object on
 $\Gfifteen$.
 
 \subsection{Cochains}
 
 Let $C^1(\Gfifteen,\ZZtwo)$ denote the space of $\ZZtwo$-valued functions
-on edges. Elements of $C^1$ assign a sign $\pm 1$ to each edge.
+on edges. Elements of $C^1$ assign a value in $\{0,1\}$, equivalently a
+sign in $\{\pm 1\}$, to each edge.
 
-\subsection{Cocycle}
+Let $C^0(\Gfifteen,\ZZtwo)$ denote the space of $\ZZtwo$-valued functions
+on vertices. The coboundary map
+\[
+\delta : C^0(\Gfifteen,\ZZtwo)\to C^1(\Gfifteen,\ZZtwo)
+\]
+encodes vertex switching.
 
-The function $\sigfun$ defines a $1$-cochain. Switching at a vertex
-corresponds to multiplying $\sigfun$ by a coboundary. Thus the switching
-class of $\sigfun$ determines a cohomology class in
-$H^1(\Gfifteen,\ZZtwo)$.
+\subsection{Cocycle from transport}
+
+The lifted transport $G_{30}\to G_{15}$ defines a function
+\[
+\varepsilon:E(\Gfifteen)\to\ZZtwo,
+\]
+where $\varepsilon(e)$ records whether transport across $e$ preserves or
+swaps sheet.
+
+For any cycle $C\subset \Gfifteen$, define the holonomy
+\[
+\omega(C)=\sum_{e\in C}\varepsilon(e)\pmod 2.
+\]
+
+By construction, $\omega(C)$ depends only on the cycle and computes the
+sheet parity of the lifted transport around that loop. Thus
+$\varepsilon$ is naturally interpreted as a $1$-cocycle.
+
+\subsection{Gauge equivalence}
+
+Switching at a vertex adds a coboundary. Hence two edge functions related
+by switching represent the same cohomology class. The transport cocycle
+therefore determines a well-defined element
+\[
+[\varepsilon]\in H^1(\Gfifteen,\ZZtwo).
+\]
+
+\subsection{Dimension of the cohomology group}
+
+Because $\Gfifteen$ is connected,
+\[
+\dim H^1(\Gfifteen,\ZZtwo)=|E(\Gfifteen)|-|V(\Gfifteen)|+1.
+\]
+Since
+\[
+|V(\Gfifteen)|=15,\qquad |E(\Gfifteen)|=30,
+\]
+it follows that
+\[
+\dim H^1(\Gfifteen,\ZZtwo)=30-15+1=16.
+\]
+
+Thus the full cohomology group is
+\[
+H^1(\Gfifteen,\ZZtwo)\cong \ZZtwo^{16}.
+\]
+
+The Thalean cocycle is therefore one distinguished nonzero class inside a
+$16$-dimensional mod-$2$ cohomology space.
 
 \subsection{Nontriviality}
 
 \begin{theorem}
-The cochain $\sigfun$ represents a nontrivial class in
+The transport cocycle $\varepsilon$ represents a nontrivial class in
 $H^1(\Gfifteen,\ZZtwo)$.
 \end{theorem}
 
 \begin{proof}
-A cochain represents the trivial class if and only if it differs from the
-constant $+1$ function by a coboundary, i.e., if it can be made identically
-$+1$ by switching at vertices.
+A cocycle is trivial if and only if it is a coboundary, equivalently if
+all cycle holonomies vanish.
 
-Exhaustive computational search over all switching configurations
-(Section~13) shows that no such switching eliminates all negative edges.
-Therefore $\sigfun$ is not a coboundary and represents a nontrivial
-cohomology class.
+Explicit computation shows that there exist cycles in $\Gfifteen$ with
+nontrivial holonomy. Therefore $\varepsilon$ is not a coboundary and so
+defines a nontrivial cohomology class.
 \end{proof}
 
-\subsection{Minimal support}
+\subsection{Minimal support in the switching class}
 
-Within its switching class, the cochain $\sigfun$ admits representatives
-with varying support sizes. Define the support
+Within its switching class, the cocycle $\varepsilon$ admits
+representatives with varying support sizes. Define the support
 \[
-S = \{ e \in E(\Gfifteen) : \sigfun(e) = -1 \}.
+S=\{e\in E(\Gfifteen):\varepsilon(e)=1\}.
 \]
 
 \begin{proposition}
-The minimal support size of $\sigfun$ over all switching-equivalent
+The minimal support size of $\varepsilon$ over all switching-equivalent
 representatives is $6$.
 \end{proposition}
 
 \begin{proof}
-An exhaustive search over all vertex switchings (with one vertex fixed to
-remove global symmetry) yields representatives with exactly $6$ negative
-edges. No switching configuration produces fewer than $6$ negative edges.
+An exhaustive search over all vertex switchings, with one vertex fixed to
+remove global symmetry, yields representatives with exactly $6$ nonzero
+edges. No switching configuration produces fewer.
 \end{proof}
 
-Moreover, the minimal representative is not unique: the same exhaustive
+Moreover, this minimal representative is not unique: the same exhaustive
 search yields $40$ distinct supports of size $6$.
 
-An explicit minimal-support representative is listed in Appendix~B.
+Thus the number $6$ measures the sparsest realization of the Thalean
+class, not the dimension of the ambient cohomology group.
 
 \subsection{Interpretation}
 
-The minimal support provides a measure of the intrinsic complexity of the
-cohomology class. The fact that it cannot be reduced below $6$ edges
-demonstrates that the transport invariant encodes a genuinely global
-obstruction that cannot be localized or eliminated by switching.
+The cohomology class $[\varepsilon]$ measures the obstruction to
+trivializing the double cover $G_{30}\to G_{15}$.
+
+Equivalently, it records the existence of cycles whose lifted transport
+returns on the opposite sheet. Its minimal support gives a quantitative
+measure of how sparsely this obstruction can be represented after gauge
+reduction.

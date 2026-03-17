@@ -1,0 +1,118 @@
+================================================================================
+ANALYZE NEGATIVE EDGE SECTOR
+================================================================================
+
+G15 SUMMARY
+--------------------------------------------------------------------------------
+vertices: 15
+edges: 30
+degree set: [4]
+
+NEGATIVE EDGE SET
+--------------------------------------------------------------------------------
+count: 14
+ 0- 1   (0, 1) -- (0, 4)
+ 0- 2   (0, 1) -- (0, 5)
+ 0- 3   (0, 1) -- (1, 2)
+ 0- 4   (0, 1) -- (1, 6)
+ 1- 2   (0, 4) -- (0, 5)
+ 1- 7   (0, 4) -- (3, 4)
+ 1- 9   (0, 4) -- (4, 9)
+ 2-10   (0, 5) -- (5, 7)
+ 2-11   (0, 5) -- (5, 8)
+ 3- 4   (1, 2) -- (1, 6)
+ 3- 5   (1, 2) -- (2, 3)
+ 3- 6   (1, 2) -- (2, 7)
+ 4-12   (1, 6) -- (6, 8)
+ 4-13   (1, 6) -- (6, 9)
+
+EDGE-ADJACENCY GRAPH ON NEGATIVE EDGES
+--------------------------------------------------------------------------------
+vertices: 14
+edges: 30
+degree set: [3, 6]
+connected: True
+diameter: 3
+shell(root=min)): (1, 6, 7)
+components: 1
+  component 1: size=14
+     0- 1   (0, 1) -- (0, 4)
+     0- 2   (0, 1) -- (0, 5)
+     0- 3   (0, 1) -- (1, 2)
+     0- 4   (0, 1) -- (1, 6)
+     1- 2   (0, 4) -- (0, 5)
+     1- 7   (0, 4) -- (3, 4)
+     1- 9   (0, 4) -- (4, 9)
+     2-10   (0, 5) -- (5, 7)
+     2-11   (0, 5) -- (5, 8)
+     3- 4   (1, 2) -- (1, 6)
+     3- 5   (1, 2) -- (2, 3)
+     3- 6   (1, 2) -- (2, 7)
+     4-12   (1, 6) -- (6, 8)
+     4-13   (1, 6) -- (6, 9)
+
+NEGATIVE INCIDENCE COUNTS PER G15 VERTEX
+--------------------------------------------------------------------------------
+ 0 (0, 1) -> 4
+ 1 (0, 4) -> 4
+ 2 (0, 5) -> 4
+ 3 (1, 2) -> 4
+ 4 (1, 6) -> 4
+ 5 (2, 3) -> 1
+ 6 (2, 7) -> 1
+ 7 (3, 4) -> 1
+ 8 (3, 8) -> 0
+ 9 (4, 9) -> 1
+10 (5, 7) -> 1
+11 (5, 8) -> 1
+12 (6, 8) -> 1
+13 (6, 9) -> 1
+14 (7, 9) -> 0
+
+SUPPORT OF NEGATIVE SECTOR
+--------------------------------------------------------------------------------
+support vertices: [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13]
+support induced vertices: 13
+support induced edges: 22
+support degree set: [3, 4]
+support connected: True
+support diameter: 3
+support shell(root=min)): (1, 4, 8)
+
+IS NEGATIVE SET THE FULL EDGE SET OF THE SUPPORT INDUCED SUBGRAPH?
+--------------------------------------------------------------------------------
+support edge count: 22
+negative edge count: 14
+exact induced-edge sector: False
+in support but not negative:
+   (5, 6)
+   (5, 7)
+   (6, 10)
+   (7, 9)
+   (9, 13)
+   (10, 11)
+   (11, 12)
+   (12, 13)
+negative but not in support:
+
+BFS ON SUPPORT FROM VERTEX 0
+--------------------------------------------------------------------------------
+ 0 dist=0  label=(0, 1)
+ 1 dist=1  label=(0, 4)
+ 2 dist=1  label=(0, 5)
+ 3 dist=1  label=(1, 2)
+ 4 dist=1  label=(1, 6)
+ 5 dist=2  label=(2, 3)
+ 6 dist=2  label=(2, 7)
+ 7 dist=2  label=(3, 4)
+ 9 dist=2  label=(4, 9)
+10 dist=2  label=(5, 7)
+11 dist=2  label=(5, 8)
+12 dist=2  label=(6, 8)
+13 dist=2  label=(6, 9)
+layers:
+  0: [0]
+  1: [1, 2, 3, 4]
+  2: [5, 6, 7, 9, 10, 11, 12, 13]
+
+saved /data/data/com.termux/files/home/dev/cori/hyperxi_lab/reports/rigidity/analyze_negative_edge_sector.json

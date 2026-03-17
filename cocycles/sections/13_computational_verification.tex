@@ -1,7 +1,7 @@
 \section{Computational Verification}
 
 All constructions and claims relying on explicit enumeration are
-verified by explicit computation.
+verified by deterministic computation.
 
 \subsection{Overview}
 
@@ -9,8 +9,9 @@ A computational pipeline was implemented to construct the graphs
 $\Gsixty$, $\Gthirty$, and $\Gfifteen$, compute transport invariants,
 and verify all structural and algebraic claims stated in this paper.
 
-All computations are deterministic and based on explicit combinatorial
-data derived from the dodecahedral flag structure.
+All computations are based on explicit combinatorial data derived from
+the dodecahedral flag structure and are reproducible from the provided
+code and data files.
 
 \subsection{Graph construction and quotients}
 
@@ -30,27 +31,70 @@ The following properties are verified:
 \subsection{Identification of $\Gfifteen$}
 
 The graph $\Gfifteen$ is verified to be isomorphic to the line graph of
-the Petersen graph by matching vertex count, degree, and adjacency
-structure.
+the Petersen graph by explicit graph isomorphism testing against a
+canonical construction derived from opposite edge-pairs of the
+dodecahedron.
 
-\subsection{Transport invariant}
+\subsection{Extraction of the transport cocycle}
 
-The function $\epsinv$ is computed by propagating signs along transport
-paths from a fixed base chamber. Path independence is verified by
-checking that all closed transport loops have trivial sign.
+The Thalean cocycle is computed directly from the lifted adjacency in
+the covering $G_{30} \to G_{15}$.
 
-The induced edge sign function $\sigfun$ on $\Gfifteen$ is computed and
-shown to have
+For each edge $e=\{x,y\}\in E(G_{15})$, the two lifted edges between the
+fibers $\pi^{-1}(x)$ and $\pi^{-1}(y)$ are identified. These lifted edges
+are pushed to the canonical dodecahedral opposite-edge model, where each
+pair is classified as either:
+
+\begin{itemize}
+\item local (sharing a vertex and face), or
+\item nonlocal (neither incident nor cofacial and not opposite).
+\end{itemize}
+
+It is verified that only the patterns $(LL)$ and $(NN)$ occur, and the
+cocycle value is assigned accordingly:
 \[
-10 \text{ positive edges}, \qquad 20 \text{ negative edges}.
+\varepsilon(e)=
+\begin{cases}
+0,&(LL),\\
+1,&(NN).
+\end{cases}
 \]
+
+\subsection{Edge sign distribution}
+
+The induced signed edge function on $\Gfifteen$ is computed explicitly.
+In the representative gauge used for tabulation, the distribution is:
+\[
+10 \text{ edges with } \varepsilon=0,\qquad
+20 \text{ edges with } \varepsilon=1.
+\]
+
+\subsection{Holonomy verification}
+
+Cycle holonomy is verified directly.
+
+For cycles $C \subset \Gfifteen$, the parity
+\[
+\omega(C)=\sum_{e\in C}\varepsilon(e)\pmod 2
+\]
+is computed and compared against lifted transport in $G_{30}$.
+
+It is verified that:
+\begin{itemize}
+\item $\omega(C)=0$ if and only if the lifted walk closes on the same sheet,
+\item $\omega(C)=1$ if and only if the lifted walk returns on the opposite sheet.
+\end{itemize}
+
+In particular, pentagonal cycles split into trivial and nontrivial
+holonomy classes.
 
 \subsection{Cohomological classification}
 
 All vertex switchings (with one vertex fixed to remove global symmetry)
 are enumerated. The following are verified:
 \begin{itemize}
-\item no switching eliminates all negative edges,
+\item the cocycle is not cohomologous to the trivial cocycle,
+\item no switching eliminates all nontrivial edges,
 \item the minimal support size is $6$,
 \item exactly $40$ distinct minimal supports of size $6$ occur in the
 gauge-fixed search.
@@ -65,7 +109,20 @@ MM^{\mathsf T} = A^3 + 2A^2 + 2I
 \]
 is verified by direct matrix computation.
 
+\subsection{Implementation notes}
+
+The transport cocycle and holonomy verification are implemented via
+explicit scripts operating on the graph data, including:
+
+\begin{itemize}
+\item construction of the antipodal quotients,
+\item identification with the canonical dodecahedral model,
+\item classification of lifted edge relations as local or nonlocal,
+\item cycle enumeration and holonomy testing.
+\end{itemize}
+
 \subsection{Reproducibility}
 
-Details of the computational pipeline and reproducibility are given in
-Appendices~D and~E.
+All data files, scripts, and outputs required to reproduce these
+computations are included in the repository. Details of the computational
+pipeline are provided in Appendices~D and~E.

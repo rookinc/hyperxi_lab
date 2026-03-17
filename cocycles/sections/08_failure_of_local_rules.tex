@@ -1,48 +1,75 @@
 \section{Failure of Local Rules}
 
-We show that the sign function $\sigfun$ cannot be determined by local
-combinatorial data on $\Gfifteen$.
+We show that the transport invariant cannot be recovered from purely
+local combinatorial data on $\Gfifteen$.
 
 \subsection{Local indistinguishability}
 
 The graph $\Gfifteen$ is $4$-regular and edge-transitive. In particular,
-all edges have isomorphic finite-radius neighborhoods.
+for any fixed radius $r$, all edges have isomorphic $r$-neighborhoods.
 
-\subsection{Nonlocal behavior}
+Thus no invariant depending only on finite-radius neighborhoods and
+respecting graph automorphisms can distinguish one edge from another.
 
-Despite this local symmetry, the function $\sigfun$ assigns both values
-$+1$ and $-1$ to edges.
+\subsection{Global variability of the cocycle}
+
+Despite this local symmetry, the Thalean cocycle
+\[
+\varepsilon : E(\Gfifteen) \to \mathbb{Z}_2
+\]
+takes both values $0$ and $1$.
+
+Therefore the transport invariant distinguishes edges which are locally
+indistinguishable.
 
 \subsection{Failure of local determination}
 
 \begin{theorem}
-The function $\sigfun$ is not determined by any local rule that depends
-only on finite-radius neighborhoods and is invariant under graph
+The Thalean cocycle is not determined by any rule depending only on
+finite-radius neighborhoods in $\Gfifteen$ and invariant under graph
 automorphisms.
 \end{theorem}
 
 \begin{proof}
-Any such local rule assigns values to edges based only on their
-$r$-neighborhoods up to isomorphism, and is invariant under graph
-automorphisms. Therefore edges with isomorphic $r$-neighborhoods must
-receive the same value.
+Any such rule assigns values to edges based only on their
+$r$-neighborhoods up to isomorphism and is invariant under automorphisms.
 
 Since $\Gfifteen$ is edge-transitive, all edges have isomorphic
-$r$-neighborhoods. It follows that any such local rule must assign a
-constant value to all edges.
+$r$-neighborhoods. Hence any such rule must assign a constant value to
+all edges.
 
-However, $\sigfun$ takes both values $+1$ and $-1$, as verified in
-Section~13. Therefore $\sigfun$ cannot arise from such a local rule.
+However, the cocycle $\varepsilon$ takes both values $0$ and $1$ (see
+Section~13). Therefore it cannot arise from any such local rule.
 \end{proof}
+
+\subsection{Geometric origin of nonlocality}
+
+The failure of locality is not accidental. The cocycle is defined by
+lifting edges to the double cover $G_{30}\to G_{15}$ and then resolving
+those lifted edges in the canonical dodecahedral model.
+
+In that model, each edge of $\Gfifteen$ corresponds to a pair of
+relations between dodecahedral edges, and the cocycle records whether
+these relations are both local or both nonlocal.
+
+This information is invisible in $\Gfifteen$ itself and only becomes
+accessible after passing to the lifted structure and its geometric
+realization.
 
 \subsection{Cohomological interpretation}
 
-The obstruction to locality is cohomological: as shown in Section~9, the
-function $\sigfun$ represents a nontrivial class in
-$H^1(\Gfifteen,\ZZtwo)$ and cannot be obtained from a vertex potential by
-switching.
+The obstruction to locality is cohomological. The cocycle $\varepsilon$
+represents a nontrivial class in $H^1(\Gfifteen,\ZZtwo)$ and cannot be
+expressed as the coboundary of a vertex potential.
+
+Equivalently, no vertex switching can trivialize the transport invariant.
 
 \subsection{Consequences}
 
-This shows that the transport invariant encodes genuinely global
-information that is not recoverable from local graph structure.
+The transport invariant encodes genuinely global information: it is
+determined by lifted transport and geometric incidence in the
+dodecahedron, and cannot be reconstructed from local combinatorial data
+on the core graph alone.
+
+Thus the Petersen line-graph core carries a hidden global structure
+revealed only through the Thalean lift.

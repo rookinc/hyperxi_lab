@@ -1,42 +1,106 @@
 {
-  "spec_version": "1.0.0",
+  "spec_version": "1.1.0",
   "schema": "cori.graph.spec.v1",
+
   "name": "Thalean Graph",
-  "class": "AT4val[60,6]",
+  "graph_id": "AT4val[60,6]",
+
+  "provenance": {
+    "construction": "dodecahedral_flag_transport",
+    "paper_title": "A Dodecahedral Transport Construction of the Arc-Transitive Graph AT4val[60,6]",
+    "doi": "10.5281/zenodo.19043356"
+  },
+
   "graph": {
     "vertices": 60,
-    "edges": 120,
+    "edges": [
+      /* ============================================================
+         FULL EDGE LIST REQUIRED HERE
+         Replace with your real 120 edges from G60
+         Format: [u, v] with 0 <= u,v < 60
+         ============================================================ */
+
+      [0, 1],
+      [0, 7],
+      [0, 13]
+
+      /* ... CONTINUE UNTIL ALL 120 EDGES ARE INCLUDED ... */
+    ]
+  },
+
+  "quotients": {
+    "G60_to_G30": {
+      "type": "involution_pairing",
+      "map": [
+        /* length 60 → values in [0..29] */
+        /* paste your real quotient map here */
+      ]
+    },
+    "G30_to_G15": {
+      "type": "involution_pairing",
+      "map": [
+        /* length 30 → values in [0..14] */
+      ]
+    }
+  },
+
+  "signed_lift": {
+    "base_graph": "G15",
+    "type": "2-lift",
+
+    "edge_order": [
+      /* ordered list of G15 edges */
+      /* e.g. [ [0,1], [1,2], ... ] */
+    ],
+
+    "signs": [
+      /* +1 / -1 list aligned with edge_order */
+      /* length = number of edges in G15 (30) */
+    ],
+
+    "counts": {
+      "positive": 10,
+      "negative": 20
+    }
+  },
+
+  "sector_system": {
+    "description": "edge-sector incidence structure",
+
+    "matrix_shape": [15, 30],
+
+    "incidence_matrix": [
+      /* 15 x 30 matrix (rows = sectors, cols = edges) */
+      /* values typically 0/1 or signed */
+    ]
+  },
+
+  "transport": {
+    "generators": ["F", "V", "S"],
+
+    "state_space": {
+      "type": "chamber",
+      "cardinality": 60
+    },
+
+    "rules": {
+      "description": "local transport on dodecahedral flags"
+    }
+  },
+
+  "render": {
+    "default_layout": "circular",
+    "ordering": "vertex_index",
+    "style": {
+      "node_size": 12,
+      "edge_width": 0.5
+    }
+  },
+
+  "invariants": {
     "degree": 4,
-    "diameter": 6,
-    "automorphism_group_order": 480,
-    "distance_distribution": [1, 4, 8, 16, 24, 6, 1]
-  },
-  "identity": {
-    "canonical": "Graph52002",
-    "registry": {
-      "house_of_graphs": "Graph52002",
-      "graphsym": "AT4val[60,6]"
-    },
-    "hash": {
-      "sha256": "46b4deed98854cca49b31fac32d27843b706cf4f3ec129f4c467489a687dafd4"
-    },
-    "verification": {
-      "method": "graph6 + SHA256 + census match",
-      "status": "verified"
-    }
-  },
-  "construction": {
-    "origin": "dodecahedral flag transport",
-    "intermediate": "30-vertex quotient",
-    "core": "line graph of Petersen graph"
-  },
-  "invariant": {
-    "name": "Thalean cocycle",
-    "type": "Z2 transport cocycle",
-    "function": "determines signed 2-lift structure",
-    "edge_partition": {
-      "parallel": 10,
-      "crossed": 20
-    }
+    "edges": 120,
+    "connected": true,
+    "diameter": 6
   }
 }

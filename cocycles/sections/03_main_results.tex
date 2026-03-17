@@ -23,13 +23,14 @@ where
 G_{15} \cong L(\mathrm{Petersen}).
 \]
 
-\item \textbf{Transport invariant.}
-The transport system induces a canonical $\mathbb{Z}_2$-valued cocycle
+\item \textbf{Transport cocycle.}
+The lifted transport induces a canonical $\mathbb{Z}_2$-valued cocycle
 \[
-\varepsilon : E(G_{15}) \to \{\pm 1\},
+\varepsilon : E(G_{15}) \to \mathbb{Z}_2,
 \]
-which determines the signed $2$-lift $G_{30} \to G_{15}$.
-This cocycle is nontrivial in $H^1(G_{15}, \mathbb{Z}_2)$.
+which records whether transport across an edge preserves or swaps sheet
+in the double cover $G_{30} \to G_{15}$. This cocycle is nontrivial in
+$H^1(G_{15}, \mathbb{Z}_2)$.
 
 \item \textbf{Polynomial identity.}
 There exists a sector--edge incidence matrix
@@ -45,9 +46,9 @@ The map
 A \mapsto A^3 + 2A^2 + 2I
 \]
 defines a canonical polynomial representation of the adjacency algebra
-of $G_{15}$, determined by the transport system.
+of $G_{15}$, induced by the transport system.
 
-\item \textbf{Geometry.}
+\item \textbf{Spherical sector geometry.}
 After centering and normalization, the rows of $M$ define an embedding
 \[
 G_{15} \hookrightarrow \mathbb{R}^{14}
@@ -59,7 +60,13 @@ corresponding to graph distances $1,2,3$.
 \end{theorem}
 
 \begin{remark}
-The above structure is governed by a single object --- the Thalean
-cocycle --- which simultaneously controls the covering structure,
-algebraic representation, and geometric realization.
+The transport system decomposes into two complementary structures:
+
+\begin{itemize}
+\item a discrete $\mathbb{Z}_2$-valued cocycle capturing sheet holonomy,
+\item a continuous spherical geometry arising from sector incidence.
+\end{itemize}
+
+Together these encode both the global obstruction and the metric
+structure induced by transport on the Petersen core.
 \end{remark}

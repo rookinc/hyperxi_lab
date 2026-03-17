@@ -1,46 +1,141 @@
 \section{Transport Invariant and Signed Lift}
 
-We now identify the fundamental obstruction governing the lift
-$G_{30} \to G_{15}$.
+We now identify the binary transport invariant governing the lift
+\[
+G_{30} \to G_{15}.
+\]
+The key point is that the sign on a core edge is not assigned ad hoc:
+it is induced by the actual lifted transport and admits a canonical
+geometric interpretation on the dodecahedron.
+
+\subsection{The antipodal lift}
+
+The graph $G_{30}$ is a $2$-fold cover of $G_{15}$. Thus each vertex
+$x \in V(G_{15})$ has a two-point fiber
+\[
+\pi^{-1}(x)=\{x^+,x^-\}\subset V(G_{30}).
+\]
+For an edge $e=\{x,y\}\in E(G_{15})$, the adjacency upstairs connects the
+two fibers $\pi^{-1}(x)$ and $\pi^{-1}(y)$ in exactly one of two ways:
+either sheet is preserved, or sheet is exchanged. This binary distinction
+defines the transport parity of the edge.
+
+\subsection{Canonical dodecahedral model of the core}
+
+By the identification
+\[
+G_{15}\cong L(\mathrm{Petersen}),
+\]
+we may regard the vertices of $G_{15}$ as the $15$ opposite-edge classes
+of the dodecahedron. Each vertex of $G_{30}$ then corresponds to one of
+the two actual dodecahedral edges in the corresponding opposite-edge class.
+
+Let $e,f$ be two dodecahedral edges arising from adjacent vertices of
+$G_{15}$. Their relation is classified as follows:
+
+\begin{itemize}
+\item \emph{local} if $e$ and $f$ share a vertex and lie on a common face;
+\item \emph{nonlocal} if they neither share a vertex nor lie on a common face,
+and are not opposite edges.
+\end{itemize}
+
+Empirically, when one examines the two lifted edges in $G_{30}$ above a
+single edge of $G_{15}$, only two patterns occur:
+\[
+(LL)\qquad\text{or}\qquad(NN).
+\]
+
+\subsection{Definition of the Thalean cocycle}
 
 \begin{definition}[Thalean cocycle]
-Let $G_{15}$ be the line graph of the Petersen graph arising as the
-quotient of $G_{60}$. The \emph{Thalean cocycle} is the function
+Let $e=\{x,y\}\in E(G_{15})$. Consider the two lifted edges in $G_{30}$
+connecting the fibers $\pi^{-1}(x)$ and $\pi^{-1}(y)$, and push them to
+the canonical opposite-edge model of the dodecahedron. Define
 \[
-\varepsilon : E(G_{15}) \to \{\pm 1\}
+\varepsilon(e)\in \mathbb{Z}_2
 \]
-defined by transport parity along lifted paths in $G_{60}$.
+by
+\[
+\varepsilon(e)=
+\begin{cases}
+0,&\text{if the lifted pattern is }(LL),\\
+1,&\text{if the lifted pattern is }(NN).
+\end{cases}
+\]
+Equivalently, $\varepsilon(e)=0$ records trivial sheet holonomy across
+the edge, while $\varepsilon(e)=1$ records nontrivial sheet exchange.
+This $\mathbb{Z}_2$-valued edge function is called the \emph{Thalean cocycle}.
 \end{definition}
 
+\subsection{Cocycle theorem}
+
 \begin{theorem}[Thalean cocycle theorem]
-The map $\varepsilon$ is a nontrivial $\mathbb{Z}_2$-valued cocycle on
-$G_{15}$ with the following properties:
+The edge function
+\[
+\varepsilon : E(G_{15}) \to \mathbb{Z}_2
+\]
+defined above has the following properties:
 
 \begin{enumerate}[label=(\roman*)]
-\item It determines the signed $2$-lift $G_{30} \to G_{15}$.
+\item It is canonically induced by the lifted transport
+$G_{30}\to G_{15}$.
 
-\item The induced signing partitions the edges of $G_{15}$ into
-$10$ positive (parallel) and $20$ negative (crossed) edges.
+\item It records whether transport across a core edge preserves or swaps
+sheet in the double cover.
 
-\item The cocycle is not cohomologous to the trivial cocycle under
-vertex switching.
+\item Its cycle parity computes the sheet holonomy of lifted loops:
+for any cycle $C\subset G_{15}$,
+\[
+\omega(C):=\sum_{e\in C}\varepsilon(e)\pmod 2
+\]
+is trivial if and only if the lifted loop closes on the same sheet.
+
+\item It defines a nontrivial cohomology class in
+$H^1(G_{15},\mathbb{Z}_2)$.
 \end{enumerate}
 \end{theorem}
 
 \begin{proof}
-The lift $G_{30} \to G_{15}$ assigns two states to each vertex of $G_{15}$.
-Each edge lifts either as a parallel pair or a crossed pair, defining a
-sign function $\varepsilon$.
+The lift $G_{30}\to G_{15}$ provides a canonical two-sheet structure over
+each vertex of $G_{15}$. For each base edge, the induced adjacency between
+the two fibers is either sheet-preserving or sheet-swapping. This binary
+distinction is invariant under exchanging the two labels in a fiber, so
+it defines a well-defined element of $\mathbb{Z}_2$ on each edge.
 
-Transport around closed cycles yields a parity invariant which is
-independent of representative paths, establishing that $\varepsilon$
-is a well-defined $\mathbb{Z}_2$-valued cocycle.
+Under the canonical identification of $G_{15}$ with the graph of opposite
+edge-pairs of the dodecahedron, the two lifted realizations of each base
+edge are found to be simultaneously local or simultaneously nonlocal,
+yielding exactly the patterns $(LL)$ and $(NN)$. Thus the cocycle admits
+the stated geometric interpretation.
 
-Explicit computation shows that the edge partition is $(10,20)$ and that
-no vertex switching can trivialize the sign pattern, proving that the
-cocycle represents a nontrivial cohomology class.
+For a cycle $C$ in $G_{15}$, the parity sum of edge values records whether
+the lifted walk in $G_{30}$ returns to its original sheet or to the opposite
+sheet. Hence the cocycle parity computes the sheet holonomy of the loop.
+Computational verification shows that this class is nontrivial.
 \end{proof}
 
-This cocycle encodes the obstruction preventing $G_{30}$ from splitting
-as a trivial double cover of $G_{15}$, and will serve as the algebraic
-input for the geometric constructions that follow.
+\subsection{Holonomy classes of pentagons}
+
+The cocycle does not create the pentagons of $G_{15}$; rather, it
+polarizes them into trivial and nontrivial holonomy classes. In
+particular, the parity sum
+\[
+\omega(C)=\sum_{e\in C}\varepsilon(e)\pmod 2
+\]
+distinguishes pentagons whose lifted transport closes trivially from
+those carrying nontrivial sheet-flip holonomy.
+
+\subsection{Signed-lift interpretation}
+
+If one passes from $\mathbb{Z}_2=\{0,1\}$ to $\{\pm1\}$ by the rule
+\[
+\sigma(e)=(-1)^{\varepsilon(e)},
+\]
+then $\sigma(e)=+1$ corresponds to trivial holonomy and
+$\sigma(e)=-1$ to nontrivial holonomy. Thus the Thalean cocycle may be
+viewed equivalently as a signed edge function on $G_{15}$ or as the
+$\mathbb{Z}_2$-voltage defining the double cover $G_{30}\to G_{15}$.
+
+This cocycle is the fundamental transport invariant of the Petersen
+core and serves as the algebraic input for the sector incidence
+construction developed in the following sections.

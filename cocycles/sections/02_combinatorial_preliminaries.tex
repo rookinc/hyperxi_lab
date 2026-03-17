@@ -1,0 +1,84 @@
+\section{Construction of the Chamber Graph $G_{60}$}
+
+We construct the chamber graph $G_{60}$ from the flag structure of the
+combinatorial dodecahedron.
+
+\subsection{The dodecahedron}
+
+Let $D$ be the combinatorial dodecahedron, with
+\[
+|V(D)| = 20, \qquad |E(D)| = 30, \qquad |F(D)| = 12.
+\]
+
+\subsection{Flags}
+
+A \emph{flag} of $D$ is an incident triple
+\[
+(v,e,f),
+\]
+where $v$ is a vertex, $e$ an edge incident to $v$, and $f$ a face
+incident to $e$.
+
+There are $120$ flags.
+
+\subsection{Local transport on flags}
+
+There are three natural involutive moves on flags:
+\begin{itemize}
+\item vertex move: change the vertex along the edge while keeping $(e,f)$ fixed,
+\item edge move: change the edge within the face while keeping $(v,f)$ fixed,
+\item face move: change the face along the edge while keeping $(v,e)$ fixed.
+\end{itemize}
+
+These generate the adjacency structure on the flag graph.
+
+\subsection{Chamber states}
+
+Each edge is incident to four flags, which split into two opposite pairs.
+We define a \emph{chamber state} to be such a pair.
+
+Thus the $120$ flags are partitioned into $60$ chamber states.
+
+\subsection{Induced transport}
+
+The flag moves descend to well-defined operations on chamber states.
+Due to the identification of opposite flags, some flag moves coincide
+after descent.
+
+A direct analysis shows that each chamber state admits exactly four
+distinct induced moves.
+
+\subsection{The chamber graph}
+
+The graph $G_{60}$ is defined on the set of chamber states, with
+adjacency given by the induced transport moves.
+
+\begin{proposition}
+The graph $G_{60}$ is connected and $4$-regular with $60$ vertices.
+\end{proposition}
+
+\begin{proof}
+Each chamber state admits four distinct induced transport moves, giving
+degree $4$. Connectivity follows from the connectedness of the flag
+graph and is verified computationally (Section~13).
+\end{proof}
+
+\subsection{Quotient structure}
+
+The transport construction admits natural quotients
+\[
+G_{60} \longrightarrow G_{30} \longrightarrow G_{15}.
+\]
+
+The graph $G_{15}$ has $15$ vertices and $30$ edges and will be
+identified with the line graph of the Petersen graph in the next
+section.
+
+\subsection{Notation}
+
+Throughout the paper:
+\begin{itemize}
+\item $G_{60}, G_{30}, G_{15}$ denote the graphs defined above,
+\item edges are written as unordered pairs $(u,v)$,
+\item all graphs are simple and undirected.
+\end{itemize}

@@ -1,0 +1,96 @@
+\section{Geometric Interpretation}
+
+We interpret the transport construction geometrically, with particular
+attention to the relationship between the cocycle and the sector
+configuration on $\Gfifteen$.
+
+\subsection{Two kinds of structure on the core}
+
+The quotient graph $\Gfifteen \cong L(\mathrm{Petersen})$ carries two
+distinct structures arising from transport:
+\begin{itemize}
+\item a $\mathbb{Z}_2$-valued cocycle $\sigfun$ on edges,
+\item a family of $15$ transport sectors, one associated to each vertex.
+\end{itemize}
+
+The cocycle is sparse after switching reduction, while the sector system
+is highly distributed.
+
+\subsection{The cocycle support}
+
+Let
+\[
+S = \{ e \in E(\Gfifteen) : \sigfun(e) = -1 \}.
+\]
+
+Before switching reduction, the negative-edge sector determined by the
+transport signing has support on a connected $14$-edge subgraph. Its
+vertex-incidence profile is nonuniform: five vertices have incidence
+count $4$, eight vertices have incidence count $1$, and two vertices do
+not occur at all.
+
+This already shows that the cocycle support singles out a nontrivial
+combinatorial region of the core.
+
+\subsection{The sector geometry}
+
+Independently, the transport sectors define a $15\times 30$ incidence
+matrix $M$, whose centered row vectors produce a spherical
+configuration. The centered inner products depend only on distance in
+$\Gfifteen$ and take exactly three values:
+\[
+2.4666666667,\qquad -1.5333333333,\qquad -2.5333333333,
+\]
+corresponding respectively to distances
+\[
+1,\qquad 2,\qquad 3.
+\]
+
+After normalization, the corresponding cosines are
+\[
+0.3303571429,\qquad -0.2053571429,\qquad -0.3392857143.
+\]
+
+\subsection{Relation between the two}
+
+The cocycle and the spherical sector geometry are related, but they do
+not collapse to the same object.
+
+The cocycle enters the construction through transport parity and the
+signed lift, while the sector geometry is governed by the global
+sector--edge overlap law
+\[
+MM^{\mathsf T} = A^3 + 2A^2 + 2I.
+\]
+
+In particular, the minimal cocycle support of size $6$ does not appear
+to define a single eigenspace, orbit, or isolated geometric component of
+the centered sector configuration. Rather, the cocycle contributes to
+the transport structure from which the sectors arise, while the sector
+geometry records a more distributed overlap pattern across the full
+core.
+
+\subsection{Interpretation}
+
+The two structures should therefore be viewed as complementary:
+\begin{itemize}
+\item the cocycle captures a global $\mathbb{Z}_2$ obstruction in the
+transport system,
+\item the sector configuration captures the higher-order overlap geometry
+induced by transport on the core.
+\end{itemize}
+
+Together they show that the transport system encodes more than the bare
+graph structure of $\Gfifteen$.
+
+\subsection{Relation to known graphs}
+
+The graph $\Gsixty$ is a connected tetravalent graph on $60$ vertices
+with diameter $6$, matching the standard identifier
+\[
+\mathrm{AT4val}[60,6].
+\]
+
+The significance of the present construction is not merely that it
+recovers this graph, but that it equips it with an explicit signed-lift
+structure and a rigid sector geometry descending to the Petersen core.

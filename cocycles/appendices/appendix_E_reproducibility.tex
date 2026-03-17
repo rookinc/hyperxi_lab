@@ -1,0 +1,54 @@
+\section{Reproducibility}
+
+All results in this paper are based on explicit finite computations on
+combinatorial data.
+
+\subsection{Data}
+
+The constructions use:
+\begin{itemize}
+\item a fixed labeling of the dodecahedron (Appendix~C),
+\item an explicit edge list for $\Gfifteen$ (Appendix~A),
+\item a signing $\sigfun$ defining the cocycle (Appendix~A).
+\end{itemize}
+
+\subsection{Deterministic procedures}
+
+All computations are deterministic and involve:
+\begin{itemize}
+\item graph construction from flag transport,
+\item quotient identification,
+\item switching operations on signings,
+\item exhaustive enumeration over $2^{14}$ switching configurations,
+\item matrix computations on integer-valued data.
+\end{itemize}
+
+No randomness or probabilistic methods are used.
+
+\subsection{Verification steps}
+
+The main verifications can be reproduced by:
+\begin{itemize}
+\item constructing $\Gsixty$ from flag data and checking degree and connectivity,
+\item computing the quotients $\Gsixty \to \Gthirty \to \Gfifteen$,
+\item verifying $\Gfifteen \cong L(\mathrm{Petersen})$,
+\item computing the signed lift from $\sigfun$,
+\item enumerating switching configurations to confirm minimal support $6$,
+\item computing the matrices $A$ and $M$ and checking
+\[
+MM^{\mathsf T} = A^3 + 2A^2 + 2I.
+\]
+\end{itemize}
+
+\subsection{Implementation}
+
+All computations are implemented in Python using explicit adjacency
+lists and incidence structures. The scripts operate directly on the
+data described in the appendices and require no external libraries
+beyond standard numerical and combinatorial functionality.
+
+\subsection{Scope}
+
+The results are fully reproducible from the data and procedures given
+in this paper. Any implementation following the same definitions will
+produce identical outputs.

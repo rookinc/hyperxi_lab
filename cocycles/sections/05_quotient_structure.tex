@@ -1,0 +1,36 @@
+\section{Quotient Structure}
+
+Starting from the $120$ flags of the dodecahedron, we form $60$ chamber states
+by identifying opposite configurations along edges. Local transport operations
+induce a connected tetravalent graph
+\[
+G_{60},
+\]
+with
+\[
+|V| = 60, \quad |E| = 120, \quad \deg = 4.
+\]
+
+Two natural involutive identifications yield quotient graphs
+\[
+G_{60} \longrightarrow G_{30} \longrightarrow G_{15}.
+\]
+
+\begin{proposition}[Identification with the arc-transitive census]
+The graph $G_{60}$ constructed via dodecahedral flag transport is isomorphic
+to the arc-transitive graph $\mathrm{AT4val}[60,6]$. In the House of Graphs
+database, this graph appears as Graph52002.
+\end{proposition}
+
+\begin{proof}
+The graph $G_{60}$ is connected, $4$-regular, and has $60$ vertices and
+$120$ edges. Computational verification shows that its automorphism group
+acts transitively on arcs and has order $480$, and that the diameter is $6$
+with distance distribution $(1,4,8,16,24,6,1)$.
+
+These invariants uniquely identify $G_{60}$ within the census of tetravalent
+arc-transitive graphs, where it is recorded as $\mathrm{AT4val}[60,6]$.
+Cross-referencing with the House of Graphs database confirms the canonical
+identifier Graph52002.
+
+\end{proof}

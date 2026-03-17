@@ -1,0 +1,49 @@
+\section{Minimal Cocycle Support}
+
+Let
+\[
+S = \{ e \in E(\Gfifteen) : \sigfun(e) = -1 \}.
+\]
+
+The set $S$ records the negative edges of the signing defining the
+signed $2$-lift $\Gthirty \to \Gfifteen$.
+
+\subsection{Gauge reduction}
+
+Two signings related by vertex switching define the same cohomology
+class. Explicitly, for a function $\tau : V(\Gfifteen) \to \{\pm 1\}$,
+the switched signing is given by
+\[
+\sigfun'(uv) = \tau(u)\,\sigfun(uv)\,\tau(v).
+\]
+
+Thus the support $S$ is defined only up to switching equivalence.
+
+\subsection{Minimal support}
+
+We exhaustively search the switching orbit of $\sigfun$, fixing one
+vertex to remove the global symmetry.
+
+The computation shows that:
+\begin{itemize}
+\item the support can be reduced to size $6$,
+\item no representative with fewer than $6$ negative edges exists,
+\item there are $40$ distinct supports of size $6$ within the
+gauge-fixed search.
+\end{itemize}
+
+This establishes that the minimal weight of the cohomology class is $6$.
+
+\subsection{Explicit representative}
+
+The table below records one representative of minimal support.
+
+\input{tables/minimal_cocycle_support_table}
+
+\subsection{Interpretation}
+
+Since the minimal support is nonzero, the cocycle defined by $\sigfun$
+is nontrivial in $H^1(\Gfifteen; \mathbb{Z}_2)$.
+
+The existence of multiple minimal representatives reflects the action
+of the switching group on the cohomology class.

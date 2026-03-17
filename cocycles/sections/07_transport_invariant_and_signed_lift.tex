@@ -1,0 +1,46 @@
+\section{Transport Invariant and Signed Lift}
+
+We now identify the fundamental obstruction governing the lift
+$G_{30} \to G_{15}$.
+
+\begin{definition}[Thalean cocycle]
+Let $G_{15}$ be the line graph of the Petersen graph arising as the
+quotient of $G_{60}$. The \emph{Thalean cocycle} is the function
+\[
+\varepsilon : E(G_{15}) \to \{\pm 1\}
+\]
+defined by transport parity along lifted paths in $G_{60}$.
+\end{definition}
+
+\begin{theorem}[Thalean cocycle theorem]
+The map $\varepsilon$ is a nontrivial $\mathbb{Z}_2$-valued cocycle on
+$G_{15}$ with the following properties:
+
+\begin{enumerate}[label=(\roman*)]
+\item It determines the signed $2$-lift $G_{30} \to G_{15}$.
+
+\item The induced signing partitions the edges of $G_{15}$ into
+$10$ positive (parallel) and $20$ negative (crossed) edges.
+
+\item The cocycle is not cohomologous to the trivial cocycle under
+vertex switching.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+The lift $G_{30} \to G_{15}$ assigns two states to each vertex of $G_{15}$.
+Each edge lifts either as a parallel pair or a crossed pair, defining a
+sign function $\varepsilon$.
+
+Transport around closed cycles yields a parity invariant which is
+independent of representative paths, establishing that $\varepsilon$
+is a well-defined $\mathbb{Z}_2$-valued cocycle.
+
+Explicit computation shows that the edge partition is $(10,20)$ and that
+no vertex switching can trivialize the sign pattern, proving that the
+cocycle represents a nontrivial cohomology class.
+\end{proof}
+
+This cocycle encodes the obstruction preventing $G_{30}$ from splitting
+as a trivial double cover of $G_{15}$, and will serve as the algebraic
+input for the geometric constructions that follow.

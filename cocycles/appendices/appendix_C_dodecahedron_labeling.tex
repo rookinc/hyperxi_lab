@@ -1,0 +1,48 @@
+\section{Dodecahedron Labeling}
+
+We fix a combinatorial model of the dodecahedron used throughout the
+paper.
+
+\subsection{Vertices and edges}
+
+Let the dodecahedron have $20$ vertices and $30$ edges. We label the
+vertices by a set $V = \{0,1,\dots,19\}$.
+
+Edges are unordered pairs $(u,v)$ with $u,v \in V$. The full edge list
+is fixed once and for all and determines the combinatorial structure.
+
+\subsection{Faces}
+
+Each face is a $5$-cycle in the edge graph. The $12$ faces are recorded
+as cyclically ordered vertex lists
+\[
+(f_1, f_2, f_3, f_4, f_5).
+\]
+
+These face cycles determine the local adjacency relations used in the
+transport construction.
+
+\subsection{Flags}
+
+A flag is a triple $(v,e,f)$ consisting of a vertex $v$, an incident
+edge $e$, and a face $f$ containing $e$.
+
+The dodecahedron has $120$ flags in total.
+
+\subsection{Transport generators}
+
+The transport system is defined using local moves on flags:
+\begin{itemize}
+\item vertex move: change the vertex along a fixed edge,
+\item edge move: change the edge within a fixed face,
+\item face move: change the face across a fixed edge.
+\end{itemize}
+
+These generate the flag adjacency structure from which the chamber
+graph $\Gsixty$ is constructed.
+
+\subsection{Reproducibility}
+
+All computations in the paper use a fixed implementation of this
+labeling, consistent with the edge and face data used in the
+computational pipeline described in Appendix~D.

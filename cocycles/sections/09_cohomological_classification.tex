@@ -1,0 +1,65 @@
+\section{Cohomological Classification}
+
+We interpret the sign function $\sigfun$ as a cohomological object on
+$\Gfifteen$.
+
+\subsection{Cochains}
+
+Let $C^1(\Gfifteen,\ZZtwo)$ denote the space of $\ZZtwo$-valued functions
+on edges. Elements of $C^1$ assign a sign $\pm 1$ to each edge.
+
+\subsection{Cocycle}
+
+The function $\sigfun$ defines a $1$-cochain. Switching at a vertex
+corresponds to multiplying $\sigfun$ by a coboundary. Thus the switching
+class of $\sigfun$ determines a cohomology class in
+$H^1(\Gfifteen,\ZZtwo)$.
+
+\subsection{Nontriviality}
+
+\begin{theorem}
+The cochain $\sigfun$ represents a nontrivial class in
+$H^1(\Gfifteen,\ZZtwo)$.
+\end{theorem}
+
+\begin{proof}
+A cochain represents the trivial class if and only if it differs from the
+constant $+1$ function by a coboundary, i.e., if it can be made identically
+$+1$ by switching at vertices.
+
+Exhaustive computational search over all switching configurations
+(Section~13) shows that no such switching eliminates all negative edges.
+Therefore $\sigfun$ is not a coboundary and represents a nontrivial
+cohomology class.
+\end{proof}
+
+\subsection{Minimal support}
+
+Within its switching class, the cochain $\sigfun$ admits representatives
+with varying support sizes. Define the support
+\[
+S = \{ e \in E(\Gfifteen) : \sigfun(e) = -1 \}.
+\]
+
+\begin{proposition}
+The minimal support size of $\sigfun$ over all switching-equivalent
+representatives is $6$.
+\end{proposition}
+
+\begin{proof}
+An exhaustive search over all vertex switchings (with one vertex fixed to
+remove global symmetry) yields representatives with exactly $6$ negative
+edges. No switching configuration produces fewer than $6$ negative edges.
+\end{proof}
+
+Moreover, the minimal representative is not unique: the same exhaustive
+search yields $40$ distinct supports of size $6$.
+
+An explicit minimal-support representative is listed in Appendix~B.
+
+\subsection{Interpretation}
+
+The minimal support provides a measure of the intrinsic complexity of the
+cohomology class. The fact that it cannot be reduced below $6$ edges
+demonstrates that the transport invariant encodes a genuinely global
+obstruction that cannot be localized or eliminated by switching.

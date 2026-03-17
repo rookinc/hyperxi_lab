@@ -1,0 +1,42 @@
+{
+  "spec_version": "1.0.0",
+  "schema": "cori.graph.spec.v1",
+  "name": "Thalean Graph",
+  "class": "AT4val[60,6]",
+  "graph": {
+    "vertices": 60,
+    "edges": 120,
+    "degree": 4,
+    "diameter": 6,
+    "automorphism_group_order": 480,
+    "distance_distribution": [1, 4, 8, 16, 24, 6, 1]
+  },
+  "identity": {
+    "canonical": "Graph52002",
+    "registry": {
+      "house_of_graphs": "Graph52002",
+      "graphsym": "AT4val[60,6]"
+    },
+    "hash": {
+      "sha256": "46b4deed98854cca49b31fac32d27843b706cf4f3ec129f4c467489a687dafd4"
+    },
+    "verification": {
+      "method": "graph6 + SHA256 + census match",
+      "status": "verified"
+    }
+  },
+  "construction": {
+    "origin": "dodecahedral flag transport",
+    "intermediate": "30-vertex quotient",
+    "core": "line graph of Petersen graph"
+  },
+  "invariant": {
+    "name": "Thalean cocycle",
+    "type": "Z2 transport cocycle",
+    "function": "determines signed 2-lift structure",
+    "edge_partition": {
+      "parallel": 10,
+      "crossed": 20
+    }
+  }
+}

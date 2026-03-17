@@ -1,0 +1,48 @@
+\section{Failure of Local Rules}
+
+We show that the sign function $\sigfun$ cannot be determined by local
+combinatorial data on $\Gfifteen$.
+
+\subsection{Local indistinguishability}
+
+The graph $\Gfifteen$ is $4$-regular and edge-transitive. In particular,
+all edges have isomorphic finite-radius neighborhoods.
+
+\subsection{Nonlocal behavior}
+
+Despite this local symmetry, the function $\sigfun$ assigns both values
+$+1$ and $-1$ to edges.
+
+\subsection{Failure of local determination}
+
+\begin{theorem}
+The function $\sigfun$ is not determined by any local rule that depends
+only on finite-radius neighborhoods and is invariant under graph
+automorphisms.
+\end{theorem}
+
+\begin{proof}
+Any such local rule assigns values to edges based only on their
+$r$-neighborhoods up to isomorphism, and is invariant under graph
+automorphisms. Therefore edges with isomorphic $r$-neighborhoods must
+receive the same value.
+
+Since $\Gfifteen$ is edge-transitive, all edges have isomorphic
+$r$-neighborhoods. It follows that any such local rule must assign a
+constant value to all edges.
+
+However, $\sigfun$ takes both values $+1$ and $-1$, as verified in
+Section~13. Therefore $\sigfun$ cannot arise from such a local rule.
+\end{proof}
+
+\subsection{Cohomological interpretation}
+
+The obstruction to locality is cohomological: as shown in Section~9, the
+function $\sigfun$ represents a nontrivial class in
+$H^1(\Gfifteen,\ZZtwo)$ and cannot be obtained from a vertex potential by
+switching.
+
+\subsection{Consequences}
+
+This shows that the transport invariant encodes genuinely global
+information that is not recoverable from local graph structure.

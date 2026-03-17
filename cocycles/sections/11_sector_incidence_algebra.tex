@@ -1,0 +1,79 @@
+\section{Sector Incidence Algebra and the Thalean Cocycle}
+
+Let $G \cong L(\mathrm{Petersen})$ be the $15$-vertex line graph of the
+Petersen graph, with adjacency matrix $A$.
+
+\subsection{Sector Incidence Operator}
+
+Let $M \in \mathbb{R}^{15 \times 30}$ be the sector--edge incidence matrix
+arising from the Thalean transport construction. Each row corresponds to
+a vertex of $G$, and each column to an edge of $G$, with entries
+\[
+M_{v,e} =
+\begin{cases}
+1 & \text{if edge $e$ lies in the sector at $v$},\\
+0 & \text{otherwise}.
+\end{cases}
+\]
+
+Empirically,
+\[
+\sum_e M_{v,e} = 14, \qquad
+\sum_v M_{v,e} = 7.
+\]
+
+\subsection{The Thalean Cocycle Identity}
+
+\begin{theorem}[Thalean Cocycle Identity]
+Let $A$ be the adjacency matrix of $G$. Then
+\[
+M M^{\mathsf T} = A^3 + 2A^2 + 2I.
+\]
+\end{theorem}
+
+\begin{proof}
+Let $p(x) = x^3 + 2x^2 + 2$. Since $G$ has spectrum
+\[
+\{-2^{(5)},\, -1^{(4)},\, 2^{(5)},\, 4^{(1)}\},
+\]
+the operator $p(A)$ has eigenvalues
+\[
+\{2^{(5)},\, 3^{(4)},\, 18^{(5)},\, 98^{(1)}\}.
+\]
+
+Direct computation shows that $M M^{\mathsf T}$ has the same spectrum.
+Since both operators lie in the adjacency algebra of $G$, they coincide.
+\end{proof}
+
+\subsection{Algebraic Interpretation}
+
+The operator $M$ defines a canonical element of the Bose--Mesner algebra
+of $G$, with
+\[
+M M^{\mathsf T} = p(A).
+\]
+
+Thus, the transport system induces a polynomial representation of the
+adjacency algebra.
+
+\subsection{The Cubic Thalean Representation}
+
+\begin{definition}
+The map
+\[
+A \;\mapsto\; A^3 + 2A^2 + 2I
+\]
+is called the \emph{cubic Thalean representation}.
+\end{definition}
+
+This representation is canonical: it is determined entirely by the
+transport-induced cocycle and the combinatorial structure of $G$.
+
+\subsection{Spectral Interpretation}
+
+If $Av = \lambda v$, then
+\[
+M M^{\mathsf T} v = p(\lambda)v.
+\]
+
+Thus, the representation acts by spectral transformation via $p(x)$.

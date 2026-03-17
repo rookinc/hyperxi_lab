@@ -1,0 +1,57 @@
+\section{Spherical Sector Geometry}
+
+\subsection{Centering and Normalization}
+
+Let $\mathbf{1}$ denote the all-ones vector and define
+\[
+M_c = M - \frac{14}{30}\,\mathbf{1}\mathbf{1}^T.
+\]
+
+Then the rows of $M_c$ lie in the $14$-dimensional subspace orthogonal to
+$\mathbf{1}$. Normalize:
+\[
+\widetilde{M}_v = \frac{(M_c)_v}{\|(M_c)_v\|}.
+\]
+
+\subsection{Three-Angle Structure}
+
+\begin{theorem}
+The vectors $\{\widetilde{M}_v\}$ form a spherical configuration in
+$\mathbb{R}^{14}$ with exactly three distinct inner products:
+\[
+\langle \widetilde{M}_u, \widetilde{M}_v \rangle \in \{\alpha,\beta,\gamma\},
+\quad u \neq v,
+\]
+where numerically
+\[
+\alpha \approx -0.339286,\quad
+\beta \approx -0.205357,\quad
+\gamma \approx 0.330357.
+\]
+\end{theorem}
+
+\begin{proof}
+The Gram matrix is obtained from $M M^{\mathsf T}$ after centering and
+normalization. Since $M M^{\mathsf T} = p(A)$ lies in the adjacency
+algebra and $G$ has diameter $3$, inner products depend only on graph
+distance. Direct computation yields exactly three values.
+\end{proof}
+
+\subsection{Geometric Interpretation}
+
+The embedding $v \mapsto \widetilde{M}_v$ realizes $G$ as a spherical
+three-angle configuration in $\mathbb{R}^{14}$.
+
+The three inner products correspond exactly to graph distances
+$1,2,3$, showing that the geometry is completely determined by the
+adjacency structure.
+
+\subsection{Geometric Realization of the Representation}
+
+This embedding is the geometric realization of the cubic Thalean
+representation. The polynomial identity
+\[
+M M^{\mathsf T} = p(A)
+\]
+translates directly into metric relations in the embedding, making the
+geometry canonical.

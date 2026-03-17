@@ -1,0 +1,65 @@
+\section{Main Results}
+
+We summarize the core structure arising from dodecahedral flag transport.
+
+\begin{theorem}[Thalean Structure Theorem]
+Let $G_{60}$ be the graph obtained from local transport on the
+dodecahedral flag space. Then the following hold.
+
+\begin{enumerate}[label=(\roman*)]
+
+\item \textbf{Census identification.}
+The graph $G_{60}$ is a connected tetravalent arc-transitive graph on
+$60$ vertices, isomorphic to $\mathrm{AT4val}[60,6]$
+(House of Graphs: Graph52002).
+
+\item \textbf{Quotient structure.}
+There exist natural $2$-fold quotients
+\[
+G_{60} \longrightarrow G_{30} \longrightarrow G_{15},
+\]
+where
+\[
+G_{15} \cong L(\mathrm{Petersen}).
+\]
+
+\item \textbf{Transport invariant.}
+The transport system induces a canonical $\mathbb{Z}_2$-valued cocycle
+\[
+\varepsilon : E(G_{15}) \to \{\pm 1\},
+\]
+which determines the signed $2$-lift $G_{30} \to G_{15}$.
+This cocycle is nontrivial in $H^1(G_{15}, \mathbb{Z}_2)$.
+
+\item \textbf{Polynomial identity.}
+There exists a sector--edge incidence matrix
+$M \in \mathbb{R}^{15 \times 30}$ such that
+\[
+M M^{\mathsf T} = A^3 + 2A^2 + 2I,
+\]
+where $A$ is the adjacency matrix of $G_{15}$.
+
+\item \textbf{Representation.}
+The map
+\[
+A \mapsto A^3 + 2A^2 + 2I
+\]
+defines a canonical polynomial representation of the adjacency algebra
+of $G_{15}$, determined by the transport system.
+
+\item \textbf{Geometry.}
+After centering and normalization, the rows of $M$ define an embedding
+\[
+G_{15} \hookrightarrow \mathbb{R}^{14}
+\]
+as a spherical configuration with exactly three distinct inner products,
+corresponding to graph distances $1,2,3$.
+
+\end{enumerate}
+\end{theorem}
+
+\begin{remark}
+The above structure is governed by a single object --- the Thalean
+cocycle --- which simultaneously controls the covering structure,
+algebraic representation, and geometric realization.
+\end{remark}

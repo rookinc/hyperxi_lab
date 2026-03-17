@@ -1,0 +1,71 @@
+\section{Computational Verification}
+
+All constructions and claims relying on explicit enumeration are
+verified by explicit computation.
+
+\subsection{Overview}
+
+A computational pipeline was implemented to construct the graphs
+$\Gsixty$, $\Gthirty$, and $\Gfifteen$, compute transport invariants,
+and verify all structural and algebraic claims stated in this paper.
+
+All computations are deterministic and based on explicit combinatorial
+data derived from the dodecahedral flag structure.
+
+\subsection{Graph construction and quotients}
+
+The graph $\Gsixty$ is constructed from chamber states of the
+dodecahedron. Two successive involutive identifications produce
+$\Gthirty$ and $\Gfifteen$.
+
+The following properties are verified:
+\begin{itemize}
+\item $\Gsixty$: $60$ vertices, $120$ edges, $4$-regular,
+\item $\Gthirty$: $30$ vertices, $60$ edges, $4$-regular,
+\item $\Gfifteen$: $15$ vertices, $30$ edges, $4$-regular,
+\item all graphs are connected,
+\item each quotient map is a $2$-fold covering.
+\end{itemize}
+
+\subsection{Identification of $\Gfifteen$}
+
+The graph $\Gfifteen$ is verified to be isomorphic to the line graph of
+the Petersen graph by matching vertex count, degree, and adjacency
+structure.
+
+\subsection{Transport invariant}
+
+The function $\epsinv$ is computed by propagating signs along transport
+paths from a fixed base chamber. Path independence is verified by
+checking that all closed transport loops have trivial sign.
+
+The induced edge sign function $\sigfun$ on $\Gfifteen$ is computed and
+shown to have
+\[
+10 \text{ positive edges}, \qquad 20 \text{ negative edges}.
+\]
+
+\subsection{Cohomological classification}
+
+All vertex switchings (with one vertex fixed to remove global symmetry)
+are enumerated. The following are verified:
+\begin{itemize}
+\item no switching eliminates all negative edges,
+\item the minimal support size is $6$,
+\item exactly $40$ distinct minimal supports of size $6$ occur in the
+gauge-fixed search.
+\end{itemize}
+
+\subsection{Sector incidence identity}
+
+The sector--edge incidence matrix $M$ is constructed explicitly.
+The identity
+\[
+MM^{\mathsf T} = A^3 + 2A^2 + 2I
+\]
+is verified by direct matrix computation.
+
+\subsection{Reproducibility}
+
+Details of the computational pipeline and reproducibility are given in
+Appendices~D and~E.

@@ -1,0 +1,43 @@
+{
+  "kernel_id": "thalean_transport_kernel_v1",
+  "version": "1.0.0",
+
+  "graph_id": "AT4val[60,6]",
+
+  "inputs": {
+    "spec": "../specs/thalean_graph_spec.json"
+  },
+
+  "components": {
+    "state_space": {
+      "type": "chamber",
+      "cardinality": 60
+    },
+
+    "quotients": {
+      "G60_to_G30": "involution_pairing",
+      "G30_to_G15": "involution_pairing"
+    },
+
+    "signed_lift": {
+      "base_graph": "G15",
+      "type": "2-lift",
+      "sign_domain": [-1, 1]
+    },
+
+    "transport": {
+      "generators": ["F", "V", "S"],
+      "rule": "compose generators on chamber states"
+    }
+  },
+
+  "execution": {
+    "step": "apply generator word",
+    "update": "state transition via adjacency + lift sign",
+    "observable": [
+      "vertex",
+      "edge_sign",
+      "sector_projection"
+    ]
+  }
+}
